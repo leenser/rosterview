@@ -1,0 +1,260 @@
+{
+  "teamName": "San Diego FC",
+  "players": [
+    {
+      "name": "Onni Valakari",
+      "position": "AM",
+      "baseSalary": 650000,
+      "guaranteedComp": 726800,
+      "role": "TAM Player",
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Corey Baird",
+      "position": "ST",
+      "baseSalary": 676534,
+      "guaranteedComp": 744241,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Marcus Ingvartsen",
+      "position": "ST",
+      "baseSalary": 1740000,
+      "guaranteedComp": 1740000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Anisse Saidi",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 94512,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Oscar Verhoeven",
+      "position": "RB",
+      "baseSalary": 125000,
+      "guaranteedComp": 138395,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Homegrown Player"
+    },
+    {
+      "name": "Tom\u00e1s \u00c1ngel",
+      "position": "ST",
+      "baseSalary": 325000,
+      "guaranteedComp": 443750,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Paddy McNair",
+      "position": "CB",
+      "baseSalary": 700000,
+      "guaranteedComp": 762803,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Ian Pilcher",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Andr\u00e9s Reyes",
+      "position": "CB",
+      "baseSalary": 732000,
+      "guaranteedComp": 807000,
+      "role": "TAM Player",
+      "international": false,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Christopher McVey",
+      "position": "CB",
+      "baseSalary": 445000,
+      "guaranteedComp": 496813,
+      "international": false
+    },
+    {
+      "name": "Amahl Pellegrino",
+      "position": "LW",
+      "baseSalary": 850000,
+      "guaranteedComp": 912500,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Heine Gikling Bruseth",
+      "position": "CM",
+      "baseSalary": 200000,
+      "guaranteedComp": 242471,
+      "role": "U22 Initiative",
+      "international": true,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Alejandro Alvarado",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 88144,
+      "international": false
+    },
+    {
+      "name": "Luca de la Torre",
+      "position": "CM",
+      "baseSalary": 1444528,
+      "guaranteedComp": 1644295,
+      "role": "TAM Player",
+      "international": false,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Manu Duah",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 84622,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Generation adidas"
+    },
+    {
+      "name": "An\u00edbal Godoy",
+      "position": "DM",
+      "baseSalary": 375000,
+      "guaranteedComp": 408333,
+      "international": false
+    },
+    {
+      "name": "Pedro Soma",
+      "position": "DM",
+      "baseSalary": 225000,
+      "guaranteedComp": 275453,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Jeppe Tverskov",
+      "position": "DM",
+      "baseSalary": 700000,
+      "guaranteedComp": 700000,
+      "international": true
+    },
+    {
+      "name": "CJ dos Santos",
+      "position": "GK",
+      "baseSalary": 300000,
+      "guaranteedComp": 340875,
+      "international": false
+    },
+    {
+      "name": "Duran Ferree",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Pablo Sisniega",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 130467,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Emmanuel Boateng",
+      "position": "LM",
+      "baseSalary": 300000,
+      "guaranteedComp": 331500,
+      "international": false
+    },
+    {
+      "name": "Alex Mighten",
+      "position": "LW",
+      "baseSalary": 250000,
+      "guaranteedComp": 257292,
+      "international": false
+    },
+    {
+      "name": "Hirving Lozano",
+      "position": "LW",
+      "baseSalary": 6000000,
+      "guaranteedComp": 7633333,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Luca Bombino",
+      "position": "LB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Aiden Harangi",
+      "position": "LB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Franco Negri",
+      "position": "LB",
+      "baseSalary": 270000,
+      "guaranteedComp": 297500,
+      "international": false
+    },
+    {
+      "name": "David Vazquez",
+      "position": "RM",
+      "baseSalary": 104000,
+      "guaranteedComp": 119880,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Anders Dreyer",
+      "position": "RW",
+      "baseSalary": 2117647,
+      "guaranteedComp": 2434314,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Leo Duru",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 98234,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Willy Kumado",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 116435,
+      "international": true
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}

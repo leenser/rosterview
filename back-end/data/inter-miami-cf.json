@@ -1,0 +1,232 @@
+{
+  "teamName": "Inter Miami CF",
+  "players": [
+    {
+      "name": "Baltasar Rodr\u00edguez",
+      "position": "AM",
+      "baseSalary": 440000,
+      "guaranteedComp": 440000,
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Luis Su\u00e1rez",
+      "position": "ST",
+      "baseSalary": 1500000,
+      "guaranteedComp": 1500000,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Allen Obando",
+      "position": "ST",
+      "baseSalary": 500000,
+      "guaranteedComp": 620833,
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Tom\u00e1s Avil\u00e9s",
+      "position": "CB",
+      "baseSalary": 439992,
+      "guaranteedComp": 467492,
+      "role": "U22 Initiative",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Maximiliano Falc\u00f3n",
+      "position": "CB",
+      "baseSalary": 450000,
+      "guaranteedComp": 524250,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Ian Fray",
+      "position": "CB",
+      "baseSalary": 150000,
+      "guaranteedComp": 150000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Tyler Hall",
+      "position": "CB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Gonzalo Luj\u00e1n",
+      "position": "CB",
+      "baseSalary": 526500,
+      "guaranteedComp": 818250,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Ryan Sailor",
+      "position": "CB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Benja Cremaschi",
+      "position": "CM",
+      "baseSalary": 400000,
+      "guaranteedComp": 502500,
+      "international": false
+    },
+    {
+      "name": "Rodrigo De Paul",
+      "position": "CM",
+      "baseSalary": 1500000,
+      "guaranteedComp": 3619320,
+      "role": "TAM Player",
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Santiago Morales",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 112333,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Telasco Segovia",
+      "position": "CM",
+      "baseSalary": 300000,
+      "guaranteedComp": 335000,
+      "role": "U22 Initiative",
+      "international": true,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Yannick Bright",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 83647,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Sergio Busquets",
+      "position": "DM",
+      "baseSalary": 8499996,
+      "guaranteedComp": 8774996,
+      "role": "Designated Player",
+      "international": true,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "David Ru\u00edz",
+      "position": "DM",
+      "baseSalary": 104000,
+      "guaranteedComp": 135887,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Rocco R\u00edos Novo",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 122866,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "\u00d3scar Ustari",
+      "position": "GK",
+      "baseSalary": 696000,
+      "guaranteedComp": 744000,
+      "international": true
+    },
+    {
+      "name": "William Yarbrough",
+      "position": "GK",
+      "baseSalary": 150000,
+      "guaranteedComp": 150000,
+      "international": false
+    },
+    {
+      "name": "Faf\u00e0 Picault",
+      "position": "LW",
+      "baseSalary": 600000,
+      "guaranteedComp": 642000,
+      "international": false
+    },
+    {
+      "name": "Jordi Alba",
+      "position": "LB",
+      "baseSalary": 6000000,
+      "guaranteedComp": 6000000,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Noah Allen",
+      "position": "LB",
+      "baseSalary": 125000,
+      "guaranteedComp": 184653,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Tadeo Allende",
+      "position": "RW",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1000000,
+      "role": "TAM Player",
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Lionel Messi",
+      "position": "RW",
+      "baseSalary": 12000000,
+      "guaranteedComp": 20446667,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Mateo Silvetti",
+      "position": "RW",
+      "baseSalary": 490000,
+      "guaranteedComp": 547078,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Israel Boatwright",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 106000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Marcelo Weigandt",
+      "position": "RB",
+      "baseSalary": 500000,
+      "guaranteedComp": 734708,
+      "international": true,
+      "status": "Loan Player"
+    }
+  ],
+  "rosterModel": "Designated Player Model"
+}

@@ -1,0 +1,275 @@
+{
+  "teamName": "New York City FC",
+  "players": [
+    {
+      "name": "Maxi Moralez",
+      "position": "AM",
+      "baseSalary": 480000,
+      "guaranteedComp": 500000,
+      "international": false
+    },
+    {
+      "name": "Nicol\u00e1s Fern\u00e1ndez Mercau",
+      "position": "AM",
+      "baseSalary": 3650000,
+      "guaranteedComp": 3650000,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Jovan Mijatovi\u0107",
+      "position": "ST",
+      "baseSalary": 650000,
+      "guaranteedComp": 687500,
+      "role": "U22 Initiative",
+      "international": true,
+      "status": "Unavailable \u2013 On Loan"
+    },
+    {
+      "name": "Alonso Mart\u00ednez",
+      "position": "ST",
+      "baseSalary": 700000,
+      "guaranteedComp": 800333,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Seymour Reid",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 95437,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Zidane Y\u00e1\u00f1ez",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 84789,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Prince Amponsah",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Max Murray",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 82470,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Strahinja Tanasijevi\u0107",
+      "position": "CB",
+      "baseSalary": 270000,
+      "guaranteedComp": 338750,
+      "international": true
+    },
+    {
+      "name": "Thiago Martins",
+      "position": "CB",
+      "baseSalary": 1700000,
+      "guaranteedComp": 2162000,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Raul Gustavo Pereira Bicalho",
+      "position": "CB",
+      "baseSalary": 720000,
+      "guaranteedComp": 812960,
+      "international": true
+    },
+    {
+      "name": "Jacob Arroyave",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 93620,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Jonathon Shore",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 116500,
+      "role": "Homegrown Player",
+      "international": false
+    },
+    {
+      "name": "M\u00e1ximo Carrizo",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 137523,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Justin Haak",
+      "position": "CM",
+      "baseSalary": 225003.96,
+      "guaranteedComp": 265833,
+      "international": false
+    },
+    {
+      "name": "James Sands",
+      "position": "DM",
+      "baseSalary": 1250000,
+      "guaranteedComp": 1318750,
+      "role": "TAM Player",
+      "international": false,
+      "status": "Unavailable \u2013 On Loan"
+    },
+    {
+      "name": "Aiden O'Neill",
+      "position": "DM",
+      "baseSalary": 540000,
+      "guaranteedComp": 570938,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Keaton Parks",
+      "position": "DM",
+      "baseSalary": 400000,
+      "guaranteedComp": 530000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Andr\u00e9s Perea",
+      "position": "DM",
+      "baseSalary": 660000,
+      "guaranteedComp": 726500,
+      "international": false
+    },
+    {
+      "name": "Matt Freese",
+      "position": "GK",
+      "baseSalary": 400000,
+      "guaranteedComp": 491667,
+      "international": false
+    },
+    {
+      "name": "Alex Rando",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Greg Ranjitsingh",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Tom\u00e1s Romero",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Talles Magno",
+      "position": "LW",
+      "baseSalary": 950000,
+      "guaranteedComp": 1065000,
+      "international": false,
+      "status": "Unavailable \u2013 On Loan",
+      "role": "Young Designated Player"
+    },
+    {
+      "name": "Malachi Jones",
+      "position": "LW",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Agust\u00edn Ojeda",
+      "position": "LW",
+      "baseSalary": 510000,
+      "guaranteedComp": 577833,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Nico Cavallo",
+      "position": "LB",
+      "baseSalary": 80622,
+      "guaranteedComp": 82470,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Kevin O'Toole",
+      "position": "LB",
+      "baseSalary": 225000,
+      "guaranteedComp": 246667,
+      "international": false
+    },
+    {
+      "name": "Juli\u00e1n Fern\u00e1ndez",
+      "position": "RW",
+      "baseSalary": 660000,
+      "guaranteedComp": 724300,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Hannes Wolf",
+      "position": "RW",
+      "baseSalary": 1400000,
+      "guaranteedComp": 1510000,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Drew Baiera",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 109936,
+      "role": "Homegrown Player",
+      "international": false
+    },
+    {
+      "name": "Mitja Ileni\u010d",
+      "position": "RB",
+      "baseSalary": 300000,
+      "guaranteedComp": 391700,
+      "international": false
+    },
+    {
+      "name": "Tayvon Gray",
+      "position": "RB",
+      "baseSalary": 103992,
+      "guaranteedComp": 215492,
+      "international": false
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}

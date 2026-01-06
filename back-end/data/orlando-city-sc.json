@@ -1,0 +1,239 @@
+{
+  "teamName": "Orlando City SC",
+  "players": [
+    {
+      "name": "Mart\u00edn Ojeda",
+      "position": "AM",
+      "baseSalary": 960000,
+      "guaranteedComp": 1032600,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Luis Muriel",
+      "position": "ST",
+      "baseSalary": 2500000,
+      "guaranteedComp": 4003333,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Favian Loyola",
+      "position": "ST",
+      "baseSalary": 104000,
+      "guaranteedComp": 106135,
+      "international": false
+    },
+    {
+      "name": "Duncan McGuire",
+      "position": "ST",
+      "baseSalary": 540000,
+      "guaranteedComp": 861000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "David Brekalo",
+      "position": "CB",
+      "baseSalary": 600000,
+      "guaranteedComp": 683000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Robin Jansson",
+      "position": "CB",
+      "baseSalary": 900000,
+      "guaranteedComp": 996667,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Thomas Williams",
+      "position": "CB",
+      "baseSalary": 150000,
+      "guaranteedComp": 163875,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Rodrigo Schlegel",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 609667,
+      "international": false
+    },
+    {
+      "name": "Eduard Atuesta",
+      "position": "CM",
+      "baseSalary": 600000,
+      "guaranteedComp": 725000,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Wilder Cartagena",
+      "position": "DM",
+      "baseSalary": 480000,
+      "guaranteedComp": 520250,
+      "role": "TAM Player",
+      "international": true,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Joran Gerbet",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Colin Guske",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 91427,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Zakaria Taifi",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 92520,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Pedro Gallese",
+      "position": "GK",
+      "baseSalary": 960000,
+      "guaranteedComp": 1249333,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Carlos Mercado",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false
+    },
+    {
+      "name": "Javier Otero",
+      "position": "GK",
+      "baseSalary": 120000,
+      "guaranteedComp": 123750,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Iv\u00e1n Angulo",
+      "position": "LW",
+      "baseSalary": 525000,
+      "guaranteedComp": 557660,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Cesar Araujo",
+      "position": "DM",
+      "baseSalary": 509000,
+      "guaranteedComp": 548000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Tyrese Spicer",
+      "position": "LW",
+      "baseSalary": 80622,
+      "guaranteedComp": 83122,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Yutaro Tsukada",
+      "position": "LW",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": true,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Tahir Reid-Brown",
+      "position": "LB",
+      "baseSalary": 104000,
+      "guaranteedComp": 118508,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Adri\u00e1n Mar\u00edn",
+      "position": "LB",
+      "baseSalary": 325000,
+      "guaranteedComp": 377972,
+      "international": true
+    },
+    {
+      "name": "Gustavo Caraballo",
+      "position": "RW",
+      "baseSalary": 80622,
+      "guaranteedComp": 86997,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Shak Mohammed",
+      "position": "RW",
+      "baseSalary": 120000,
+      "guaranteedComp": 126000,
+      "international": false
+    },
+    {
+      "name": "Nicol\u00e1s Rodr\u00edguez",
+      "position": "RW",
+      "baseSalary": 180000,
+      "guaranteedComp": 200500,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Marco Pa\u0161ali\u0107",
+      "position": "RW",
+      "baseSalary": 1600000,
+      "guaranteedComp": 1650667,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Alexander Freeman",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 108000,
+      "international": false
+    },
+    {
+      "name": "Kyle Smith",
+      "position": "RB",
+      "baseSalary": 270000,
+      "guaranteedComp": 318000,
+      "international": false
+    },
+    {
+      "name": "Dagur Dan Th\u00f3rhallsson",
+      "position": "RB",
+      "baseSalary": 364996,
+      "guaranteedComp": 411121,
+      "international": false
+    }
+  ],
+  "rosterModel": "Designated Player Model"
+}

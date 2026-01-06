@@ -1,0 +1,271 @@
+{
+  "teamName": "Vancouver Whitecaps FC",
+  "players": [
+    {
+      "name": "Liam MacKenzie",
+      "position": "AM",
+      "baseSalary": 80622,
+      "guaranteedComp": 96047,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Thomas M\u00fcller",
+      "position": "AM",
+      "baseSalary": 1284456,
+      "guaranteedComp": 1436956,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Ryan Gauld",
+      "position": "AM",
+      "baseSalary": 3500000,
+      "guaranteedComp": 3675000,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Brian White",
+      "position": "ST",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1000000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Daniel Rios",
+      "position": "ST",
+      "baseSalary": 147600,
+      "guaranteedComp": 188880,
+      "international": false,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Rayan Elloumi",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 96268,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Nelson Pierre",
+      "position": "ST",
+      "baseSalary": 104000,
+      "guaranteedComp": 118116,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Nicolas Fleuriau Chateau",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Belal Halbouni",
+      "position": "CB",
+      "baseSalary": 165000,
+      "guaranteedComp": 165000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Math\u00edas Laborda",
+      "position": "CB",
+      "baseSalary": 900000,
+      "guaranteedComp": 1043625,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Mark O'Neill",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Joedrick Pupe",
+      "position": "CB",
+      "baseSalary": 420000,
+      "guaranteedComp": 460600,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Sebastian Schonlau",
+      "position": "CB",
+      "baseSalary": 720000,
+      "guaranteedComp": 776833,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Ranko Veselinovi\u0107",
+      "position": "CB",
+      "baseSalary": 670000,
+      "guaranteedComp": 737125,
+      "international": true,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Tristan Blackmon",
+      "position": "CB",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Sebastian Berhalter",
+      "position": "CM",
+      "baseSalary": 385000,
+      "guaranteedComp": 385000,
+      "international": false
+    },
+    {
+      "name": "Jeevan Badwal",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Andr\u00e9s Cubas",
+      "position": "DM",
+      "baseSalary": 1050000,
+      "guaranteedComp": 1146375,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "J.C. Ngando",
+      "position": "DM",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": true
+    },
+    {
+      "name": "Ralph Priso",
+      "position": "DM",
+      "baseSalary": 104000,
+      "guaranteedComp": 118167,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Max Anchor",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 111442,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Isaac Boehmer",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false
+    },
+    {
+      "name": "Yohei Takaoka",
+      "position": "GK",
+      "baseSalary": 756000,
+      "guaranteedComp": 873713,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Adri\u00e1n Zendejas",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false
+    },
+    {
+      "name": "Ali Ahmed",
+      "position": "LM",
+      "baseSalary": 150000,
+      "guaranteedComp": 159375,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Jayden Nelson",
+      "position": "LW",
+      "baseSalary": 360000,
+      "guaranteedComp": 414000,
+      "international": false
+    },
+    {
+      "name": "Kenji Cabrera",
+      "position": "LW",
+      "baseSalary": 350000,
+      "guaranteedComp": 390053,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Tate Johnson",
+      "position": "LB",
+      "baseSalary": 80622,
+      "guaranteedComp": 81622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Generation adidas"
+    },
+    {
+      "name": "Sam Adekugbe",
+      "position": "LB",
+      "baseSalary": 875000,
+      "guaranteedComp": 963000,
+      "role": "TAM Player",
+      "international": false,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Emmanuel Sabbi",
+      "position": "RW",
+      "baseSalary": 900000,
+      "guaranteedComp": 987750,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Giuseppe Bovalina",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 116980,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "\u00c9dier Ocampo",
+      "position": "RB",
+      "baseSalary": 375000,
+      "guaranteedComp": 428299,
+      "role": "U22 Initiative",
+      "international": true,
+      "status": "Supplemental Roster"
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}

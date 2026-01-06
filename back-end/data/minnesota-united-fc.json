@@ -1,0 +1,274 @@
+{
+  "teamName": "Minnesota United FC",
+  "players": [
+    {
+      "name": "Dominik Fitz",
+      "position": "AM",
+      "baseSalary": 850000,
+      "guaranteedComp": 853000,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Joaquin Pereyra",
+      "position": "AM",
+      "baseSalary": 655000,
+      "guaranteedComp": 844000,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Alexis Fari\u00f1a",
+      "position": "AM",
+      "baseSalary": 104000,
+      "guaranteedComp": 172500,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Jordan Adebayo-Smith",
+      "position": "ST",
+      "baseSalary": 104000,
+      "guaranteedComp": 121220,
+      "international": false,
+      "status": "Unavailable \u2013 On Loan"
+    },
+    {
+      "name": "Mamadou Dieng",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 83769,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Kelvin Yeboah",
+      "position": "ST",
+      "baseSalary": 1275000,
+      "guaranteedComp": 1477200,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Morris Duggan",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Nicol\u00e1s Romero",
+      "position": "CB",
+      "baseSalary": 420000,
+      "guaranteedComp": 457500,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Kipp Keller",
+      "position": "CB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Jefferson D\u00edaz",
+      "position": "CB",
+      "baseSalary": 380000,
+      "guaranteedComp": 380000,
+      "international": true
+    },
+    {
+      "name": "Michael Boxall",
+      "position": "CB",
+      "baseSalary": 700000,
+      "guaranteedComp": 827500,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Alejandro Bran",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false
+    },
+    {
+      "name": "Ho-yeon Jung",
+      "position": "CM",
+      "baseSalary": 131000,
+      "guaranteedComp": 168039,
+      "international": true,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Robin Lod",
+      "position": "CM",
+      "baseSalary": 1550000,
+      "guaranteedComp": 1689375,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Owen Gene",
+      "position": "CM",
+      "baseSalary": 400000,
+      "guaranteedComp": 430100,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Hassani Dotson",
+      "position": "CM",
+      "baseSalary": 625000,
+      "guaranteedComp": 682500,
+      "international": false
+    },
+    {
+      "name": "Nectarios Triantis",
+      "position": "CM",
+      "baseSalary": 660000,
+      "guaranteedComp": 722665,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Carlos Harvey",
+      "position": "DM",
+      "baseSalary": 104000,
+      "guaranteedComp": 113627,
+      "international": false
+    },
+    {
+      "name": "Wil Trapp",
+      "position": "DM",
+      "baseSalary": 500000,
+      "guaranteedComp": 552500,
+      "international": false
+    },
+    {
+      "name": "Wessel Speel",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Alec Smir",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Dayne St. Clair",
+      "position": "GK",
+      "baseSalary": 610000,
+      "guaranteedComp": 631875,
+      "international": false
+    },
+    {
+      "name": "Samuel Shashoua",
+      "position": "LW",
+      "baseSalary": 104000,
+      "guaranteedComp": 104833,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Lo\u00efc Mesanvi",
+      "position": "LW",
+      "baseSalary": 80622,
+      "guaranteedComp": 83613,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Kenyel Michel",
+      "position": "LW",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Kieran Chandler",
+      "position": "LB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Anthony Markanich Jr.",
+      "position": "LB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Joseph Rosales",
+      "position": "LB",
+      "baseSalary": 535000,
+      "guaranteedComp": 579702,
+      "international": false
+    },
+    {
+      "name": "Julian Gressel",
+      "position": "RM",
+      "baseSalary": 1146672,
+      "guaranteedComp": 1146672,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Darius Randell",
+      "position": "RW",
+      "baseSalary": 80622,
+      "guaranteedComp": 91016,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Bongokuhle Hlongwane",
+      "position": "RW",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1142500,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Matus Kmet",
+      "position": "RB",
+      "baseSalary": 195000,
+      "guaranteedComp": 212469,
+      "international": true,
+      "status": "Unavailable \u2013 On Loan"
+    },
+    {
+      "name": "D.J. Taylor",
+      "position": "RB",
+      "baseSalary": 183500,
+      "guaranteedComp": 213617,
+      "international": false
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}

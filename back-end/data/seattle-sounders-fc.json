@@ -1,0 +1,248 @@
+{
+  "teamName": "Seattle Sounders FC",
+  "players": [
+    {
+      "name": "Albert Rusn\u00e1k",
+      "position": "AM",
+      "baseSalary": 2575000,
+      "guaranteedComp": 2575000,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Jes\u00fas Ferreira",
+      "position": "ST",
+      "baseSalary": 1585227,
+      "guaranteedComp": 1828960,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Jordan Morris",
+      "position": "ST",
+      "baseSalary": 2250000,
+      "guaranteedComp": 2260000,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Danny Musovski",
+      "position": "ST",
+      "baseSalary": 555000,
+      "guaranteedComp": 585303,
+      "international": false
+    },
+    {
+      "name": "Osaze De Rosario",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Travian Sousa",
+      "position": "LB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Yeimar G\u00f3mez Andrade",
+      "position": "CB",
+      "baseSalary": 800000,
+      "guaranteedComp": 882500,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Jon Bell",
+      "position": "CB",
+      "baseSalary": 135000,
+      "guaranteedComp": 135000,
+      "international": false
+    },
+    {
+      "name": "Leo Burney",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Stuart Hawkins",
+      "position": "CB",
+      "baseSalary": 104000,
+      "guaranteedComp": 116021,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Kim Kee-hee",
+      "position": "CB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Jackson Ragen",
+      "position": "CB",
+      "baseSalary": 600000,
+      "guaranteedComp": 610000,
+      "international": false
+    },
+    {
+      "name": "Jo\u00e3o Paulo Mior",
+      "position": "CM",
+      "baseSalary": 600000,
+      "guaranteedComp": 625000,
+      "international": false
+    },
+    {
+      "name": "Cristian Rold\u00e1n",
+      "position": "CM",
+      "baseSalary": 1545000,
+      "guaranteedComp": 1666000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Obed Vargas",
+      "position": "CM",
+      "baseSalary": 125000,
+      "guaranteedComp": 134452,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Danny Leyva",
+      "position": "DM",
+      "baseSalary": 325000,
+      "guaranteedComp": 349900,
+      "international": false
+    },
+    {
+      "name": "Snyder Brunell",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 90648,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Jacob Castro",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Stefan Frei",
+      "position": "GK",
+      "baseSalary": 600000,
+      "guaranteedComp": 600000,
+      "international": false
+    },
+    {
+      "name": "Andrew Thomas",
+      "position": "GK",
+      "baseSalary": 200000,
+      "guaranteedComp": 200000,
+      "international": false
+    },
+    {
+      "name": "Ryan Kent",
+      "position": "LW",
+      "baseSalary": 936000,
+      "guaranteedComp": 959500,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Paul Rothrock",
+      "position": "LW",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Reed Baker-Whiting",
+      "position": "LB",
+      "baseSalary": 150000,
+      "guaranteedComp": 158000,
+      "role": "U22 Initiative Player",
+      "international": false
+    },
+    {
+      "name": "Nouhou Tolo",
+      "position": "LB",
+      "baseSalary": 550000,
+      "guaranteedComp": 571875,
+      "international": false
+    },
+    {
+      "name": "Paul Arriola",
+      "position": "RW",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1142500,
+      "role": "TAM Player",
+      "international": false,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Pedro de la Vega",
+      "position": "RW",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1379000,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Georgi Minoungou",
+      "position": "RW",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": true
+    },
+    {
+      "name": "\u00c1lex Rold\u00e1n",
+      "position": "RB",
+      "baseSalary": 530000,
+      "guaranteedComp": 530000,
+      "international": false
+    },
+    {
+      "name": "Kalani Kossa-Rienzi",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Cody Baker",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 109704,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    }
+  ],
+  "rosterModel": "Designated Player Model"
+}

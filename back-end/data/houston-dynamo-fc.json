@@ -1,0 +1,294 @@
+{
+  "teamName": "Houston Dynamo FC",
+  "players": [
+    {
+      "name": "Ondrej Lingr",
+      "position": "AM",
+      "baseSalary": 800004,
+      "guaranteedComp": 888082,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Sebastian Kowalczyk",
+      "position": "AM",
+      "baseSalary": 525000,
+      "guaranteedComp": 594618,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Griffin Dorsey",
+      "position": "RB",
+      "baseSalary": 590000,
+      "guaranteedComp": 696333,
+      "international": false
+    },
+    {
+      "name": "Amine Bassi",
+      "position": "AM",
+      "baseSalary": 700000,
+      "guaranteedComp": 700000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Toyosi Olusanya",
+      "position": "ST",
+      "baseSalary": 318000,
+      "guaranteedComp": 363219,
+      "international": true,
+      "status": "Unavailable \u2013 On Loan"
+    },
+    {
+      "name": "Stephen Annor Gyamfi",
+      "position": "ST",
+      "baseSalary": 90000,
+      "guaranteedComp": 103750,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Generation adidas"
+    },
+    {
+      "name": "Sergio Santos",
+      "position": "ST",
+      "baseSalary": 825000,
+      "guaranteedComp": 940625,
+      "international": false
+    },
+    {
+      "name": "Gabriel Segal",
+      "position": "ST",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Ezequiel Ponce",
+      "position": "ST",
+      "baseSalary": 2590000,
+      "guaranteedComp": 2852200,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Femi Awodesu",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 89089,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Ant\u00f4nio Carlos",
+      "position": "CB",
+      "baseSalary": 699996,
+      "guaranteedComp": 782672,
+      "international": false,
+      "role": "TAM Player"
+    },
+    {
+      "name": "Felipe Andrade",
+      "position": "CB",
+      "baseSalary": 180000,
+      "guaranteedComp": 207500,
+      "international": false
+    },
+    {
+      "name": "Daniel Steres",
+      "position": "CB",
+      "baseSalary": 300000,
+      "guaranteedComp": 323438,
+      "international": false
+    },
+    {
+      "name": "Erik Sviatchenko",
+      "position": "CB",
+      "baseSalary": 750000,
+      "guaranteedComp": 825000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Ethan Bartlow",
+      "position": "CB",
+      "baseSalary": 275000,
+      "guaranteedComp": 275000,
+      "international": false
+    },
+    {
+      "name": "Pablo Ortiz",
+      "position": "CB",
+      "baseSalary": 400000,
+      "guaranteedComp": 443400,
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Damion Lowe",
+      "position": "CB",
+      "baseSalary": 200000,
+      "guaranteedComp": 233333,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "J\u00fanior Urso",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 123533,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "\u00c9rik Due\u00f1as",
+      "position": "CM",
+      "baseSalary": 150000,
+      "guaranteedComp": 170625,
+      "role": "Homegrown Player",
+      "international": false
+    },
+    {
+      "name": "Jack McGlynn",
+      "position": "CM",
+      "baseSalary": 265000,
+      "guaranteedComp": 399320,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Sebasti\u00e1n Rodr\u00edguez",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 89272,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Brooklyn Raines",
+      "position": "CM",
+      "baseSalary": 125000,
+      "guaranteedComp": 143063,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Jefferson Valverde",
+      "position": "DM",
+      "baseSalary": 249996,
+      "guaranteedComp": 291657,
+      "international": false
+    },
+    {
+      "name": "Artur",
+      "position": "DM",
+      "baseSalary": 810000,
+      "guaranteedComp": 893375,
+      "international": false,
+      "role": "TAM Player"
+    },
+    {
+      "name": "Diadi\u00e9 Samass\u00e9kou",
+      "position": "DM",
+      "baseSalary": 714996,
+      "guaranteedComp": 771871,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Andrew Tarbell",
+      "position": "GK",
+      "baseSalary": 400000,
+      "guaranteedComp": 430000,
+      "international": false,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Blake Gillingham",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Jimmy Maurer",
+      "position": "GK",
+      "baseSalary": 200000,
+      "guaranteedComp": 200000,
+      "international": false
+    },
+    {
+      "name": "Jonathan Bond",
+      "position": "GK",
+      "baseSalary": 400000,
+      "guaranteedComp": 459704,
+      "international": false
+    },
+    {
+      "name": "Nelson Qui\u00f1\u00f3nes",
+      "position": "LW",
+      "baseSalary": 252000,
+      "guaranteedComp": 272894,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Lawrence Ennali",
+      "position": "LW",
+      "baseSalary": 475000,
+      "guaranteedComp": 549250,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Kieran Sargeant",
+      "position": "LB",
+      "baseSalary": 104000,
+      "guaranteedComp": 106193,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Duane Holmes",
+      "position": "RM",
+      "baseSalary": 300000,
+      "guaranteedComp": 378000,
+      "international": false
+    },
+    {
+      "name": "Exon Arz\u00fa",
+      "position": "RW",
+      "baseSalary": 104000,
+      "guaranteedComp": 108598,
+      "international": false,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Franco Escobar",
+      "position": "RB",
+      "baseSalary": 550000,
+      "guaranteedComp": 599167,
+      "international": false
+    },
+    {
+      "name": "Michael Halliday",
+      "position": "RB",
+      "baseSalary": 250000,
+      "guaranteedComp": 277500,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}

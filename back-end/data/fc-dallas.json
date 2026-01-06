@@ -1,0 +1,314 @@
+{
+  "teamName": "FC Dallas",
+  "players": [
+    {
+      "name": "Tsiki Ntsabeleng",
+      "position": "AM",
+      "baseSalary": 200000,
+      "guaranteedComp": 227000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Paxton Pomykal",
+      "position": "AM",
+      "baseSalary": 1050000,
+      "guaranteedComp": 1158000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Logan Farrington",
+      "position": "ST",
+      "baseSalary": 104000,
+      "guaranteedComp": 141493,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Petar Musa",
+      "position": "ST",
+      "baseSalary": 2250000,
+      "guaranteedComp": 2680000,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Sebastien Ibeagha",
+      "position": "CB",
+      "baseSalary": 675000,
+      "guaranteedComp": 738625,
+      "international": false
+    },
+    {
+      "name": "\u00c1lvaro Augusto",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 92740,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Lalas Abubakar",
+      "position": "CB",
+      "baseSalary": 410000,
+      "guaranteedComp": 445000,
+      "international": false
+    },
+    {
+      "name": "Osaze Urhoghide",
+      "position": "CB",
+      "baseSalary": 580000,
+      "guaranteedComp": 643982,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Diego Garc\u00eda",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 94263,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Alejandro Urzua",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Tomas Pondeca",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Ramiro Moschen Benetti",
+      "position": "CM",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true
+    },
+    {
+      "name": "Christian Cappis",
+      "position": "CM",
+      "baseSalary": 242000,
+      "guaranteedComp": 242000,
+      "international": false
+    },
+    {
+      "name": "Sebastian Lletget",
+      "position": "CM",
+      "baseSalary": 800000,
+      "guaranteedComp": 891250,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Carl Saint\u00e9",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Kaick",
+      "position": "DM",
+      "baseSalary": 150000,
+      "guaranteedComp": 201900,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "U22 Initiative"
+    },
+    {
+      "name": "Patrickson Delgado",
+      "position": "DM",
+      "baseSalary": 234000,
+      "guaranteedComp": 260280,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Michael Collodi",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 116425,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Jacob Jackson",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Maarten Paes",
+      "position": "GK",
+      "baseSalary": 450000,
+      "guaranteedComp": 522000,
+      "international": false
+    },
+    {
+      "name": "Enes Sali",
+      "position": "LW",
+      "baseSalary": 325000,
+      "guaranteedComp": 370000,
+      "role": "U22 Initiative",
+      "international": true,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Tarik Scott",
+      "position": "LW",
+      "baseSalary": 140000,
+      "guaranteedComp": 155942,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Nolan Norris",
+      "position": "LB",
+      "baseSalary": 125000,
+      "guaranteedComp": 143642,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Joshua Torquato",
+      "position": "LB",
+      "baseSalary": 80622,
+      "guaranteedComp": 88622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Louicius Deedson",
+      "position": "RW",
+      "baseSalary": 280000,
+      "guaranteedComp": 330319,
+      "international": true
+    },
+    {
+      "name": "Daniel Baran",
+      "position": "RW",
+      "baseSalary": 80622,
+      "guaranteedComp": 94838,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Diego Pepi",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Pedrinho",
+      "position": "RW",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Anderson Julio",
+      "position": "RW",
+      "baseSalary": 750000,
+      "guaranteedComp": 820000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Bernard Kamungo",
+      "position": "RW",
+      "baseSalary": 225000,
+      "guaranteedComp": 256000,
+      "international": false
+    },
+    {
+      "name": "Anthony Ram\u00edrez",
+      "position": "RW",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Sam Sarver",
+      "position": "RW",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false
+    },
+    {
+      "name": "Geovane de Jesus Rocha",
+      "position": "RB",
+      "baseSalary": 350000,
+      "guaranteedComp": 397000,
+      "international": true
+    },
+    {
+      "name": "Herbert Endeley",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Malachi Molina",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 93338,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Enzo Newman",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Shaq Moore",
+      "position": "RB",
+      "baseSalary": 700000,
+      "guaranteedComp": 770000,
+      "role": "TAM Player",
+      "international": false
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}

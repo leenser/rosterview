@@ -1,0 +1,260 @@
+{
+  "teamName": "Colorado Rapids",
+  "players": [
+    {
+      "name": "Paxten Aaronson",
+      "position": "AM",
+      "baseSalary": 2000000,
+      "guaranteedComp": 2228063,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Cole Bassett",
+      "position": "AM",
+      "baseSalary": 850000,
+      "guaranteedComp": 850000,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Theodore Ku-DiPietro",
+      "position": "AM",
+      "baseSalary": 400000,
+      "guaranteedComp": 456000,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Noah Cobb",
+      "position": "CB",
+      "baseSalary": 109000,
+      "guaranteedComp": 109000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Rafael Navarro Leal",
+      "position": "ST",
+      "baseSalary": 1392000,
+      "guaranteedComp": 1449600,
+      "international": false
+    },
+    {
+      "name": "Darren Yapi",
+      "position": "ST",
+      "baseSalary": 104000,
+      "guaranteedComp": 114833,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Nate Jones",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Michael Edwards",
+      "position": "CB",
+      "baseSalary": 160000,
+      "guaranteedComp": 160000,
+      "international": false,
+      "status": "Unavailable \u2013 On Loan"
+    },
+    {
+      "name": "Andreas Maxs\u00f8",
+      "position": "CB",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1392500,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Ian Murphy",
+      "position": "CB",
+      "baseSalary": 400000,
+      "guaranteedComp": 447500,
+      "international": false
+    },
+    {
+      "name": "Rob Holding",
+      "position": "CB",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1200000,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Connor Ronan",
+      "position": "CM",
+      "baseSalary": 490000,
+      "guaranteedComp": 542400,
+      "international": false
+    },
+    {
+      "name": "Ali Fadal",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Wayne Frederick",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Oliver Larraz",
+      "position": "CM",
+      "baseSalary": 125000,
+      "guaranteedComp": 130625,
+      "international": false
+    },
+    {
+      "name": "Daouda Amadou",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Josh Atencio",
+      "position": "DM",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Sam Bassett",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Zack Steffen",
+      "position": "GK",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1000000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Nicolas Hansen",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Adam Beaudry",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 106500,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Homegrown Player"
+    },
+    {
+      "name": "Kimani Stewart-Baynes",
+      "position": "LW",
+      "baseSalary": 90000,
+      "guaranteedComp": 91000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Generation adidas"
+    },
+    {
+      "name": "Alexis Manyoma",
+      "position": "LW",
+      "baseSalary": 535200,
+      "guaranteedComp": 592950,
+      "role": "U22 Initiative",
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Rafael Santos",
+      "position": "LB",
+      "baseSalary": 375000,
+      "guaranteedComp": 401188,
+      "international": false
+    },
+    {
+      "name": "Sam Vines",
+      "position": "LB",
+      "baseSalary": 900000,
+      "guaranteedComp": 912500,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Jackson Travis",
+      "position": "LB",
+      "baseSalary": 104000,
+      "guaranteedComp": 106500,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Bryce Jamison",
+      "position": "RW",
+      "baseSalary": 104000,
+      "guaranteedComp": 116466,
+      "international": false,
+      "status": "Unavailable \u2013 On Loan"
+    },
+    {
+      "name": "Alex Harris",
+      "position": "RW",
+      "baseSalary": 80622,
+      "guaranteedComp": 82622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Generation adidas"
+    },
+    {
+      "name": "Calvin Harris",
+      "position": "RW",
+      "baseSalary": 150000,
+      "guaranteedComp": 152000,
+      "international": false
+    },
+    {
+      "name": "Reggie Cannon",
+      "position": "RB",
+      "baseSalary": 750000,
+      "guaranteedComp": 841500,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Keegan Rosenberry",
+      "position": "RB",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": false
+    }
+  ],
+  "rosterModel": "Designated Player Model"
+}

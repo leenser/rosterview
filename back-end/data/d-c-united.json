@@ -1,0 +1,230 @@
+{
+  "teamName": "D.C. United",
+  "players": [
+    {
+      "name": "Gabriel Pirani",
+      "position": "AM",
+      "baseSalary": 725000,
+      "guaranteedComp": 791700,
+      "international": false,
+      "role": "U22 Initiative"
+    },
+    {
+      "name": "Caden Clark",
+      "position": "AM",
+      "baseSalary": 375000,
+      "guaranteedComp": 407000,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Jackson Hopkins",
+      "position": "AM",
+      "baseSalary": 104000,
+      "guaranteedComp": 104286,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Gavin Turner",
+      "position": "AM",
+      "baseSalary": 80622,
+      "guaranteedComp": 102856,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Dominique Badji",
+      "position": "ST",
+      "baseSalary": 400000,
+      "guaranteedComp": 435000,
+      "international": false
+    },
+    {
+      "name": "Christian Benteke",
+      "position": "ST",
+      "baseSalary": 4500000,
+      "guaranteedComp": 4937500,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Kristian Fletcher",
+      "position": "ST",
+      "baseSalary": 150000,
+      "guaranteedComp": 169509,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Jacob Murrell",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Lucas Bartlett",
+      "position": "CB",
+      "baseSalary": 450000,
+      "guaranteedComp": 510625,
+      "international": false
+    },
+    {
+      "name": "Lukas MacNaughton",
+      "position": "CB",
+      "baseSalary": 120000,
+      "guaranteedComp": 122100,
+      "international": false
+    },
+    {
+      "name": "Kye Rowles",
+      "position": "CB",
+      "baseSalary": 292500,
+      "guaranteedComp": 494167,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Garrison Tubbs",
+      "position": "CB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Hosei Kijima",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Brandon Servania",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 131056,
+      "international": false
+    },
+    {
+      "name": "Rida Zouhir",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 95362,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Boris Enow",
+      "position": "CM",
+      "baseSalary": 500000,
+      "guaranteedComp": 613900,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Matti Peltola",
+      "position": "DM",
+      "baseSalary": 750000,
+      "guaranteedComp": 826000,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Luis Barraza",
+      "position": "GK",
+      "baseSalary": 180000,
+      "guaranteedComp": 187688,
+      "international": false
+    },
+    {
+      "name": "Jordan Farr",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 109000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Kim Joon Hong",
+      "position": "GK",
+      "baseSalary": 354000,
+      "guaranteedComp": 427000,
+      "international": false,
+      "role": "U22 Initiative"
+    },
+    {
+      "name": "Joao Peglow",
+      "position": "LW",
+      "baseSalary": 357500,
+      "guaranteedComp": 608812,
+      "international": false,
+      "role": "TAM Player"
+    },
+    {
+      "name": "Randall Leal",
+      "position": "LW",
+      "baseSalary": 1150000,
+      "guaranteedComp": 1265000,
+      "international": false
+    },
+    {
+      "name": "Jared Stroud",
+      "position": "LW",
+      "baseSalary": 350000,
+      "guaranteedComp": 392500,
+      "international": false
+    },
+    {
+      "name": "David Schnegg",
+      "position": "LB",
+      "baseSalary": 600000,
+      "guaranteedComp": 706250,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Hakim Karamoko",
+      "position": "RW",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Conner Antley",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 105667,
+      "international": false
+    },
+    {
+      "name": "Derek Dodson",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 110250,
+      "international": false
+    },
+    {
+      "name": "Aar\u00f3n Herrera",
+      "position": "RB",
+      "baseSalary": 825000,
+      "guaranteedComp": 920220,
+      "role": "TAM Player",
+      "international": false
+    }
+  ],
+  "rosterModel": "Designated Player Model"
+}

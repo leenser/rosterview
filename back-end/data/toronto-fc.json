@@ -1,0 +1,245 @@
+{
+  "teamName": "Toronto FC",
+  "players": [
+    {
+      "name": "Djordje Mihailovic",
+      "position": "AM",
+      "baseSalary": 2158335,
+      "guaranteedComp": 2278335,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Cassius Maolula",
+      "position": "AM",
+      "baseSalary": 325000,
+      "guaranteedComp": 341003,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Hugo Mbongue",
+      "position": "ST",
+      "baseSalary": 135000,
+      "guaranteedComp": 146427,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Deandre Kerr",
+      "position": "ST",
+      "baseSalary": 120000,
+      "guaranteedComp": 125319,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Charlie Sharp",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Jules-Anthony Vilsaint",
+      "position": "ST",
+      "baseSalary": 125000,
+      "guaranteedComp": 131875,
+      "international": false
+    },
+    {
+      "name": "Adam Pearlman",
+      "position": "CB",
+      "baseSalary": 104000,
+      "guaranteedComp": 117300,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Zane Monlouis",
+      "position": "CB",
+      "baseSalary": 115000,
+      "guaranteedComp": 127891,
+      "international": true,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Kevin Long",
+      "position": "CB",
+      "baseSalary": 430000,
+      "guaranteedComp": 468521,
+      "international": true
+    },
+    {
+      "name": "Nicksoen Gomis",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": true,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Lazar Stefanovi\u0107",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 92528,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Sigurd Rosted",
+      "position": "CB",
+      "baseSalary": 800000,
+      "guaranteedComp": 805000,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Jos\u00e9 Cifuentes",
+      "position": "CM",
+      "baseSalary": 1210000,
+      "guaranteedComp": 1405000,
+      "role": "TAM Player",
+      "international": false,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Jonathan Osorio",
+      "position": "CM",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1183333,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Maxime Dominguez",
+      "position": "CM",
+      "baseSalary": 235000,
+      "guaranteedComp": 337577,
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Markus Cimermancic",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 94478,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Alonso Coello",
+      "position": "CM",
+      "baseSalary": 200012,
+      "guaranteedComp": 235012,
+      "international": true
+    },
+    {
+      "name": "Sean Johnson",
+      "position": "GK",
+      "baseSalary": 621250,
+      "guaranteedComp": 1063125,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Adisa De Rosario",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 97235,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Luka Gavran",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 128475,
+      "international": false
+    },
+    {
+      "name": "Nathaniel Edwards",
+      "position": "LM",
+      "baseSalary": 80622,
+      "guaranteedComp": 86604,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Derrick Etienne Jr.",
+      "position": "LW",
+      "baseSalary": 745566,
+      "guaranteedComp": 745566,
+      "international": false
+    },
+    {
+      "name": "Raoul Petretta",
+      "position": "LB",
+      "baseSalary": 775000,
+      "guaranteedComp": 854750,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Malik Henry",
+      "position": "RM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Kosi Thompson",
+      "position": "RM",
+      "baseSalary": 120000,
+      "guaranteedComp": 125260,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Theo Corbeanu",
+      "position": "RW",
+      "baseSalary": 365000,
+      "guaranteedComp": 411625,
+      "international": false,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Henry Wingo",
+      "position": "RB",
+      "baseSalary": 625000,
+      "guaranteedComp": 696031,
+      "international": false,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Kobe Franklin",
+      "position": "RB",
+      "baseSalary": 125000,
+      "guaranteedComp": 135802,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Richie Laryea",
+      "position": "RB",
+      "baseSalary": 830000,
+      "guaranteedComp": 1169438,
+      "role": "TAM Player",
+      "international": false
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}

@@ -1,0 +1,259 @@
+{
+  "teamName": "FC Cincinnati",
+  "players": [
+    {
+      "name": "Gerardo Valenzuela",
+      "position": "AM",
+      "baseSalary": 104000,
+      "guaranteedComp": 121542,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Evander da Silva Ferreira",
+      "position": "AM",
+      "baseSalary": 3200000,
+      "guaranteedComp": 4736411,
+      "international": false
+    },
+    {
+      "name": "K\u00e9vin Denkey",
+      "position": "ST",
+      "baseSalary": 3800000,
+      "guaranteedComp": 3810000,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "\u0218tefan Chiril\u0103",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 95402,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Ayoub Jabbari",
+      "position": "ST",
+      "baseSalary": 300000,
+      "guaranteedComp": 354800,
+      "role": "TAM Player",
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Kei Kamara",
+      "position": "ST",
+      "baseSalary": 104000,
+      "guaranteedComp": 119000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Kenji Mboma Dem",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Brenner Souza da Silva",
+      "position": "ST",
+      "baseSalary": 119259,
+      "guaranteedComp": 280120,
+      "international": false
+    },
+    {
+      "name": "Gilberto Flores",
+      "position": "CB",
+      "baseSalary": 364992,
+      "guaranteedComp": 411664,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Teenage Hadebe",
+      "position": "CB",
+      "baseSalary": 960000,
+      "guaranteedComp": 1110000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Nick Hagglund",
+      "position": "CB",
+      "baseSalary": 250000,
+      "guaranteedComp": 266667,
+      "international": false
+    },
+    {
+      "name": "Matt Miazga",
+      "position": "CB",
+      "baseSalary": 1575000,
+      "guaranteedComp": 1575000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Miles Robinson",
+      "position": "CB",
+      "baseSalary": 1503411,
+      "guaranteedComp": 1650171,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Tah Brian Anunga",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 116500,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Yuya Kubo",
+      "position": "CM",
+      "baseSalary": 750000,
+      "guaranteedComp": 821667,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Pavel Bucha",
+      "position": "CM",
+      "baseSalary": 474996,
+      "guaranteedComp": 523778,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Samuel Gidi",
+      "position": "CM",
+      "baseSalary": 540000,
+      "guaranteedComp": 611050,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Stiven Jimenez",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Obinna Nwobodo",
+      "position": "DM",
+      "baseSalary": 982350,
+      "guaranteedComp": 1241250,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Alec Kann",
+      "position": "GK",
+      "baseSalary": 192500,
+      "guaranteedComp": 192500,
+      "international": false
+    },
+    {
+      "name": "Evan Louro",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 109000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Paul Walters",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 111967,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Roman Celentano",
+      "position": "GK",
+      "baseSalary": 425000,
+      "guaranteedComp": 474000,
+      "international": false
+    },
+    {
+      "name": "\u00c1lvaro Barreal",
+      "position": "LW",
+      "baseSalary": 755000,
+      "guaranteedComp": 917238,
+      "role": "TAM Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Lukas Engel",
+      "position": "LB",
+      "baseSalary": 750000,
+      "guaranteedComp": 825781,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Brad Smith",
+      "position": "LB",
+      "baseSalary": 104000,
+      "guaranteedComp": 114000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Ender Echenique",
+      "position": "RW",
+      "baseSalary": 324000,
+      "guaranteedComp": 414180,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Dominik Marczuk",
+      "position": "RW",
+      "baseSalary": 660000,
+      "guaranteedComp": 735500,
+      "role": "U22 Initiative",
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Luca Orellano",
+      "position": "RW",
+      "baseSalary": 600000,
+      "guaranteedComp": 943950,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Alvas Powell",
+      "position": "RB",
+      "baseSalary": 275000,
+      "guaranteedComp": 319500,
+      "international": false
+    },
+    {
+      "name": "Sam Junqua",
+      "position": "LB",
+      "baseSalary": 300000,
+      "guaranteedComp": 312368,
+      "international": false
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}

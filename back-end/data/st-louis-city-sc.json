@@ -1,0 +1,288 @@
+{
+  "teamName": "St. Louis CITY SC",
+  "players": [
+    {
+      "name": "Tomas Ostr\u00e1k",
+      "position": "AM",
+      "baseSalary": 700000,
+      "guaranteedComp": 801000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Caden Glover",
+      "position": "ST",
+      "baseSalary": 104000,
+      "guaranteedComp": 109000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Jo\u00e3o Klauss de Mello",
+      "position": "ST",
+      "baseSalary": 1230000,
+      "guaranteedComp": 1370284,
+      "international": true
+    },
+    {
+      "name": "Brendan McSorley",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Cedric Teuchert",
+      "position": "ST",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1342500,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Sang-bin Jeong",
+      "position": "ST",
+      "baseSalary": 630750,
+      "guaranteedComp": 737458,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Simon Becher",
+      "position": "ST",
+      "baseSalary": 218000,
+      "guaranteedComp": 239273,
+      "international": false
+    },
+    {
+      "name": "Jake Girdwood-Reich",
+      "position": "CB",
+      "baseSalary": 242250,
+      "guaranteedComp": 281027,
+      "role": "U22 Initiative",
+      "international": false,
+      "status": "Unavailable \u2013 On Loan"
+    },
+    {
+      "name": "Timo Baumgartl",
+      "position": "CB",
+      "baseSalary": 550000,
+      "guaranteedComp": 643333,
+      "international": true
+    },
+    {
+      "name": "Henry Kessler",
+      "position": "CB",
+      "baseSalary": 1300000,
+      "guaranteedComp": 1333333,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Fallou Fall",
+      "position": "CB",
+      "baseSalary": 364000,
+      "guaranteedComp": 462419,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Kyle Hiebert",
+      "position": "CB",
+      "baseSalary": 240000,
+      "guaranteedComp": 269000,
+      "international": false
+    },
+    {
+      "name": "Michael Wentzel",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Joshua Yaro",
+      "position": "CB",
+      "baseSalary": 185000,
+      "guaranteedComp": 204500,
+      "international": false
+    },
+    {
+      "name": "Marcel Hartel",
+      "position": "CM",
+      "baseSalary": 1797600,
+      "guaranteedComp": 2183113,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Miguel Perez",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Eduard L\u00f6wen",
+      "position": "CM",
+      "baseSalary": 1250000,
+      "guaranteedComp": 1394250,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Alfredo Morales",
+      "position": "CM",
+      "baseSalary": 188571,
+      "guaranteedComp": 205571,
+      "international": false
+    },
+    {
+      "name": "Chris Durkin",
+      "position": "DM",
+      "baseSalary": 475000,
+      "guaranteedComp": 520000,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Seth Antwi",
+      "position": "DM",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false
+    },
+    {
+      "name": "Ben Lundt",
+      "position": "GK",
+      "baseSalary": 160000,
+      "guaranteedComp": 172833,
+      "international": false
+    },
+    {
+      "name": "Roman B\u00fcrki",
+      "position": "GK",
+      "baseSalary": 1575000,
+      "guaranteedComp": 1707469,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Christian Olivares",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "MyKhi Joyner",
+      "position": "LM",
+      "baseSalary": 80622,
+      "guaranteedComp": 97902,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Celio Pompeu",
+      "position": "LW",
+      "baseSalary": 218250,
+      "guaranteedComp": 253144,
+      "international": false
+    },
+    {
+      "name": "Selmir Pidro",
+      "position": "LB",
+      "baseSalary": 325000,
+      "guaranteedComp": 374375,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Devin Padelford",
+      "position": "LB",
+      "baseSalary": 114000,
+      "guaranteedComp": 121000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Jayden Reid",
+      "position": "LB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Conrad Wallem",
+      "position": "RM",
+      "baseSalary": 448000,
+      "guaranteedComp": 499875,
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Rasmus Alm",
+      "position": "RW",
+      "baseSalary": 279500,
+      "guaranteedComp": 343925,
+      "international": true,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Jaziel Orozco",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Tyson Pearce",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Tomas Totland",
+      "position": "RB",
+      "baseSalary": 300000,
+      "guaranteedComp": 341763,
+      "international": false
+    },
+    {
+      "name": "Akil Watts",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Joseph Zalinsky",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 82638,
+      "international": false
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}

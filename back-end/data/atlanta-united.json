@@ -1,0 +1,244 @@
+{
+  "teamName": "Atlanta United",
+  "players": [
+    {
+      "name": "Aleksey Miranchuk",
+      "position": "AM",
+      "baseSalary": 3600000,
+      "guaranteedComp": 4885441,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Emmanuel Latte Lath",
+      "position": "ST",
+      "baseSalary": 3534546,
+      "guaranteedComp": 4030546,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Jamal Thiar\u00e9",
+      "position": "ST",
+      "baseSalary": 700000,
+      "guaranteedComp": 730000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Cayman Togashi",
+      "position": "ST",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false
+    },
+    {
+      "name": "Enea Mihaj",
+      "position": "CB",
+      "baseSalary": 1030000,
+      "guaranteedComp": 1372000,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Juan Berrocal",
+      "position": "CB",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1200000,
+      "role": "TAM Player",
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Stian Gregersen",
+      "position": "CB",
+      "baseSalary": 800000,
+      "guaranteedComp": 920000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Will Reilly",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false
+    },
+    {
+      "name": "Cooper Sanchez",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Steven Alzate",
+      "position": "CM",
+      "baseSalary": 1125200,
+      "guaranteedComp": 1440101,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Ajani Fortune",
+      "position": "CM",
+      "baseSalary": 109000,
+      "guaranteedComp": 109000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Tristan Muyumba",
+      "position": "DM",
+      "baseSalary": 550000,
+      "guaranteedComp": 591600,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Bartosz Slisz",
+      "position": "DM",
+      "baseSalary": 670000,
+      "guaranteedComp": 870000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Adyn Torres",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Josh Cohen",
+      "position": "GK",
+      "baseSalary": 289992,
+      "guaranteedComp": 328492,
+      "international": false
+    },
+    {
+      "name": "Brad Guzan",
+      "position": "GK",
+      "baseSalary": 300000,
+      "guaranteedComp": 312500,
+      "international": false
+    },
+    {
+      "name": "Jayden Hibbert",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Edwin Mosquera",
+      "position": "LW",
+      "baseSalary": 425000,
+      "guaranteedComp": 455833,
+      "role": "U22 Initiative",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Leo Afonso",
+      "position": "LW",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Saba Lobjanidze",
+      "position": "LW",
+      "baseSalary": 900000,
+      "guaranteedComp": 998750,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Dominik Chong Qui",
+      "position": "LB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Pedro Amador",
+      "position": "LB",
+      "baseSalary": 231996,
+      "guaranteedComp": 267608,
+      "international": true
+    },
+    {
+      "name": "Luke Brennan",
+      "position": "RM",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Miguel Almir\u00f3n",
+      "position": "RW",
+      "baseSalary": 6056000,
+      "guaranteedComp": 7871000,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Ashton Gordon",
+      "position": "RW",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Matthew Edwards",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Nyk Sessock",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Ronald Hern\u00e1ndez",
+      "position": "RB",
+      "baseSalary": 275000,
+      "guaranteedComp": 290750,
+      "international": false
+    },
+    {
+      "name": "Brooks Lennon",
+      "position": "RB",
+      "baseSalary": 740000,
+      "guaranteedComp": 740000,
+      "role": "TAM Player",
+      "international": false
+    }
+  ],
+  "rosterModel": "Designated Player Model"
+}

@@ -1,0 +1,248 @@
+{
+  "teamName": "Philadelphia Union",
+  "players": [
+    {
+      "name": "Jeremy Rafanello",
+      "position": "AM",
+      "baseSalary": 140000,
+      "guaranteedComp": 161125,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Cavan Sullivan",
+      "position": "AM",
+      "baseSalary": 200000,
+      "guaranteedComp": 364000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Tai Baribo",
+      "position": "ST",
+      "baseSalary": 700000,
+      "guaranteedComp": 810000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Markus Anderson",
+      "position": "ST",
+      "baseSalary": 120000,
+      "guaranteedComp": 122000,
+      "international": false
+    },
+    {
+      "name": "Bruno Damiani",
+      "position": "ST",
+      "baseSalary": 600000,
+      "guaranteedComp": 726700,
+      "role": "Young Designated Player",
+      "international": true
+    },
+    {
+      "name": "Eddy Davis III",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 82622,
+      "international": false
+    },
+    {
+      "name": "Chris Donovan",
+      "position": "ST",
+      "baseSalary": 180000,
+      "guaranteedComp": 200156,
+      "international": false
+    },
+    {
+      "name": "Sal Olivas",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 104702,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Milan Iloski",
+      "position": "ST",
+      "baseSalary": 500000,
+      "guaranteedComp": 552569,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Mikael Uhre",
+      "position": "ST",
+      "baseSalary": 2000000,
+      "guaranteedComp": 2240000,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Olwethu Makhanya",
+      "position": "CB",
+      "baseSalary": 250000,
+      "guaranteedComp": 288875,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Neil Pierre",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 97020,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Jakob Glesnes",
+      "position": "CB",
+      "baseSalary": 1100000,
+      "guaranteedComp": 1310000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Alejandro Bedoya",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 204500,
+      "role": "Player Professional Development Role",
+      "international": false
+    },
+    {
+      "name": "Jovan Luki\u0107",
+      "position": "CM",
+      "baseSalary": 285000,
+      "guaranteedComp": 329875,
+      "international": true
+    },
+    {
+      "name": "Quinn Sullivan",
+      "position": "CM",
+      "baseSalary": 450000,
+      "guaranteedComp": 518000,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Ben Bender",
+      "position": "CM",
+      "baseSalary": 140000,
+      "guaranteedComp": 150000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Jes\u00fas Bueno",
+      "position": "DM",
+      "baseSalary": 300000,
+      "guaranteedComp": 332625,
+      "international": false
+    },
+    {
+      "name": "Nicholas Pariano",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 85815,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Homegrown Player"
+    },
+    {
+      "name": "Andre Blake",
+      "position": "GK",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1181250,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "George Marks",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Andrew Rick",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 90537,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Oliver Semmle",
+      "position": "GK",
+      "baseSalary": 150000,
+      "guaranteedComp": 166324,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "CJ Olney Jr.",
+      "position": "LM",
+      "baseSalary": 80622,
+      "guaranteedComp": 94287,
+      "international": false
+    },
+    {
+      "name": "Kai Wagner",
+      "position": "LB",
+      "baseSalary": 930000,
+      "guaranteedComp": 1088250,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Isaiah LeFlore",
+      "position": "LB",
+      "baseSalary": 104000,
+      "guaranteedComp": 113363,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Indiana Vassilev",
+      "position": "RW",
+      "baseSalary": 350000,
+      "guaranteedComp": 381750,
+      "international": false
+    },
+    {
+      "name": "Olivier Mbaizo",
+      "position": "RB",
+      "baseSalary": 430000,
+      "guaranteedComp": 472875,
+      "international": false
+    },
+    {
+      "name": "Nathan Harriel",
+      "position": "RB",
+      "baseSalary": 290000,
+      "guaranteedComp": 312800,
+      "international": false
+    },
+    {
+      "name": "Frankie Westfield",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 92127,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    }
+  ],
+  "rosterModel": "Designated Player Model"
+}

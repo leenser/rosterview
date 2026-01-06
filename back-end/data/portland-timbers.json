@@ -1,0 +1,220 @@
+{
+  "teamName": "Portland Timbers",
+  "players": [
+    {
+      "name": "David Da Costa",
+      "position": "AM",
+      "baseSalary": 2725000,
+      "guaranteedComp": 3425000,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Mat\u00edas Rojas",
+      "position": "AM",
+      "baseSalary": 559929,
+      "guaranteedComp": 743262,
+      "international": true
+    },
+    {
+      "name": "Gage Guerra",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Kevin Kelsy",
+      "position": "ST",
+      "baseSalary": 612000,
+      "guaranteedComp": 752804,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Felipe Mora",
+      "position": "ST",
+      "baseSalary": 1275000,
+      "guaranteedComp": 1472750,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Jonathan Rodr\u00edguez",
+      "position": "ST",
+      "baseSalary": 2775000,
+      "guaranteedComp": 3627500,
+      "role": "Designated Player",
+      "international": false,
+      "status": "Unavailable \u2013 SEI"
+    },
+    {
+      "name": "Kistoffer Velde",
+      "position": "LW",
+      "baseSalary": 2280000,
+      "guaranteedComp": 3027000,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Zac McGraw",
+      "position": "CB",
+      "baseSalary": 275000,
+      "guaranteedComp": 321750,
+      "international": false
+    },
+    {
+      "name": "Kamal Miller",
+      "position": "CB",
+      "baseSalary": 770004,
+      "guaranteedComp": 795004,
+      "international": false
+    },
+    {
+      "name": "Dario \u017dupari\u0107",
+      "position": "CB",
+      "baseSalary": 735000,
+      "guaranteedComp": 907950,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Finn Surman",
+      "position": "CB",
+      "baseSalary": 200000,
+      "guaranteedComp": 226983,
+      "international": true
+    },
+    {
+      "name": "Cristhian Paredes",
+      "position": "CM",
+      "baseSalary": 610000,
+      "guaranteedComp": 714000,
+      "international": false
+    },
+    {
+      "name": "Diego Char\u00e1",
+      "position": "CM",
+      "baseSalary": 725000,
+      "guaranteedComp": 725000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Felipe Carballo",
+      "position": "CM",
+      "baseSalary": 950000,
+      "guaranteedComp": 988333,
+      "role": "Designated Player",
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Joao Ortiz",
+      "position": "DM",
+      "baseSalary": 475000,
+      "guaranteedComp": 525625,
+      "international": true
+    },
+    {
+      "name": "David Ayala",
+      "position": "DM",
+      "baseSalary": 425000,
+      "guaranteedComp": 477000,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Maxime Cr\u00e9peau",
+      "position": "GK",
+      "baseSalary": 585000,
+      "guaranteedComp": 648333,
+      "international": false
+    },
+    {
+      "name": "Trey Muse",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Hunter Sulte",
+      "position": "GK",
+      "baseSalary": 135000,
+      "guaranteedComp": 138042,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "James Pantemis",
+      "position": "GK",
+      "baseSalary": 200000,
+      "guaranteedComp": 220833,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Antony Alves Santos",
+      "position": "LW",
+      "baseSalary": 490000,
+      "guaranteedComp": 555342,
+      "international": false
+    },
+    {
+      "name": "Ariel Lassiter",
+      "position": "LW",
+      "baseSalary": 315000,
+      "guaranteedComp": 348000,
+      "international": false
+    },
+    {
+      "name": "Ian Smith",
+      "position": "LB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Jimer Fory",
+      "position": "LB",
+      "baseSalary": 335000,
+      "guaranteedComp": 355000,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Omir Fernandez",
+      "position": "RW",
+      "baseSalary": 600000,
+      "guaranteedComp": 661875,
+      "international": false
+    },
+    {
+      "name": "Eric Miller",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Juan Mosquera",
+      "position": "RB",
+      "baseSalary": 345000,
+      "guaranteedComp": 411650,
+      "role": "TAM Player",
+      "international": false
+    }
+  ],
+  "rosterModel": "Designated Player Model"
+}

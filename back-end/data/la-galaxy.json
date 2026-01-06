@@ -1,0 +1,233 @@
+{
+  "teamName": "LA Galaxy",
+  "players": [
+    {
+      "name": "Marco Reus",
+      "position": "AM",
+      "baseSalary": 880000,
+      "guaranteedComp": 1136667,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Rub\u00e9n Ramos",
+      "position": "AM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false
+    },
+    {
+      "name": "Miguel Berry",
+      "position": "ST",
+      "baseSalary": 225000,
+      "guaranteedComp": 231667,
+      "international": false
+    },
+    {
+      "name": "Christian Ramirez",
+      "position": "ST",
+      "baseSalary": 525000,
+      "guaranteedComp": 570833,
+      "international": false
+    },
+    {
+      "name": "Matheus Nascimento de Paula",
+      "position": "ST",
+      "baseSalary": 500000,
+      "guaranteedComp": 571250,
+      "international": true
+    },
+    {
+      "name": "Ascel Essengue",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Chris Rindov",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 89372,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Maya Yoshida",
+      "position": "CB",
+      "baseSalary": 455000,
+      "guaranteedComp": 526281,
+      "international": true
+    },
+    {
+      "name": "Eriq Zavaleta",
+      "position": "CB",
+      "baseSalary": 194000,
+      "guaranteedComp": 198311,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Emiro Garc\u00e9s",
+      "position": "CB",
+      "baseSalary": 429999.96,
+      "guaranteedComp": 468000,
+      "international": false,
+      "role": "TAM Player"
+    },
+    {
+      "name": "Isaiah Parente",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false
+    },
+    {
+      "name": "Riqui Puig",
+      "position": "CM",
+      "baseSalary": 5125000,
+      "guaranteedComp": 5779688,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Designated Player"
+    },
+    {
+      "name": "Elijah Wynder",
+      "position": "CM",
+      "baseSalary": 150000,
+      "guaranteedComp": 175333,
+      "international": false
+    },
+    {
+      "name": "Lucas Sanabria",
+      "position": "DM",
+      "baseSalary": 592000,
+      "guaranteedComp": 694800,
+      "role": "U22 Initiative",
+      "international": true,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Edwin Cerrillo",
+      "position": "DM",
+      "baseSalary": 525000,
+      "guaranteedComp": 537500,
+      "international": false
+    },
+    {
+      "name": "Tucker Lepley",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 82308,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "JT Marcinkowski",
+      "position": "GK",
+      "baseSalary": 250000,
+      "guaranteedComp": 250000,
+      "international": false
+    },
+    {
+      "name": "Brady Scott",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Novak Mi\u0107ovi\u0107",
+      "position": "GK",
+      "baseSalary": 175000,
+      "guaranteedComp": 175000,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Gino Vivi",
+      "position": "LW",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Diego Fag\u00fandez",
+      "position": "LW",
+      "baseSalary": 1250000,
+      "guaranteedComp": 1310000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Juli\u00e1n Aude",
+      "position": "LB",
+      "baseSalary": 350000,
+      "guaranteedComp": 360000,
+      "role": "U22 Initiative",
+      "international": true,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "John Nelson",
+      "position": "LB",
+      "baseSalary": 275000,
+      "guaranteedComp": 291667,
+      "international": false
+    },
+    {
+      "name": "Joseph Paintsil",
+      "position": "RW",
+      "baseSalary": 3136000,
+      "guaranteedComp": 4182000,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Gabriel Pec",
+      "position": "RW",
+      "baseSalary": 1680000,
+      "guaranteedComp": 2459000,
+      "international": false,
+      "role": "Designated Player"
+    },
+    {
+      "name": "Mauricio Cuevas",
+      "position": "RB",
+      "baseSalary": 150000,
+      "guaranteedComp": 168500,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Harbor Miller",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Miki Yamane",
+      "position": "RB",
+      "baseSalary": 778000,
+      "guaranteedComp": 844667,
+      "role": "TAM Player",
+      "international": true
+    }
+  ],
+  "rosterModel": "Designated Player Model"
+}

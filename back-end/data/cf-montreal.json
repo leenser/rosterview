@@ -1,0 +1,233 @@
+{
+  "teamName": "CF Montreal",
+  "players": [
+    {
+      "name": "Bryce Duke",
+      "position": "AM",
+      "baseSalary": 350000,
+      "guaranteedComp": 431875,
+      "international": false
+    },
+    {
+      "name": "Olger Escobar",
+      "position": "AM",
+      "baseSalary": 80622,
+      "guaranteedComp": 86018,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Iv\u00e1n Jaime",
+      "position": "AM",
+      "baseSalary": 1800000,
+      "guaranteedComp": 1991200,
+      "role": "Designated Player",
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Mat\u00edas C\u00f3ccaro",
+      "position": "ST",
+      "baseSalary": 800000,
+      "guaranteedComp": 888000,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Sunusi Ibrahim",
+      "position": "ST",
+      "baseSalary": 350000,
+      "guaranteedComp": 410000,
+      "international": true
+    },
+    {
+      "name": "Owen Graham-Roache",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 86512,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Giacomo Vrioni",
+      "position": "ST",
+      "baseSalary": 2000000,
+      "guaranteedComp": 2247500,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Prince Owusu",
+      "position": "ST",
+      "baseSalary": 900000,
+      "guaranteedComp": 1007500,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Fernando \u00c1lvarez",
+      "position": "CB",
+      "baseSalary": 275000,
+      "guaranteedComp": 307500,
+      "international": false
+    },
+    {
+      "name": "Brandan Craig",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 90427,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Efra\u00edn Morales",
+      "position": "CB",
+      "baseSalary": 104000,
+      "guaranteedComp": 112019,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Matty Longstaff",
+      "position": "CM",
+      "baseSalary": 312000,
+      "guaranteedComp": 331869,
+      "international": true
+    },
+    {
+      "name": "Victor Loturi",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 92122,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Alessandro Biello",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Samuel Piette",
+      "position": "DM",
+      "baseSalary": 535250,
+      "guaranteedComp": 561016,
+      "international": false
+    },
+    {
+      "name": "Jonathan Sirois",
+      "position": "GK",
+      "baseSalary": 275000,
+      "guaranteedComp": 292625,
+      "international": false
+    },
+    {
+      "name": "Thomas Gillier",
+      "position": "GK",
+      "baseSalary": 445000,
+      "guaranteedComp": 487000,
+      "international": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "S\u00e9bastian Breza",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Emil Gazdov",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 88769,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Dante Sealy",
+      "position": "LW",
+      "baseSalary": 104000,
+      "guaranteedComp": 122022,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Luca Petrasso",
+      "position": "LB",
+      "baseSalary": 104000,
+      "guaranteedComp": 119136,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Fabian Herbers",
+      "position": "RW",
+      "baseSalary": 400000,
+      "guaranteedComp": 440000,
+      "international": false
+    },
+    {
+      "name": "Gennadiy Synchuk",
+      "position": "RW",
+      "baseSalary": 600000,
+      "guaranteedComp": 606000,
+      "international": true
+    },
+    {
+      "name": "Kwadwo Opoku",
+      "position": "RW",
+      "baseSalary": 458333,
+      "guaranteedComp": 598560,
+      "international": false,
+      "role": "TAM Player"
+    },
+    {
+      "name": "Jalen Neal",
+      "position": "CB",
+      "baseSalary": 600000,
+      "guaranteedComp": 681250,
+      "international": false,
+      "role": "U22 Initiative"
+    },
+    {
+      "name": "Dawid Bugaj",
+      "position": "RB",
+      "baseSalary": 240000,
+      "guaranteedComp": 267600,
+      "international": true
+    },
+    {
+      "name": "Aleksandr Guboglo",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 86311,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Homegrown Player"
+    },
+    {
+      "name": "Bode Hidalgo",
+      "position": "RB",
+      "baseSalary": 275000,
+      "guaranteedComp": 305800,
+      "international": false
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}

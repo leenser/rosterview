@@ -1,0 +1,265 @@
+{
+  "teamName": "Nashville SC",
+  "players": [
+    {
+      "name": "Hany Mukhtar",
+      "position": "AM",
+      "baseSalary": 3900000,
+      "guaranteedComp": 5311667,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Woobens Pacius",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Teal Bunbury",
+      "position": "ST",
+      "baseSalary": 250000,
+      "guaranteedComp": 285000,
+      "international": false
+    },
+    {
+      "name": "Maximus Ekk",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Adem Sipi\u0107",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 109448,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Jeison Palacios",
+      "position": "CB",
+      "baseSalary": 350000,
+      "guaranteedComp": 526667,
+      "international": true
+    },
+    {
+      "name": "Christopher Applewhite",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 90067,
+      "international": false
+    },
+    {
+      "name": "Josh Bauer",
+      "position": "CB",
+      "baseSalary": 180000,
+      "guaranteedComp": 203667,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Jack Maher",
+      "position": "CB",
+      "baseSalary": 800000,
+      "guaranteedComp": 895467,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Wyatt Meyer",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Walker Zimmerman",
+      "position": "CB",
+      "baseSalary": 3200000,
+      "guaranteedComp": 3456979,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "San Surridge",
+      "position": "ST",
+      "baseSalary": 2775000,
+      "guaranteedComp": 3208139,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Bryan Acosta",
+      "position": "CM",
+      "baseSalary": 175000,
+      "guaranteedComp": 196250,
+      "international": false
+    },
+    {
+      "name": "Patrick Yazbek",
+      "position": "CM",
+      "baseSalary": 415000,
+      "guaranteedComp": 531013,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Isaiah Jones",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 84622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Edvard Tagseth",
+      "position": "CM",
+      "baseSalary": 450000,
+      "guaranteedComp": 487667,
+      "international": true
+    },
+    {
+      "name": "Gast\u00f3n Brugman",
+      "position": "DM",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1409000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Matthew Corcoran",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 102890,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Brian Schwake",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 120800,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Xavier Valdez",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 90622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Joe Willis",
+      "position": "GK",
+      "baseSalary": 600000,
+      "guaranteedComp": 658333,
+      "international": false
+    },
+    {
+      "name": "Tyler Boyd",
+      "position": "LW",
+      "baseSalary": 1100000,
+      "guaranteedComp": 1105000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Jonathan P\u00e9rez",
+      "position": "LW",
+      "baseSalary": 400000,
+      "guaranteedComp": 470956,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Jacob Shaffelburg",
+      "position": "LW",
+      "baseSalary": 425000,
+      "guaranteedComp": 470000,
+      "international": false
+    },
+    {
+      "name": "Jordan Knight",
+      "position": "LB",
+      "baseSalary": 80622,
+      "guaranteedComp": 86455,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Daniel Lovitz",
+      "position": "LB",
+      "baseSalary": 525000,
+      "guaranteedComp": 542500,
+      "international": false
+    },
+    {
+      "name": "Tate Schmitt",
+      "position": "LB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Taylor Washington",
+      "position": "LB",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Ahmed Qasem",
+      "position": "RW",
+      "baseSalary": 650000,
+      "guaranteedComp": 650000,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Alex Muyl",
+      "position": "RW",
+      "baseSalary": 535000,
+      "guaranteedComp": 535000,
+      "international": false
+    },
+    {
+      "name": "Andy N\u00e1jar",
+      "position": "RB",
+      "baseSalary": 250000,
+      "guaranteedComp": 280000,
+      "international": false
+    },
+    {
+      "name": "Julian Gaines",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    }
+  ],
+  "rosterModel": "Designated Player Model"
+}

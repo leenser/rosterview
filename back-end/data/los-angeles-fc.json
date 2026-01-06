@@ -1,0 +1,216 @@
+{
+  "teamName": "Los Angeles FC",
+  "players": [
+    {
+      "name": "Andrew Moran",
+      "position": "AM",
+      "baseSalary": 666667,
+      "guaranteedComp": 691111,
+      "international": false
+    },
+    {
+      "name": "Nathan Ordaz",
+      "position": "ST",
+      "baseSalary": 146500,
+      "guaranteedComp": 149000,
+      "international": false
+    },
+    {
+      "name": "Jeremy Ebobisse",
+      "position": "ST",
+      "baseSalary": 680000,
+      "guaranteedComp": 680000,
+      "international": false
+    },
+    {
+      "name": "Aaron Long",
+      "position": "CB",
+      "baseSalary": 445000,
+      "guaranteedComp": 1050000,
+      "international": false
+    },
+    {
+      "name": "Lorenzo Dellavalle",
+      "position": "CB",
+      "baseSalary": 104000,
+      "guaranteedComp": 107750,
+      "international": false
+    },
+    {
+      "name": "Kenny Nielsen",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false
+    },
+    {
+      "name": "Ryan Porteous",
+      "position": "CB",
+      "baseSalary": 720000,
+      "guaranteedComp": 755260,
+      "international": false
+    },
+    {
+      "name": "Eddie Segura",
+      "position": "CB",
+      "baseSalary": 577500,
+      "guaranteedComp": 577500,
+      "international": false
+    },
+    {
+      "name": "Nkosi Tafari Burgess",
+      "position": "CB",
+      "baseSalary": 374500,
+      "guaranteedComp": 374500,
+      "international": false
+    },
+    {
+      "name": "Mathieu Choini\u00e8re",
+      "position": "CM",
+      "baseSalary": 698780,
+      "guaranteedComp": 698780,
+      "international": false
+    },
+    {
+      "name": "Frankie Amaya",
+      "position": "CM",
+      "baseSalary": 574000,
+      "guaranteedComp": 574000,
+      "international": false
+    },
+    {
+      "name": "Odin Holm",
+      "position": "CM",
+      "baseSalary": 660000,
+      "guaranteedComp": 660000,
+      "international": false
+    },
+    {
+      "name": "Jude Terry",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 117020,
+      "international": false
+    },
+    {
+      "name": "Timothy Tillman",
+      "position": "CM",
+      "baseSalary": 790000,
+      "guaranteedComp": 846400,
+      "international": false
+    },
+    {
+      "name": "Igor Jesus Lima",
+      "position": "DM",
+      "baseSalary": 550000,
+      "guaranteedComp": 616684,
+      "international": false
+    },
+    {
+      "name": "Adam Salda\u00f1a",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false
+    },
+    {
+      "name": "Jailson Marques Siqueira",
+      "position": "DM",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1317444,
+      "international": false
+    },
+    {
+      "name": "Hugo Lloris",
+      "position": "GK",
+      "baseSalary": 700000,
+      "guaranteedComp": 700000,
+      "international": false
+    },
+    {
+      "name": "Thomas Hasal",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 114133,
+      "international": false
+    },
+    {
+      "name": "David Ochoa",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 112333,
+      "international": false
+    },
+    {
+      "name": "Ryan Raposo",
+      "position": "LM",
+      "baseSalary": 180000,
+      "guaranteedComp": 180000,
+      "international": false
+    },
+    {
+      "name": "Heung-min Son",
+      "position": "LW",
+      "baseSalary": 10368750,
+      "guaranteedComp": 11152852,
+      "international": false
+    },
+    {
+      "name": "Denis Bouanga",
+      "position": "LW",
+      "baseSalary": 3020000,
+      "guaranteedComp": 3709500,
+      "international": false
+    },
+    {
+      "name": "Artem Smolyakov",
+      "position": "LB",
+      "baseSalary": 550000,
+      "guaranteedComp": 613297,
+      "international": false
+    },
+    {
+      "name": "Ryan Hollingshead",
+      "position": "LB",
+      "baseSalary": 642500,
+      "guaranteedComp": 642500,
+      "international": false
+    },
+    {
+      "name": "Yaw Yeboah",
+      "position": "RW",
+      "baseSalary": 550000,
+      "guaranteedComp": 550000,
+      "international": false
+    },
+    {
+      "name": "David Mart\u00ednez",
+      "position": "RW",
+      "baseSalary": 525000,
+      "guaranteedComp": 525000,
+      "international": false
+    },
+    {
+      "name": "Adrian Wibowo",
+      "position": "RW",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false
+    },
+    {
+      "name": "Alexandru B\u0103lu\u021b\u0103",
+      "position": "RW",
+      "baseSalary": 720000,
+      "guaranteedComp": 768900,
+      "international": false
+    },
+    {
+      "name": "Sergi Palencia",
+      "position": "RB",
+      "baseSalary": 549996,
+      "guaranteedComp": 569996,
+      "international": false
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}

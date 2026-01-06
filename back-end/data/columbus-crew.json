@@ -1,0 +1,232 @@
+{
+  "teamName": "Columbus Crew",
+  "players": [
+    {
+      "name": "Diego Rossi",
+      "position": "AM",
+      "baseSalary": 2725000,
+      "guaranteedComp": 3426827,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Dylan Chambost",
+      "position": "AM",
+      "baseSalary": 450000,
+      "guaranteedComp": 557219,
+      "international": false
+    },
+    {
+      "name": "D\u00e1niel Gazdag",
+      "position": "AM",
+      "baseSalary": 2000004,
+      "guaranteedComp": 2597643,
+      "role": "Designated Player",
+      "international": false
+    },
+    {
+      "name": "Wessam Abou Ali",
+      "position": "ST",
+      "baseSalary": 1800000,
+      "guaranteedComp": 2157375,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Ibrahim Aliyu",
+      "position": "ST",
+      "baseSalary": 474996,
+      "guaranteedComp": 526375,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Jacen Russell-Rowe",
+      "position": "ST",
+      "baseSalary": 120000,
+      "guaranteedComp": 130789,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Yevgen Cheberko",
+      "position": "CB",
+      "baseSalary": 610000,
+      "guaranteedComp": 658250,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Malte Amundsen",
+      "position": "CB",
+      "baseSalary": 624996,
+      "guaranteedComp": 697496,
+      "international": false
+    },
+    {
+      "name": "Rudy Camacho",
+      "position": "CB",
+      "baseSalary": 525000,
+      "guaranteedComp": 601000,
+      "international": true
+    },
+    {
+      "name": "Cesar Ruvalcaba",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Taha Habroune",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 116000,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Cole Mrowka",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 100630,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Derrick Jones",
+      "position": "CM",
+      "baseSalary": 350000,
+      "guaranteedComp": 387500,
+      "international": false
+    },
+    {
+      "name": "Sean Zawadzki",
+      "position": "CM",
+      "baseSalary": 400000,
+      "guaranteedComp": 446875,
+      "international": false
+    },
+    {
+      "name": "Darlington Nagbe",
+      "position": "CM",
+      "baseSalary": 1425000,
+      "guaranteedComp": 1565833,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Amar Sejdi\u0107",
+      "position": "DM",
+      "baseSalary": 104000,
+      "guaranteedComp": 118550,
+      "international": false
+    },
+    {
+      "name": "Evan Bush",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Nicholas Hagen",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 122600,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Stanislav Lapkes",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 99712,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Max Arfsten",
+      "position": "LW",
+      "baseSalary": 350000,
+      "guaranteedComp": 389375,
+      "role": "Homegrown Player",
+      "international": false
+    },
+    {
+      "name": "Abraham Romero",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Patrick Schulte",
+      "position": "GK",
+      "baseSalary": 825000,
+      "guaranteedComp": 957083,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Hugo Picard",
+      "position": "LM",
+      "baseSalary": 675000,
+      "guaranteedComp": 731244,
+      "role": "U22 Initiative",
+      "international": true
+    },
+    {
+      "name": "Lassi Lappalainen",
+      "position": "LW",
+      "baseSalary": 325000,
+      "guaranteedComp": 368750,
+      "international": true
+    },
+    {
+      "name": "Tristan Brown",
+      "position": "LB",
+      "baseSalary": 80622,
+      "guaranteedComp": 84986,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Mohamed Farsi",
+      "position": "RM",
+      "baseSalary": 425000,
+      "guaranteedComp": 455000,
+      "international": true
+    },
+    {
+      "name": "Steven Moreira",
+      "position": "RB",
+      "baseSalary": 820000,
+      "guaranteedComp": 902000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Andr\u00e9s Herrera",
+      "position": "RB",
+      "baseSalary": 650000,
+      "guaranteedComp": 737158,
+      "role": "TAM Player",
+      "international": true,
+      "status": "Loan Player"
+    }
+  ],
+  "rosterModel": "Designated Player Model"
+}

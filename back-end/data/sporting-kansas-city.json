@@ -1,0 +1,207 @@
+{
+  "teamName": "Sporting Kansas City",
+  "players": [
+    {
+      "name": "Manu Garc\u00eda",
+      "position": "AM",
+      "baseSalary": 2100000,
+      "guaranteedComp": 2325313,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Memo Rodr\u00edguez",
+      "position": "AM",
+      "baseSalary": 104000,
+      "guaranteedComp": 114966,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Erik Thommy",
+      "position": "AM",
+      "baseSalary": 1500000,
+      "guaranteedComp": 1606250,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Dejan Jovelji\u0107",
+      "position": "ST",
+      "baseSalary": 3000000,
+      "guaranteedComp": 3306250,
+      "role": "Designated Player",
+      "international": true
+    },
+    {
+      "name": "Santiago Mu\u00f1\u00f3z",
+      "position": "ST",
+      "baseSalary": 300000,
+      "guaranteedComp": 335026,
+      "international": false
+    },
+    {
+      "name": "Mason Toye",
+      "position": "ST",
+      "baseSalary": 350000,
+      "guaranteedComp": 392500,
+      "international": false
+    },
+    {
+      "name": "Khiry Shelton",
+      "position": "ST",
+      "baseSalary": 725000,
+      "guaranteedComp": 775000,
+      "international": false
+    },
+    {
+      "name": "Joaqu\u00edn Fern\u00e1ndez",
+      "position": "CB",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1072083,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Al\u00e1n Montes",
+      "position": "CB",
+      "baseSalary": 400000,
+      "guaranteedComp": 422500,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Jansen Miller",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 82302,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Robert Voloder",
+      "position": "CB",
+      "baseSalary": 550000,
+      "guaranteedComp": 577860,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Zorhan Bassong",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 114237,
+      "international": true,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Nemanja Radoja",
+      "position": "DM",
+      "baseSalary": 1300000,
+      "guaranteedComp": 1390000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Jacob Bartlett",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 83622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Jack Kortkamp",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 82622,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    },
+    {
+      "name": "Ryan Schewe",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "John Pulskamp",
+      "position": "GK",
+      "baseSalary": 250000,
+      "guaranteedComp": 273500,
+      "international": false
+    },
+    {
+      "name": "D\u00e1niel Sall\u00f3i",
+      "position": "LW",
+      "baseSalary": 1300000,
+      "guaranteedComp": 1300000,
+      "role": "TAM Player",
+      "international": false
+    },
+    {
+      "name": "Stephen Afrifa",
+      "position": "LW",
+      "baseSalary": 104000,
+      "guaranteedComp": 104000,
+      "international": false
+    },
+    {
+      "name": "Tim Leibold",
+      "position": "LB",
+      "baseSalary": 925000,
+      "guaranteedComp": 926050,
+      "international": false
+    },
+    {
+      "name": "Logan Ndenbe",
+      "position": "LB",
+      "baseSalary": 525000,
+      "guaranteedComp": 530000,
+      "role": "U22 Initiative",
+      "international": false
+    },
+    {
+      "name": "Shapi Suleymanov",
+      "position": "RW",
+      "baseSalary": 800000,
+      "guaranteedComp": 915028,
+      "role": "TAM Player",
+      "international": true
+    },
+    {
+      "name": "Andrew Brody",
+      "position": "RB",
+      "baseSalary": 275000,
+      "guaranteedComp": 300678,
+      "international": false,
+      "status": "Supplemental Roster",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Jake Davis",
+      "position": "RB",
+      "baseSalary": 400000,
+      "guaranteedComp": 412500,
+      "international": false
+    },
+    {
+      "name": "Ian James",
+      "position": "RB",
+      "baseSalary": 80622,
+      "guaranteedComp": 85220,
+      "role": "Homegrown Player",
+      "international": false,
+      "status": "Supplemental Roster"
+    }
+  ],
+  "rosterModel": "U22 Initiative Player Model"
+}
