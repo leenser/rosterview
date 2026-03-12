@@ -7,11 +7,14 @@ class Team:
             self,
             name:str,
             roster_model: str,
+            remaining_gam: int,
+            starting_gam: int
     ):
         self.name = name
         self.roster_model = roster_model
         self.roster: List[Player] = []
-        self.tam_pool = 2250000
+        self.remaining_gam = remaining_gam
+        self.starting_gam = starting_gam
 
     @classmethod
     def from_json(cls, path: str):
@@ -21,6 +24,8 @@ class Team:
         team = cls(
             name=data["teamName"],
             roster_model=data["rosterModel"],
+            remaining_gam=data.get("availableGAM", 0),
+            starting_gam=data.get("startingGAM", 0),
         )
 
         for p in data["players"]:
@@ -28,37 +33,6 @@ class Team:
 
         return team
 
-    def _apply_tam(self, players):
-        tam_remaining = self.tam_pool
-        results = []
-
-        for p in players:
-            base_charge = p.base_budget_charge()
-            tam_used = 0
-            final_charge = base_charge
-
-            if (
-                p.role not in ["Designated Player", "U22 Initiative"]
-                and p.baseSalary > base_charge
-                and tam_remaining > 0
-            ):
-                needed = p.baseSalary - base_charge
-                tam_used = min(needed, tam_remaining)
-                tam_remaining -= tam_used
-                final_charge = p.baseSalary - tam_used
-
-            results.append({
-                "player": p,
-                "base_charge": base_charge,
-                "final_charge": final_charge,
-                "tam_used": tam_used
-            })
-
-        return results, tam_remaining
-    
-    def tam_remaining(self) -> int:
-        _, remaining = self._apply_tam(self.active_players())
-        return remaining
     def is_active(self, player: Player) -> bool:
         if player.status is None:
             return True
@@ -66,17 +40,21 @@ class Team:
         inactive_statuses = [
             "Unavailable – SEI",
             "Unavailable – On Loan",
-            "Supplemental Roster"
         ]
 
         return player.status not in inactive_statuses
     def get_roster_model(self):
         return self.roster_model
+    def get_remaining_gam(self):
+        return self.remaining_gam
+
+    def get_starting_gam(self):
+        return self.starting_gam
     
     def international_slots_used(self) -> int:
         return sum(
             1
-            for p in self.active_players()
+            for p in self.roster
             if p.international
         )
 
@@ -96,16 +74,27 @@ class Team:
     def count_role(self, role: str) -> int:
         return sum(1 for p in self.active_players() if p.role == role)
     
+    def count_designation(self, role) -> int:
+        return sum(
+            1 for p in self.roster
+            if p.role == role
+        )
+    
+    def count_supplemental(self) -> int:
+        return sum(
+            1 for p in self.roster
+            if p.role == "Supplemental Roster"
+        )
+    
     def is_dp_compliant(self) -> bool:
         return self.count_role("Designated Player") <= self.total_dp_spots()
     
     def is_U22_compliant(self) -> bool:
-        return self.count_role("U22 Initiative Player Model") <= self.total_U22_spots()
+        return self.count_role("U22 Initiative") <= self.total_U22_spots()
     
     def total_cap_hit(self) -> int:
-        rows, _ = self._apply_tam(self.active_players())
-        return sum(r["final_charge"] for r in rows)
-
+        return sum(p.base_budget_charge() for p in self.roster)
+    
     
     def total_base_salary(self) -> int:
         return sum(p.baseSalary for p in self.roster)
@@ -114,20 +103,24 @@ class Team:
         return sum(p.guaranteedComp for p in self.roster)
     
     def cap_breakdown(self):
-        rows, _ = self._apply_tam(self.roster)
+        rows = self.roster
 
         return [
             {
-                "name": r["player"].name,
-                "position": r["player"].position,
-                "role": r["player"].role,
-                "base_salary": r["player"].baseSalary,
-                "budget_charge": r["final_charge"],
-                "tam_used": r["tam_used"],
-                "is_international": r["player"].international,
-                "status": r["player"].status
+                "name": p.name,
+                "position": p.position,
+                "role": p.role,
+                "base_salary": p.baseSalary,
+                "budget_charge": p.base_budget_charge(),
+                "tam_used": 0,
+                "is_international": p.international,
+                "status": p.status,
+                "contract_through": p.contractThru,
+                "option_years": p.optionYears,
+                "guaranteed_comp": p.guaranteedComp,
+                "cap_hit": p.base_budget_charge()
             }
-            for r in rows
+            for p in rows
         ]
     
     def validate_roster(self):
@@ -177,7 +170,6 @@ class Team:
                 "u22_limit": self.total_U22_spots(),
                 "international_slots_used": intl_used,
                 "cap_hit": cap_hit,
-                "tam_remaining": self.tam_remaining()
+                "remaining_gam": self.get_remaining_gam()
             }
         }
-    

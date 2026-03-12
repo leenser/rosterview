@@ -1,4 +1,6 @@
 from models.team import Team
+from models.league import League
+
 def money(value: int) -> str:
     return f"${value:,}"
 
@@ -77,3 +79,32 @@ validation = team.validate_roster()
 print("\nRoster valid:", validation["is_valid"])
 for issue in validation["issues"]:
     print("-", issue["message"])
+
+
+print("\n--- League Test ---")
+league = League.from_data_dir("back-end/data")
+print("Teams loaded:", len(league.teams))
+for t in league.teams[:5]:
+    print("-", t.name)
+
+print("\nLeague spending by team:")
+for row in league.spending_by_team():
+    print(
+        row["team"],
+        "| base:", money(row["base_salary"]),
+        "| cap:", money(row["cap_hit"]),
+    )
+
+print("\nList of DP and U22 Defensive Players")
+for t in league.teams:
+    defensive_positions = ["CB","LB","RB","DM"]
+    for p in t.roster:
+        if p.position in defensive_positions and (p.role == "Designated Player" or p.role=="U22 Initiative"):
+            print("Team:",t.name,"| Player:",p.name, "| Position:",p.position, "| Role:",p.role)
+
+print("\nList of DP and U22 Attackers")
+for t in league.teams:
+    attacking_positions = ["LW","RW","RM","LM","AM","ST"]
+    for p in t.roster:
+        if p.position in attacking_positions and (p.role == "Designated Player" or p.role=="U22 Initiative"):
+            print("Team:",t.name,"| Player:",p.name, "| Position:",p.position, "| Role:",p.role)

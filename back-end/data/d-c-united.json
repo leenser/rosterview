@@ -7,7 +7,9 @@
       "baseSalary": 725000,
       "guaranteedComp": 791700,
       "international": false,
-      "role": "U22 Initiative"
+      "role": "U22 Initiative",
+      "contractThru": "2025",
+      "optionYears": "2026, 2027"
     },
     {
       "name": "Caden Clark",
@@ -15,32 +17,40 @@
       "baseSalary": 375000,
       "guaranteedComp": 407000,
       "role": "U22 Initiative",
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026, 2027"
     },
     {
       "name": "Jackson Hopkins",
       "position": "AM",
       "baseSalary": 104000,
       "guaranteedComp": 104286,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "2026, 2027"
     },
     {
       "name": "Gavin Turner",
       "position": "AM",
       "baseSalary": 80622,
       "guaranteedComp": 102856,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Unavailable \u2013 On Loan",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
     },
     {
       "name": "Dominique Badji",
       "position": "ST",
       "baseSalary": 400000,
       "guaranteedComp": 435000,
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Christian Benteke",
@@ -48,7 +58,9 @@
       "baseSalary": 4500000,
       "guaranteedComp": 4937500,
       "role": "Designated Player",
-      "international": true
+      "international": true,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Kristian Fletcher",
@@ -57,7 +69,9 @@
       "guaranteedComp": 169509,
       "role": "Homegrown Player",
       "international": false,
-      "status": "Unavailable \u2013 SEI"
+      "status": "Unavailable \u2013 SEI",
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Jacob Murrell",
@@ -66,21 +80,26 @@
       "guaranteedComp": 80622,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Lucas Bartlett",
       "position": "CB",
       "baseSalary": 450000,
       "guaranteedComp": 510625,
-      "international": false
+      "international": false,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Lukas MacNaughton",
       "position": "CB",
       "baseSalary": 120000,
       "guaranteedComp": 122100,
-      "international": false
+      "international": false,
+      "contractThru": "2025"
     },
     {
       "name": "Kye Rowles",
@@ -88,16 +107,20 @@
       "baseSalary": 292500,
       "guaranteedComp": 494167,
       "role": "TAM Player",
-      "international": true
+      "international": true,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Garrison Tubbs",
       "position": "CB",
       "baseSalary": 104000,
       "guaranteedComp": 104000,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Unavailable \u2013 On Loan",
+      "contractThru": "2025",
+      "optionYears": "2026, 2027"
     },
     {
       "name": "Hosei Kijima",
@@ -106,14 +129,18 @@
       "guaranteedComp": 80622,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "2026, 2027"
     },
     {
       "name": "Brandon Servania",
       "position": "CM",
       "baseSalary": 104000,
       "guaranteedComp": 131056,
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Rida Zouhir",
@@ -122,7 +149,9 @@
       "guaranteedComp": 95362,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "2026, 2027"
     },
     {
       "name": "Boris Enow",
@@ -130,7 +159,9 @@
       "baseSalary": 500000,
       "guaranteedComp": 613900,
       "role": "TAM Player",
-      "international": true
+      "international": true,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Matti Peltola",
@@ -138,14 +169,17 @@
       "baseSalary": 750000,
       "guaranteedComp": 826000,
       "role": "TAM Player",
-      "international": true
+      "international": true,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Luis Barraza",
       "position": "GK",
       "baseSalary": 180000,
       "guaranteedComp": 187688,
-      "international": false
+      "international": false,
+      "contractThru": "2025"
     },
     {
       "name": "Jordan Farr",
@@ -154,7 +188,9 @@
       "guaranteedComp": 109000,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Kim Joon Hong",
@@ -162,7 +198,9 @@
       "baseSalary": 354000,
       "guaranteedComp": 427000,
       "international": false,
-      "role": "U22 Initiative"
+      "role": "U22 Initiative",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
     },
     {
       "name": "Joao Peglow",
@@ -170,21 +208,27 @@
       "baseSalary": 357500,
       "guaranteedComp": 608812,
       "international": false,
-      "role": "TAM Player"
+      "role": "TAM Player",
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Randall Leal",
       "position": "LW",
       "baseSalary": 1150000,
       "guaranteedComp": 1265000,
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Jared Stroud",
       "position": "LW",
       "baseSalary": 350000,
       "guaranteedComp": 392500,
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "David Schnegg",
@@ -192,7 +236,9 @@
       "baseSalary": 600000,
       "guaranteedComp": 706250,
       "role": "TAM Player",
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Hakim Karamoko",
@@ -201,21 +247,27 @@
       "guaranteedComp": 80622,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
     },
     {
       "name": "Conner Antley",
       "position": "RB",
       "baseSalary": 104000,
       "guaranteedComp": 105667,
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Derek Dodson",
       "position": "RB",
       "baseSalary": 104000,
       "guaranteedComp": 110250,
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Aar\u00f3n Herrera",
@@ -223,8 +275,11 @@
       "baseSalary": 825000,
       "guaranteedComp": 920220,
       "role": "TAM Player",
-      "international": false
+      "international": false,
+      "contractThru": "2026"
     }
   ],
-  "rosterModel": "Designated Player Model"
+  "rosterModel": "Designated Player Model",
+  "availableGAM": 2137599,
+  "startingGAM": 4220649
 }

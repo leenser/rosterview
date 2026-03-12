@@ -7,16 +7,19 @@
       "baseSalary": 857955,
       "guaranteedComp": 950425,
       "role": "U22 Initiative",
-      "international": false
+      "international": false,
+      "contractThru": "2028"
     },
     {
       "name": "Dylan Borso",
       "position": "AM",
       "baseSalary": 80622,
       "guaranteedComp": 88622,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
     },
     {
       "name": "David Poreba",
@@ -25,16 +28,20 @@
       "guaranteedComp": 88747,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "2026, 2027, 2028"
     },
     {
       "name": "Robert Turdean",
       "position": "AM",
       "baseSalary": 80622,
       "guaranteedComp": 113549,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Supplemental Roster",
+      "contractThru": "2028",
+      "optionYears": "2029, 2030"
     },
     {
       "name": "Andr\u00e9 Franco",
@@ -42,7 +49,8 @@
       "baseSalary": 650000,
       "guaranteedComp": 697083,
       "international": true,
-      "status": "Loan Player"
+      "status": "Loan Player",
+      "contractThru": "2025"
     },
     {
       "name": "Georgios Koutsias",
@@ -51,7 +59,9 @@
       "guaranteedComp": 470800,
       "role": "U22 Initiative",
       "international": true,
-      "status": "Unavailable \u2013 On Loan"
+      "status": "Unavailable \u2013 On Loan",
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Hugo Cuypers",
@@ -59,14 +69,18 @@
       "baseSalary": 3238000,
       "guaranteedComp": 3528044,
       "role": "Designated Player",
-      "international": true
+      "international": true,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Tom Barlow",
       "position": "ST",
       "baseSalary": 300000,
       "guaranteedComp": 330000,
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Dean Boltz",
@@ -74,15 +88,19 @@
       "baseSalary": 80622,
       "guaranteedComp": 82622,
       "international": false,
-      "status": "Supplemental Roster",
-      "role": "Generation Adidas"
+      "status": "Unavailable \u2013 On Loan",
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
     },
     {
       "name": "Mauricio Pineda",
       "position": "CB",
       "baseSalary": 355012,
       "guaranteedComp": 475169,
-      "international": false
+      "international": false,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Jack Elliott",
@@ -90,37 +108,47 @@
       "baseSalary": 914773,
       "guaranteedComp": 1008537,
       "role": "TAM Player",
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Christopher Cupps",
       "position": "CB",
       "baseSalary": 80622,
       "guaranteedComp": 83408,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Supplemental Roster",
+      "contractThru": "2028",
+      "optionYears": "2029, 2030"
     },
     {
       "name": "Omar Gonz\u00e1lez",
       "position": "CB",
       "baseSalary": 104000,
       "guaranteedComp": 123333,
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Sam Rogers",
       "position": "CB",
       "baseSalary": 120000,
       "guaranteedComp": 143000,
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Joel Waterman",
       "position": "CB",
       "baseSalary": 474250,
       "guaranteedComp": 555400,
-      "international": true
+      "international": true,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Rominigue Kouam\u00e9",
@@ -129,16 +157,20 @@
       "guaranteedComp": 693755,
       "role": "TAM Player",
       "international": true,
-      "status": "Loan Player"
+      "status": "Loan Player",
+      "contractThru": "2025",
+      "optionYears": "PT: 2026; 2027, 2028"
     },
     {
       "name": "Sergio Oregel",
       "position": "CM",
       "baseSalary": 113400,
       "guaranteedComp": 113400,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Supplemental Roster",
+      "contractThru": "2028",
+      "optionYears": "2029"
     },
     {
       "name": "Kellyn Acosta",
@@ -146,23 +178,29 @@
       "baseSalary": 1461796,
       "guaranteedComp": 1628477,
       "role": "TAM Player",
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Sam Williams",
       "position": "DM",
       "baseSalary": 80622,
       "guaranteedComp": 91951,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "2026, 2027, 2028"
     },
     {
       "name": "Chris Brady",
       "position": "GK",
       "baseSalary": 249996,
       "guaranteedComp": 348329,
-      "international": false
+      "international": false,
+      "contractThru": "2029",
+      "optionYears": "2030"
     },
     {
       "name": "Bryan Dowd",
@@ -170,13 +208,16 @@
       "baseSalary": 80622,
       "guaranteedComp": 80622,
       "international": false,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "status": "Unavailable \u2013 On Loan",
+      "role": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "2026, 2027"
     },
     {
       "name": "Jeff Gal",
       "position": "GK",
       "baseSalary": 140000,
+      "role": "Supplemental Roster",
       "guaranteedComp": 140000,
       "international": false
     },
@@ -186,21 +227,26 @@
       "baseSalary": 5000000,
       "guaranteedComp": 5581806,
       "role": "Designated Player",
-      "international": true
+      "international": true,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Andrew Gutman",
       "position": "LB",
       "baseSalary": 600000,
       "guaranteedComp": 600000,
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Chase Gasper",
       "position": "LB",
       "baseSalary": 575000,
       "guaranteedComp": 600000,
-      "international": false
+      "international": false,
+      "contractThru": "2025"
     },
     {
       "name": "Viktor Radojevi\u0107",
@@ -209,7 +255,8 @@
       "guaranteedComp": 307000,
       "role": "U22 Initiative",
       "international": true,
-      "status": "Supplemental Roster"
+      "contractThru": "2028",
+      "optionYears": "2029"
     },
     {
       "name": "Omari Glasgow",
@@ -217,15 +264,18 @@
       "baseSalary": 104000,
       "guaranteedComp": 117685,
       "international": true,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "status": "Unavailable \u2013 On Loan",
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Maren Haile-Selassie",
       "position": "RM",
       "baseSalary": 388000,
       "guaranteedComp": 427500,
-      "international": true
+      "international": true,
+      "contractThru": "2026"
     },
     {
       "name": "Chris Mueller",
@@ -234,7 +284,9 @@
       "guaranteedComp": 762316,
       "role": "TAM Player",
       "international": false,
-      "status": "Unavailable \u2013 SEI"
+      "status": "Unavailable \u2013 SEI",
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Philip Zinckernagel",
@@ -242,7 +294,8 @@
       "baseSalary": 1450750,
       "guaranteedComp": 1631290,
       "role": "TAM Player",
-      "international": true
+      "international": true,
+      "contractThru": "2028"
     },
     {
       "name": "Leonardo Barroso",
@@ -250,7 +303,9 @@
       "baseSalary": 300000,
       "guaranteedComp": 345500,
       "role": "U22 Initiative",
-      "international": true
+      "international": true,
+      "contractThru": "2028",
+      "optionYears": "2029"
     },
     {
       "name": "Dje D\u2019Avilla",
@@ -258,16 +313,20 @@
       "baseSalary": 548004,
       "guaranteedComp": 660490,
       "role": "U22 Initiative",
-      "international": true
+      "international": true,
+      "contractThru": "2028",
+      "optionYears": "2029"
     },
     {
       "name": "Justin Reynolds",
       "position": "RB",
       "baseSalary": 104000,
       "guaranteedComp": 104000,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Jonathan Dean",
@@ -276,8 +335,12 @@
       "guaranteedComp": 138167,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028"
     }
   ],
-  "rosterModel": "U22 Initiative Player Model"
+  "rosterModel": "U22 Initiative Player Model",
+  "availableGAM": 1003353,
+  "startingGAM": 5077349
 }

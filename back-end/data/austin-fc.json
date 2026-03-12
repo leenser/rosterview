@@ -6,9 +6,11 @@
       "position": "AM",
       "baseSalary": 104000,
       "guaranteedComp": 115000,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Brandon Vazquez",
@@ -17,7 +19,9 @@
       "guaranteedComp": 3551778,
       "role": "Designated Player",
       "international": false,
-      "status": "Unavailable \u2013 SEI"
+      "status": "Unavailable \u2013 SEI",
+      "contractThru": "2028",
+      "optionYears": "2029"
     },
     {
       "name": "Diego Rubio",
@@ -26,7 +30,9 @@
       "guaranteedComp": 208000,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Julio Cascante",
@@ -34,14 +40,18 @@
       "baseSalary": 780000,
       "guaranteedComp": 853750,
       "role": "TAM Player",
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Oleksandr Svatok",
       "position": "CB",
       "baseSalary": 500000,
       "guaranteedComp": 505000,
-      "international": true
+      "international": true,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Mateja Djordjevi\u0107",
@@ -49,14 +59,18 @@
       "baseSalary": 337500,
       "guaranteedComp": 347500,
       "role": "U22 Initiative",
-      "international": true
+      "international": true,
+      "contractThru": "2028",
+      "optionYears": "2029"
     },
     {
       "name": "Brendan Hines-Ike",
       "position": "CB",
       "baseSalary": 325000,
       "guaranteedComp": 325000,
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Nicol\u00e1s Dubersarsky",
@@ -64,23 +78,29 @@
       "baseSalary": 275000,
       "guaranteedComp": 297986,
       "role": "U22 Initiative",
-      "international": true
+      "international": true,
+      "contractThru": "2029",
+      "optionYears": "2030"
     },
     {
       "name": "Besard \u0160abovi\u0107",
       "position": "CM",
       "baseSalary": 550000,
       "guaranteedComp": 550000,
-      "international": true
+      "international": true,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Owen Wolff",
       "position": "CM",
       "baseSalary": 208000,
       "guaranteedComp": 221600,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Daniel Pereira",
@@ -94,30 +114,38 @@
       "position": "DM",
       "baseSalary": 600000,
       "guaranteedComp": 600000,
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Stefan Cleveland",
       "position": "GK",
       "baseSalary": 250000,
       "guaranteedComp": 274167,
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Brad Stuver",
       "position": "GK",
       "baseSalary": 484500,
       "guaranteedComp": 507313,
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Damian Las",
       "position": "GK",
       "baseSalary": 125000,
       "guaranteedComp": 125000,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Unavailable \u2013 On Loan",
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Myrto Uzuni",
@@ -125,7 +153,9 @@
       "baseSalary": 1520000,
       "guaranteedComp": 2225000,
       "role": "Designated Player",
-      "international": true
+      "international": true,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "CJ Fodrey",
@@ -134,28 +164,36 @@
       "guaranteedComp": 108000,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Generation adidas"
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
     },
     {
       "name": "Robert Taylor",
       "position": "LW",
       "baseSalary": 575000,
       "guaranteedComp": 633333,
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Guilherme Biro",
       "position": "LB",
       "baseSalary": 275000,
       "guaranteedComp": 275000,
-      "international": false
+      "international": false,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "\u017dan Kolmani\u010d",
       "position": "LB",
       "baseSalary": 350000,
       "guaranteedComp": 350000,
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Osman Bukari",
@@ -163,7 +201,9 @@
       "baseSalary": 1500000,
       "guaranteedComp": 1500000,
       "role": "Designated Player",
-      "international": true
+      "international": true,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Bryant Farkarlun",
@@ -172,28 +212,36 @@
       "guaranteedComp": 80622,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "J\u00e1der Obrian",
       "position": "RW",
       "baseSalary": 450000,
       "guaranteedComp": 505401,
-      "international": true
+      "international": true,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Mikkel Desler",
       "position": "RB",
       "baseSalary": 550000,
       "guaranteedComp": 550000,
-      "international": false
+      "international": false,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Jon Gallagher",
       "position": "RB",
       "baseSalary": 375000,
       "guaranteedComp": 375000,
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Riley Thomas",
@@ -202,8 +250,12 @@
       "guaranteedComp": 80622,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "2026, 2027"
     }
   ],
-  "rosterModel": "Designated Player Model"
+  "rosterModel": "Designated Player Model",
+  "availableGAM": 412817,
+  "startingGAM": 2549636
 }

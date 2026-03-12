@@ -1,0 +1,8 @@
+Back-End
+source venv/bin/activate
+python3 -m uvicorn app.api:app --reload
+
+Front-End
+npm run dev
+
+Add Ages, change DP and u22 hits per age

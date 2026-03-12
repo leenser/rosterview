@@ -2,7 +2,7 @@
 @source "./index.html";
 @source "./src/**/*.{js,jsx,ts,tsx}";
 :root {
-  background-color: #2d2e2f;
+  background-color: #000000;
   color: #e5e7eb;
   font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }

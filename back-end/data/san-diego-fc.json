@@ -8,7 +8,9 @@
       "guaranteedComp": 726800,
       "role": "TAM Player",
       "international": true,
-      "status": "Loan Player"
+      "status": "Loan Player",
+      "contractThru": "2025",
+      "optionYears": "PT: 2028; 2029"
     },
     {
       "name": "Corey Baird",
@@ -16,7 +18,9 @@
       "baseSalary": 676534,
       "guaranteedComp": 744241,
       "role": "TAM Player",
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "Marcus Ingvartsen",
@@ -24,16 +28,20 @@
       "baseSalary": 1740000,
       "guaranteedComp": 1740000,
       "role": "TAM Player",
-      "international": false
+      "international": false,
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
     },
     {
       "name": "Anisse Saidi",
       "position": "ST",
       "baseSalary": 80622,
       "guaranteedComp": 94512,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Supplemental Roster",
+      "contractThru": "2028",
+      "optionYears": "2029"
     },
     {
       "name": "Oscar Verhoeven",
@@ -42,7 +50,9 @@
       "guaranteedComp": 138395,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Homegrown Player"
+      "role": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "PT: 2026; 2027"
     },
     {
       "name": "Tom\u00e1s \u00c1ngel",
@@ -50,7 +60,9 @@
       "baseSalary": 325000,
       "guaranteedComp": 443750,
       "role": "U22 Initiative",
-      "international": true
+      "international": true,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Paddy McNair",
@@ -58,7 +70,9 @@
       "baseSalary": 700000,
       "guaranteedComp": 762803,
       "role": "TAM Player",
-      "international": true
+      "international": true,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Ian Pilcher",
@@ -67,7 +81,9 @@
       "guaranteedComp": 80622,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "2026, 2027, 2028"
     },
     {
       "name": "Andr\u00e9s Reyes",
@@ -76,14 +92,18 @@
       "guaranteedComp": 807000,
       "role": "TAM Player",
       "international": false,
-      "status": "Unavailable \u2013 SEI"
+      "status": "Unavailable \u2013 SEI",
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Christopher McVey",
       "position": "CB",
       "baseSalary": 445000,
       "guaranteedComp": 496813,
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Amahl Pellegrino",
@@ -92,16 +112,19 @@
       "guaranteedComp": 912500,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2025"
     },
     {
       "name": "Heine Gikling Bruseth",
       "position": "CM",
       "baseSalary": 200000,
       "guaranteedComp": 242471,
-      "role": "U22 Initiative",
+      "role": "Supplemental Roster",
       "international": true,
-      "status": "Supplemental Roster"
+      "status": "Unavailable \u2013 On Loan",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Alejandro Alvarado",
@@ -117,7 +140,9 @@
       "guaranteedComp": 1644295,
       "role": "TAM Player",
       "international": false,
-      "status": "Loan Player"
+      "status": "Loan Player",
+      "contractThru": "2025",
+      "optionYears": "PT: 2028; 2029"
     },
     {
       "name": "Manu Duah",
@@ -126,14 +151,18 @@
       "guaranteedComp": 84622,
       "international": true,
       "status": "Supplemental Roster",
-      "role": "Generation adidas"
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
     },
     {
       "name": "An\u00edbal Godoy",
       "position": "DM",
       "baseSalary": 375000,
       "guaranteedComp": 408333,
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026, 2027"
     },
     {
       "name": "Pedro Soma",
@@ -141,21 +170,26 @@
       "baseSalary": 225000,
       "guaranteedComp": 275453,
       "role": "U22 Initiative",
-      "international": false
+      "international": false,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Jeppe Tverskov",
       "position": "DM",
       "baseSalary": 700000,
       "guaranteedComp": 700000,
-      "international": true
+      "international": true,
+      "contractThru": "2026"
     },
     {
       "name": "CJ dos Santos",
       "position": "GK",
       "baseSalary": 300000,
       "guaranteedComp": 340875,
-      "international": false
+      "international": false,
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Duran Ferree",
@@ -164,7 +198,9 @@
       "guaranteedComp": 80622,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Pablo Sisniega",
@@ -173,21 +209,26 @@
       "guaranteedComp": 130467,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "2026, 2027"
     },
     {
       "name": "Emmanuel Boateng",
       "position": "LM",
       "baseSalary": 300000,
       "guaranteedComp": 331500,
-      "international": false
+      "international": false,
+      "contractThru": "2025"
     },
     {
       "name": "Alex Mighten",
       "position": "LW",
       "baseSalary": 250000,
       "guaranteedComp": 257292,
-      "international": false
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Hirving Lozano",
@@ -195,7 +236,9 @@
       "baseSalary": 6000000,
       "guaranteedComp": 7633333,
       "role": "Designated Player",
-      "international": false
+      "international": false,
+      "contractThru": "2028",
+      "optionYears": "2029, 2030"
     },
     {
       "name": "Luca Bombino",
@@ -204,7 +247,9 @@
       "guaranteedComp": 80622,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "PT: 2026; 2027"
     },
     {
       "name": "Aiden Harangi",
@@ -213,23 +258,28 @@
       "guaranteedComp": 80622,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2025"
     },
     {
       "name": "Franco Negri",
       "position": "LB",
       "baseSalary": 270000,
       "guaranteedComp": 297500,
-      "international": false
+      "international": false,
+      "contractThru": "2025",
+      "optionYears": "2026"
     },
     {
       "name": "David Vazquez",
       "position": "RM",
       "baseSalary": 104000,
       "guaranteedComp": 119880,
-      "role": "Homegrown Player",
+      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster"
+      "status": "Supplemental Roster",
+      "contractThru": "2025",
+      "optionYears": "PT: 2027; 2028"
     },
     {
       "name": "Anders Dreyer",
@@ -237,7 +287,8 @@
       "baseSalary": 2117647,
       "guaranteedComp": 2434314,
       "role": "Designated Player",
-      "international": true
+      "international": true,
+      "contractThru": "2027"
     },
     {
       "name": "Leo Duru",
@@ -246,15 +297,21 @@
       "guaranteedComp": 98234,
       "international": false,
       "status": "Supplemental Roster",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "June 2026",
+      "optionYears": "PT: 2028; 2029, 2030"
     },
     {
       "name": "Willy Kumado",
       "position": "RB",
       "baseSalary": 104000,
       "guaranteedComp": 116435,
-      "international": true
+      "international": true,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
     }
   ],
-  "rosterModel": "U22 Initiative Player Model"
+  "rosterModel": "U22 Initiative Player Model",
+  "availableGAM": 4211327,
+  "startingGAM": 5537108
 }
