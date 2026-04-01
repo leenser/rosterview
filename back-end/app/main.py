@@ -1,5 +1,5 @@
-from models.team import Team
-from models.league import League
+from app.models.team import Team
+from app.models.league import League
 
 def money(value: int) -> str:
     return f"${value:,}"
