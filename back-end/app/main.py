@@ -4,7 +4,7 @@ from app.models.league import League
 def money(value: int) -> str:
     return f"${value:,}"
 
-team = Team.from_json("back-end/data/houston-dynamo-fc.json")
+team = Team.from_json("data/houston-dynamo-fc.json")
 
 print(team.name)
 print("Players:", len(team.roster))
@@ -82,7 +82,7 @@ for issue in validation["issues"]:
 
 
 print("\n--- League Test ---")
-league = League.from_data_dir("back-end/data")
+league = League.from_data_dir("data")
 print("Teams loaded:", len(league.teams))
 for t in league.teams[:5]:
     print("-", t.name)
