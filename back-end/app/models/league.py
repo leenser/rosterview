@@ -31,7 +31,7 @@ class League:
                 "team": t.name,
                 "base_salary": t.total_base_salary(),
                 "cap_hit": t.total_cap_hit(),
-                "tam_remaining": t.tam_remaining(),
+                "tam_remaining": 0,
             }
             for t in self.teams
         ]
@@ -69,7 +69,7 @@ class League:
             "team": t.name,
             "base_salary": t.total_base_salary(),
             "cap_hit": t.total_cap_hit(),
-            "tam_remaining": t.tam_remaining(),
+            "tam_remaining": 0,
             "designated_players": t.count_role("Designated Player"),
             "dp_limit": t.total_dp_spots(),
             "u22_players": t.count_role("U22 Initiative"),
