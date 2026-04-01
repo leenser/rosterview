@@ -14,8 +14,11 @@ class Player:
             role:Optional[str] = None,#DP, TAM, U22, SUP (Supplemental Slots), SEN (Senior Slots), GA (Gen Adidas)
             international: bool = False,
             status: Optional[str] = None,
-            contractThru:str = "2025",
-            optionYears:str = "2026"
+            joinedYear: Optional[int] = None,
+            guaranteedYears: Optional[int] = None,
+            transferFee: Optional[int] = None,
+            contractThru: Optional[str] = None,
+            optionYears: Optional[str] = None
     ):
         self.name = name
         self.position = position
@@ -25,13 +28,16 @@ class Player:
         self.role = role
         self.international = international
         self.status = status
+        self.joinedYear = joinedYear
+        self.transferFee = transferFee
+        self.guaranteedYears = guaranteedYears
         self.contractThru = contractThru
         self.optionYears = optionYears
         
         
     
     def base_budget_charge(self) -> int:
-        if self.status == "Unavailable \u2013 On Loan" or self.status == "Unavailable \u2013 SEI" or self.role == "Supplemental Roster":
+        if self.status == "Unavailable \u2013 On Loan" or self.status == "Unavailable \u2013 Injured List" or self.role == "Supplemental Roster" or self.status == "Unavailable – Off Roster":
             return 0
         if self.role == "Designated Player":
             return self.MAX_BUDGET_CHARGE
@@ -41,9 +47,26 @@ class Player:
         
         if self.role == "U22 Initiative":
             return self.U22_BUDGET_CHARGE
-        return self.guaranteedComp
-        
-        
+        return self.guaranteedComp + self.amortized_transfer_cap_hit()
     
+    def amortized_transfer_cap_hit(self) -> int:
+        # guard clauses
+        if not self.transferFee or not self.guaranteedYears or not self.joinedYear:
+            return 0
 
+        current_year = 2026
 
+        # years elapsed since joining
+        years_elapsed = current_year - self.joinedYear - 1
+
+        # if fully amortized, no remaining impact
+        remaining_years = max(self.guaranteedYears - years_elapsed, 0)
+        if remaining_years == 0:
+            return 0
+
+        # straight-line amortization
+        annual_amort = self.transferFee / self.guaranteedYears
+
+        return int(annual_amort)
+        
+        

@@ -1,11 +1,12 @@
 import TeamCard from "/src/components/TeamCard"
 import { useEffect, useState } from "react"
 import NavBar from "/src/components/NavBar"
+import Footer from "../components/Footer"
 
 const STAT_ITEMS = [
   { label: "MLS Clubs", value: "30" },
   { label: "Salary Cap", value: "$5.765M" },
-  { label: "Max DPs", value: "3 / 4" },
+  { label: "Max DPs", value: "2 / 3" },
   { label: "Max U22s", value: "3 / 4" },
   { label: "TAM", value: "$2.225M" },
 ]
@@ -99,7 +100,7 @@ function Home() {
           <div className="flex items-center gap-2 mb-4">
             <span className="inline-block w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-xs text-neutral-500 uppercase tracking-widest font-medium">
-              2025 Season · Live Data
+              2026 Season Data
             </span>
           </div>
 
@@ -154,7 +155,9 @@ function Home() {
           </div>
         )}
       </div>
+      <Footer />
     </div>
+    
   )
 }
 

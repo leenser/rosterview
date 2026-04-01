@@ -7,15 +7,23 @@ export default function GAMTable() {
     { key: "team", label: "Team" },
     { key: "start", label: "GAM Start of Year" },
     { key: "release", label: "GAM Last Release" },
-    { key: "net", label: "Net GAM Spend" },
+    { key:"estimated", label: "Estimated GAM Spend since last release"},
+    { key: "net", label: "Net GAM Spend" }
   ];
 
-  const formatMoney = (value) => {
-    if (!value) return "$0";
-    if (value >= 1000000) return `$${(value / 1000000).toFixed(1)}M`;
-    if (value >= 1000) return `$${(value / 1000).toFixed(0)}k`;
-    return `$${value}`;
-  };
+  function formatMoney(num) {
+    if (num === 0) return "$0"
+    const sign = num < 0 ? "-" : ""
+    const abs = Math.abs(num)
+
+    if (abs >= 1_000_000) {
+      return `${sign}$${(abs / 1_000_000).toFixed(1)}M`
+    }
+    if (abs >= 1_000) {
+      return `${sign}$${Math.round(abs / 1_000)}k`
+    }
+    return `${sign}$${abs}`
+  }
 
   const [data, setData] = useState([]);
 
@@ -52,8 +60,9 @@ export default function GAMTable() {
 
           const start = r.start ?? r.starting_gam ?? 0;
           const release = r.release ?? r.remaining_gam ?? 0;
+          const estimated = r.estimated ?? r.gam_balance ?? 0;
 
-          const netValue = start - release;
+          const netValue = start - release + estimated;
 
           let netDisplay;
           if (netValue > 0) {
@@ -78,6 +87,7 @@ export default function GAMTable() {
             team: teamCell,
             start: formatMoney(start),
             release: formatMoney(release),
+            estimated: formatMoney(estimated),
             net: netDisplay,
           };
         });
@@ -90,9 +100,6 @@ export default function GAMTable() {
   return (
     <div>
 
-      <h2 className="text-xl font-semibold mb-4">
-        GAM Usage
-      </h2>
 
       <SortableTable columns={columns} data={data} />
 

@@ -2,181 +2,86 @@
   "teamName": "Sporting Kansas City",
   "players": [
     {
-      "name": "Manu Garc\u00eda",
+      "name": "Manu Garcia",
       "position": "AM",
       "baseSalary": 2100000,
       "guaranteedComp": 2325313,
+      "international": false,
       "role": "Designated Player",
-      "international": true,
       "contractThru": "2027",
-      "optionYears": "2028"
+      "optionYears": "2028",
+      "transferFee": 4130000,
+      "joinedYear": 2025,
+      "guaranteedYears": 3
     },
     {
-      "name": "Memo Rodr\u00edguez",
-      "position": "AM",
-      "baseSalary": 104000,
-      "guaranteedComp": 114966,
-      "international": false,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
-      "contractThru": "2025"
-    },
-    {
-      "name": "Erik Thommy",
-      "position": "AM",
-      "baseSalary": 1500000,
-      "guaranteedComp": 1606250,
-      "role": "TAM Player",
-      "international": false,
-      "contractThru": "2025"
-    },
-    {
-      "name": "Dejan Jovelji\u0107",
+      "name": "Dejan Joveljic",
       "position": "ST",
       "baseSalary": 3000000,
       "guaranteedComp": 3306250,
+      "international": false,
       "role": "Designated Player",
-      "international": true,
       "contractThru": "2027",
       "optionYears": "2028"
     },
     {
-      "name": "Santiago Mu\u00f1\u00f3z",
-      "position": "ST",
-      "baseSalary": 300000,
-      "guaranteedComp": 335026,
-      "international": false,
-      "contractThru": "2025",
-      "optionYears": "PT: 2026; 2027, 2028"
-    },
-    {
-      "name": "Mason Toye",
-      "position": "ST",
-      "baseSalary": 350000,
-      "guaranteedComp": 392500,
-      "international": false,
-      "contractThru": "2025",
-      "optionYears": "2026"
-    },
-    {
-      "name": "Khiry Shelton",
-      "position": "ST",
-      "baseSalary": 725000,
-      "guaranteedComp": 775000,
-      "international": false,
-      "contractThru": "2025",
-      "optionYears": "2026"
-    },
-    {
-      "name": "Joaqu\u00edn Fern\u00e1ndez",
-      "position": "CB",
-      "baseSalary": 1000000,
-      "guaranteedComp": 1072083,
-      "role": "TAM Player",
+      "name": "Lasse Berg Johnsen",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
       "international": true,
-      "contractThru": "2025"
-    },
-    {
-      "name": "Al\u00e1n Montes",
-      "position": "CB",
-      "baseSalary": 400000,
-      "guaranteedComp": 422500,
       "role": "TAM Player",
-      "international": true,
-      "contractThru": "2025",
-      "optionYears": "PT: 2026; 2027"
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "transferFee": 4020000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
     },
     {
-      "name": "Jansen Miller",
+      "name": "Or Blorian",
       "position": "CB",
-      "baseSalary": 80622,
-      "guaranteedComp": 82302,
-      "international": false,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
-      "contractThru": "2025",
-      "optionYears": "2026, 2027, 2028"
-    },
-    {
-      "name": "Robert Voloder",
-      "position": "CB",
-      "baseSalary": 550000,
-      "guaranteedComp": 577860,
-      "role": "U22 Initiative",
-      "international": false,
-      "contractThru": "2025"
-    },
-    {
-      "name": "Zorhan Bassong",
-      "position": "CM",
-      "baseSalary": 104000,
-      "guaranteedComp": 114237,
+      "baseSalary": 0,
+      "guaranteedComp": 0,
       "international": true,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
-      "contractThru": "2025",
-      "optionYears": "2026"
+      "contractThru": "2028-29",
+      "optionYears": "2029-30, 2030-31",
+      "status": "Unavailable – On Loan"
     },
     {
-      "name": "Nemanja Radoja",
-      "position": "DM",
-      "baseSalary": 1300000,
-      "guaranteedComp": 1390000,
+      "name": "Shapi Suleymanov",
+      "position": "RW",
+      "baseSalary": 800000,
+      "guaranteedComp": 915028,
+      "international": true,
       "role": "TAM Player",
-      "international": false,
-      "contractThru": "2025",
-      "optionYears": "2026"
+      "contractThru": "2026",
+      "optionYears": "2027, 2028",
+      "transferFee": 2750000,
+      "joinedYear": 2025,
+      "guaranteedYears": 2
     },
     {
-      "name": "Jacob Bartlett",
-      "position": "DM",
-      "baseSalary": 80622,
-      "guaranteedComp": 83622,
-      "role": "Supplemental Roster",
-      "international": false,
-      "status": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028, 2029"
-    },
-    {
-      "name": "Jack Kortkamp",
-      "position": "GK",
-      "baseSalary": 80622,
-      "guaranteedComp": 82622,
-      "role": "Supplemental Roster",
-      "international": false,
-      "status": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028, 2029"
-    },
-    {
-      "name": "Ryan Schewe",
-      "position": "GK",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
-      "international": false,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
-      "contractThru": "2025",
-      "optionYears": "2026, 2027"
-    },
-    {
-      "name": "John Pulskamp",
-      "position": "GK",
-      "baseSalary": 250000,
-      "guaranteedComp": 273500,
-      "international": false,
-      "contractThru": "2025",
-      "optionYears": "2026"
-    },
-    {
-      "name": "D\u00e1niel Sall\u00f3i",
+      "name": "Capita Capemba",
       "position": "LW",
-      "baseSalary": 1300000,
-      "guaranteedComp": 1300000,
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": true,
       "role": "TAM Player",
-      "international": false,
-      "contractThru": "2026"
+      "contractThru": "2028-29",
+      "optionYears": "2029-30"
+    },
+    {
+      "name": "Diego Borges",
+      "position": "CB",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": true,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "transferFee": 1950000,
+      "joinedYear": 2026,
+      "guaranteedYears": 5
     },
     {
       "name": "Stephen Afrifa",
@@ -184,46 +89,33 @@
       "baseSalary": 104000,
       "guaranteedComp": 104000,
       "international": false,
-      "contractThru": "2025",
-      "optionYears": "2026"
+      "contractThru": "2026"
     },
     {
-      "name": "Tim Leibold",
-      "position": "LB",
-      "baseSalary": 925000,
-      "guaranteedComp": 926050,
+      "name": "Ethan Bartlow",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
       "international": false,
-      "contractThru": "2025",
-      "optionYears": "2026"
-    },
-    {
-      "name": "Logan Ndenbe",
-      "position": "LB",
-      "baseSalary": 525000,
-      "guaranteedComp": 530000,
-      "role": "U22 Initiative",
-      "international": false,
-      "contractThru": "2025"
-    },
-    {
-      "name": "Shapi Suleymanov",
-      "position": "RW",
-      "baseSalary": 800000,
-      "guaranteedComp": 915028,
-      "role": "TAM Player",
-      "international": true,
       "contractThru": "2026",
-      "optionYears": "2027, 2028"
+      "optionYears": "June 2027, 2027-28"
     },
     {
-      "name": "Andrew Brody",
-      "position": "RB",
-      "baseSalary": 275000,
-      "guaranteedComp": 300678,
+      "name": "Zorhan Bassong",
+      "position": "CM",
+      "baseSalary": 104000,
+      "guaranteedComp": 114237,
+      "international": true,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30, 2030-31"
+    },
+    {
+      "name": "Stefan Cleveland",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
       "international": false,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
-      "contractThru": "2025"
+      "contractThru": "2027"
     },
     {
       "name": "Jake Davis",
@@ -235,18 +127,139 @@
       "optionYears": "2028"
     },
     {
+      "name": "Calvin Harris",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "contractThru": "June 2027",
+      "optionYears": "2027-28"
+    },
+    {
       "name": "Ian James",
       "position": "RB",
       "baseSalary": 80622,
       "guaranteedComp": 85220,
-      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster",
       "contractThru": "2027",
       "optionYears": "2028, 2029"
+    },
+    {
+      "name": "Wyatt Meyer",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28"
+    },
+    {
+      "name": "John Pulskamp",
+      "position": "GK",
+      "baseSalary": 250000,
+      "guaranteedComp": 273500,
+      "international": false,
+      "contractThru": "2026"
+    },
+    {
+      "name": "Jayden Reid",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28"
+    },
+    {
+      "name": "Kwaku Agyabeng",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": true,
+      "role": "Supplemental Roster",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29, 2029-30, 2030-31"
+    },
+    {
+      "name": "Jacob Bartlett",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 83622,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029",
+      "status": "Homegrown"
+    },
+    {
+      "name": "Taylor Calheira",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29, 2029-30",
+      "role": "Supplemental Roster",
+      "transferFee": 143000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
+    },
+    {
+      "name": "Jack Kortkamp",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 82622,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029",
+      "status": "Homegrown"
+    },
+    {
+      "name": "Jansen Miller",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 82302,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Justin Reynolds",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027",
+      "status": "Homegrown"
+    },
+    {
+      "name": "Ryan Schewe",
+      "position": "GK",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Macielo Tschantret",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "role": "Homegrown Player",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029",
+      "status": "Unavailable – Off Roster"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",
   "availableGAM": 638012,
-  "startingGAM": 4530121
+  "startingGAM": 4530121,
+  "GAMBalance": 150000
 }

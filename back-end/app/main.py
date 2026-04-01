@@ -94,17 +94,3 @@ for row in league.spending_by_team():
         "| base:", money(row["base_salary"]),
         "| cap:", money(row["cap_hit"]),
     )
-
-print("\nList of DP and U22 Defensive Players")
-for t in league.teams:
-    defensive_positions = ["CB","LB","RB","DM"]
-    for p in t.roster:
-        if p.position in defensive_positions and (p.role == "Designated Player" or p.role=="U22 Initiative"):
-            print("Team:",t.name,"| Player:",p.name, "| Position:",p.position, "| Role:",p.role)
-
-print("\nList of DP and U22 Attackers")
-for t in league.teams:
-    attacking_positions = ["LW","RW","RM","LM","AM","ST"]
-    for p in t.roster:
-        if p.position in attacking_positions and (p.role == "Designated Player" or p.role=="U22 Initiative"):
-            print("Team:",t.name,"| Player:",p.name, "| Position:",p.position, "| Role:",p.role)

@@ -22,12 +22,9 @@ export default function PositionSpending() {
     (team.gk || 0) + (team.defense || 0) + (team.midfield || 0) + (team.attack || 0)
 
   return (
-    <div className="space-y-6 max-w-3xl">
+    <div className="space-y-8 w-full px-6">
 
-      <h2 className="text-xl font-semibold">
-        Position Spending
-      </h2>
-      <div className="flex gap-4 text-sm mb-2 items-center">
+      <div className="flex flex-wrap gap-4 text-sm items-center border-b border-neutral-800 pb-3">
         <span className="text-gray-400 mr-2">Sort:</span>
         <button onClick={() => setSortKey("gk")} className="text-blue-500 hover:underline">GK</button>
         <button onClick={() => setSortKey("defense")} className="text-green-500 hover:underline">Defense</button>
@@ -52,29 +49,35 @@ export default function PositionSpending() {
         const safeTotal = total === 0 ? 1 : total
 
         return (
-          <div key={`${team.team}-${sortKey}`} className="grid grid-cols-[220px_1fr_100px] items-center gap-4">
+          <div key={`${team.team}-${sortKey}`} className="w-full bg-neutral-900 border border-neutral-800 rounded-lg p-4 flex flex-col gap-3">
 
-            <a
-              href={`/team/${team.team
-                .toLowerCase()
-                .replace(/\./g, "")
-                .replace(/ /g, "-")
-                .replace("dc-united", "d-c-united")}`}
-              className="flex items-center gap-2 font-medium hover:underline"
-            >
-              <img
-                src={`/logos/${team.team
+            <div className="flex justify-between items-center">
+              <a
+                href={`/team/${team.team
                   .toLowerCase()
                   .replace(/\./g, "")
                   .replace(/ /g, "-")
-                  .replace("dc-united", "d-c-united")}.png`}
-                alt={team.team}
-                className="w-5 h-5 object-contain"
-              />
-              <span>{team.team}</span>
-            </a>
+                  .replace("dc-united", "d-c-united")}`}
+                className="flex items-center gap-2 font-medium hover:underline"
+              >
+                <img
+                  src={`/logos/${team.team
+                    .toLowerCase()
+                    .replace(/\./g, "")
+                    .replace(/ /g, "-")
+                    .replace("dc-united", "d-c-united")}.png`}
+                  alt={team.team}
+                  className="w-5 h-5 object-contain"
+                />
+                <span>{team.team}</span>
+              </a>
 
-            <div className="flex h-2 rounded overflow-hidden max-w-md">
+              <span className="text-sm font-semibold text-neutral-300">
+                {formatMoney(total)}
+              </span>
+            </div>
+
+            <div className="flex h-4 rounded overflow-hidden w-full">
 
               <div
                 className="bg-blue-500 border-r border-gray-900 flex items-center justify-center text-[10px] text-white font-semibold"
@@ -110,8 +113,11 @@ export default function PositionSpending() {
 
             </div>
 
-            <div className="text-right font-medium">
-              {formatMoney(total)}
+            <div className="flex justify-between text-xs text-neutral-400 mt-1">
+              <span>GK</span>
+              <span>DEF</span>
+              <span>MID</span>
+              <span>ATT</span>
             </div>
 
           </div>

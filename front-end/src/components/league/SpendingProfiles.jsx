@@ -66,9 +66,6 @@ export default function SpendingProfiles() {
   return (
     <div>
 
-      <h2 className="text-xl font-semibold mb-4">
-        Spending Profiles
-      </h2>
 
       <SortableTable columns={columns} data={data} />
 

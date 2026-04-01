@@ -1,0 +1,434 @@
+{
+  "meta": {
+    "pdf": "Club Roster Profiles_Feb 2026.pdf",
+    "updated_files": [
+      "atlanta-united.json",
+      "austin-fc.json",
+      "charlotte-fc.json",
+      "chicago-fire-fc.json",
+      "fc-cincinnati.json",
+      "colorado-rapids.json",
+      "columbus-crew.json",
+      "fc-dallas.json",
+      "d-c-united.json",
+      "houston-dynamo-fc.json",
+      "sporting-kansas-city.json",
+      "la-galaxy.json",
+      "los-angeles-fc.json",
+      "inter-miami-cf.json",
+      "minnesota-united-fc.json",
+      "cf-montreal.json",
+      "nashville-sc.json",
+      "new-england-revolution.json",
+      "new-york-city-fc.json",
+      "new-york-red-bulls.json",
+      "orlando-city-sc.json",
+      "philadelphia-union.json",
+      "portland-timbers.json",
+      "real-salt-lake.json",
+      "san-diego-fc.json",
+      "san-jose-earthquakes.json",
+      "seattle-sounders-fc.json",
+      "st-louis-city-sc.json",
+      "toronto-fc.json",
+      "vancouver-whitecaps-fc.json"
+    ],
+    "unmatched_pdf_teams": [],
+    "parse_warnings": [
+      {
+        "page": 28,
+        "team": "SAN DIEGO FC",
+        "player": "Emmanuel Boateng",
+        "warning": "Stray currency value in roster designation column: $4,211,327"
+      }
+    ],
+    "team_changes": {
+      "atlanta-united.json": {
+        "pdf_team_name": "ATLANTA UNITED",
+        "player_count": 29,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Fafa Picault",
+            "previous_files": [
+              "inter-miami-cf.json"
+            ]
+          },
+          {
+            "player": "Sergio Santos",
+            "previous_files": [
+              "houston-dynamo-fc.json"
+            ]
+          },
+          {
+            "player": "Kaiden Moore",
+            "previous_files": [
+              "philadelphia-union.json"
+            ]
+          }
+        ]
+      },
+      "austin-fc.json": {
+        "pdf_team_name": "AUSTIN FC",
+        "player_count": 25,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "charlotte-fc.json": {
+        "pdf_team_name": "CHARLOTTE FC",
+        "player_count": 31,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Nikola Petkovic",
+            "previous_files": [
+              "seattle-sounders-fc.json"
+            ]
+          }
+        ]
+      },
+      "chicago-fire-fc.json": {
+        "pdf_team_name": "CHICAGO FIRE FC",
+        "player_count": 31,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "fc-cincinnati.json": {
+        "pdf_team_name": "FC CINCINNATI",
+        "player_count": 28,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Félix Samson",
+            "previous_files": [
+              "cf-montreal.json"
+            ]
+          }
+        ]
+      },
+      "colorado-rapids.json": {
+        "pdf_team_name": "COLORADO RAPIDS",
+        "player_count": 27,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "columbus-crew.json": {
+        "pdf_team_name": "COLUMBUS CREW",
+        "player_count": 32,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "fc-dallas.json": {
+        "pdf_team_name": "FC DALLAS",
+        "player_count": 36,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Malachi Molina",
+            "previous_files": [
+              "nashville-sc.json"
+            ]
+          }
+        ]
+      },
+      "d-c-united.json": {
+        "pdf_team_name": "D.C. UNITED",
+        "player_count": 30,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "houston-dynamo-fc.json": {
+        "pdf_team_name": "HOUSTON DYNAMO FC",
+        "player_count": 27,
+        "added_players": [
+          "Agustín Bouzat",
+          "Franco Negri",
+          "Guilherme",
+          "Héctor Herrera",
+          "Logan Erb",
+          "Lucas Halter",
+          "Mateusz Bogusz",
+          "Matthew Arana",
+          "Nick Markanich",
+          "Reese Miller"
+        ],
+        "removed_players": [
+          "Amine Bassi",
+          "Andrew Tarbell",
+          "Brooklyn Raines",
+          "Damion Lowe",
+          "Daniel Steres",
+          "Ethan Bartlow",
+          "Femi Awodesu",
+          "Franco Escobar",
+          "Gabriel Segal",
+          "Griffin Dorsey",
+          "Júnior Urso",
+          "Kieran Sargeant",
+          "Michael Halliday",
+          "Pablo Ortiz",
+          "Sebastian Kowalczyk",
+          "Sergio Santos",
+          "Stephen Annor Gyamfi",
+          "Érik Dueñas"
+        ],
+        "players_previously_on_other_team_files": []
+      },
+      "sporting-kansas-city.json": {
+        "pdf_team_name": "SPORTING KANSAS CITY",
+        "player_count": 22,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Ethan Bartlow",
+            "previous_files": [
+              "houston-dynamo-fc.json"
+            ]
+          }
+        ]
+      },
+      "la-galaxy.json": {
+        "pdf_team_name": "LA GALAXY",
+        "player_count": 29,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [],
+        "source_notes": [
+          "The Feb. 26, 2026 LA Galaxy roster profile page itself lists João Klauss and Jakob Glesnes on LA Galaxy."
+        ]
+      },
+      "los-angeles-fc.json": {
+        "pdf_team_name": "LOS ANGELES FOOTBALL CLUB",
+        "player_count": 29,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "inter-miami-cf.json": {
+        "pdf_team_name": "INTER MIAMI CF",
+        "player_count": 26,
+        "added_players": [
+          "Benjamin Cremaschi",
+          "Daniel Pinter",
+          "David Ayala",
+          "Dayne St. Clair",
+          "Facundo Mura",
+          "Germán Berterame",
+          "Luis Barraza",
+          "Micael",
+          "Sergio Reguilón"
+        ],
+        "removed_players": [
+          "Allen Obando",
+          "Baltasar Rodríguez",
+          "Benja Cremaschi",
+          "Fafà Picault",
+          "Jordi Alba",
+          "Marcelo Weigandt",
+          "Ryan Sailor",
+          "Sergio Busquets",
+          "William Yarbrough",
+          "Óscar Ustari"
+        ],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Tomás Avilés",
+            "previous_files": [
+              "cf-montreal.json"
+            ]
+          }
+        ]
+      },
+      "minnesota-united-fc.json": {
+        "pdf_team_name": "MINNESOTA UNITED FC",
+        "player_count": 34,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "cf-montreal.json": {
+        "pdf_team_name": "CF MONTRÉAL",
+        "player_count": 31,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Tomás Avilés",
+            "previous_files": [
+              "inter-miami-cf.json"
+            ]
+          },
+          {
+            "player": "Félix Samson",
+            "previous_files": [
+              "fc-cincinnati.json"
+            ]
+          }
+        ]
+      },
+      "nashville-sc.json": {
+        "pdf_team_name": "NASHVILLE SC",
+        "player_count": 30,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Malachi Molina",
+            "previous_files": [
+              "fc-dallas.json"
+            ]
+          }
+        ]
+      },
+      "new-england-revolution.json": {
+        "pdf_team_name": "NEW ENGLAND REVOLUTION",
+        "player_count": 28,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Brooklyn Raines",
+            "previous_files": [
+              "houston-dynamo-fc.json"
+            ]
+          }
+        ]
+      },
+      "new-york-city-fc.json": {
+        "pdf_team_name": "NEW YORK CITY FC",
+        "player_count": 36,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "new-york-red-bulls.json": {
+        "pdf_team_name": "RED BULL NEW YORK",
+        "player_count": 32,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "orlando-city-sc.json": {
+        "pdf_team_name": "ORLANDO CITY SC",
+        "player_count": 27,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Griffin Dorsey",
+            "previous_files": [
+              "houston-dynamo-fc.json"
+            ]
+          }
+        ]
+      },
+      "philadelphia-union.json": {
+        "pdf_team_name": "PHILADELPHIA UNION",
+        "player_count": 31,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Kaiden Moore",
+            "previous_files": [
+              "atlanta-united.json"
+            ]
+          }
+        ]
+      },
+      "portland-timbers.json": {
+        "pdf_team_name": "PORTLAND TIMBERS",
+        "player_count": 25,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "real-salt-lake.json": {
+        "pdf_team_name": "REAL SALT LAKE",
+        "player_count": 39,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "san-diego-fc.json": {
+        "pdf_team_name": "SAN DIEGO FC",
+        "player_count": 30,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Kieran Sargeant",
+            "previous_files": [
+              "houston-dynamo-fc.json"
+            ]
+          }
+        ]
+      },
+      "san-jose-earthquakes.json": {
+        "pdf_team_name": "SAN JOSE EARTHQUAKES",
+        "player_count": 32,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "seattle-sounders-fc.json": {
+        "pdf_team_name": "SEATTLE SOUNDERS FC",
+        "player_count": 27,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "Nikola Petkovic",
+            "previous_files": [
+              "charlotte-fc.json"
+            ]
+          },
+          {
+            "player": "Ryan Sailor",
+            "previous_files": [
+              "inter-miami-cf.json"
+            ]
+          }
+        ]
+      },
+      "st-louis-city-sc.json": {
+        "pdf_team_name": "ST. LOUIS CITY SC",
+        "player_count": 30,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      },
+      "toronto-fc.json": {
+        "pdf_team_name": "TORONTO FC",
+        "player_count": 28,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": [
+          {
+            "player": "William Yarbrough",
+            "previous_files": [
+              "inter-miami-cf.json"
+            ]
+          }
+        ]
+      },
+      "vancouver-whitecaps-fc.json": {
+        "pdf_team_name": "VANCOUVER WHITECAPS FC",
+        "player_count": 32,
+        "added_players": [],
+        "removed_players": [],
+        "players_previously_on_other_team_files": []
+      }
+    }
+  }
+}

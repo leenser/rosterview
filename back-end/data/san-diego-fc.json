@@ -2,177 +2,73 @@
   "teamName": "San Diego FC",
   "players": [
     {
-      "name": "Onni Valakari",
-      "position": "AM",
-      "baseSalary": 650000,
-      "guaranteedComp": 726800,
-      "role": "TAM Player",
+      "name": "Anders Dreyer",
+      "position": "RW",
+      "baseSalary": 2117647,
+      "guaranteedComp": 2434314,
       "international": true,
-      "status": "Loan Player",
-      "contractThru": "2025",
-      "optionYears": "PT: 2028; 2029"
+      "role": "Designated Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "transferFee": 6310000,
+      "joinedYear": 2025,
+      "guaranteedYears": 5
     },
     {
-      "name": "Corey Baird",
-      "position": "ST",
-      "baseSalary": 676534,
-      "guaranteedComp": 744241,
-      "role": "TAM Player",
-      "international": false,
-      "contractThru": "2025",
-      "optionYears": "2026"
-    },
-    {
-      "name": "Marcus Ingvartsen",
-      "position": "ST",
-      "baseSalary": 1740000,
-      "guaranteedComp": 1740000,
-      "role": "TAM Player",
-      "international": false,
-      "contractThru": "2027",
-      "optionYears": "2028, 2029"
-    },
-    {
-      "name": "Anisse Saidi",
-      "position": "ST",
-      "baseSalary": 80622,
-      "guaranteedComp": 94512,
-      "role": "Supplemental Roster",
-      "international": false,
-      "status": "Supplemental Roster",
-      "contractThru": "2028",
-      "optionYears": "2029"
-    },
-    {
-      "name": "Oscar Verhoeven",
-      "position": "RB",
-      "baseSalary": 125000,
-      "guaranteedComp": 138395,
-      "international": false,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
-      "contractThru": "2025",
-      "optionYears": "PT: 2026; 2027"
-    },
-    {
-      "name": "Tom\u00e1s \u00c1ngel",
-      "position": "ST",
-      "baseSalary": 325000,
-      "guaranteedComp": 443750,
-      "role": "U22 Initiative",
-      "international": true,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
-      "name": "Paddy McNair",
-      "position": "CB",
-      "baseSalary": 700000,
-      "guaranteedComp": 762803,
-      "role": "TAM Player",
-      "international": true,
-      "contractThru": "2027",
-      "optionYears": "2028"
-    },
-    {
-      "name": "Ian Pilcher",
-      "position": "CB",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
-      "international": false,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
-      "contractThru": "2025",
-      "optionYears": "2026, 2027, 2028"
-    },
-    {
-      "name": "Andr\u00e9s Reyes",
-      "position": "CB",
-      "baseSalary": 732000,
-      "guaranteedComp": 807000,
-      "role": "TAM Player",
-      "international": false,
-      "status": "Unavailable \u2013 SEI",
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
-      "name": "Christopher McVey",
-      "position": "CB",
-      "baseSalary": 445000,
-      "guaranteedComp": 496813,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
-      "name": "Amahl Pellegrino",
+      "name": "Hirving Lozano",
       "position": "LW",
-      "baseSalary": 850000,
-      "guaranteedComp": 912500,
+      "baseSalary": 6000000,
+      "guaranteedComp": 7633333,
       "international": false,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
-      "contractThru": "2025"
-    },
-    {
-      "name": "Heine Gikling Bruseth",
-      "position": "CM",
-      "baseSalary": 200000,
-      "guaranteedComp": 242471,
-      "role": "Supplemental Roster",
-      "international": true,
-      "status": "Unavailable \u2013 On Loan",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
-    },
-    {
-      "name": "Alejandro Alvarado",
-      "position": "CM",
-      "baseSalary": 80622,
-      "guaranteedComp": 88144,
-      "international": false
-    },
-    {
-      "name": "Luca de la Torre",
-      "position": "CM",
-      "baseSalary": 1444528,
-      "guaranteedComp": 1644295,
-      "role": "TAM Player",
-      "international": false,
-      "status": "Loan Player",
-      "contractThru": "2025",
-      "optionYears": "PT: 2028; 2029"
-    },
-    {
-      "name": "Manu Duah",
-      "position": "DM",
-      "baseSalary": 80622,
-      "guaranteedComp": 84622,
-      "international": true,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028, 2029"
-    },
-    {
-      "name": "An\u00edbal Godoy",
-      "position": "DM",
-      "baseSalary": 375000,
-      "guaranteedComp": 408333,
-      "international": false,
-      "contractThru": "2025",
-      "optionYears": "2026, 2027"
+      "role": "Designated Player",
+      "contractThru": "2028",
+      "optionYears": "2029, 2030",
+      "transferFee": 13770000,
+      "joinedYear": 2025,
+      "guaranteedYears": 5
     },
     {
       "name": "Pedro Soma",
       "position": "DM",
       "baseSalary": 225000,
       "guaranteedComp": 275453,
-      "role": "U22 Initiative",
       "international": false,
+      "role": "U22 Initiative",
       "contractThru": "2027",
       "optionYears": "2028"
+    },
+    {
+      "name": "Marcus Ingvartsen",
+      "position": "ST",
+      "baseSalary": 1740000,
+      "guaranteedComp": 1740000,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029",
+      "transferFee": 1720000,
+      "joinedYear": 2025,
+      "guaranteedYears": 4
+    },
+    {
+      "name": "Lewis Morgan",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Andrés Reyes",
+      "position": "CB",
+      "baseSalary": 732000,
+      "guaranteedComp": 807000,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Jeppe Tverskov",
@@ -180,7 +76,31 @@
       "baseSalary": 700000,
       "guaranteedComp": 700000,
       "international": true,
-      "contractThru": "2026"
+      "role": "TAM Player",
+      "contractThru": "2027",
+      "optionYears": "2028"
+    },
+    {
+      "name": "Onni Valakari",
+      "position": "AM",
+      "baseSalary": 650000,
+      "guaranteedComp": 726800,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2028",
+      "optionYears": "2029",
+      "transferFee": 1720000,
+      "joinedYear": 2026,
+      "guaranteedYears": 5
+    },
+    {
+      "name": "Emmanuel Boateng",
+      "position": "LM",
+      "baseSalary": 300000,
+      "guaranteedComp": 331500,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "June 2027"
     },
     {
       "name": "CJ dos Santos",
@@ -192,34 +112,40 @@
       "optionYears": "2028"
     },
     {
-      "name": "Duran Ferree",
-      "position": "GK",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "name": "Bryce Duke",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
       "international": false,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
+      "contractThru": "June 2027",
+      "optionYears": "2027-28, 2028-29"
+    },
+    {
+      "name": "Anibal Godoy",
+      "position": "DM",
+      "baseSalary": 375000,
+      "guaranteedComp": 408333,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Willy Kumado",
+      "position": "RB",
+      "baseSalary": 104000,
+      "guaranteedComp": 116435,
+      "international": true,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Christopher McVey",
+      "position": "CB",
+      "baseSalary": 445000,
+      "guaranteedComp": 496813,
+      "international": false,
       "contractThru": "2027",
       "optionYears": "2028"
-    },
-    {
-      "name": "Pablo Sisniega",
-      "position": "GK",
-      "baseSalary": 104000,
-      "guaranteedComp": 130467,
-      "international": false,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
-      "contractThru": "2025",
-      "optionYears": "2026, 2027"
-    },
-    {
-      "name": "Emmanuel Boateng",
-      "position": "LM",
-      "baseSalary": 300000,
-      "guaranteedComp": 331500,
-      "international": false,
-      "contractThru": "2025"
     },
     {
       "name": "Alex Mighten",
@@ -231,14 +157,45 @@
       "optionYears": "2027"
     },
     {
-      "name": "Hirving Lozano",
+      "name": "Amahl Pellegrino",
       "position": "LW",
-      "baseSalary": 6000000,
-      "guaranteedComp": 7633333,
-      "role": "Designated Player",
+      "baseSalary": 850000,
+      "guaranteedComp": 912500,
+      "international": true,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Pablo Sisniega",
+      "position": "GK",
+      "baseSalary": 104000,
+      "guaranteedComp": 130467,
       "international": false,
-      "contractThru": "2028",
-      "optionYears": "2029, 2030"
+      "contractThru": "2027",
+      "optionYears": "2027-28"
+    },
+    {
+      "name": "Osvald Søe",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": true,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "transferFee": 574000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4
+    },
+    {
+      "name": "Alejandro Alvarado Jr.",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 88144,
+      "international": false,
+      "status": "Unavailable – Injured List",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028",
+      "role": "Supplemental Roster"
     },
     {
       "name": "Luca Bombino",
@@ -246,72 +203,108 @@
       "baseSalary": 80622,
       "guaranteedComp": 80622,
       "international": false,
-      "status": "Supplemental Roster",
       "role": "Supplemental Roster",
-      "contractThru": "2025",
-      "optionYears": "PT: 2026; 2027"
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "status": "Homegrown"
     },
     {
-      "name": "Aiden Harangi",
-      "position": "LB",
+      "name": "Manu Duah",
+      "position": "DM",
+      "baseSalary": 80622,
+      "guaranteedComp": 84622,
+      "international": true,
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
+    },
+    {
+      "name": "Wilson Eisner",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28",
+      "status": "Homegrown"
+    },
+    {
+      "name": "Duran Ferree",
+      "position": "GK",
       "baseSalary": 80622,
       "guaranteedComp": 80622,
       "international": false,
-      "status": "Supplemental Roster",
-      "role": "Supplemental Roster",
-      "contractThru": "2025"
+      "contractThru": "2027",
+      "optionYears": "2028",
+      "role": "Supplemental Roster"
     },
     {
-      "name": "Franco Negri",
-      "position": "LB",
-      "baseSalary": 270000,
-      "guaranteedComp": 297500,
+      "name": "Ian Pilcher",
+      "position": "CB",
+      "baseSalary": 80622,
+      "guaranteedComp": 80622,
       "international": false,
-      "contractThru": "2025",
-      "optionYears": "2026"
+      "contractThru": "2026",
+      "optionYears": "2027, 2028",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Kieran Sargeant",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28",
+      "role": "Supplemental Roster"
     },
     {
       "name": "David Vazquez",
       "position": "RM",
       "baseSalary": 104000,
       "guaranteedComp": 119880,
-      "role": "Supplemental Roster",
       "international": false,
-      "status": "Supplemental Roster",
-      "contractThru": "2025",
-      "optionYears": "PT: 2027; 2028"
-    },
-    {
-      "name": "Anders Dreyer",
-      "position": "RW",
-      "baseSalary": 2117647,
-      "guaranteedComp": 2434314,
-      "role": "Designated Player",
-      "international": true,
-      "contractThru": "2027"
-    },
-    {
-      "name": "Leo Duru",
-      "position": "RB",
-      "baseSalary": 80622,
-      "guaranteedComp": 98234,
-      "international": false,
-      "status": "Supplemental Roster",
       "role": "Supplemental Roster",
-      "contractThru": "June 2026",
-      "optionYears": "PT: 2028; 2029, 2030"
+      "contractThru": "2027",
+      "optionYears": "2028",
+      "status": "Homegrown"
     },
     {
-      "name": "Willy Kumado",
+      "name": "Oscar Verhoeven",
       "position": "RB",
-      "baseSalary": 104000,
-      "guaranteedComp": 116435,
+      "baseSalary": 125000,
+      "guaranteedComp": 138395,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027",
+      "status": "Homegrown"
+    },
+    {
+      "name": "Bryan Zamblé",
+      "position": "",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
       "international": true,
       "contractThru": "2026",
-      "optionYears": "2027, 2028"
+      "optionYears": "June 2027, 2027-28, 2028-29",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Anisse Saidi",
+      "position": "ST",
+      "baseSalary": 80622,
+      "guaranteedComp": 94512,
+      "international": false,
+      "role": "Homegrown Player",
+      "contractThru": "2028",
+      "optionYears": "2029",
+      "status": "Unavailable – Off Roster"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",
   "availableGAM": 4211327,
-  "startingGAM": 5537108
+  "startingGAM": 5537108,
+  "GAMBalance": 525000
 }

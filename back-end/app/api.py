@@ -38,17 +38,22 @@ def get_team(team_id: str):
         "players": len(team.roster),
         "roster_model": team.get_roster_model(),
         "remaining_gam": team.get_remaining_gam(),
+        "starting_gam": team.get_starting_gam(),
+        "gam_balance": team.get_balance_gam(),
         "international_slots_used": team.international_slots_used(),
         "cap": {
             "total_base_salary": team.total_base_salary(),
             "total_cap_hit": team.total_cap_hit(),
-            "total_comp": team.total_guaranteed_comp()
+            "total_comp": team.total_guaranteed_comp(),
+            "total_transfer_payments": team.total_transfer_payments(),
+            "total_spend": team.total_transfer_payments()+team.total_guaranteed_comp()
         },
         "counts": {
             "designated_players": team.count_designation("Designated Player"),
             "u22_players": team.count_designation("U22 Initiative"),
             "tam_players": team.count_designation("TAM Player"),
-            "supplemental_players": team.count_supplemental()
+            "supplemental_players": team.count_supplemental(),
+            "senior_players": team.count_senior()
         },
         "cap_breakdown": team.cap_breakdown(),
         "validation": team.validate_roster()
@@ -60,7 +65,7 @@ def get_teams():
     data_dir = DATA_DIR
 
     for file in os.listdir(data_dir):
-        if not file.endswith(".json"):
+        if not file.endswith(".json") or file.startswith("_"):
             continue
 
         team_id = file.replace(".json", "")
@@ -104,3 +109,7 @@ def league_u22():
     """
     league = League.from_data_dir(DATA_DIR)
     return league.u22_overview()
+
+@app.get("/league/cap-space")
+def league_cap_space():
+    return league.cap_space_table()

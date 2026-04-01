@@ -3,13 +3,15 @@ import SpendingProfiles from "../components/league/SpendingProfiles";
 import GAMTable from "../components/league/GAMTable";
 import PositionSpending from "../components/league/PositionSpending";
 import DPOverview from "../components/league/DPOverview";
+import CapSpace from "../components/league/CapSpace";
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer"
 
 const TABS = [
   { key: "spending", label: "Spending Profiles", icon: "💰" },
   { key: "gam", label: "GAM Table", icon: "📊" },
   { key: "positions", label: "Position Spending", icon: "🎯" },
-  { key: "dp", label: "DP Overview", icon: "⭐" },
+  { key: "dp", label: "DP/U22 Overview", icon: "⭐" },
   { key: "cap", label: "Cap Space", icon: "📋" },
 ];
 
@@ -29,7 +31,7 @@ export default function League() {
             League Overview
           </h1>
           <p className="text-neutral-500 text-sm mb-6">
-            League-wide salary data, GAM allocations, and roster construction trends — 2025 MLS season.
+            League-wide salary data, GAM allocations, and roster construction trends.
           </p>
 
           {/* Tab Bar */}
@@ -56,20 +58,17 @@ export default function League() {
 
       {/* Content Panel */}
       <div className="max-w-7xl mx-auto px-8 py-8">
-        <div className="mb-5 flex items-center gap-2">
-          <span className="text-lg">{activeTab?.icon}</span>
-          <h2 className="text-base font-semibold text-neutral-200">
-            {activeTab?.label}
-          </h2>
-        </div>
+        
 
         <div>
           {activeTable === "spending" && <SpendingProfiles />}
           {activeTable === "gam" && <GAMTable />}
           {activeTable === "positions" && <PositionSpending />}
           {activeTable === "dp" && <DPOverview />}
+          {activeTable === "cap" && <CapSpace />}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

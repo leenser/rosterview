@@ -12,7 +12,7 @@ class League:
         teams = []
 
         for file in os.listdir(data_dir):
-            if not file.endswith(".json"):
+            if not file.endswith(".json") or file.startswith("_"):
                 continue
 
             path = os.path.join(data_dir, file)
@@ -165,11 +165,13 @@ class League:
             {
                 "team": t.name,
                 "remaining_gam": t.remaining_gam,
-                "starting_gam": t.starting_gam
+                "starting_gam": t.starting_gam,
+                "gam_balance": t.gam_balance,
             }
             for t in self.teams
         ]
-
+    
+    
     def dp_overview(self):
         """
         Returns all Designated Players for each team with position and spend
@@ -241,3 +243,10 @@ class League:
             })
 
         return rows
+
+
+    def cap_space_table(self):
+        """
+        Returns cap space and roster flexibility (DP/U22 spots) for each team
+        """
+        return [t.cap_space_summary() for t in self.teams]

@@ -1,5 +1,5 @@
 {
-  "teamName": "Houston Dynamo FC",
+  "teamName": "Houston Dynamo FC - Estimated Salaries",
   "players": [
     {
       "name": "Ondrej Lingr",
@@ -9,7 +9,10 @@
       "role": "TAM Player",
       "international": true,
       "contractThru": "June 2028",
-      "optionYears": "2028, 2029"
+      "optionYears": "2028, 2029",
+      "transferFee": 2640000,
+      "joinedYear": 2025,
+      "guaranteedYears": 5
     },
     {
       "name": "Guilherme",
@@ -19,7 +22,10 @@
       "role": "Designated Player",
       "international": true,
       "contractThru": "2027",
-      "optionYears": "2028, 2029"
+      "optionYears": "2028, 2029",
+      "transferFee": 2070000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
     },
     {
       "name": "Lucas Halter",
@@ -29,7 +35,10 @@
       "role": "TAM Player",
       "international": true,
       "contractThru": "2027",
-      "optionYears": "2028, 2029"
+      "optionYears": "2028, 2029",
+      "transferFee": 1550000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4
     },
     {
       "name": "Augustin Bouzat",
@@ -49,7 +58,10 @@
       "role": "Designated Player",
       "international": true,
       "contractThru": "2027",
-      "optionYears": "2028, 2029"
+      "optionYears": "2028, 2029",
+      "transferFee": 6310000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
     },
     {
       "name": "Ezequiel Ponce",
@@ -59,10 +71,13 @@
       "role": "Designated Player",
       "international": true,
       "contractThru": "June 2027",
-      "optionYears": "2027, 2028"
+      "optionYears": "2027, 2028",
+      "transferFee": 10330000,
+      "joinedYear": 2024,
+      "guaranteedYears": 4
     },
     {
-      "name": "Ant\u00f4nio Carlos",
+      "name": "Antônio Carlos",
       "position": "CB",
       "baseSalary": 699996,
       "guaranteedComp": 782672,
@@ -78,7 +93,10 @@
       "guaranteedComp": 207500,
       "international": false,
       "contractThru": "2027",
-      "optionYears": "2028, 2029"
+      "optionYears": "2028, 2029",
+      "transferFee": 1950000,
+      "joinedYear": 2026,
+      "guaranteedYears": 2
     },
     {
       "name": "Erik Sviatchenko",
@@ -88,7 +106,10 @@
       "role": "TAM Player",
       "international": false,
       "contractThru": "2026",
-      "optionYears": "2027"
+      "optionYears": "2027",
+      "transferFee": 1490000,
+      "joinedYear": 2023,
+      "guaranteedYears": 4
     },
     {
       "name": "Hector Herrera",
@@ -153,7 +174,7 @@
       "optionYears": "2026, 2027"
     },
     {
-      "name": "Diadi\u00e9 Samass\u00e9kou",
+      "name": "Diadié Samassékou",
       "position": "DM",
       "baseSalary": 714996,
       "guaranteedComp": 771871,
@@ -188,10 +209,13 @@
       "guaranteedComp": 459704,
       "international": false,
       "contractThru": "2026",
-      "optionYears": "2027"
+      "optionYears": "2027",
+      "transferFee": 574000,
+      "joinedYear": 2025,
+      "guaranteedYears": 2
     },
     {
-      "name": "Nelson Qui\u00f1\u00f3nes",
+      "name": "Nelson Quiñónes",
       "position": "LW",
       "baseSalary": 252000,
       "guaranteedComp": 272894,
@@ -208,7 +232,10 @@
       "role": "U22 Initiative",
       "international": true,
       "contractThru": "2026",
-      "optionYears": "2027"
+      "optionYears": "2027",
+      "transferFee": 3160000,
+      "joinedYear": 2024,
+      "guaranteedYears": 3
     },
     {
       "name": "Franco Negri",
@@ -231,5 +258,6 @@
   ],
   "rosterModel": "Designated Player Model",
   "availableGAM": 2310805,
-  "startingGAM": 6576431
+  "startingGAM": 6576431,
+  "GAMBalance": 250000
 }
