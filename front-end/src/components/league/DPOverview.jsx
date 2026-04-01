@@ -25,8 +25,8 @@ export default function DPOverview() {
 
   useEffect(() => {
     Promise.all([
-      fetch("http://localhost:8000/league/dps").then(res => res.json()),
-      fetch("http://localhost:8000/league/u22").then(res => res.json())
+      fetch("https://rosterview.onrender.com/league/dps").then(res => res.json()),
+      fetch("https://rosterview.onrender.com/league/u22").then(res => res.json())
     ])
       .then(([dpRows, u22Rows]) => {
         const dpArray = Array.isArray(dpRows) ? dpRows : dpRows.teams || dpRows.data || [];

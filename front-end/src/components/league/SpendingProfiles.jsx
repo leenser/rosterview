@@ -22,7 +22,7 @@ export default function SpendingProfiles() {
   }
 
   useEffect(() => {
-    fetch("http://localhost:8000/league/spending")
+    fetch("https://rosterview.onrender.com/league/spending")
       .then(res => res.json())
       .then(rows => {
         const normalized = rows.map(r => {

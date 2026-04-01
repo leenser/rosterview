@@ -152,7 +152,7 @@ function Team() {
       try {
         setLoading(true)
         setError("")
-        const res = await fetch(`http://localhost:8000/team/${slug}`)
+        const res = await fetch(`https://rosterview.onrender.com/team/${slug}`)
         if (!res.ok) throw new Error(`Request failed: ${res.status}`)
         const data = await res.json()
         setTeamData(data)

@@ -28,7 +28,7 @@ export default function GAMTable() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/league/gam")
+    fetch("https://rosterview.onrender.com/league/gam")
       .then(res => res.json())
       .then(rows => {
 

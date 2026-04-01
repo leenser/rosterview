@@ -16,7 +16,7 @@ export default function CapSpace() {
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/league/cap-space")
+    fetch("https://rosterview.onrender.com/league/cap-space")
       .then(res => res.json())
       .then(data => {
         const arr = Array.isArray(data) ? data : data.teams || [];

@@ -6,7 +6,7 @@ export default function PositionSpending() {
   const [sortKey, setSortKey] = useState("total")
 
   useEffect(() => {
-    fetch("http://localhost:8000/league/positions")
+    fetch("https://rosterview.onrender.com/league/positions")
       .then(res => res.json())
       .then(setData)
   }, [])
