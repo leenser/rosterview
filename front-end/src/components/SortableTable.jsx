@@ -5,8 +5,16 @@ export default function SortableTable({ columns, data }) {
   const [direction, setDirection] = useState("asc");
 
   const parseSortableValue = (value) => {
+    // React element with data-value prop (e.g. <span data-value={123}>)
+    if (value && typeof value === "object" && value.props !== undefined) {
+      const dv = value.props["data-value"];
+      if (dv !== undefined) return Number(dv);
+      // recurse into single child
+      if (value.props.children !== undefined) return parseSortableValue(value.props.children);
+      return 0;
+    }
     if (typeof value === "number") return value;
-    if (typeof value !== "string") return value;
+    if (typeof value !== "string") return 0;
     const trimmed = value.trim();
     if (trimmed.startsWith("$")) {
       const numeric = parseFloat(trimmed.replace(/[$,]/g, ""));
@@ -18,10 +26,17 @@ export default function SortableTable({ columns, data }) {
     return trimmed.toLowerCase();
   };
 
-  const sortedData = [...data].sort((a, b) => {
+  const getSortValue = (row, key) => {
+    // Check for a dedicated sort key (e.g. key + "_sort")
+    const sortKey_ = key + "_sort";
+    if (row[sortKey_] !== undefined) return row[sortKey_];
+    return parseSortableValue(row[key]);
+  };
+
+  const sortedData = [...(Array.isArray(data) ? data : [])].sort((a, b) => {
     if (!sortKey) return 0;
-    const aValue = parseSortableValue(a[sortKey]);
-    const bValue = parseSortableValue(b[sortKey]);
+    const aValue = getSortValue(a, sortKey);
+    const bValue = getSortValue(b, sortKey);
     if (aValue < bValue) return direction === "asc" ? -1 : 1;
     if (aValue > bValue) return direction === "asc" ? 1 : -1;
     return 0;

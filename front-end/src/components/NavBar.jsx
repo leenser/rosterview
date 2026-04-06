@@ -27,7 +27,7 @@ function NavBar({ page }) {
             <Link
               key={label}
               to={to}
-              className={`relative flex items-center px-4 py-5 text-sm font-medium transition-colors duration-150 ${
+              className={`relative flex items-center px-4 py-5 text-l font-bold transition-colors duration-150 ${
                 isActive
                   ? "text-white"
                   : "text-neutral-400 hover:text-neutral-200"

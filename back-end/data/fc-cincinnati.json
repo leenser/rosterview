@@ -268,6 +268,17 @@
       "status": "Homegrown"
     },
     {
+      "name": "Andrei Chirila",
+      "position": "CB",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "status": "Homegrown"
+    },
+    {
       "name": "Paul Walters",
       "position": "GK",
       "baseSalary": 104000,

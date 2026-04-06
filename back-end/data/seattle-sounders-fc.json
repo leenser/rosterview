@@ -225,6 +225,17 @@
       "status": "Homegrown"
     },
     {
+      "name": "Peter Kingston",
+      "position": "DM",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027-28",
+      "status": "Homegrown"
+    },
+    {
       "name": "Kim Kee-hee",
       "position": "CB",
       "baseSalary": 104000,

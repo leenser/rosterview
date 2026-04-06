@@ -26,7 +26,7 @@ export default function League() {
 
       {/* Page Header */}
       <div className="border-b border-neutral-800 bg-neutral-950">
-        <div className="max-w-7xl mx-auto px-8 pt-8 pb-0">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-8 pb-0">
           <h1 className="text-2xl font-bold text-white tracking-tight mb-1">
             League Overview
           </h1>
@@ -35,12 +35,12 @@ export default function League() {
           </p>
 
           {/* Tab Bar */}
-          <div className="flex gap-1">
+          <div className="flex gap-1 overflow-x-auto no-scrollbar">
             {TABS.map((tab) => (
               <button
                 key={tab.key}
                 onClick={() => setActiveTable(tab.key)}
-                className={`relative px-4 py-2.5 text-sm font-medium rounded-t-md transition-all duration-150 ${
+                className={`relative px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-t-md transition-all duration-150 whitespace-nowrap ${
                   activeTable === tab.key
                     ? "bg-neutral-800 text-white"
                     : "text-neutral-500 hover:text-neutral-300 hover:bg-neutral-900"
@@ -57,7 +57,7 @@ export default function League() {
       </div>
 
       {/* Content Panel */}
-      <div className="max-w-7xl mx-auto px-8 py-8">
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         
 
         <div>

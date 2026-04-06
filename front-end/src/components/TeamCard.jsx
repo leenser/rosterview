@@ -27,7 +27,7 @@ const teamColors = {
   "real-salt-lake": "#a6192e",
   "san-diego-fc": "#00a3e0",
   "san-jose-earthquakes": "#0066b3",
-  "seattle-sounders-fc": "#5d9732",
+  "seattle-sounders-fc": "#89e443ff",
   "sporting-kansas-city": "#93b1d7",
   "st-louis-city-sc": "#ed174c",
   "toronto-fc": "#a6192e",

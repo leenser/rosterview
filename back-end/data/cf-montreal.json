@@ -131,6 +131,15 @@
       "contractThru": "2026"
     },
     {
+      "name": "Frankie Amaya",
+      "position": "CM",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "contractThru": "2026",
+      "status":"Loan Player"
+    },
+    {
       "name": "Ivan Losenko",
       "position": "",
       "baseSalary": 0,

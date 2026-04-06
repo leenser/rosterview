@@ -4,18 +4,40 @@ import NavBar from "/src/components/NavBar"
 import Footer from "../components/Footer"
 
 const STAT_ITEMS = [
-  { label: "MLS Clubs", value: "30" },
-  { label: "Salary Cap", value: "$5.765M" },
-  { label: "Max DPs", value: "2 / 3" },
-  { label: "Max U22s", value: "3 / 4" },
-  { label: "TAM", value: "$2.225M" },
+  { label: "MLS Clubs", value: "30", type: "neutral" },
+  { label: "Base Cap", value: "$6.425M", type: "neutral" },
+  { label: "DP Player Model", value: "3 DPs / 3 U22s", type: "dp" },
+  { label: "U22 Initiative Player Model", value: "2 DPs / 4 U22s / +$2M GAM ", type: "u22" },
+  { label: "Total TAM", value: "$2.225M", type: "tam" },
+  { label: "Senior Slots", value: "1-20", type: "neutral" },
+  { label: "Supplemental Slots", value: "21-31", type: "supplemental" },
 ]
 
-function StatPill({ label, value }) {
+function StatPill({ label, value, type = "neutral" }) {
+  const styles = {
+    neutral: "border-neutral-700/50",
+    dp: "border-yellow-500/40 bg-yellow-500/5",
+    u22: "border-green-500/40 bg-green-500/5",
+    tam: "border-red-500/40 bg-red-500/5",
+    supplemental: "border-neutral-500/40 bg-neutral-800/40",
+  }
+
+  const accent = {
+    neutral: "bg-neutral-600",
+    dp: "bg-yellow-400",
+    u22: "bg-green-400",
+    tam: "bg-red-400",
+    supplemental: "bg-neutral-400",
+  }
+
   return (
-    <div className="flex flex-col items-center px-6 py-4 border border-neutral-700/50 rounded-lg bg-neutral-900/60 backdrop-blur-sm min-w-[120px]">
-      <span className="text-xl font-bold text-white tracking-tight">{value}</span>
-      <span className="text-xs text-neutral-500 uppercase tracking-widest mt-1">{label}</span>
+    <div className={`inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 sm:py-2 border rounded-full backdrop-blur-sm flex-shrink-0 ${styles[type]}`}>
+      <span className="text-sm sm:text-base font-semibold text-white tracking-tight">
+        {value}
+      </span>
+      <span className="text-[10px] sm:text-[11px] text-neutral-400 uppercase tracking-widest leading-tight">
+        {label}
+      </span>
     </div>
   )
 }
@@ -96,7 +118,7 @@ function Home() {
         <div className="absolute top-0 left-0 w-72 h-full bg-blue-900/10 blur-3xl pointer-events-none" />
 
 
-        <div className="relative max-w-7xl mx-auto px-8 pt-14 pb-12">
+        <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14 pb-10 sm:pb-12">
           <div className="flex items-center gap-2 mb-4">
             <span className="inline-block w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-xs text-neutral-500 uppercase tracking-widest font-medium">
@@ -104,24 +126,31 @@ function Home() {
             </span>
           </div>
 
-          <h1 className="text-5xl font-bold text-white tracking-tight leading-none mb-3">
+          <h1 className="text-3xl sm:text-5xl font-bold text-white tracking-tight leading-tight sm:leading-none mb-3">
             MLS <span className="text-blue-400">RosterView</span>
           </h1>
-          <p className="text-neutral-400 text-base max-w-xl leading-relaxed mb-10">
+          <p className="text-neutral-400 text-sm sm:text-base max-w-xl leading-relaxed mb-8 sm:mb-10">
             Explore roster construction, salary cap breakdowns, and spending
             patterns across all 30 Major League Soccer clubs.
           </p>
 
-          <div className="flex flex-wrap gap-3">
-            {STAT_ITEMS.map((s) => (
-              <StatPill key={s.label} label={s.label} value={s.value} />
-            ))}
+          <div className="relative overflow-hidden">
+            <div
+              className="flex gap-2 sm:gap-3 whitespace-nowrap w-max"
+              style={{
+                animation: "scroll 20s linear infinite",
+              }}
+            >
+              {[...STAT_ITEMS, ...STAT_ITEMS].map((s, i) => (
+                <StatPill key={i} label={s.label} value={s.value} type={s.type} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
 
       {/* Team Grid */}
-      <div className="max-w-7xl mx-auto px-8 py-10">
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-sm font-semibold text-neutral-400 uppercase tracking-widest">
             All Clubs
@@ -148,7 +177,7 @@ function Home() {
         )}
 
         {!loading && !error && (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
             {teams.map((team) => (
               <TeamCard key={team.id} name={team.name} slug={team.id} />
             ))}
@@ -156,6 +185,14 @@ function Home() {
         )}
       </div>
       <Footer />
+      <style>
+      {`
+      @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      `}
+      </style>
     </div>
     
   )

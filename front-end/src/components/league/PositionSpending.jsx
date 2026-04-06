@@ -22,7 +22,7 @@ export default function PositionSpending() {
     (team.gk || 0) + (team.defense || 0) + (team.midfield || 0) + (team.attack || 0)
 
   return (
-    <div className="space-y-8 w-full px-6">
+    <div className="space-y-6 w-full px-4 sm:px-6">
 
       <div className="flex flex-wrap gap-4 text-sm items-center border-b border-neutral-800 pb-3">
         <span className="text-gray-400 mr-2">Sort:</span>
@@ -33,96 +33,94 @@ export default function PositionSpending() {
         <button onClick={() => setSortKey("total")} className="text-gray-300 hover:underline">Total</button>
       </div>
 
-      {Array.from(new Map(data.map(t => [t.team, t])).values())
-        .sort((a, b) => {
-          if (sortKey === "total") return getTotal(b) - getTotal(a)
-          return (b[sortKey] || 0) - (a[sortKey] || 0)
-        })
-        .map(team => {
+      <div className="grid grid-cols-1 gap-4 sm:gap-6">
+        {Array.from(new Map(data.map(t => [t.team, t])).values())
+          .sort((a, b) => {
+            if (sortKey === "total") return getTotal(b) - getTotal(a)
+            return (b[sortKey] || 0) - (a[sortKey] || 0)
+          })
+          .map(team => {
 
-        const total =
-          (team.gk || 0) +
-          (team.defense || 0) +
-          (team.midfield || 0) +
-          (team.attack || 0)
+            const total =
+              (team.gk || 0) +
+              (team.defense || 0) +
+              (team.midfield || 0) +
+              (team.attack || 0)
 
-        const safeTotal = total === 0 ? 1 : total
+            const safeTotal = total === 0 ? 1 : total
 
-        return (
-          <div key={`${team.team}-${sortKey}`} className="w-full bg-neutral-900 border border-neutral-800 rounded-lg p-4 flex flex-col gap-3">
+            return (
+              <div key={`${team.team}-${sortKey}`} className="w-full bg-neutral-900 border border-neutral-800 rounded-lg p-3 sm:p-4 flex flex-col gap-3">
 
-            <div className="flex justify-between items-center">
-              <a
-                href={`/team/${team.team
-                  .toLowerCase()
-                  .replace(/\./g, "")
-                  .replace(/ /g, "-")
-                  .replace("dc-united", "d-c-united")}`}
-                className="flex items-center gap-2 font-medium hover:underline"
-              >
-                <img
-                  src={`/logos/${team.team
-                    .toLowerCase()
-                    .replace(/\./g, "")
-                    .replace(/ /g, "-")
-                    .replace("dc-united", "d-c-united")}.png`}
-                  alt={team.team}
-                  className="w-5 h-5 object-contain"
-                />
-                <span>{team.team}</span>
-              </a>
+                <div className="flex justify-between items-center">
+                  <a
+                    href={`/team/${team.team
+                      .toLowerCase()
+                      .replace(/\./g, "")
+                      .replace(/ /g, "-")
+                      .replace("dc-united", "d-c-united")}`}
+                    className="flex items-center gap-2 font-medium hover:underline"
+                  >
+                    <img
+                      src={`/logos/${team.team
+                        .toLowerCase()
+                        .replace(/\./g, "")
+                        .replace(/ /g, "-")
+                        .replace("dc-united", "d-c-united")}.png`}
+                      alt={team.team}
+                      className="w-5 h-5 object-contain"
+                    />
+                    <span className="text-sm sm:text-base">{team.team}</span>
+                  </a>
 
-              <span className="text-sm font-semibold text-neutral-300">
-                {formatMoney(total)}
-              </span>
-            </div>
+                  <span className="text-xs sm:text-sm font-semibold text-neutral-300">
+                    {formatMoney(total)}
+                  </span>
+                </div>
 
-            <div className="flex h-4 rounded overflow-hidden w-full">
+                <div className="flex h-4 sm:h-5 rounded overflow-hidden w-full">
 
-              <div
-                className="bg-blue-500 border-r border-gray-900 flex items-center justify-center text-[10px] text-white font-semibold"
-                title={`GK: ${formatMoney(team.gk)}`}
-                style={{ width: `${(team.gk / safeTotal) * 100}%` }}
-              >
-                {(team.gk / safeTotal) > 0.12 ? formatMoney(team.gk) : ""}
+                  <div
+                    className="bg-blue-500 border-r border-gray-900 flex items-center justify-center text-[10px] text-white font-semibold"
+                    style={{ width: `${(team.gk / safeTotal) * 100}%` }}
+                  >
+                    {(team.gk / safeTotal) > 0.15 ? formatMoney(team.gk) : ""}
+                  </div>
+
+                  <div
+                    className="bg-green-500 border-r border-gray-900 flex items-center justify-center text-[10px] text-white font-semibold"
+                    style={{ width: `${(team.defense / safeTotal) * 100}%` }}
+                  >
+                    {(team.defense / safeTotal) > 0.15 ? formatMoney(team.defense) : ""}
+                  </div>
+
+                  <div
+                    className="bg-yellow-500 border-r border-gray-900 flex items-center justify-center text-[10px] text-white font-semibold"
+                    style={{ width: `${(team.midfield / safeTotal) * 100}%` }}
+                  >
+                    {(team.midfield / safeTotal) > 0.15 ? formatMoney(team.midfield) : ""}
+                  </div>
+
+                  <div
+                    className="bg-red-500 flex items-center justify-center text-[10px] text-white font-semibold"
+                    style={{ width: `${(team.attack / safeTotal) * 100}%` }}
+                  >
+                    {(team.attack / safeTotal) > 0.15 ? formatMoney(team.attack) : ""}
+                  </div>
+
+                </div>
+
+                <div className="flex justify-between text-[10px] sm:text-xs text-neutral-400 mt-1">
+                  <span>GK</span>
+                  <span>DEF</span>
+                  <span>MID</span>
+                  <span>ATT</span>
+                </div>
+
               </div>
-
-              <div
-                className="bg-green-500 border-r border-gray-900 flex items-center justify-center text-[10px] text-white font-semibold"
-                title={`Defense: ${formatMoney(team.defense)}`}
-                style={{ width: `${(team.defense / safeTotal) * 100}%` }}
-              >
-                {(team.defense / safeTotal) > 0.12 ? formatMoney(team.defense) : ""}
-              </div>
-
-              <div
-                className="bg-yellow-500 border-r border-gray-900 flex items-center justify-center text-[10px] text-white font-semibold"
-                title={`Midfield: ${formatMoney(team.midfield)}`}
-                style={{ width: `${(team.midfield / safeTotal) * 100}%` }}
-              >
-                {(team.midfield / safeTotal) > 0.12 ? formatMoney(team.midfield) : ""}
-              </div>
-
-              <div
-                className="bg-red-500 flex items-center justify-center text-[10px] text-white font-semibold"
-                title={`Attack: ${formatMoney(team.attack)}`}
-                style={{ width: `${(team.attack / safeTotal) * 100}%` }}
-              >
-                {(team.attack / safeTotal) > 0.12 ? formatMoney(team.attack) : ""}
-              </div>
-
-            </div>
-
-            <div className="flex justify-between text-xs text-neutral-400 mt-1">
-              <span>GK</span>
-              <span>DEF</span>
-              <span>MID</span>
-              <span>ATT</span>
-            </div>
-
-          </div>
-        )
-      })}
+            )
+          })}
+      </div>
 
     </div>
   )
