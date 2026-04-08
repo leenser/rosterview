@@ -89,6 +89,8 @@ function TransferBadge({ label, value }) {
 function StatusBadge({ status }) {
   if (status === "Unavailable – Injured List")
     return <span className="text-xs px-2 py-0.5 rounded bg-red-500/20 text-red-400 border border-red-500/30">Injured</span>
+  if (status === "Unavailable – SEI")
+    return <span className="text-xs px-2 py-0.5 rounded bg-red-500/20 text-red-400 border border-red-500/30">SEI</span>
   if (status === "Unavailable – On Loan")
     return <span className="text-xs px-2 py-0.5 rounded bg-yellow-500/20 text-yellow-300 border border-yellow-500/30">Loaned Out</span>
   if (status === "Loan Player")
@@ -184,7 +186,7 @@ function Team() {
     const link = document.querySelector("link[rel~='icon']")
     if (!link) return
 
-    link.href = "/rosterview_logo.jpg"
+    link.href = "/rosterview_logo.png"
   }, [])
 
   if (loading)

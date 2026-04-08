@@ -285,5 +285,5 @@
   "rosterModel": "U22 Initiative Player Model",
   "availableGAM": 4788001,
   "startingGAM": 3180000,
-  "GAMBalance": 0
+  "GAMBalance": -50000
 }

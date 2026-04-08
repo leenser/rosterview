@@ -137,7 +137,7 @@
       "guaranteedComp": 0,
       "international": false,
       "contractThru": "2026",
-      "status":"Loan Player"
+      "status": "Loan Player"
     },
     {
       "name": "Ivan Losenko",
@@ -328,5 +328,5 @@
   "rosterModel": "U22 Initiative Player Model",
   "availableGAM": 3247472,
   "startingGAM": 6008069,
-  "GAMBalance": 500000
+  "GAMBalance": 0
 }

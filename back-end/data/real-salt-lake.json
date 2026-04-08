@@ -31,7 +31,7 @@
       "guaranteedComp": 0,
       "international": true,
       "role": "U22 Initiative",
-      "status": "Loan Player; Unavailable – Injured List",
+      "status": "Loan Player",
       "contractThru": "July 13, 2026",
       "optionYears": "PT: 2028-29",
       "transferFee": 1950000,
@@ -312,7 +312,7 @@
       "contractThru": "2026",
       "optionYears": "2027, 2028",
       "role": "Supplemental Roster",
-      "status":"Unavailable – On Loan"
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Owen Anderson",
@@ -427,5 +427,5 @@
   "rosterModel": "U22 Initiative Player Model",
   "availableGAM": 4435148,
   "startingGAM": 6947461,
-  "GAMBalance": 1150000
+  "GAMBalance": 0
 }

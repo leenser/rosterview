@@ -57,7 +57,7 @@ export default function GAMTable() {
           const start = r.start ?? r.starting_gam ?? 0;
           const release = r.release ?? r.remaining_gam ?? 0;
           const estimated = r.estimated ?? r.gam_balance ?? 0;
-          const netValue = start - release + estimated;
+          const netValue = release + estimated;
 
           const netDisplay = (
             <span data-value={netValue}>
