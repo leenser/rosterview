@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { getTeamSlug } from "../../utils/teamSlug";
 
 export default function DPOverview() {
 
@@ -9,18 +11,6 @@ export default function DPOverview() {
     if (value >= 1000000) return `$${(value / 1000000).toFixed(1)}M`;
     if (value >= 1000) return `$${(value / 1000).toFixed(0)}k`;
     return `$${value}`;
-  };
-
-  const getSlug = (teamName) => {
-    let slug = teamName
-      .toLowerCase()
-      .replace(/\./g, "")
-      .replace(/ /g, "-");
-
-    if (slug === "dc-united") slug = "d-c-united";
-    if (slug === "st-louis-city-sc") slug = "st-louis-city-sc";
-
-    return slug;
   };
 
   useEffect(() => {
@@ -67,7 +57,7 @@ export default function DPOverview() {
     <div className="space-y-6">
 
       {teamData.map((team, i) => {
-        const slug = getSlug(team.team);
+        const slug = getTeamSlug(team.team);
 
         return (
           <div key={i} className="border border-gray-800 rounded-xl overflow-hidden bg-[#111827]">
@@ -79,9 +69,9 @@ export default function DPOverview() {
                 alt={team.team}
                 className="w-5 h-5 object-contain"
               />
-              <a href={`/team/${slug}`} className="font-medium hover:underline">
+              <Link to={`/team/${slug}`} className="font-medium hover:underline">
                 {team.team}
-              </a>
+              </Link>
             </div>
 
             <div className="grid grid-cols-2">

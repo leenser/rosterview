@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import SortableTable from "../SortableTable";
+import { getTeamSlug } from "../../utils/teamSlug";
 
 function formatMoney(num) {
   if (!num) return "$0";
@@ -30,10 +31,6 @@ export default function CapSpace() {
       .catch(err => console.error("Failed to load cap space", err));
   }, []);
 
-  function getSlug(name) {
-    return name.toLowerCase().replace(/ /g, "-").replace(/[^a-z-]/g, "");
-  }
-
   const columns = [
     { key: "team", label: "Team" },
     { key: "cap", label: "Estimated Cap Space" },
@@ -42,7 +39,7 @@ export default function CapSpace() {
   ];
 
   const tableData = teams.map(team => {
-    const slug = getSlug(team.team);
+    const slug = getTeamSlug(team.team);
 
     return {
       team: (

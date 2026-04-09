@@ -43,6 +43,7 @@ class Team:
         inactive_statuses = [
             "Unavailable – On Loan",
             "Unavailable – Off Roster",
+            "Unavailable – Injured",
             "Unavailable – SEI"
         ]
 
@@ -95,7 +96,7 @@ class Team:
     def count_senior(self) -> int:
         return sum(
             1 for p in self.roster
-            if (p.role != "Supplemental Roster" and p.status != "Unavailable \u2013 %injured List" and p.status != "Unavailable \u2013 SEI" and p.status != "Unavailable \u2013 On Loan" and p.status != "Unavailable – Off Roster")
+            if (p.role != "Supplemental Roster" and p.status != "Unavailable \u2013 %Injured List" and p.status != "Unavailable \u2013 SEI" and p.status != "Unavailable \u2013 On Loan" and p.status != "Unavailable – Off Roster")
         )
     
     def is_dp_compliant(self) -> bool:

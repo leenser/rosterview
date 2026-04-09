@@ -100,6 +100,18 @@ function StatusBadge({ status }) {
   return null
 }
 
+function InternationalBadge() {
+  return (
+    <span
+      className="inline-flex items-center justify-center w-5 h-5 rounded-full text-[11px] leading-none"
+      title="Occupies an international roster spot"
+      aria-label="Occupies an international roster spot"
+    >
+      ✈︎
+    </span>
+  )
+}
+
 function Team() {
   const { slug } = useParams()
 
@@ -291,8 +303,8 @@ function Team() {
                     >
                       Total Salary {sortKey === "salary" ? (sortDir === "asc" ? "↑" : "↓") : ""}
                     </th>
-                    <th className="hidden sm:table-cell text-right px-3 py-2">Cap Hit</th>
-                    <th className="hidden md:table-cell text-left px-3 py-2">Contract Through (Option Years)</th>
+                    <th className="text-right px-3 py-2">Cap Hit</th>
+                    <th className="text-left px-3 py-2">Contract Through (Option Years)</th>
                   </tr>
                 </thead>
 
@@ -312,6 +324,7 @@ function Team() {
                           <div className="flex flex-col gap-1.5">
                             <div className="flex items-center gap-2 flex-wrap">
                               <span className="font-medium text-white text-xs sm:text-sm">{player.name}</span>
+                              {player.is_international && <InternationalBadge />}
                               <StatusBadge status={player.status} />
                             </div>
                             {hasTransfer && (
@@ -338,11 +351,11 @@ function Team() {
                           ${player.guaranteed_comp.toLocaleString()}
                         </td>
 
-                        <td className="hidden sm:table-cell px-3 py-1.5 text-right text-sm">
+                        <td className="px-3 py-1.5 text-right text-sm">
                           ${player.cap_hit.toLocaleString()}
                         </td>
 
-                        <td className="hidden md:table-cell px-3 py-1.5 text-neutral-300 text-sm">
+                        <td className="px-3 py-1.5 text-neutral-300 text-sm">
                           {(() => {
                             const through = player.contract_through
                             const options = player.option_years
@@ -431,7 +444,7 @@ function Team() {
             <div className="bg-neutral-900 border border-neutral-800 p-2.5 sm:p-3 rounded flex justify-between items-center">
               <p className="text-sm text-neutral-300 font-semibold flex items-center">
                 Senior Roster
-                <InfoIcon text="Players occupying roster slots 1-20 which count towards the salary budget." />
+                <InfoIcon text="Players occupying roster slots 1-20 whose salaries count towards the salary budget." />
               </p>
               <p className="text-sm font-semibold text-right">{teamData.counts?.senior_players ?? 0}/20</p>
             </div>
@@ -439,13 +452,16 @@ function Team() {
             <div className="bg-neutral-900 border border-neutral-800 p-2.5 sm:p-3 rounded flex justify-between items-center">
               <p className="text-sm text-neutral-300 font-semibold flex items-center">
                 Supplemental Roster
-                <InfoIcon text="Players in roster spots 21-30 whose salaries usually do not count against the cap." />
+                <InfoIcon text="Players in roster spots 21-30 whose salaries do not count against the cap." />
               </p>
               <p className="text-sm font-semibold text-right">{teamData.counts?.supplemental_players ?? 0}</p>
             </div>
 
             <div className="bg-neutral-900 border border-neutral-800 p-2.5 sm:p-3 rounded flex justify-between items-center">
-              <p className="text-sm text-neutral-300 font-semibold">International Slots Used</p>
+              <p className="text-sm text-neutral-300 font-semibold">
+                International Spots
+                 <InfoIcon text="Every season, each team is given 8 International Spots. They are allowed to trade these spots with other teams" />
+              </p>
               <p className="text-sm font-semibold text-right">
                 {teamData.validation?.summary?.international_slots_used ?? 0}
               </p>
@@ -463,7 +479,7 @@ function Team() {
 
             <div className="bg-neutral-900 border border-neutral-800 p-2.5 sm:p-3 rounded flex justify-between items-center">
               <p className="text-sm text-neutral-300 font-semibold flex items-center">
-                Remaining Cap Space
+                Estimated Cap Remaining
                 <InfoIcon text="An estimate of how much salary cap room the team still has left." />
               </p>
               <p className="text-sm font-semibold text-right">

@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
+import { getTeamSlug } from "../../utils/teamSlug"
 
 export default function PositionSpending() {
 
@@ -40,6 +42,7 @@ export default function PositionSpending() {
             return (b[sortKey] || 0) - (a[sortKey] || 0)
           })
           .map(team => {
+            const slug = getTeamSlug(team.team)
 
             const total =
               (team.gk || 0) +
@@ -53,25 +56,14 @@ export default function PositionSpending() {
               <div key={`${team.team}-${sortKey}`} className="w-full bg-neutral-900 border border-neutral-800 rounded-lg p-3 sm:p-4 flex flex-col gap-3">
 
                 <div className="flex justify-between items-center">
-                  <a
-                    href={`/team/${team.team
-                      .toLowerCase()
-                      .replace(/\./g, "")
-                      .replace(/ /g, "-")
-                      .replace("dc-united", "d-c-united")}`}
-                    className="flex items-center gap-2 font-medium hover:underline"
-                  >
+                  <Link to={`/team/${slug}`} className="flex items-center gap-2 font-medium hover:underline">
                     <img
-                      src={`/logos/${team.team
-                        .toLowerCase()
-                        .replace(/\./g, "")
-                        .replace(/ /g, "-")
-                        .replace("dc-united", "d-c-united")}.png`}
+                      src={`/logos/${slug}.png`}
                       alt={team.team}
                       className="w-5 h-5 object-contain"
                     />
                     <span className="text-sm sm:text-base">{team.team}</span>
-                  </a>
+                  </Link>
 
                   <span className="text-xs sm:text-sm font-semibold text-neutral-300">
                     {formatMoney(total)}

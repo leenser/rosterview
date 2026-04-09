@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import SortableTable from "../SortableTable";
+import { getTeamSlug } from "../../utils/teamSlug";
 
 export default function SpendingProfiles() {
 
@@ -26,18 +28,11 @@ export default function SpendingProfiles() {
       .then(res => res.json())
       .then(rows => {
         const normalized = rows.map(r => {
-          let slug = r.team
-            .toLowerCase()
-            .replace(/\./g, "")
-            .replace(/ /g, "-")
-
-          // Handle special logo filenames
-          if (slug === "dc-united") slug = "d-c-united"
-          if (slug === "st-louis-city-sc") slug = "st-louis-city-sc"
+          const slug = getTeamSlug(r.team)
 
           const teamCell = (
-            <a
-              href={`/team/${slug}`}
+            <Link
+              to={`/team/${slug}`}
               className="flex items-center gap-2 hover:underline"
             >
               <img
@@ -46,7 +41,7 @@ export default function SpendingProfiles() {
                 className="w-5 h-5 object-contain"
               />
               <span>{r.team}</span>
-            </a>
+            </Link>
           )
 
           return {

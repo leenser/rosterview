@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import SortableTable from "../SortableTable";
+import { getTeamSlug } from "../../utils/teamSlug";
 
 export default function GAMTable() {
 
@@ -39,19 +41,13 @@ export default function GAMTable() {
 
         const normalized = rows.map(r => {
           const teamName = r.team;
-
-          let slug = teamName
-            .toLowerCase()
-            .replace(/\./g, "")
-            .replace(/ /g, "-");
-
-          if (slug === "dc-united") slug = "d-c-united";
+          const slug = getTeamSlug(teamName);
 
           const teamCell = (
-            <a href={`/team/${slug}`} className="flex items-center gap-2 hover:underline">
+            <Link to={`/team/${slug}`} className="flex items-center gap-2 hover:underline">
               <img src={`/logos/${slug}.png`} alt={teamName} className="w-5 h-5 object-contain" />
               <span>{teamName}</span>
-            </a>
+            </Link>
           );
 
           const start = r.start ?? r.starting_gam ?? 0;
