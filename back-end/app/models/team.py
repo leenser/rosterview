@@ -43,7 +43,7 @@ class Team:
         inactive_statuses = [
             "Unavailable – On Loan",
             "Unavailable – Off Roster",
-            "Unavailable – Injured",
+            "Unavailable – Injured List",
             "Unavailable – SEI"
         ]
 
@@ -83,7 +83,7 @@ class Team:
     
     def count_designation(self, role) -> int:
         return sum(
-            1 for p in self.roster
+            1 for p in self.active_players()
             if p.role == role
         )
     
