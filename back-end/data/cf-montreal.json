@@ -41,7 +41,7 @@
       "position": "",
       "baseSalary": 0,
       "guaranteedComp": 0,
-      "international": true,
+      "international": false,
       "role": "U22 Initiative",
       "contractThru": "2028",
       "optionYears": "2029",
@@ -54,7 +54,7 @@
       "position": "RW",
       "baseSalary": 458333,
       "guaranteedComp": 598560,
-      "international": true,
+      "international": false,
       "role": "TAM Player",
       "contractThru": "2026",
       "optionYears": "2027"
@@ -64,7 +64,7 @@
       "position": "ST",
       "baseSalary": 900000,
       "guaranteedComp": 1007500,
-      "international": true,
+      "international": false,
       "role": "TAM Player",
       "contractThru": "2027-28",
       "optionYears": "2028-29, 2029-30"

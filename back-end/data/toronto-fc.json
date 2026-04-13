@@ -115,7 +115,7 @@
       "position": "CM",
       "baseSalary": 200012,
       "guaranteedComp": 235012,
-      "international": true,
+      "international": false,
       "contractThru": "2027",
       "optionYears": "2028"
     },
@@ -162,7 +162,7 @@
       "position": "CB",
       "baseSalary": 80622,
       "guaranteedComp": 80622,
-      "international": true,
+      "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
     },
@@ -181,7 +181,7 @@
       "position": "CB",
       "baseSalary": 115000,
       "guaranteedComp": 127891,
-      "international": true,
+      "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
       "transferFee": 459000,

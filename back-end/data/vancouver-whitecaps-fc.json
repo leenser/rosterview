@@ -6,7 +6,7 @@
       "position": "AM",
       "baseSalary": 3500000,
       "guaranteedComp": 3675000,
-      "international": true,
+      "international": false,
       "role": "Designated Player",
       "status": "Unavailable – Injured List",
       "contractThru": "2027"
@@ -86,7 +86,7 @@
       "position": "DM",
       "baseSalary": 1050000,
       "guaranteedComp": 1146375,
-      "international": true,
+      "international": false,
       "role": "TAM Player",
       "contractThru": "2027-28"
     },
@@ -220,7 +220,7 @@
       "position": "CB",
       "baseSalary": 670000,
       "guaranteedComp": 737125,
-      "international": true,
+      "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
     },
