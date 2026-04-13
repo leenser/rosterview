@@ -62,6 +62,16 @@
       "optionYears": "2027"
     },
     {
+      "name": "Rodolfo Aloko",
+      "position": "RW",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": true,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31"
+    },
+    {
       "name": "Idan Toklomati",
       "position": "ST",
       "baseSalary": 415000,
