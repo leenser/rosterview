@@ -7,11 +7,11 @@ export default function GAMTable() {
 
   const columns = [
     { key: "team", label: "Team" },
-    { key: "start", label: "GAM Start of Year" },
-    { key: "release", label: "GAM Last Release" },
-    { key: "estimated", label: "Estimated GAM Spend since last release" },
-    { key: "estimatedLeft", label: "Estimated GAM Left" },
-    { key: "net", label: "Net GAM Spend" }
+    { key: "start", label: "Start" },
+    { key: "release", label: "Last Release" },
+    { key: "estimated", label: "Spent" },
+    { key: "estimatedLeft", label: "GAM Left" },
+    { key: "net", label: "Net" }
   ];
 
   function formatMoney(num) {
@@ -45,8 +45,8 @@ export default function GAMTable() {
           const slug = getTeamSlug(teamName);
 
           const teamCell = (
-            <Link to={`/team/${slug}`} className="flex items-center gap-2 hover:underline">
-              <img src={`/logos/${slug}.png`} alt={teamName} className="w-5 h-5 object-contain" />
+            <Link to={`/team/${slug}`} className="flex items-center gap-1.5 hover:underline">
+              <img src={`/logos/${slug}.png`} alt={teamName} className="h-4 w-4 object-contain" />
               <span>{teamName}</span>
             </Link>
           );
@@ -55,7 +55,7 @@ export default function GAMTable() {
           const release = r.release ?? r.remaining_gam ?? 0;
           const estimated = r.estimated ?? r.gam_balance ?? 0;
           const estimatedLeft = r.estimated_gam_left ?? (release + estimated);
-          const netValue = release + estimated;
+          const netValue = start - estimatedLeft;
 
           const netDisplay = (
             <span data-value={netValue}>
@@ -99,7 +99,7 @@ export default function GAMTable() {
 
   return (
     <div>
-      <SortableTable columns={columns} data={data} />
+      <SortableTable columns={columns} data={data} compact />
     </div>
   );
 }

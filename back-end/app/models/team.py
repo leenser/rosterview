@@ -161,7 +161,10 @@ class Team:
             "dp_count": dp_count,
             "dp_limit": self.total_dp_spots(),
             "u22_count": u22_count,
-            "u22_limit": self.total_U22_spots()
+            "u22_limit": self.total_U22_spots(),
+            "remaining_gam": self.get_remaining_gam(),
+            "estimated_gam_left": self.get_estimated_gam_left(),
+            "international_slots_used": self.international_slots_used(),
         }
 
     def validate_roster(self):

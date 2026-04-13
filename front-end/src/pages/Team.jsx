@@ -101,13 +101,30 @@ function StatusBadge({ status }) {
 }
 
 function InternationalBadge() {
+  const [open, setOpen] = useState(false)
+
   return (
     <span
-      className="inline-flex items-center justify-center w-5 h-5 rounded-full text-[11px] leading-none"
-      title="Occupies an international roster spot"
-      aria-label="Occupies an international roster spot"
+      className="relative inline-flex items-center"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
     >
-      ✈︎
+      <span
+        className="inline-flex items-center justify-center w-5 h-5 rounded-full text-[11px] leading-none cursor-help"
+        aria-label="Occupies an international roster spot"
+        onClick={() => setOpen((prev) => !prev)}
+      >
+        ✈︎
+      </span>
+
+      <span
+        className={`absolute bottom-full left-1/2 z-50 mb-2 w-56 -translate-x-1/2 rounded border border-neutral-700 bg-neutral-800 px-3 py-2 text-xs leading-relaxed text-neutral-200 shadow-lg transition-opacity duration-150 whitespace-normal ${
+          open ? "opacity-100" : "pointer-events-none opacity-0"
+        }`}
+      >
+        Occupies an international roster spot.
+        <span className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-neutral-700" />
+      </span>
     </span>
   )
 }

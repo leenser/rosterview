@@ -23,6 +23,20 @@ export default function PositionSpending() {
   const getTotal = (team) =>
     (team.gk || 0) + (team.defense || 0) + (team.midfield || 0) + (team.attack || 0)
 
+  const segmentClasses = {
+    gk: "bg-blue-500",
+    defense: "bg-green-500",
+    midfield: "bg-yellow-500",
+    attack: "bg-red-500",
+  }
+
+  const labelClasses = {
+    gk: "text-blue-300",
+    defense: "text-green-300",
+    midfield: "text-yellow-300",
+    attack: "text-red-300",
+  }
+
   return (
     <div className="space-y-6 w-full px-4 sm:px-6">
 
@@ -70,31 +84,31 @@ export default function PositionSpending() {
                   </span>
                 </div>
 
-                <div className="flex h-4 sm:h-5 rounded overflow-hidden w-full">
+                <div className="flex h-5 sm:h-6 rounded overflow-hidden w-full bg-neutral-950/80">
 
                   <div
-                    className="bg-blue-500 border-r border-gray-900 flex items-center justify-center text-[10px] text-white font-semibold"
+                    className={`${segmentClasses.gk} border-r border-gray-900 flex items-center justify-center px-1 text-[10px] text-white font-semibold`}
                     style={{ width: `${(team.gk / safeTotal) * 100}%` }}
                   >
                     {(team.gk / safeTotal) > 0.15 ? formatMoney(team.gk) : ""}
                   </div>
 
                   <div
-                    className="bg-green-500 border-r border-gray-900 flex items-center justify-center text-[10px] text-white font-semibold"
+                    className={`${segmentClasses.defense} border-r border-gray-900 flex items-center justify-center px-1 text-[10px] text-white font-semibold`}
                     style={{ width: `${(team.defense / safeTotal) * 100}%` }}
                   >
                     {(team.defense / safeTotal) > 0.15 ? formatMoney(team.defense) : ""}
                   </div>
 
                   <div
-                    className="bg-yellow-500 border-r border-gray-900 flex items-center justify-center text-[10px] text-white font-semibold"
+                    className={`${segmentClasses.midfield} border-r border-gray-900 flex items-center justify-center px-1 text-[10px] text-white font-semibold`}
                     style={{ width: `${(team.midfield / safeTotal) * 100}%` }}
                   >
                     {(team.midfield / safeTotal) > 0.15 ? formatMoney(team.midfield) : ""}
                   </div>
 
                   <div
-                    className="bg-red-500 flex items-center justify-center text-[10px] text-white font-semibold"
+                    className={`${segmentClasses.attack} flex items-center justify-center px-1 text-[10px] text-white font-semibold`}
                     style={{ width: `${(team.attack / safeTotal) * 100}%` }}
                   >
                     {(team.attack / safeTotal) > 0.15 ? formatMoney(team.attack) : ""}
@@ -102,11 +116,23 @@ export default function PositionSpending() {
 
                 </div>
 
-                <div className="flex justify-between text-[10px] sm:text-xs text-neutral-400 mt-1">
-                  <span>GK</span>
-                  <span>DEF</span>
-                  <span>MID</span>
-                  <span>ATT</span>
+                <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 mt-1">
+                  <div className="rounded-xl border border-white/8 bg-white/[0.03] px-2.5 py-2">
+                    <div className={`text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.18em] ${labelClasses.gk}`}>GK</div>
+                    <div className="mt-1 text-xs sm:text-sm text-white">{formatMoney(team.gk || 0)}</div>
+                  </div>
+                  <div className="rounded-xl border border-white/8 bg-white/[0.03] px-2.5 py-2">
+                    <div className={`text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.18em] ${labelClasses.defense}`}>DEF</div>
+                    <div className="mt-1 text-xs sm:text-sm text-white">{formatMoney(team.defense || 0)}</div>
+                  </div>
+                  <div className="rounded-xl border border-white/8 bg-white/[0.03] px-2.5 py-2">
+                    <div className={`text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.18em] ${labelClasses.midfield}`}>MID</div>
+                    <div className="mt-1 text-xs sm:text-sm text-white">{formatMoney(team.midfield || 0)}</div>
+                  </div>
+                  <div className="rounded-xl border border-white/8 bg-white/[0.03] px-2.5 py-2">
+                    <div className={`text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.18em] ${labelClasses.attack}`}>FOR</div>
+                    <div className="mt-1 text-xs sm:text-sm text-white">{formatMoney(team.attack || 0)}</div>
+                  </div>
                 </div>
 
               </div>

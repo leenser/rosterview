@@ -33,9 +33,11 @@ export default function CapSpace() {
 
   const columns = [
     { key: "team", label: "Team" },
-    { key: "cap", label: "Estimated Cap Space" },
-    { key: "dp", label: "Open DP Spots" },
-    { key: "u22", label: "Open U22 Spots" }
+    { key: "cap", label: "Cap Space" },
+    { key: "gam", label: "GAM Left" },
+    { key: "intl", label: "Intl Used" },
+    { key: "dp", label: "Open DP" },
+    { key: "u22", label: "Open U22" }
   ];
 
   const tableData = teams.map(team => {
@@ -45,21 +47,28 @@ export default function CapSpace() {
       team: (
         <Link
           to={`/team/${slug}`}
-          className="flex items-center gap-2 hover:underline"
+          className="flex items-center gap-1.5 hover:underline"
         >
           <img
             src={`/logos/${slug}.png`}
             alt={team.team}
-            className="w-5 h-5 object-contain"
+            className="h-4 w-4 object-contain"
           />
           {team.team}
         </Link>
       ),
       cap: formatMoney(team.remaining_cap_space),
+      cap_sort: team.remaining_cap_space ?? 0,
+      gam: formatMoney(team.estimated_gam_left ?? team.remaining_gam ?? 0),
+      gam_sort: team.estimated_gam_left ?? team.remaining_gam ?? 0,
+      intl: team.international_slots_used ?? 0,
+      intl_sort: team.international_slots_used ?? 0,
       dp: Math.max(0, (team.dp_limit || 3) - (team.dp_count || 0)),
-      u22: Math.max(0, (team.u22_limit || 3) - (team.u22_count || 0))
+      dp_sort: Math.max(0, (team.dp_limit || 3) - (team.dp_count || 0)),
+      u22: Math.max(0, (team.u22_limit || 3) - (team.u22_count || 0)),
+      u22_sort: Math.max(0, (team.u22_limit || 3) - (team.u22_count || 0))
     };
   });
 
-  return <SortableTable columns={columns} data={tableData} />;
+  return <SortableTable columns={columns} data={tableData} compact />;
 }

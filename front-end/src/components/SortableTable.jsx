@@ -1,8 +1,26 @@
 import { useState } from "react";
 
-export default function SortableTable({ columns, data }) {
+export default function SortableTable({ columns, data, compact = false }) {
   const [sortKey, setSortKey] = useState(null);
   const [direction, setDirection] = useState("asc");
+  const rowCount = Array.isArray(data) ? data.length : 0;
+  const tableSizeClasses = compact
+    ? {
+        shell: "rounded-2xl",
+        headerWrap: "px-3 py-2.5 sm:px-4",
+        countPill: "px-2.5 py-1 text-[11px]",
+        table: "text-[13px]",
+        th: "px-2.5 py-2.5 text-[10px] tracking-[0.16em] first:pl-4 last:pr-4",
+        td: "px-2.5 py-3 text-[13px] first:pl-4 last:pr-4",
+      }
+    : {
+        shell: "rounded-3xl",
+        headerWrap: "px-4 py-3 sm:px-5",
+        countPill: "px-3 py-1 text-xs",
+        table: "text-sm",
+        th: "px-4 py-3.5 text-[11px] tracking-[0.2em] first:pl-5 last:pr-5",
+        td: "px-4 py-4 text-sm first:pl-5 last:pr-5",
+      };
 
   const parseSortableValue = (value) => {
     // React element with data-value prop (e.g. <span data-value={123}>)
@@ -52,19 +70,34 @@ export default function SortableTable({ columns, data }) {
   };
 
   return (
-    <div className="w-full overflow-x-auto rounded-lg border border-neutral-800">
-      <table className="min-w-full border-collapse text-sm">
+    <div className={`overflow-hidden border border-white/10 bg-neutral-950/70 shadow-[0_24px_80px_rgba(0,0,0,0.45)] ring-1 ring-white/5 backdrop-blur-xl ${tableSizeClasses.shell}`}>
+      <div className={`flex items-center justify-between border-b border-white/8 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.02))] ${tableSizeClasses.headerWrap}`}>
+        <div>
+          <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-neutral-500">
+            League Table
+          </p>
+          <p className={`${compact ? "mt-0.5 text-[12px]" : "mt-1 text-sm"} text-neutral-300`}>
+            Click any header to sort the table.
+          </p>
+        </div>
+        <div className={`rounded-full border border-white/10 bg-white/5 font-medium text-neutral-300 ${tableSizeClasses.countPill}`}>
+          {rowCount} clubs
+        </div>
+      </div>
+
+      <div className="w-full overflow-x-auto">
+      <table className={`min-w-full border-separate border-spacing-0 ${tableSizeClasses.table}`}>
         <thead>
-          <tr className="bg-neutral-900 border-b border-neutral-800">
+          <tr className="bg-neutral-900/95">
             {columns.map(({ key, label }) => (
               <th
                 key={key}
                 onClick={() => handleSort(key)}
-                className="cursor-pointer px-4 py-3 text-left text-xs font-semibold text-neutral-400 uppercase tracking-wider select-none hover:text-white transition-colors whitespace-nowrap"
+                className={`sticky top-0 z-10 cursor-pointer border-b border-white/8 bg-neutral-950/90 text-left font-semibold uppercase text-neutral-500 select-none backdrop-blur-md transition-colors hover:text-white whitespace-nowrap ${tableSizeClasses.th}`}
               >
                 <span className="flex items-center gap-1.5">
                   {label}
-                  <span className="text-neutral-600 w-3">
+                  <span className="inline-flex h-4 w-4 items-center justify-center rounded-full border border-white/6 bg-white/4 text-neutral-400">
                     {sortKey === key
                       ? direction === "asc"
                         ? "↑"
@@ -80,12 +113,14 @@ export default function SortableTable({ columns, data }) {
           {sortedData.map((row, idx) => (
             <tr
               key={idx}
-              className="border-b border-neutral-800/60 hover:bg-neutral-800/40 transition-colors duration-100"
+              className={`transition-all duration-150 hover:-translate-y-px hover:bg-white/[0.06] ${
+                idx % 2 === 0 ? "bg-white/[0.02]" : "bg-transparent"
+              }`}
             >
               {columns.map(({ key }) => (
                 <td
                   key={key}
-                  className="px-4 py-3 text-sm text-neutral-200 whitespace-nowrap"
+                  className={`border-b border-white/6 text-neutral-200 whitespace-nowrap ${tableSizeClasses.td}`}
                 >
                   {row[key]}
                 </td>
@@ -96,14 +131,15 @@ export default function SortableTable({ columns, data }) {
             <tr>
               <td
                 colSpan={columns.length}
-                className="px-4 py-10 text-center text-neutral-600 text-sm"
+                className="px-4 py-14 text-center text-sm text-neutral-500"
               >
-                No data available
+                No data available yet
               </td>
             </tr>
           )}
         </tbody>
       </table>
+      </div>
     </div>
   );
 }
