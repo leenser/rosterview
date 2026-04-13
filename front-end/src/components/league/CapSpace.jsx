@@ -34,14 +34,15 @@ export default function CapSpace() {
   const columns = [
     { key: "team", label: "Team" },
     { key: "cap", label: "Cap Space" },
-    { key: "gam", label: "GAM Left" },
-    { key: "intl", label: "Intl Used" },
-    { key: "dp", label: "Open DP" },
-    { key: "u22", label: "Open U22" }
+    { key: "gam", label: "Remaining GAM" },
+    { key: "intl", label: "Open Int Slots" },
+    { key: "dp", label: "Open DP Slots" },
+    { key: "u22", label: "Open U22 Slots" }
   ];
 
   const tableData = teams.map(team => {
     const slug = getTeamSlug(team.team);
+    const openIntlSlots = (team.international_slots_total ?? 0) - (team.international_slots_used ?? 0);
 
     return {
       team: (
@@ -61,8 +62,8 @@ export default function CapSpace() {
       cap_sort: team.remaining_cap_space ?? 0,
       gam: formatMoney(team.estimated_gam_left ?? team.remaining_gam ?? 0),
       gam_sort: team.estimated_gam_left ?? team.remaining_gam ?? 0,
-      intl: `${team.international_slots_used ?? 0}/${team.international_slots_total ?? 8}`,
-      intl_sort: team.international_slots_used ?? 0,
+      intl: openIntlSlots,
+      intl_sort: openIntlSlots,
       dp: Math.max(0, (team.dp_limit || 3) - (team.dp_count || 0)),
       dp_sort: Math.max(0, (team.dp_limit || 3) - (team.dp_count || 0)),
       u22: Math.max(0, (team.u22_limit || 3) - (team.u22_count || 0)),

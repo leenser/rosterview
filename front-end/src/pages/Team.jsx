@@ -439,7 +439,7 @@ function Team() {
             <div className="bg-red-500/20 border border-neutral-800 p-2.5 sm:p-3 rounded flex justify-between items-center">
               <p className="text-sm text-neutral-300 font-semibold flex items-center">
                 TAM Players
-                <InfoIcon text="Players whose cap hit is lowered using Targeted Allocation Money (TAM). Each team is given $2,125,000 in TAM every season" />
+                <InfoIcon text="Players whose cap hit is lowered using Targeted Allocation Money (TAM). Each team is given $2,125,000 in TAM every season." />
               </p>
               <p className="text-sm font-semibold">{teamData.counts?.tam_players ?? 0}</p>
             </div>
@@ -479,8 +479,8 @@ function Team() {
 
             <div className="bg-neutral-900 border border-neutral-800 p-2.5 sm:p-3 rounded flex justify-between items-center">
               <p className="text-sm text-neutral-300 font-semibold">
-                International Spots
-                 <InfoIcon text="International slot totals here use the Feb. 26, 2026 MLS club roster profiles, so they reflect trades rather than assuming every club has the default eight slots." />
+                International Spots Used
+                 <InfoIcon text="Teams have 8 International Spots for each season. They can be traded to other teams" />
               </p>
               <p className="text-sm font-semibold text-right">
                 {(teamData.validation?.summary?.international_slots_used ?? 0)}/{(teamData.validation?.summary?.international_slots_total ?? teamData.international_slots_total ?? 8)}
@@ -503,7 +503,7 @@ function Team() {
                 <InfoIcon text="An estimate of how much salary cap room the team still has left." />
               </p>
               <p className="text-sm font-semibold text-right">
-                ${(6425000 - teamData.cap.total_cap_hit + (teamData.validation?.summary?.starting_gam ?? 0) + 2125000 + (teamData.validation?.summary?.gam_balance ?? 0)).toLocaleString()}
+                ${(teamData.remaining_cap_space ?? 0).toLocaleString()}
               </p>
             </div>
 

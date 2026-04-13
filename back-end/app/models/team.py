@@ -5,6 +5,8 @@ from typing import List
 import json
 
 INTERNATIONAL_SLOTS_PATH = Path(__file__).resolve().parents[2] / "data" / "_feb_2026_international_slots.json"
+MLS_SALARY_CAP = 6_425_000
+MLS_TAM_AVAILABLE = 2_125_000
 
 
 @lru_cache(maxsize=1)
@@ -80,6 +82,9 @@ class Team:
 
     def get_estimated_gam_left(self):
         return self.remaining_gam + self.gam_balance
+
+    def get_remaining_cap_space(self):
+        return MLS_SALARY_CAP + MLS_TAM_AVAILABLE + self.get_estimated_gam_left() - self.total_cap_hit()
     
     def international_slots_used(self) -> int:
         return sum(
@@ -166,18 +171,12 @@ class Team:
         ]
     
     def cap_space_summary(self):
-        # MLS salary budget (can adjust later if needed)
-
-        cap_hit = self.total_cap_hit()
-
-        remaining_cap_space = 6425000 - cap_hit + self.starting_gam + 2125000 + self.gam_balance
-
         dp_count = self.count_role("Designated Player")
         u22_count = self.count_role("U22 Initiative")
 
         return {
             "team": self.name,
-            "remaining_cap_space": remaining_cap_space,
+            "remaining_cap_space": self.get_remaining_cap_space(),
             "dp_count": dp_count,
             "dp_limit": self.total_dp_spots(),
             "u22_count": u22_count,

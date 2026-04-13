@@ -8,7 +8,7 @@ const STAT_ITEMS = [
   { label: "Base Cap", value: "$6.425M", type: "neutral" },
   { label: "DP Player Model", value: "3 DPs / 3 U22s", type: "dp" },
   { label: "U22 Initiative Player Model", value: "2 DPs / 4 U22s / +$2M GAM ", type: "u22" },
-  { label: "Total TAM", value: "$2.225M", type: "tam" },
+  { label: "Total TAM", value: "$2.125M", type: "tam" },
   { label: "Senior Slots", value: "1-20", type: "neutral" },
   { label: "Supplemental Slots", value: "21-31", type: "supplemental" },
 ]
