@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "source_pdf": "Club Roster Profiles_Feb 2026.pdf",
+    "as_of": "2026-02-26"
+  },
+  "teams": {
+    "atlanta-united": { "international_slots": 9, "source_page": 4 },
+    "austin-fc": { "international_slots": 8, "source_page": 5 },
+    "charlotte-fc": { "international_slots": 10, "source_page": 6 },
+    "chicago-fire-fc": { "international_slots": 11, "source_page": 7 },
+    "fc-cincinnati": { "international_slots": 8, "source_page": 8 },
+    "colorado-rapids": { "international_slots": 6, "source_page": 9 },
+    "columbus-crew": { "international_slots": 8, "source_page": 10 },
+    "fc-dallas": { "international_slots": 10, "source_page": 11 },
+    "d-c-united": { "international_slots": 8, "source_page": 12 },
+    "houston-dynamo-fc": { "international_slots": 9, "source_page": 13 },
+    "sporting-kansas-city": { "international_slots": 8, "source_page": 14 },
+    "la-galaxy": { "international_slots": 11, "source_page": 15 },
+    "los-angeles-fc": { "international_slots": 7, "source_page": 16 },
+    "inter-miami-cf": { "international_slots": 11, "source_page": 17 },
+    "minnesota-united-fc": { "international_slots": 9, "source_page": 18 },
+    "cf-montreal": { "international_slots": 7, "source_page": 19 },
+    "nashville-sc": { "international_slots": 7, "source_page": 20 },
+    "new-england-revolution": { "international_slots": 5, "source_page": 21 },
+    "new-york-city-fc": { "international_slots": 8, "source_page": 22 },
+    "new-york-red-bulls": { "international_slots": 10, "source_page": 23 },
+    "orlando-city-sc": { "international_slots": 7, "source_page": 24 },
+    "philadelphia-union": { "international_slots": 8, "source_page": 25 },
+    "portland-timbers": { "international_slots": 8, "source_page": 26 },
+    "real-salt-lake": { "international_slots": 10, "source_page": 27 },
+    "san-diego-fc": { "international_slots": 8, "source_page": 28 },
+    "san-jose-earthquakes": { "international_slots": 5, "source_page": 29 },
+    "seattle-sounders-fc": { "international_slots": 4, "source_page": 30 },
+    "st-louis-city-sc": { "international_slots": 8, "source_page": 31 },
+    "toronto-fc": { "international_slots": 6, "source_page": 32 },
+    "vancouver-whitecaps-fc": { "international_slots": 9, "source_page": 33 }
+  }
+}

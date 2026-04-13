@@ -1,6 +1,17 @@
 from .player import Player
+from functools import lru_cache
+from pathlib import Path
 from typing import List
 import json
+
+INTERNATIONAL_SLOTS_PATH = Path(__file__).resolve().parents[2] / "data" / "_feb_2026_international_slots.json"
+
+
+@lru_cache(maxsize=1)
+def load_international_slots():
+    with open(INTERNATIONAL_SLOTS_PATH, "r") as f:
+        payload = json.load(f)
+    return payload.get("teams", {})
 
 class Team:
     def __init__(
@@ -9,7 +20,8 @@ class Team:
             roster_model: str,
             remaining_gam: int,
             starting_gam: int,
-            gam_balance: int
+            gam_balance: int,
+            international_slots: int = 8
     ):
         self.name = name
         self.roster_model = roster_model
@@ -17,18 +29,26 @@ class Team:
         self.remaining_gam = remaining_gam
         self.starting_gam = starting_gam
         self.gam_balance = gam_balance
+        self.international_slots = international_slots
 
     @classmethod
     def from_json(cls, path: str):
         with open(path, "r") as f:
             data = json.load(f)
 
+        team_id = Path(path).stem
+        slot_lookup = load_international_slots()
+        slot_entry = slot_lookup.get(team_id)
+        if slot_entry is None and team_id.endswith("-2026"):
+            slot_entry = slot_lookup.get(team_id[:-5])
+
         team = cls(
             name=data["teamName"],
             roster_model=data["rosterModel"],
             remaining_gam=data.get("availableGAM", 0),
             starting_gam=data.get("startingGAM", 0),
-            gam_balance=data.get("GAMBalance", 0)
+            gam_balance=data.get("GAMBalance", 0),
+            international_slots=(slot_entry or {}).get("international_slots", 8)
         )
 
         for p in data["players"]:
@@ -64,7 +84,7 @@ class Team:
     def international_slots_used(self) -> int:
         return sum(
             1
-            for p in self.roster
+            for p in self.active_players()
             if p.international
         )
 
@@ -165,6 +185,7 @@ class Team:
             "remaining_gam": self.get_remaining_gam(),
             "estimated_gam_left": self.get_estimated_gam_left(),
             "international_slots_used": self.international_slots_used(),
+            "international_slots_total": self.international_slots,
         }
 
     def validate_roster(self):
@@ -213,6 +234,7 @@ class Team:
                 "u22_count": u22_count,
                 "u22_limit": self.total_U22_spots(),
                 "international_slots_used": intl_used,
+                "international_slots_total": self.international_slots,
                 "cap_hit": cap_hit,
                 "remaining_gam": self.get_remaining_gam(),
                 "starting_gam": self.starting_gam,

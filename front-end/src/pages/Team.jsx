@@ -480,10 +480,10 @@ function Team() {
             <div className="bg-neutral-900 border border-neutral-800 p-2.5 sm:p-3 rounded flex justify-between items-center">
               <p className="text-sm text-neutral-300 font-semibold">
                 International Spots
-                 <InfoIcon text="Every season, each team is given 8 International Spots. They are allowed to trade these spots with other teams" />
+                 <InfoIcon text="International slot totals here use the Feb. 26, 2026 MLS club roster profiles, so they reflect trades rather than assuming every club has the default eight slots." />
               </p>
               <p className="text-sm font-semibold text-right">
-                {teamData.validation?.summary?.international_slots_used ?? 0}
+                {(teamData.validation?.summary?.international_slots_used ?? 0)}/{(teamData.validation?.summary?.international_slots_total ?? teamData.international_slots_total ?? 8)}
               </p>
             </div>
 

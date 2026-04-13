@@ -61,7 +61,7 @@ export default function CapSpace() {
       cap_sort: team.remaining_cap_space ?? 0,
       gam: formatMoney(team.estimated_gam_left ?? team.remaining_gam ?? 0),
       gam_sort: team.estimated_gam_left ?? team.remaining_gam ?? 0,
-      intl: team.international_slots_used ?? 0,
+      intl: `${team.international_slots_used ?? 0}/${team.international_slots_total ?? 8}`,
       intl_sort: team.international_slots_used ?? 0,
       dp: Math.max(0, (team.dp_limit || 3) - (team.dp_count || 0)),
       dp_sort: Math.max(0, (team.dp_limit || 3) - (team.dp_count || 0)),

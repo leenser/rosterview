@@ -41,6 +41,7 @@ def get_team(team_id: str):
         "gam_balance": team.get_balance_gam(),
         "estimated_gam_left": team.get_estimated_gam_left(),
         "international_slots_used": team.international_slots_used(),
+        "international_slots_total": team.international_slots,
         "cap": {
             "total_base_salary": team.total_base_salary(),
             "total_cap_hit": team.total_cap_hit(),
