@@ -39,15 +39,19 @@ class Player:
     def base_budget_charge(self) -> int:
         if self.status == "Unavailable \u2013 On Loan" or self.status == "Unavailable \u2013 Injured List" or self.status == "Unavailable \u2013 SEI" or self.role == "Supplemental Roster" or self.status == "Unavailable – Off Roster":
             return 0
+
+        gross_charge = self.guaranteedComp + self.amortized_transfer_cap_hit()
+
         if self.role == "Designated Player":
             return self.MAX_BUDGET_CHARGE
-        
-        # if self.role == "TAM Player" and self.guaranteedComp > self.TAM_CEILING:
-        #     return self.TAM_CEILING
-        
+
+        if self.role == "TAM Player":
+            return min(gross_charge, self.MAX_BUDGET_CHARGE)
+
         if self.role == "U22 Initiative":
             return self.U22_BUDGET_CHARGE
-        return self.guaranteedComp + self.amortized_transfer_cap_hit()
+
+        return gross_charge
     
     def amortized_transfer_cap_hit(self) -> int:
         # guard clauses
