@@ -57,6 +57,9 @@ class Team:
         return self.starting_gam
     def get_balance_gam(self):
         return self.gam_balance
+
+    def get_estimated_gam_left(self):
+        return self.remaining_gam + self.gam_balance
     
     def international_slots_used(self) -> int:
         return sum(
@@ -209,6 +212,8 @@ class Team:
                 "international_slots_used": intl_used,
                 "cap_hit": cap_hit,
                 "remaining_gam": self.get_remaining_gam(),
-                "starting_gam": self.starting_gam
+                "starting_gam": self.starting_gam,
+                "gam_balance": self.get_balance_gam(),
+                "estimated_gam_left": self.get_estimated_gam_left(),
             }
         }

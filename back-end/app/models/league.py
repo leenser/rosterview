@@ -167,6 +167,7 @@ class League:
                 "remaining_gam": t.remaining_gam,
                 "starting_gam": t.starting_gam,
                 "gam_balance": t.gam_balance,
+                "estimated_gam_left": t.get_estimated_gam_left(),
             }
             for t in self.teams
         ]

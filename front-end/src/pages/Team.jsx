@@ -175,6 +175,9 @@ function Team() {
 
   const totalLineSpend = Object.values(spendingByLine).reduce((a, b) => a + b, 0)
   const totalMechanismSpend = Object.values(spendingByMechanism).reduce((a, b) => a + b, 0)
+  const estimatedGamLeft = teamData
+    ? (teamData.estimated_gam_left ?? ((teamData.remaining_gam ?? 0) + (teamData.gam_balance ?? 0)))
+    : 0
 
   useEffect(() => {
     async function loadTeam() {
@@ -473,7 +476,7 @@ function Team() {
                 <InfoIcon text="Extra league funds teams can use to lower cap hits or make trades." />
               </p>
               <p className="text-sm font-semibold text-right">
-                ${teamData.validation?.summary?.remaining_gam?.toLocaleString?.() ?? 0}
+                ${estimatedGamLeft.toLocaleString()}
               </p>
             </div>
 

@@ -10,6 +10,7 @@ export default function GAMTable() {
     { key: "start", label: "GAM Start of Year" },
     { key: "release", label: "GAM Last Release" },
     { key: "estimated", label: "Estimated GAM Spend since last release" },
+    { key: "estimatedLeft", label: "Estimated GAM Left" },
     { key: "net", label: "Net GAM Spend" }
   ];
 
@@ -53,6 +54,7 @@ export default function GAMTable() {
           const start = r.start ?? r.starting_gam ?? 0;
           const release = r.release ?? r.remaining_gam ?? 0;
           const estimated = r.estimated ?? r.gam_balance ?? 0;
+          const estimatedLeft = r.estimated_gam_left ?? (release + estimated);
           const netValue = release + estimated;
 
           const netDisplay = (
@@ -76,6 +78,8 @@ export default function GAMTable() {
             release_sort: release,
             estimated: <span>{formatMoney(estimated)}</span>,
             estimated_sort: estimated,
+            estimatedLeft: <span>{formatMoney(estimatedLeft)}</span>,
+            estimatedLeft_sort: estimatedLeft,
             net: netDisplay,
             net_sort: netValue,
           };
