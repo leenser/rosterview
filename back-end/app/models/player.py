@@ -45,9 +45,6 @@ class Player:
         if self.role == "Designated Player":
             return self.MAX_BUDGET_CHARGE
 
-        if self.role == "TAM Player":
-            return min(gross_charge, self.MAX_BUDGET_CHARGE)
-
         if self.role == "U22 Initiative":
             return self.U22_BUDGET_CHARGE
 
