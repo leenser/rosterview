@@ -84,7 +84,7 @@ class Team:
         return self.remaining_gam + self.gam_balance
 
     def get_remaining_cap_space(self):
-        return MLS_SALARY_CAP + MLS_TAM_AVAILABLE + self.starting_gam + self.gam_balance - self.total_cap_hit() + self.remaining_gam()
+        return MLS_SALARY_CAP + MLS_TAM_AVAILABLE + self.get_estimated_gam_left() - self.total_cap_hit()
     
     def international_slots_used(self) -> int:
         return sum(
