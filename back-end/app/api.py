@@ -11,15 +11,14 @@ league = League.from_data_dir(DATA_DIR)
 
 app = FastAPI(title="MLS RosterView API")
 
-# Allowed origins
-ALLOWED_ORIGINS = os.getenv(
-    "ALLOWED_ORIGINS",
-    "http://localhost:5173"
-).split(",")
+allowed_origins_env = os.getenv("ALLOWED_ORIGINS", "*").strip()
+allowed_origins = ["*"] if allowed_origins_env == "*" else [
+    origin.strip() for origin in allowed_origins_env.split(",") if origin.strip()
+]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[origin.strip() for origin in ALLOWED_ORIGINS],
+    allow_origins=allowed_origins,
     allow_credentials=False,
     allow_methods=["GET"],  # Restrict to only what your API needs
     allow_headers=["*"],
