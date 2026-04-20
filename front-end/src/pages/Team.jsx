@@ -106,7 +106,12 @@ function buildSimulatedTeamData(baseTeamData, roster) {
     0
   )
   const totalCapHit = capBreakdown.reduce((sum, player) => sum + player.cap_hit, 0)
-  const remainingCapSpace = MLS_SALARY_CAP + MLS_TAM_AVAILABLE + baseTeamData.gam_balance - totalCapHit + baseTeamData.starting_gam
+  const remainingCapSpace =
+    MLS_SALARY_CAP +
+    MLS_TAM_AVAILABLE +
+    normalizeNumber(baseTeamData.starting_gam) +
+    normalizeNumber(baseTeamData.gam_balance) -
+    totalCapHit
 
   const dpCount = activeRoster.filter((player) => player.role === "Designated Player").length
   const dpLimit = baseTeamData.validation?.summary?.dp_limit ?? (baseTeamData.roster_model === "U22 Initiative Player Model" ? 2 : 3)
