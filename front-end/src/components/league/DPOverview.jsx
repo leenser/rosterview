@@ -13,6 +13,25 @@ export default function DPOverview() {
     return `$${value}`;
   };
 
+  const StatusBadge = ({ status }) => {
+    if (status === "Unavailable – On Loan") {
+      return <span className="text-[10px] px-2 py-0.5 rounded bg-yellow-500/20 text-yellow-300 border border-yellow-500/30">Loaned Out</span>;
+    }
+    if (status === "Loan Player") {
+      return <span className="text-[10px] px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">Loaned In</span>;
+    }
+    if (status === "Unavailable – SEI") {
+      return <span className="text-[10px] px-2 py-0.5 rounded bg-red-500/20 text-red-400 border border-red-500/30">SEI</span>;
+    }
+    if (status === "Unavailable – Injured List") {
+      return <span className="text-[10px] px-2 py-0.5 rounded bg-red-500/20 text-red-400 border border-red-500/30">Injured</span>;
+    }
+    if (status === "Unavailable – Off Roster") {
+      return <span className="text-[10px] px-2 py-0.5 rounded bg-neutral-500/20 text-red-300 border border-red-500/30">Off Roster</span>;
+    }
+    return null;
+  };
+
   useEffect(() => {
     Promise.all([
       fetch("https://rosterview.onrender.com/league/dps").then(res => res.json()),
@@ -27,6 +46,11 @@ export default function DPOverview() {
         dpArray.forEach(team => {
           map[team.team] = {
             team: team.team,
+            roster_model: team.roster_model,
+            dp_limit: team.dp_limit,
+            dp_count: team.dp_count,
+            u22_limit: team.u22_limit,
+            u22_count: team.u22_count,
             dps: team.players || [],
             u22s: []
           };
@@ -36,10 +60,20 @@ export default function DPOverview() {
           if (!map[team.team]) {
             map[team.team] = {
               team: team.team,
+              roster_model: team.roster_model,
+              dp_limit: team.dp_limit,
+              dp_count: team.dp_count,
+              u22_limit: team.u22_limit,
+              u22_count: team.u22_count,
               dps: [],
               u22s: team.players || []
             };
           } else {
+            map[team.team].roster_model = map[team.team].roster_model || team.roster_model;
+            map[team.team].dp_limit = map[team.team].dp_limit ?? team.dp_limit;
+            map[team.team].dp_count = map[team.team].dp_count ?? team.dp_count;
+            map[team.team].u22_limit = map[team.team].u22_limit ?? team.u22_limit;
+            map[team.team].u22_count = map[team.team].u22_count ?? team.u22_count;
             map[team.team].u22s = team.players || [];
           }
         });
@@ -58,20 +92,44 @@ export default function DPOverview() {
 
       {teamData.map((team, i) => {
         const slug = getTeamSlug(team.team);
+        const rosterModel = team.roster_model ?? "";
+        const normalizedModel = rosterModel.toLowerCase();
+        const isU22Model =
+          normalizedModel.includes("u22") ||
+          (team.dp_limit === 2 && team.u22_limit === 4);
+        const headerClass = isU22Model
+          ? "border-green-500/25 bg-green-500/12"
+          : "border-yellow-500/25 bg-yellow-500/12";
+        const modelTextClass = isU22Model ? "text-green-300" : "text-yellow-300";
+        const openDpSlots = Math.max(0, (team.dp_limit ?? 3) - (team.dp_count ?? 0));
+        const openU22Slots = Math.max(0, (team.u22_limit ?? 3) - (team.u22_count ?? 0));
+        const displayModel = rosterModel || (isU22Model ? "U22 Initiative Player Model" : "Designated Player Model");
 
         return (
           <div key={i} className="border border-gray-800 rounded-xl overflow-hidden bg-[#111827]">
 
             {/* Team Header */}
-            <div className="flex items-center gap-2 px-4 py-3 border-b border-gray-800 bg-gray-800/40">
-              <img
-                src={`/logos/${slug}.png`}
-                alt={team.team}
-                className="w-5 h-5 object-contain"
-              />
-              <Link to={`/team/${slug}`} className="font-medium hover:underline">
-                {team.team}
-              </Link>
+            <div className={`px-4 py-3 border-b border-gray-800 ${headerClass}`}>
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <div className="flex items-center gap-2">
+                    <img
+                      src={`/logos/${slug}.png`}
+                      alt={team.team}
+                      className="w-5 h-5 object-contain"
+                    />
+                    <Link to={`/team/${slug}`} className="font-medium hover:underline">
+                      {team.team}
+                    </Link>
+                  </div>
+                  <div className={`mt-2 text-xs font-medium ${modelTextClass}`}>{displayModel}</div>
+                </div>
+
+                <div className="text-right text-xs leading-relaxed text-neutral-300">
+                  <div>Open DP: {openDpSlots}</div>
+                  <div>Open U22: {openU22Slots}</div>
+                </div>
+              </div>
             </div>
 
             <div className="grid grid-cols-2">
@@ -83,9 +141,12 @@ export default function DPOverview() {
                 </div>
 
                 {(team.dps || []).map((p, j) => (
-                  <div key={j} className="flex justify-between px-4 py-2 text-sm border-b border-gray-900">
-                    <span className="text-gray-300">{p.name}</span>
-                    <span className="text-gray-400">{formatMoney(p.spend)}</span>
+                  <div key={j} className="flex items-start justify-between gap-3 px-4 py-2 text-sm border-b border-gray-900">
+                    <div className="flex flex-col gap-1">
+                      <span className="text-gray-300">{p.name}</span>
+                      {p.status && <StatusBadge status={p.status} />}
+                    </div>
+                    <span className="text-gray-400 whitespace-nowrap">{formatMoney(p.spend)}</span>
                   </div>
                 ))}
 
@@ -101,9 +162,12 @@ export default function DPOverview() {
                 </div>
 
                 {(team.u22s || []).map((p, j) => (
-                  <div key={j} className="flex justify-between px-4 py-2 text-sm border-b border-gray-900">
-                    <span className="text-gray-300">{p.name}</span>
-                    <span className="text-gray-400">{formatMoney(p.spend)}</span>
+                  <div key={j} className="flex items-start justify-between gap-3 px-4 py-2 text-sm border-b border-gray-900">
+                    <div className="flex flex-col gap-1">
+                      <span className="text-gray-300">{p.name}</span>
+                      {p.status && <StatusBadge status={p.status} />}
+                    </div>
+                    <span className="text-gray-400 whitespace-nowrap">{formatMoney(p.spend)}</span>
                   </div>
                 ))}
 

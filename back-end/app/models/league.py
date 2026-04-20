@@ -199,11 +199,17 @@ class League:
                     players.append({
                         "name": name,
                         "position": position,
-                        "spend": salary
+                        "spend": salary,
+                        "status": getattr(p, "status", None),
                     })
 
             rows.append({
                 "team": t.name,
+                "roster_model": t.get_roster_model(),
+                "dp_limit": t.total_dp_spots(),
+                "dp_count": t.count_role("Designated Player"),
+                "u22_limit": t.total_U22_spots(),
+                "u22_count": t.count_role("U22 Initiative"),
                 "players": players
             })
 
@@ -235,11 +241,17 @@ class League:
                     players.append({
                         "name": name,
                         "position": position,
-                        "spend": salary
+                        "spend": salary,
+                        "status": getattr(p, "status", None),
                     })
 
             rows.append({
                 "team": t.name,
+                "roster_model": t.get_roster_model(),
+                "dp_limit": t.total_dp_spots(),
+                "dp_count": t.count_role("Designated Player"),
+                "u22_limit": t.total_U22_spots(),
+                "u22_count": t.count_role("U22 Initiative"),
                 "players": players
             })
 
