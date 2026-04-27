@@ -81,7 +81,7 @@
       "position": "CB",
       "baseSalary": 1200000,
       "guaranteedComp": 1200000,
-      "international": true,
+      "international": false,
       "role": "TAM Player",
       "contractThru": "2026"
     },

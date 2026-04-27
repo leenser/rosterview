@@ -100,7 +100,7 @@ export default function DPOverview() {
         const headerClass = isU22Model
           ? "border-green-500/25 bg-green-500/12"
           : "border-yellow-500/25 bg-yellow-500/12";
-        const modelTextClass = isU22Model ? "text-green-300" : "text-yellow-300";
+        const modelTextClass = isU22Model ? "text-green-500" : "text-yellow-500";
         const openDpSlots = Math.max(0, (team.dp_limit ?? 3) - (team.dp_count ?? 0));
         const openU22Slots = Math.max(0, (team.u22_limit ?? 3) - (team.u22_count ?? 0));
         const displayModel = rosterModel || (isU22Model ? "U22 Initiative Player Model" : "Designated Player Model");
@@ -111,8 +111,8 @@ export default function DPOverview() {
             {/* Team Header */}
             <div className={`px-4 py-3 border-b border-gray-800 ${headerClass}`}>
               <div className="flex items-start justify-between gap-4">
-                <div>
-                  <div className="flex items-center gap-2">
+                <div className="min-w-0">
+                  <div className="flex items-center gap-2 flex-wrap">
                     <img
                       src={`/logos/${slug}.png`}
                       alt={team.team}
@@ -121,13 +121,12 @@ export default function DPOverview() {
                     <Link to={`/team/${slug}`} className="font-medium hover:underline">
                       {team.team}
                     </Link>
+                    <span className={`text-xs font-medium ${modelTextClass}`}>{displayModel}</span>
                   </div>
-                  <div className={`mt-2 text-xs font-medium ${modelTextClass}`}>{displayModel}</div>
                 </div>
 
                 <div className="text-right text-xs leading-relaxed text-neutral-300">
-                  <div>Open DP: {openDpSlots}</div>
-                  <div>Open U22: {openU22Slots}</div>
+                  <div>Open DP Slots: {openDpSlots} Open U22 Slots: {openU22Slots}</div>
                 </div>
               </div>
             </div>
@@ -141,8 +140,8 @@ export default function DPOverview() {
                 </div>
 
                 {(team.dps || []).map((p, j) => (
-                  <div key={j} className="flex items-start justify-between gap-3 px-4 py-2 text-sm border-b border-gray-900">
-                    <div className="flex flex-col gap-1">
+                  <div key={j} className="flex items-center justify-between gap-3 px-4 py-2 text-sm border-b border-gray-900">
+                    <div className="flex items-center gap-2 min-w-0">
                       <span className="text-gray-300">{p.name}</span>
                       {p.status && <StatusBadge status={p.status} />}
                     </div>
@@ -162,8 +161,8 @@ export default function DPOverview() {
                 </div>
 
                 {(team.u22s || []).map((p, j) => (
-                  <div key={j} className="flex items-start justify-between gap-3 px-4 py-2 text-sm border-b border-gray-900">
-                    <div className="flex flex-col gap-1">
+                  <div key={j} className="flex items-center justify-between gap-3 px-4 py-2 text-sm border-b border-gray-900">
+                    <div className="flex items-center gap-2 min-w-0">
                       <span className="text-gray-300">{p.name}</span>
                       {p.status && <StatusBadge status={p.status} />}
                     </div>
