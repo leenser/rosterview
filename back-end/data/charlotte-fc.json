@@ -301,6 +301,16 @@
       "role": "Supplemental Roster"
     },
     {
+      "name": "Aron John",
+      "position": "CM",
+      "baseSalary": 80622,
+      "guaranteedComp": 81025,
+      "international": false,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "role": "Supplemental Roster"
+    },
+    {
       "name": "Isaac Walker",
       "position": "",
       "baseSalary": 0,
