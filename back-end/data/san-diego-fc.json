@@ -256,7 +256,17 @@
       "guaranteedComp": 0,
       "international": false,
       "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28",
+      "optionYears": "2027, 2027-28",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Jacob Jackson",
+      "position": "GK",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027",
       "role": "Supplemental Roster"
     },
     {
@@ -288,7 +298,7 @@
       "guaranteedComp": 0,
       "international": true,
       "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28, 2028-29",
+      "optionYears": "2027, 2027-28, 2028-29",
       "role": "Supplemental Roster"
     },
     {

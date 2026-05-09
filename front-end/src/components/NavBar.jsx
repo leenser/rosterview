@@ -5,7 +5,7 @@ function NavBar({ page }) {
 
   const links = [
     { label: "Home", to: "/" },
-    { label: "League", to: "/league" },
+    { label: "League", to: "/#league-overview" },
   ]
 
   return (
@@ -20,8 +20,13 @@ function NavBar({ page }) {
       {/* Nav Links */}
       <div className="flex items-center h-full">
         {links.map(({ label, to }) => {
+          const isLeagueHashLink = to.includes("#league-overview")
           const isActive =
-            to === "/" ? location.pathname === "/" : location.pathname.startsWith(to)
+            isLeagueHashLink
+              ? location.pathname === "/" && location.hash === "#league-overview"
+              : to === "/"
+                ? location.pathname === "/"
+                : location.pathname.startsWith(to)
 
           return (
             <Link

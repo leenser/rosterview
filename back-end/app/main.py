@@ -4,10 +4,29 @@ from app.models.league import League
 def money(value: int) -> str:
     return f"${value:,}"
 
-team = Team.from_json("data/houston-dynamo-fc.json")
+# team = Team.from_json("data/colorado-rapids.json")
 
-print(team.name)
-print("Players:", len(team.roster))
+# print(team.name)
+# print("Players:", [p.name for p in team.roster])
+# print("Goalkeepers:")
+# for r in team.roster:
+#     if r.position == "GK":
+#         print(r.name)
+
+# print("\nDefenders:")
+# for r in team.roster:
+#     if r.position == "LB" or r.position == "CB" or r.position == "RB":
+#         print(r.name)
+
+# print("\nMidfielders:")
+# for r in team.roster:
+#     if r.position == "CM" or r.position == "LM" or r.position == "RM" or r.position == "DM" or r.position == "AM":
+#         print(r.name)
+
+# print("\nForwards:")
+# for r in team.roster:
+#     if r.position == "ST" or r.position == "LW" or r.position == "RW":
+#         print(r.name)
 
 print("International slots used:", team.international_slots_used())
 

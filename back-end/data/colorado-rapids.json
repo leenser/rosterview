@@ -292,8 +292,9 @@
       "baseSalary": 104000,
       "guaranteedComp": 114833,
       "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
+      "role": "U22 Initiative",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
       "status": "Homegrown"
     }
   ],

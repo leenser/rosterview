@@ -40,7 +40,7 @@ export default function PositionSpending() {
   return (
     <div className="space-y-6 w-full px-4 sm:px-6">
 
-      <div className="flex flex-wrap gap-4 text-sm items-center border-b border-neutral-800 pb-3">
+      <div className="flex flex-wrap gap-4 text-base items-center border-b border-neutral-800 pb-3">
         <span className="text-gray-400 mr-2">Sort:</span>
         <button onClick={() => setSortKey("gk")} className="text-blue-500 hover:underline">GK</button>
         <button onClick={() => setSortKey("defense")} className="text-green-500 hover:underline">Defense</button>
@@ -76,10 +76,10 @@ export default function PositionSpending() {
                       alt={team.team}
                       className="w-5 h-5 object-contain"
                     />
-                    <span className="text-sm sm:text-base">{team.team}</span>
+                    <span className="text-base sm:text-lg">{team.team}</span>
                   </Link>
 
-                  <span className="text-xs sm:text-sm font-semibold text-neutral-300">
+                  <span className="text-sm sm:text-base font-semibold text-neutral-300">
                     {formatMoney(total)}
                   </span>
                 </div>
@@ -119,19 +119,19 @@ export default function PositionSpending() {
                 <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 mt-1">
                   <div className="rounded-xl border border-white/8 bg-white/[0.03] px-2.5 py-2">
                     <div className={`text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.18em] ${labelClasses.gk}`}>GK</div>
-                    <div className="mt-1 text-xs sm:text-sm text-white">{formatMoney(team.gk || 0)}</div>
+                    <div className="mt-1 text-sm sm:text-base text-white">{formatMoney(team.gk || 0)}</div>
                   </div>
                   <div className="rounded-xl border border-white/8 bg-white/[0.03] px-2.5 py-2">
                     <div className={`text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.18em] ${labelClasses.defense}`}>DEF</div>
-                    <div className="mt-1 text-xs sm:text-sm text-white">{formatMoney(team.defense || 0)}</div>
+                    <div className="mt-1 text-sm sm:text-base text-white">{formatMoney(team.defense || 0)}</div>
                   </div>
                   <div className="rounded-xl border border-white/8 bg-white/[0.03] px-2.5 py-2">
                     <div className={`text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.18em] ${labelClasses.midfield}`}>MID</div>
-                    <div className="mt-1 text-xs sm:text-sm text-white">{formatMoney(team.midfield || 0)}</div>
+                    <div className="mt-1 text-sm sm:text-base text-white">{formatMoney(team.midfield || 0)}</div>
                   </div>
                   <div className="rounded-xl border border-white/8 bg-white/[0.03] px-2.5 py-2">
                     <div className={`text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.18em] ${labelClasses.attack}`}>FOR</div>
-                    <div className="mt-1 text-xs sm:text-sm text-white">{formatMoney(team.attack || 0)}</div>
+                    <div className="mt-1 text-sm sm:text-base text-white">{formatMoney(team.attack || 0)}</div>
                   </div>
                 </div>
 

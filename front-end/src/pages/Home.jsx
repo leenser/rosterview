@@ -1,7 +1,9 @@
 import TeamCard from "/src/components/TeamCard"
 import { useEffect, useState } from "react"
+import { useLocation } from "react-router-dom"
 import NavBar from "/src/components/NavBar"
 import Footer from "../components/Footer"
+import LeagueOverviewSection from "../components/league/LeagueOverviewSection"
 
 const STAT_ITEMS = [
   { label: "MLS Clubs", value: "30", type: "neutral" },
@@ -43,6 +45,7 @@ function StatPill({ label, value, type = "neutral" }) {
 }
 
 function Home() {
+  const location = useLocation()
   const [teams, setTeams] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState("")
@@ -65,6 +68,17 @@ function Home() {
     }
     loadTeams()
   }, [])
+
+  useEffect(() => {
+    if (!location.hash) return
+
+    const target = document.querySelector(location.hash)
+    if (!target) return
+
+    requestAnimationFrame(() => {
+      target.scrollIntoView({ behavior: "smooth", block: "start" })
+    })
+  }, [location.hash])
 
   return (
     <div className="min-h-screen bg-neutral-950">
@@ -149,40 +163,47 @@ function Home() {
         </div>
       </div>
 
-      {/* Team Grid */}
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-sm font-semibold text-neutral-400 uppercase tracking-widest">
-            All Clubs
-          </h2>
-          {!loading && !error && (
-            <span className="text-xs text-neutral-600">{teams.length} teams</span>
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 space-y-8 sm:space-y-10">
+        <section>
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-sm font-semibold text-neutral-400 uppercase tracking-widest">
+              All Clubs
+            </h2>
+            {!loading && !error && (
+              <span className="text-xs text-neutral-600">{teams.length} teams</span>
+            )}
+          </div>
+
+          {loading && (
+            <div className="flex items-center gap-2 text-neutral-500 text-sm">
+              <svg className="animate-spin w-4 h-4" fill="none" viewBox="0 0 24 24">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z" />
+              </svg>
+              Loading teams...
+            </div>
           )}
-        </div>
 
-        {loading && (
-          <div className="flex items-center gap-2 text-neutral-500 text-sm">
-            <svg className="animate-spin w-4 h-4" fill="none" viewBox="0 0 24 24">
-              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z" />
-            </svg>
-            Loading teams...
-          </div>
-        )}
+          {!loading && error && (
+            <div className="text-red-400 text-sm bg-red-400/10 border border-red-400/20 rounded-lg px-4 py-3">
+              {error}
+            </div>
+          )}
 
-        {!loading && error && (
-          <div className="text-red-400 text-sm bg-red-400/10 border border-red-400/20 rounded-lg px-4 py-3">
-            {error}
-          </div>
-        )}
+          {!loading && !error && (
+            <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
+              {teams.map((team) => (
+                <TeamCard key={team.id} name={team.name} slug={team.id} />
+              ))}
+            </div>
+          )}
+        </section>
 
-        {!loading && !error && (
-          <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
-            {teams.map((team) => (
-              <TeamCard key={team.id} name={team.name} slug={team.id} />
-            ))}
-          </div>
-        )}
+        <LeagueOverviewSection
+          paramKey="leagueTab"
+          variant="home"
+          title="League Overview"
+        />
       </div>
       <Footer />
       <style>

@@ -229,6 +229,17 @@
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027",
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan"
+    },
+    {
+      "name": "Troy Elgersma",
+      "position": "LW",
+      "baseSalary": 80622,
+      "guaranteedComp": 82308,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027, 2027=28, 2028-29",
       "role": "Supplemental Roster"
     },
     {

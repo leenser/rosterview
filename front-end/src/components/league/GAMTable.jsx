@@ -45,7 +45,7 @@ export default function GAMTable() {
           const slug = getTeamSlug(teamName);
 
           const teamCell = (
-            <Link to={`/team/${slug}`} className="flex items-center gap-1.5 hover:underline">
+            <Link to={`/team/${slug}`} className="flex items-center gap-1.5 hover:underline text-medium">
               <img src={`/logos/${slug}.png`} alt={teamName} className="h-4 w-4 object-contain" />
               <span>{teamName}</span>
             </Link>
@@ -94,8 +94,8 @@ export default function GAMTable() {
       .finally(() => setLoading(false));
   }, []);
 
-  if (loading) return <p className="text-neutral-400 text-sm">Loading...</p>
-  if (error) return <p className="text-red-400 text-sm">{error}</p>
+  if (loading) return <p className="text-neutral-400 text-base">Loading...</p>
+  if (error) return <p className="text-red-400 text-base">{error}</p>
 
   return (
     <div>

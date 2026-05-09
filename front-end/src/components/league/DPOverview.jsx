@@ -121,11 +121,11 @@ export default function DPOverview() {
                     <Link to={`/team/${slug}`} className="font-medium hover:underline">
                       {team.team}
                     </Link>
-                    <span className={`text-xs font-medium ${modelTextClass}`}>{displayModel}</span>
+                    <span className={`text-sm font-medium ${modelTextClass}`}>{displayModel}</span>
                   </div>
                 </div>
 
-                <div className="text-right text-xs leading-relaxed text-neutral-300">
+                <div className="text-right text-sm leading-relaxed text-neutral-300">
                   <div>Open DP Slots: {openDpSlots} Open U22 Slots: {openU22Slots}</div>
                 </div>
               </div>
@@ -135,12 +135,12 @@ export default function DPOverview() {
 
               {/* DP Column */}
               <div className="border-r border-gray-800">
-                <div className="px-4 py-2 text-sm text-yellow-400 font-semibold border-b border-gray-800">
+                <div className="px-4 py-2.5 text-base text-yellow-400 font-semibold border-b border-gray-800">
                   Designated Players
                 </div>
 
                 {(team.dps || []).map((p, j) => (
-                  <div key={j} className="flex items-center justify-between gap-3 px-4 py-2 text-sm border-b border-gray-900">
+                  <div key={j} className="flex items-center justify-between gap-3 px-4 py-2.5 text-base border-b border-gray-900">
                     <div className="flex items-center gap-2 min-w-0">
                       <span className="text-gray-300">{p.name}</span>
                       {p.status && <StatusBadge status={p.status} />}
@@ -150,18 +150,18 @@ export default function DPOverview() {
                 ))}
 
                 {team.dps.length === 0 && (
-                  <div className="px-4 py-2 text-sm text-gray-500">None</div>
+                  <div className="px-4 py-2.5 text-base text-gray-500">None</div>
                 )}
               </div>
 
               {/* U22 Column */}
               <div>
-                <div className="px-4 py-2 text-sm text-green-400 font-semibold border-b border-gray-800">
+                <div className="px-4 py-2.5 text-base text-green-400 font-semibold border-b border-gray-800">
                   U22 Players
                 </div>
 
                 {(team.u22s || []).map((p, j) => (
-                  <div key={j} className="flex items-center justify-between gap-3 px-4 py-2 text-sm border-b border-gray-900">
+                  <div key={j} className="flex items-center justify-between gap-3 px-4 py-2.5 text-base border-b border-gray-900">
                     <div className="flex items-center gap-2 min-w-0">
                       <span className="text-gray-300">{p.name}</span>
                       {p.status && <StatusBadge status={p.status} />}
@@ -171,7 +171,7 @@ export default function DPOverview() {
                 ))}
 
                 {team.u22s.length === 0 && (
-                  <div className="px-4 py-2 text-sm text-gray-500">None</div>
+                  <div className="px-4 py-2.5 text-base text-gray-500">None</div>
                 )}
               </div>
 

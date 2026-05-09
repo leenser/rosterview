@@ -7,19 +7,19 @@ export default function SortableTable({ columns, data, compact = false }) {
   const tableSizeClasses = compact
     ? {
         shell: "rounded-2xl",
-        headerWrap: "px-3 py-2.5 sm:px-4",
-        countPill: "px-2.5 py-1 text-[11px]",
-        table: "text-[13px]",
-        th: "px-2.5 py-2.5 text-[10px] tracking-[0.16em] first:pl-4 last:pr-4",
-        td: "px-2.5 py-3 text-[13px] first:pl-4 last:pr-4",
+        headerWrap: "px-3.5 py-3 sm:px-4.5",
+        countPill: "px-2.5 py-1 text-sm",
+        table: "text-base",
+        th: "px-2.5 py-2.5 text-xs tracking-[0.16em] first:pl-4 last:pr-4",
+        td: "px-2.5 py-3 text-base first:pl-4 last:pr-4",
       }
     : {
         shell: "rounded-3xl",
         headerWrap: "px-4 py-3 sm:px-5",
-        countPill: "px-3 py-1 text-xs",
-        table: "text-sm",
-        th: "px-4 py-3.5 text-[11px] tracking-[0.2em] first:pl-5 last:pr-5",
-        td: "px-4 py-4 text-sm first:pl-5 last:pr-5",
+        countPill: "px-3 py-1 text-sm",
+        table: "text-base",
+        th: "px-4 py-3.5 text-xs tracking-[0.2em] first:pl-5 last:pr-5",
+        td: "px-4 py-4 text-base first:pl-5 last:pr-5",
       };
 
   const parseSortableValue = (value) => {
@@ -76,7 +76,7 @@ export default function SortableTable({ columns, data, compact = false }) {
           <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-neutral-500">
             League Table
           </p>
-          <p className={`${compact ? "mt-0.5 text-[12px]" : "mt-1 text-sm"} text-neutral-300`}>
+          <p className={`${compact ? "mt-0.5 text-sm" : "mt-1 text-base"} text-neutral-300`}>
             Click any header to sort the table.
           </p>
         </div>
@@ -131,7 +131,7 @@ export default function SortableTable({ columns, data, compact = false }) {
             <tr>
               <td
                 colSpan={columns.length}
-                className="px-4 py-14 text-center text-sm text-neutral-500"
+                className="px-4 py-14 text-center text-base text-neutral-500"
               >
                 No data available yet
               </td>
