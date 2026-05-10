@@ -172,6 +172,16 @@
       "optionYears": "June 2027"
     },
     {
+      "name": "Antino Lopez",
+      "position": "CB",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2027-28"
+    },
+    {
       "name": "Max Anchor",
       "position": "",
       "baseSalary": 0,

@@ -279,16 +279,7 @@
       "role": "Supplemental Roster",
       "status": "Loan Player"
     },
-    {
-      "name": "Antino Lopez",
-      "position": "CB",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2027-28"
-    },
+    
     {
       "name": "Jack Panayotou",
       "position": "CM",

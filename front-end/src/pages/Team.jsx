@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { useParams } from "react-router-dom"
+import { createPortal } from "react-dom"
 import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
+import headshotManifest from "../data/headshotManifest.json"
 
 const CURRENT_SEASON = 2026
 const MLS_SALARY_CAP = 6_425_000
@@ -39,11 +41,33 @@ const STATUS_OPTIONS = [
   "Unavailable – SEI",
 ]
 const POSITION_OPTIONS = ["", "GK", "LB", "RB", "CB", "DM", "CM", "AM", "LM", "RM", "LW", "RW", "ST"]
+const DEFAULT_HEADSHOT = `data:image/svg+xml;utf8,${encodeURIComponent(`
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+    <defs>
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#334155"/>
+        <stop offset="100%" stop-color="#0f172a"/>
+      </linearGradient>
+    </defs>
+    <rect width="96" height="96" rx="24" fill="url(#bg)"/>
+    <circle cx="48" cy="35" r="17" fill="#cbd5e1"/>
+    <path d="M20 84c3-18 17-28 28-28s25 10 28 28" fill="#cbd5e1"/>
+  </svg>
+`)}`
 
 function normalizeNumber(value) {
   if (value === null || value === undefined || value === "") return 0
   const numeric = Number(String(value).replace(/[$,]/g, "").trim())
   return Number.isFinite(numeric) ? numeric : 0
+}
+
+function slugifyPlayerName(value) {
+  return String(value ?? "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
 }
 
 function isActivePlayer(player) {
@@ -205,12 +229,49 @@ function createNewPlayer() {
   }
 }
 
-function InfoIcon({ text }) {
+function InfoIcon({ text, align = "center", className = "" }) {
   const [open, setOpen] = useState(false)
+  const triggerRef = useRef(null)
+  const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0, arrowLeft: 16 })
+
+  useEffect(() => {
+    if (!open || !triggerRef.current) return
+
+    function updatePosition() {
+      const rect = triggerRef.current.getBoundingClientRect()
+      const tooltipWidth = 288
+      const margin = 12
+      let left
+
+      if (align === "left") {
+        left = rect.left
+      } else if (align === "right") {
+        left = rect.right - tooltipWidth
+      } else {
+        left = rect.left + rect.width / 2 - tooltipWidth / 2
+      }
+
+      left = Math.max(margin, Math.min(left, window.innerWidth - tooltipWidth - margin))
+      const top = rect.top - 12
+      const arrowLeft = Math.max(16, Math.min(rect.left + rect.width / 2 - left, tooltipWidth - 16))
+
+      setTooltipPosition({ top, left, arrowLeft })
+    }
+
+    updatePosition()
+    window.addEventListener("scroll", updatePosition, true)
+    window.addEventListener("resize", updatePosition)
+
+    return () => {
+      window.removeEventListener("scroll", updatePosition, true)
+      window.removeEventListener("resize", updatePosition)
+    }
+  }, [align, open])
 
   return (
     <span
-      className="relative ml-1.5 inline-flex items-center flex-shrink-0 group"
+      ref={triggerRef}
+      className={`relative inline-flex items-center flex-shrink-0 group ${className}`}
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
     >
@@ -221,14 +282,23 @@ function InfoIcon({ text }) {
         i
       </span>
 
-      <span
-        className={`absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-72 rounded bg-neutral-800 border border-neutral-700 px-3 py-2.5 text-xs text-neutral-200 shadow-lg transition-opacity duration-150 z-50 leading-relaxed whitespace-normal ${
-          open ? "opacity-100" : "opacity-0 pointer-events-none"
-        }`}
-      >
-        {text}
-        <span className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-neutral-700" />
-      </span>
+      {open && typeof document !== "undefined" && createPortal(
+        <span
+          className="fixed z-[100] w-72 rounded border border-neutral-700 bg-neutral-800 px-3 py-2.5 text-xs leading-relaxed text-neutral-200 shadow-lg whitespace-normal"
+          style={{
+            top: tooltipPosition.top,
+            left: tooltipPosition.left,
+            transform: "translateY(-100%)",
+          }}
+        >
+          {text}
+          <span
+            className="absolute top-full border-4 border-transparent border-t-neutral-700"
+            style={{ left: tooltipPosition.arrowLeft, transform: "translateX(-50%)" }}
+          />
+        </span>,
+        document.body
+      )}
     </span>
   )
 }
@@ -361,6 +431,33 @@ function ContractYearsCell({ through, options }) {
           {value}
         </span>
       ))}
+    </div>
+  )
+}
+
+function PlayerHeadshot({ teamSlug, name }) {
+  const [hasError, setHasError] = useState(false)
+  const playerSlug = slugifyPlayerName(name)
+  const manifestSrc = headshotManifest?.[teamSlug]?.[playerSlug]
+  const resolvedSrc = !hasError && manifestSrc
+    ? manifestSrc
+    : !hasError && teamSlug && playerSlug
+      ? `/headshots/${teamSlug}/${playerSlug}.jpg`
+      : DEFAULT_HEADSHOT
+
+  useEffect(() => {
+    setHasError(false)
+  }, [manifestSrc, teamSlug, name])
+
+  return (
+    <div className="h-14 w-12 sm:h-14 sm:w-14 rounded-2xl ring-1 ring-white/10 bg-neutral-800 flex-shrink-0 overflow-hidden">
+      <img
+        src={resolvedSrc}
+        alt={name ? `${name} headshot` : "Player headshot placeholder"}
+        className="h-full w-full object-cover scale-[1.7] -translate-y-[-15px]"
+        style={{ objectPosition: "center center" }}
+        onError={() => setHasError(true)}
+      />
     </div>
   )
 }
@@ -723,9 +820,9 @@ function Team() {
             <h2 className="text-sm font-semibold mb-2">Roster</h2>
 
             <div className="overflow-x-auto">
-              <table className={`min-w-full border rounded text-xs sm:text-sm ${panelClass}`}>
+              <table className={`min-w-full border rounded text-sm ${panelClass}`}>
                 <thead>
-                  <tr className={`border-b text-neutral-200 text-xs ${isGMMode ? "border-neutral-700" : "border-neutral-800"}`}>
+                  <tr className={`border-b text-neutral-200 text-xs sm:text-sm ${isGMMode ? "border-neutral-700" : "border-neutral-800"}`}>
                     {isGMMode && <th className="text-left px-3 py-2">GM</th>}
                     <th className="text-left px-3 py-2">Player</th>
                     <th
@@ -784,71 +881,79 @@ function Team() {
                           </td>
                         )}
 
-                        <td className="px-3 py-1.5 align-top">
-                          <div className="flex flex-col gap-1.5">
+                        <td className="px-3 py-2.5 align-top min-w-[18rem]">
+                          <div className="flex items-start gap-3">
                             {isGMMode ? (
-                              <div className="flex flex-col gap-2">
-                                <input
-                                  type="text"
-                                  value={player.name}
-                                  onChange={(event) => updatePlayer(player.local_id, "name", event.target.value)}
-                                  className="rounded border border-neutral-600 bg-neutral-800 px-2 py-1 text-xs text-white focus:border-neutral-400 focus:outline-none"
-                                />
-                                <div className="flex items-center gap-2 flex-wrap">
-                                  <label className="inline-flex items-center gap-1.5 text-[11px] text-neutral-300">
-                                    <input
-                                      type="checkbox"
-                                      checked={Boolean(player.is_international)}
-                                      onChange={(event) => updatePlayer(player.local_id, "is_international", event.target.checked)}
+                              <>
+                                <PlayerHeadshot teamSlug={slug} name={player.name} />
+                                <div className="flex min-w-0 flex-1 flex-col gap-2">
+                                  <input
+                                    type="text"
+                                    value={player.name}
+                                    onChange={(event) => updatePlayer(player.local_id, "name", event.target.value)}
+                                    className="rounded border border-neutral-600 bg-neutral-800 px-2.5 py-1.5 text-sm text-white focus:border-neutral-400 focus:outline-none"
+                                  />
+                                  <div className="flex items-center gap-2 flex-wrap">
+                                    <label className="inline-flex items-center gap-1.5 text-xs text-neutral-300">
+                                      <input
+                                        type="checkbox"
+                                        checked={Boolean(player.is_international)}
+                                        onChange={(event) => updatePlayer(player.local_id, "is_international", event.target.checked)}
+                                      />
+                                      International
+                                    </label>
+                                    <select
+                                      value={player.status ?? ""}
+                                      onChange={(event) => updatePlayer(player.local_id, "status", event.target.value)}
+                                      className="rounded border border-neutral-600 bg-neutral-800 px-2 py-1 text-xs text-neutral-100 focus:border-neutral-400 focus:outline-none"
+                                    >
+                                      {STATUS_OPTIONS.map((option) => (
+                                        <option key={option || "active"} value={option}>
+                                          {option || "Active"}
+                                        </option>
+                                      ))}
+                                    </select>
+                                  </div>
+                                  <div className="grid grid-cols-2 gap-2">
+                                    <GMNumberInput
+                                      value={player.transfer_fee}
+                                      onChange={(value) => updatePlayer(player.local_id, "transfer_fee", value)}
+                                      placeholder="Transfer fee"
                                     />
-                                    International
-                                  </label>
-                                  <select
-                                    value={player.status ?? ""}
-                                    onChange={(event) => updatePlayer(player.local_id, "status", event.target.value)}
-                                    className="rounded border border-neutral-600 bg-neutral-800 px-2 py-1 text-[11px] text-neutral-100 focus:border-neutral-400 focus:outline-none"
-                                  >
-                                    {STATUS_OPTIONS.map((option) => (
-                                      <option key={option || "active"} value={option}>
-                                        {option || "Active"}
-                                      </option>
-                                    ))}
-                                  </select>
+                                    <GMNumberInput
+                                      value={player.amortized_transfer_fee}
+                                      onChange={(value) => updatePlayer(player.local_id, "amortized_transfer_fee", value)}
+                                      placeholder="Per year"
+                                    />
+                                  </div>
                                 </div>
-                              </div>
+                              </>
                             ) : (
-                              <div className="flex items-center gap-2 flex-wrap">
-                                <span className="font-medium text-white text-xs sm:text-sm">{player.name}</span>
-                                {player.is_international && <InternationalBadge />}
-                                <StatusBadge status={player.status} />
-                              </div>
-                            )}
-
-                            {hasTransfer && !isGMMode && (
-                              <div className="flex flex-nowrap items-center gap-1.5">
-                                {normalizeNumber(player.transfer_fee) > 0 && (
-                                  <TransferBadge label="Transfer Fee" value={player.transfer_fee} isGMMode={false} />
-                                )}
-                                {normalizeNumber(player.amortized_transfer_fee) > 0 && (
-                                  <TransferBadge label="Per year" value={player.amortized_transfer_fee} isGMMode={false} />
-                                )}
-                                <InfoIcon text="The transfer fee is what the club paid to acquire this player. The per-year value spreads that cost evenly across the contract length." />
-                              </div>
-                            )}
-
-                            {isGMMode && (
-                              <div className="grid grid-cols-2 gap-2">
-                                <GMNumberInput
-                                  value={player.transfer_fee}
-                                  onChange={(value) => updatePlayer(player.local_id, "transfer_fee", value)}
-                                  placeholder="Transfer fee"
-                                />
-                                <GMNumberInput
-                                  value={player.amortized_transfer_fee}
-                                  onChange={(value) => updatePlayer(player.local_id, "amortized_transfer_fee", value)}
-                                  placeholder="Per year"
-                                />
-                              </div>
+                              <>
+                                <PlayerHeadshot teamSlug={slug} name={player.name} />
+                                <div className="min-w-0 flex-1">
+                                  <div className="flex items-center gap-2 flex-wrap">
+                                    <span className="font-semibold text-white text-base sm:text-lg leading-tight">{player.name}</span>
+                                    {player.is_international && <InternationalBadge />}
+                                    <StatusBadge status={player.status} />
+                                  </div>
+                                  {hasTransfer && (
+                                    <div className="mt-2 flex flex-nowrap items-center gap-1.5 overflow-x-auto no-scrollbar">
+                                      {normalizeNumber(player.transfer_fee) > 0 && (
+                                        <TransferBadge label="Transfer Fee" value={player.transfer_fee} isGMMode={false} />
+                                      )}
+                                      {normalizeNumber(player.amortized_transfer_fee) > 0 && (
+                                        <TransferBadge label="Per year" value={player.amortized_transfer_fee} isGMMode={false} />
+                                      )}
+                                      <InfoIcon
+                                        text="The transfer fee is what the club paid to acquire this player. The per-year value spreads that cost evenly across the contract length."
+                                        align="left"
+                                        className="ml-0"
+                                      />
+                                    </div>
+                                  )}
+                                </div>
+                              </>
                             )}
                           </div>
                         </td>
@@ -871,12 +976,12 @@ function Team() {
                           )}
                         </td>
 
-                        <td className="px-3 py-1.5 text-neutral-300 text-sm align-top">
+                        <td className="px-3 py-1.5 text-neutral-300 text-sm align-top whitespace-nowrap">
                           {isGMMode ? (
                             <select
                               value={player.role ?? "Senior"}
                               onChange={(event) => updatePlayer(player.local_id, "role", event.target.value)}
-                              className="w-full rounded border border-neutral-600 bg-neutral-800 px-2 py-1 text-xs text-neutral-100 focus:border-neutral-400 focus:outline-none"
+                              className="w-full rounded border border-neutral-600 bg-neutral-800 px-2 py-1 text-xs text-neutral-100 focus:border-neutral-400 focus:outline-none whitespace-nowrap"
                             >
                               {ROLE_OPTIONS.map((option) => (
                                 <option key={option} value={option}>

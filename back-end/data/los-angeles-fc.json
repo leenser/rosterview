@@ -13,7 +13,7 @@
     },
     {
       "name": "Son Heung-Min",
-      "position": "",
+      "position": "ST",
       "baseSalary": 0,
       "guaranteedComp": 0,
       "international": true,
@@ -26,7 +26,7 @@
     },
     {
       "name": "Amin Boudri",
-      "position": "",
+      "position": "CM",
       "baseSalary": 0,
       "guaranteedComp": 0,
       "international": true,
@@ -39,7 +39,7 @@
     },
     {
       "name": "Igor Jesus",
-      "position": "",
+      "position": "CM",
       "baseSalary": 0,
       "guaranteedComp": 0,
       "international": true,
@@ -97,7 +97,7 @@
     },
     {
       "name": "Stephen Eustáquio",
-      "position": "",
+      "position": "CM",
       "baseSalary": 0,
       "guaranteedComp": 0,
       "international": true,
@@ -196,7 +196,7 @@
     },
     {
       "name": "Jacob Shaffelburg",
-      "position": "",
+      "position": "LW",
       "baseSalary": 0,
       "guaranteedComp": 0,
       "international": false,
@@ -205,7 +205,7 @@
     },
     {
       "name": "Nkosi Tafari",
-      "position": "",
+      "position": "CB",
       "baseSalary": 0,
       "guaranteedComp": 0,
       "international": false,
@@ -213,7 +213,7 @@
     },
     {
       "name": "Tyler Boyd",
-      "position": "",
+      "position": "RW",
       "baseSalary": 0,
       "guaranteedComp": 0,
       "international": false,
@@ -296,7 +296,7 @@
     },
     {
       "name": "Matthew Evans",
-      "position": "",
+      "position": "CM",
       "baseSalary": 0,
       "guaranteedComp": 0,
       "international": false,
