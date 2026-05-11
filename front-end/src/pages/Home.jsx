@@ -1,6 +1,5 @@
 import TeamCard from "/src/components/TeamCard"
 import { useEffect, useState } from "react"
-import { useLocation } from "react-router-dom"
 import NavBar from "/src/components/NavBar"
 import Footer from "../components/Footer"
 import LeagueOverviewSection from "../components/league/LeagueOverviewSection"
@@ -45,7 +44,6 @@ function StatPill({ label, value, type = "neutral" }) {
 }
 
 function Home() {
-  const location = useLocation()
   const [teams, setTeams] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState("")
@@ -68,17 +66,6 @@ function Home() {
     }
     loadTeams()
   }, [])
-
-  useEffect(() => {
-    if (!location.hash) return
-
-    const target = document.querySelector(location.hash)
-    if (!target) return
-
-    requestAnimationFrame(() => {
-      target.scrollIntoView({ behavior: "smooth", block: "start" })
-    })
-  }, [location.hash])
 
   return (
     <div className="min-h-screen bg-neutral-950">

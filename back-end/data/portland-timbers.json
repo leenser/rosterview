@@ -29,9 +29,9 @@
     },
     {
       "name": "Antony",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "LW",
+      "baseSalary": 560000,
+      "guaranteedComp": 666042,
       "international": false,
       "role": "U22 Initiative",
       "contractThru": "2026",
@@ -42,9 +42,9 @@
     },
     {
       "name": "Cole Bassett",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "AM",
+      "baseSalary": 850000,
+      "guaranteedComp": 850000,
       "international": false,
       "role": "U22 Initiative",
       "contractThru": "2027"
@@ -52,8 +52,8 @@
     {
       "name": "Kevin Kelsy",
       "position": "ST",
-      "baseSalary": 612000,
-      "guaranteedComp": 752804,
+      "baseSalary": 662000,
+      "guaranteedComp": 802804,
       "international": false,
       "role": "U22 Initiative",
       "contractThru": "2028",
@@ -64,9 +64,9 @@
     },
     {
       "name": "Alexander Aravena",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "LW",
+      "baseSalary": 857143,
+      "guaranteedComp": 1026310,
       "international": true,
       "role": "TAM Player",
       "status": "Loan Player",
@@ -76,8 +76,8 @@
     {
       "name": "Jimer Fory",
       "position": "LB",
-      "baseSalary": 335000,
-      "guaranteedComp": 355000,
+      "baseSalary": 450000,
+      "guaranteedComp": 470000,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2028",
@@ -89,8 +89,8 @@
     {
       "name": "Felipe Mora",
       "position": "ST",
-      "baseSalary": 1275000,
-      "guaranteedComp": 1472750,
+      "baseSalary": 1200000,
+      "guaranteedComp": 1397750,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2026"
@@ -98,8 +98,8 @@
     {
       "name": "Juan Mosquera",
       "position": "RB",
-      "baseSalary": 345000,
-      "guaranteedComp": 411650,
+      "baseSalary": 475000,
+      "guaranteedComp": 541650,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2027",
@@ -111,8 +111,8 @@
     {
       "name": "Joao Ortiz",
       "position": "DM",
-      "baseSalary": 475000,
-      "guaranteedComp": 525625,
+      "baseSalary": 550000,
+      "guaranteedComp": 600625,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2027",
@@ -124,8 +124,8 @@
     {
       "name": "José Caicedo",
       "position": "DM",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 1000000,
+      "guaranteedComp": 1075009,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2029-30",
@@ -137,8 +137,8 @@
     {
       "name": "Kamal Miller",
       "position": "CB",
-      "baseSalary": 770004,
-      "guaranteedComp": 795004,
+      "baseSalary": 797496,
+      "guaranteedComp": 822496,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2026",
@@ -147,8 +147,8 @@
     {
       "name": "Alex Bonetig",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 240000,
+      "guaranteedComp": 261000,
       "international": true,
       "contractThru": "2027-28",
       "optionYears": "2028-29",
@@ -159,8 +159,8 @@
     {
       "name": "Brandon Bye",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 400000,
+      "guaranteedComp": 442500,
       "international": false,
       "contractThru": "2027",
       "optionYears": "2027-28"
@@ -168,8 +168,8 @@
     {
       "name": "Diego Chara",
       "position": "CM",
-      "baseSalary": 725000,
-      "guaranteedComp": 725000,
+      "baseSalary": 388044,
+      "guaranteedComp": 388044,
       "international": false,
       "contractThru": "June 2027",
       "optionYears": "2027-28"
@@ -177,8 +177,8 @@
     {
       "name": "Omir Fernández",
       "position": "RW",
-      "baseSalary": 600000,
-      "guaranteedComp": 661875,
+      "baseSalary": 625000,
+      "guaranteedComp": 686875,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -186,8 +186,8 @@
     {
       "name": "Ariel Lassiter",
       "position": "LW",
-      "baseSalary": 315000,
-      "guaranteedComp": 348000,
+      "baseSalary": 325000,
+      "guaranteedComp": 358000,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -195,8 +195,8 @@
     {
       "name": "Zac McGraw",
       "position": "CB",
-      "baseSalary": 275000,
-      "guaranteedComp": 321750,
+      "baseSalary": 295000,
+      "guaranteedComp": 341750,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -204,16 +204,16 @@
     {
       "name": "James Pantemis",
       "position": "GK",
-      "baseSalary": 200000,
-      "guaranteedComp": 220833,
+      "baseSalary": 300000,
+      "guaranteedComp": 320833,
       "international": false,
       "contractThru": "2026"
     },
     {
       "name": "Finn Surman",
       "position": "CB",
-      "baseSalary": 200000,
-      "guaranteedComp": 226983,
+      "baseSalary": 275000,
+      "guaranteedComp": 303233,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027",
@@ -224,8 +224,8 @@
     {
       "name": "Gage Guerra",
       "position": "ST",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
@@ -234,8 +234,8 @@
     {
       "name": "Sawyer Jura",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 88025,
+      "guaranteedComp": 91358,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
@@ -245,8 +245,8 @@
     {
       "name": "Eric Miller",
       "position": "RB",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": false,
       "contractThru": "2026",
       "role": "Supplemental Roster"
@@ -254,8 +254,8 @@
     {
       "name": "Trey Muse",
       "position": "GK",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": false,
       "contractThru": "2026",
       "role": "Supplemental Roster"
@@ -263,8 +263,8 @@
     {
       "name": "Ian Smith",
       "position": "LB",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
@@ -274,7 +274,7 @@
       "name": "Hunter Sulte",
       "position": "GK",
       "baseSalary": 135000,
-      "guaranteedComp": 138042,
+      "guaranteedComp": 149750,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027-28",

@@ -3,9 +3,9 @@
   "players": [
     {
       "name": "Hernán López",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "AM",
+      "baseSalary": 850000,
+      "guaranteedComp": 1020000,
       "international": false,
       "role": "Designated Player",
       "status": "Unavailable – On Loan",
@@ -17,9 +17,9 @@
     },
     {
       "name": "Timo Werner",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "ST",
+      "baseSalary": 3738872,
+      "guaranteedComp": 4268039,
       "international": true,
       "role": "Designated Player",
       "contractThru": "2027-28"
@@ -27,8 +27,8 @@
     {
       "name": "Niko Tsakiris",
       "position": "CM",
-      "baseSalary": 165000,
-      "guaranteedComp": 169167,
+      "baseSalary": 685714,
+      "guaranteedComp": 755214,
       "international": false,
       "role": "U22 Initiative",
       "contractThru": "2028-29",
@@ -37,8 +37,8 @@
     {
       "name": "DeJuan Jones",
       "position": "LB",
-      "baseSalary": 840000,
-      "guaranteedComp": 846250,
+      "baseSalary": 891996,
+      "guaranteedComp": 898246,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2027"
@@ -46,8 +46,8 @@
     {
       "name": "Dave Romney",
       "position": "CB",
-      "baseSalary": 858500,
-      "guaranteedComp": 938000,
+      "baseSalary": 882875,
+      "guaranteedComp": 962375,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2026",
@@ -56,8 +56,8 @@
     {
       "name": "Ronaldo Vieira",
       "position": "CM",
-      "baseSalary": 620000,
-      "guaranteedComp": 673854,
+      "baseSalary": 800000,
+      "guaranteedComp": 853854,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2026",
@@ -69,8 +69,8 @@
     {
       "name": "Cristian Arango",
       "position": "ST",
-      "baseSalary": 2000000,
-      "guaranteedComp": 2216667,
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
       "international": false,
       "status": "Unavailable – On Loan",
       "contractThru": "2027",
@@ -79,8 +79,8 @@
     {
       "name": "Ousseni Bouda",
       "position": "ST",
-      "baseSalary": 150000,
-      "guaranteedComp": 152500,
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
       "international": false,
       "contractThru": "2027",
       "optionYears": "2028"
@@ -88,8 +88,8 @@
     {
       "name": "Vitor Costa",
       "position": "LB",
-      "baseSalary": 375000,
-      "guaranteedComp": 413333,
+      "baseSalary": 425000,
+      "guaranteedComp": 463333,
       "international": true,
       "contractThru": "2026",
       "transferFee": 459000,
@@ -98,9 +98,9 @@
     },
     {
       "name": "Daniel",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "GK",
+      "baseSalary": 750000,
+      "guaranteedComp": 792500,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028"
@@ -108,16 +108,16 @@
     {
       "name": "Earl Edwards Jr.",
       "position": "GK",
-      "baseSalary": 200000,
-      "guaranteedComp": 210250,
+      "baseSalary": 210000,
+      "guaranteedComp": 220250,
       "international": false,
       "contractThru": "2026"
     },
     {
       "name": "Jonathan González",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "DM",
+      "baseSalary": 250000,
+      "guaranteedComp": 275625,
       "international": false,
       "contractThru": "2026",
       "optionYears": "June 2027, 2027-28"
@@ -134,8 +134,8 @@
     {
       "name": "Preston Judd",
       "position": "ST",
-      "baseSalary": 185000,
-      "guaranteedComp": 234375,
+      "baseSalary": 250000,
+      "guaranteedComp": 299375,
       "international": false,
       "contractThru": "2027",
       "optionYears": "2028"
@@ -143,16 +143,16 @@
     {
       "name": "Benji Kikanovic",
       "position": "LW",
-      "baseSalary": 367000,
-      "guaranteedComp": 403700,
+      "baseSalary": 442000,
+      "guaranteedComp": 478700,
       "international": false,
       "contractThru": "2026"
     },
     {
       "name": "Beau Leroux",
       "position": "CM",
-      "baseSalary": 80622,
-      "guaranteedComp": 82526,
+      "baseSalary": 249996,
+      "guaranteedComp": 249996,
       "international": false,
       "contractThru": "2027-28",
       "optionYears": "2028-29"
@@ -160,16 +160,16 @@
     {
       "name": "Paul Marie",
       "position": "RB",
-      "baseSalary": 325000,
-      "guaranteedComp": 357500,
+      "baseSalary": 350000,
+      "guaranteedComp": 382500,
       "international": false,
       "contractThru": "2026"
     },
     {
       "name": "Daniel Munie",
       "position": "CB",
-      "baseSalary": 104000,
-      "guaranteedComp": 178000,
+      "baseSalary": 500000,
+      "guaranteedComp": 574000,
       "international": false,
       "contractThru": "2028",
       "optionYears": "2029"
@@ -177,8 +177,8 @@
     {
       "name": "Jamar Ricketts",
       "position": "LB",
-      "baseSalary": 80622,
-      "guaranteedComp": 82209,
+      "baseSalary": 113400,
+      "guaranteedComp": 114987,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -186,16 +186,16 @@
     {
       "name": "Jack Skahan",
       "position": "CM",
-      "baseSalary": 175000,
-      "guaranteedComp": 175000,
+      "baseSalary": 225000,
+      "guaranteedComp": 225000,
       "international": false,
       "contractThru": "2026"
     },
     {
       "name": "Nonso Adimabua",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "ST",
+      "baseSalary": 113400,
+      "guaranteedComp": 117285,
       "international": true,
       "contractThru": "2026",
       "optionYears": "June 2027, 2027-28",
@@ -204,17 +204,17 @@
     {
       "name": "Noel Buck",
       "position": "CM",
-      "baseSalary": 115000,
-      "guaranteedComp": 115000,
+      "baseSalary": 150000,
+      "guaranteedComp": 150000,
       "international": false,
       "contractThru": "2026",
       "role": "Supplemental Roster"
     },
     {
       "name": "Nate Crockford",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "GK",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "contractThru": "2026",
       "optionYears": "June 2027, 2027-28",
@@ -223,8 +223,8 @@
     {
       "name": "Nick Fernandez",
       "position": "DM",
-      "baseSalary": 80622,
-      "guaranteedComp": 82526,
+      "baseSalary": 113400,
+      "guaranteedComp": 115304,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
@@ -233,8 +233,8 @@
     {
       "name": "Max Floriani",
       "position": "CB",
-      "baseSalary": 80622,
-      "guaranteedComp": 83122,
+      "baseSalary": 88025,
+      "guaranteedComp": 90525,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
@@ -243,8 +243,8 @@
     {
       "name": "Jack Jasinski",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 88025,
+      "guaranteedComp": 90287,
       "international": false,
       "contractThru": "2026",
       "optionYears": "June 2027, 2027-28, 2028-29",
@@ -253,8 +253,8 @@
     {
       "name": "Francesco Montali",
       "position": "GK",
-      "baseSalary": 104000,
-      "guaranteedComp": 107178,
+      "baseSalary": 113400,
+      "guaranteedComp": 116578,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027",
@@ -263,8 +263,8 @@
     {
       "name": "Reid Roberts",
       "position": "CB",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
@@ -273,8 +273,8 @@
     {
       "name": "Cruz Medina",
       "position": "CM",
-      "baseSalary": 140000,
-      "guaranteedComp": 158394,
+      "baseSalary": 180000,
+      "guaranteedComp": 198394,
       "international": false,
       "role": "Homegrown Player",
       "status": "Unavailable – On Loan",
@@ -284,8 +284,8 @@
     {
       "name": "Edwyn Mendoza",
       "position": "DM",
-      "baseSalary": 80622,
-      "guaranteedComp": 93062,
+      "baseSalary": 120000,
+      "guaranteedComp": 132440,
       "international": false,
       "role": "Homegrown Player",
       "contractThru": "2027",
@@ -294,9 +294,9 @@
     },
     {
       "name": "Rohan Rajagopal",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "DM",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "role": "Homegrown Player",
       "contractThru": "2027",
@@ -306,8 +306,8 @@
     {
       "name": "Kaedren Spivey",
       "position": "CM",
-      "baseSalary": 80622,
-      "guaranteedComp": 83622,
+      "baseSalary": 113400,
+      "guaranteedComp": 116400,
       "international": false,
       "role": "Homegrown Player",
       "contractThru": "2028",

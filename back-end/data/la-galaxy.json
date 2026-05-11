@@ -3,18 +3,18 @@
   "players": [
     {
       "name": "João Klauss",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "ST",
+      "baseSalary": 2187500,
+      "guaranteedComp": 2915000,
       "international": true,
       "role": "Designated Player",
       "contractThru": "2026"
     },
     {
       "name": "Joseph Paintsil",
-      "position": "RW",
-      "baseSalary": 3136000,
-      "guaranteedComp": 4182000,
+      "position": "LW",
+      "baseSalary": 3456000,
+      "guaranteedComp": 4502000,
       "international": true,
       "role": "Designated Player",
       "contractThru": "2027",
@@ -38,7 +38,7 @@
       "name": "Riqui Puig",
       "position": "CM",
       "baseSalary": 5125000,
-      "guaranteedComp": 5779688,
+      "guaranteedComp": 5792188,
       "international": true,
       "role": "Designated Player",
       "status": "Unavailable – Injured List",
@@ -47,8 +47,8 @@
     {
       "name": "Julián Aude",
       "position": "LB",
-      "baseSalary": 350000,
-      "guaranteedComp": 360000,
+      "baseSalary": 375000,
+      "guaranteedComp": 385000,
       "international": true,
       "role": "U22 Initiative",
       "contractThru": "2027",
@@ -58,9 +58,9 @@
     },
     {
       "name": "Matheus Nascimento",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "ST",
+      "baseSalary": 650000,
+      "guaranteedComp": 707000,
       "international": true,
       "role": "U22 Initiative",
       "status": "Loan Player",
@@ -70,8 +70,8 @@
     {
       "name": "Lucas Sanabria",
       "position": "DM",
-      "baseSalary": 592000,
-      "guaranteedComp": 694800,
+      "baseSalary": 640000,
+      "guaranteedComp": 742800,
       "international": true,
       "role": "U22 Initiative",
       "contractThru": "2029",
@@ -82,8 +82,8 @@
     {
       "name": "Emiro Garces",
       "position": "CB",
-      "baseSalary": 429999.96,
-      "guaranteedComp": 468000,
+      "baseSalary": 480000,
+      "guaranteedComp": 518000,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2028"
@@ -91,8 +91,8 @@
     {
       "name": "Jakob Glesnes",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 826087,
+      "guaranteedComp": 1268503,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2028-29"
@@ -100,8 +100,8 @@
     {
       "name": "Justin Haak",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 752841,
+      "guaranteedComp": 810561,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2026",
@@ -110,8 +110,8 @@
     {
       "name": "Marco Reus",
       "position": "AM",
-      "baseSalary": 880000,
-      "guaranteedComp": 1136667,
+      "baseSalary": 604364,
+      "guaranteedComp": 902364,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2027"
@@ -119,8 +119,8 @@
     {
       "name": "Miki Yamane",
       "position": "RB",
-      "baseSalary": 778000,
-      "guaranteedComp": 844667,
+      "baseSalary": 850000,
+      "guaranteedComp": 916667,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2026"
@@ -128,8 +128,8 @@
     {
       "name": "Edwin Cerrillo",
       "position": "DM",
-      "baseSalary": 525000,
-      "guaranteedComp": 537500,
+      "baseSalary": 650000,
+      "guaranteedComp": 662500,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -137,8 +137,8 @@
     {
       "name": "JT Marcinkowski",
       "position": "GK",
-      "baseSalary": 250000,
-      "guaranteedComp": 250000,
+      "baseSalary": 302000,
+      "guaranteedComp": 302000,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -146,8 +146,8 @@
     {
       "name": "John Nelson",
       "position": "LB",
-      "baseSalary": 275000,
-      "guaranteedComp": 291667,
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
       "international": false,
       "contractThru": "2027-28",
       "optionYears": "2028-29"
@@ -155,16 +155,16 @@
     {
       "name": "Brady Scott",
       "position": "GK",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": false,
       "contractThru": "2026"
     },
     {
       "name": "Erik Thommy",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "AM",
+      "baseSalary": 600000,
+      "guaranteedComp": 706667,
       "international": false,
       "contractThru": "June 2027",
       "optionYears": "2027-28"
@@ -172,8 +172,8 @@
     {
       "name": "Elijah Wynder",
       "position": "CM",
-      "baseSalary": 150000,
-      "guaranteedComp": 175333,
+      "baseSalary": 325000,
+      "guaranteedComp": 352208,
       "international": false,
       "contractThru": "2027",
       "optionYears": "2028",
@@ -184,16 +184,16 @@
     {
       "name": "Maya Yoshida",
       "position": "CB",
-      "baseSalary": 455000,
-      "guaranteedComp": 526281,
+      "baseSalary": 640000,
+      "guaranteedComp": 715781,
       "international": true,
       "contractThru": "2026"
     },
     {
       "name": "Mauricio Cuevas",
       "position": "RB",
-      "baseSalary": 150000,
-      "guaranteedComp": 168500,
+      "baseSalary": 250000,
+      "guaranteedComp": 268500,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
@@ -203,8 +203,8 @@
     {
       "name": "Riley Delgado",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
@@ -214,8 +214,8 @@
     {
       "name": "Ascel Essengue",
       "position": "CB",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
@@ -224,8 +224,8 @@
     {
       "name": "Tucker Lepley",
       "position": "DM",
-      "baseSalary": 80622,
-      "guaranteedComp": 82308,
+      "baseSalary": 113400,
+      "guaranteedComp": 115086,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027",
@@ -235,8 +235,8 @@
     {
       "name": "Troy Elgersma",
       "position": "LW",
-      "baseSalary": 80622,
-      "guaranteedComp": 82308,
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2027-28, 2028-29",
@@ -245,8 +245,8 @@
     {
       "name": "Novak Micovic",
       "position": "GK",
-      "baseSalary": 175000,
-      "guaranteedComp": 175000,
+      "baseSalary": 200000,
+      "guaranteedComp": 200000,
       "international": true,
       "contractThru": "2026",
       "optionYears": "2027",
@@ -255,8 +255,8 @@
     {
       "name": "Harbor Miller",
       "position": "RB",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
@@ -266,8 +266,8 @@
     {
       "name": "Ruben Ramos Jr.",
       "position": "AM",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
@@ -277,8 +277,8 @@
     {
       "name": "Chris Rindov",
       "position": "CB",
-      "baseSalary": 80622,
-      "guaranteedComp": 89372,
+      "baseSalary": 113400,
+      "guaranteedComp": 122150,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
@@ -287,8 +287,8 @@
     {
       "name": "Isaiah Parente",
       "position": "CM",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": false,
       "contractThru": "2026",
       "role": "Supplemental Roster"
@@ -296,8 +296,8 @@
     {
       "name": "Gino Vivi",
       "position": "LW",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": true,
       "status": "Unavailable – On Loan",
       "contractThru": "2026",

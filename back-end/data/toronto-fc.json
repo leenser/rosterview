@@ -4,8 +4,8 @@
     {
       "name": "Djordje Mihailovic",
       "position": "AM",
-      "baseSalary": 2158335,
-      "guaranteedComp": 2278335,
+      "baseSalary": 2279170,
+      "guaranteedComp": 2828204,
       "international": false,
       "role": "Designated Player",
       "contractThru": "2028",
@@ -14,8 +14,8 @@
     {
       "name": "Josh Sargent",
       "position": "ST",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 3210000,
+      "guaranteedComp": 5265667,
       "international": false,
       "role": "Designated Player",
       "contractThru": "2030-31",
@@ -25,9 +25,9 @@
     },
     {
       "name": "Emilio Aristizábal",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "ST",
+      "baseSalary": 324996,
+      "guaranteedComp": 344788,
       "international": true,
       "role": "U22 Initiative",
       "status": "Loan Player",
@@ -36,9 +36,9 @@
     },
     {
       "name": "Cassius Mailula",
-      "position": "AM",
-      "baseSalary": 325000,
-      "guaranteedComp": 341003,
+      "position": "ST",
+      "baseSalary": 350000,
+      "guaranteedComp": 366003,
       "international": true,
       "role": "U22 Initiative",
       "status": "Unavailable – On Loan",
@@ -48,8 +48,8 @@
     {
       "name": "José Cifuentes",
       "position": "CM",
-      "baseSalary": 1210000,
-      "guaranteedComp": 1405000,
+      "baseSalary": 1375000,
+      "guaranteedComp": 1570000,
       "international": false,
       "role": "TAM Player",
       "status": "Loan Player",
@@ -59,8 +59,8 @@
     {
       "name": "Richie Laryea",
       "position": "RB",
-      "baseSalary": 830000,
-      "guaranteedComp": 1169438,
+      "baseSalary": 875000,
+      "guaranteedComp": 1214438,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2026",
@@ -72,8 +72,8 @@
     {
       "name": "Jonathan Osorio",
       "position": "CM",
-      "baseSalary": 1000000,
-      "guaranteedComp": 1183333,
+      "baseSalary": 800000,
+      "guaranteedComp": 1083333,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2026"
@@ -81,8 +81,8 @@
     {
       "name": "Matheus Pereira",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 477000,
+      "guaranteedComp": 650800,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2027-28",
@@ -93,9 +93,9 @@
     },
     {
       "name": "Dániel Sallói",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "LW",
+      "baseSalary": 1300000,
+      "guaranteedComp": 1343333,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2027",
@@ -104,8 +104,8 @@
     {
       "name": "Walker Zimmerman",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 1140000,
+      "guaranteedComp": 1708037,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2027-28"
@@ -113,8 +113,8 @@
     {
       "name": "Alonso Coello",
       "position": "CM",
-      "baseSalary": 200012,
-      "guaranteedComp": 235012,
+      "baseSalary": 300000,
+      "guaranteedComp": 335000,
       "international": false,
       "contractThru": "2027",
       "optionYears": "2028"
@@ -122,8 +122,8 @@
     {
       "name": "Theo Corbeanu",
       "position": "RW",
-      "baseSalary": 365000,
-      "guaranteedComp": 411625,
+      "baseSalary": 450000,
+      "guaranteedComp": 496625,
       "international": false,
       "contractThru": "2028",
       "transferFee": 975000,
@@ -133,8 +133,8 @@
     {
       "name": "Raheem Edwards",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 375000,
+      "guaranteedComp": 414340,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -142,8 +142,8 @@
     {
       "name": "Derrick Etienne Jr",
       "position": "LW",
-      "baseSalary": 745566,
-      "guaranteedComp": 745566,
+      "baseSalary": 375000,
+      "guaranteedComp": 375000,
       "international": false,
       "contractThru": "2026",
       "optionYears": "June 2027, 2027-28"
@@ -151,8 +151,8 @@
     {
       "name": "Luka Gavran",
       "position": "GK",
-      "baseSalary": 104000,
-      "guaranteedComp": 128475,
+      "baseSalary": 225000,
+      "guaranteedComp": 249475,
       "international": false,
       "contractThru": "2027",
       "optionYears": "2028"
@@ -160,8 +160,8 @@
     {
       "name": "Nicksoen Gomis",
       "position": "CB",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -169,8 +169,8 @@
     {
       "name": "Benjamín Kuscevic",
       "position": "CB",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 650004,
+      "guaranteedComp": 804982,
       "status": "Loan Player",
       "international": true,
       "contractThru": "2026",
@@ -179,8 +179,8 @@
     {
       "name": "Zane Monlouis",
       "position": "CB",
-      "baseSalary": 115000,
-      "guaranteedComp": 127891,
+      "baseSalary": 125000,
+      "guaranteedComp": 137891,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
@@ -191,17 +191,17 @@
     {
       "name": "Henry Wingo",
       "position": "RB",
-      "baseSalary": 625000,
-      "guaranteedComp": 696031,
+      "baseSalary": 725000,
+      "guaranteedComp": 796031,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
     },
     {
       "name": "William Yarbrough",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "GK",
+      "baseSalary": 135000,
+      "guaranteedComp": 150000,
       "international": false,
       "contractThru": "2026",
       "optionYears": "June 2027"
@@ -209,8 +209,8 @@
     {
       "name": "Markus Cimermancic",
       "position": "CM",
-      "baseSalary": 80622,
-      "guaranteedComp": 94478,
+      "baseSalary": 88025,
+      "guaranteedComp": 101881,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
@@ -220,8 +220,8 @@
     {
       "name": "Adisa De Rosario",
       "position": "GK",
-      "baseSalary": 80622,
-      "guaranteedComp": 97235,
+      "baseSalary": 88025,
+      "guaranteedComp": 104638,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
@@ -231,8 +231,8 @@
     {
       "name": "Kobe Franklin",
       "position": "RB",
-      "baseSalary": 125000,
-      "guaranteedComp": 135802,
+      "baseSalary": 150000,
+      "guaranteedComp": 160802,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
@@ -241,8 +241,8 @@
     {
       "name": "Malik Henry",
       "position": "RM",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027",
@@ -251,8 +251,8 @@
     {
       "name": "Deandre Kerr",
       "position": "ST",
-      "baseSalary": 120000,
-      "guaranteedComp": 125319,
+      "baseSalary": 160000,
+      "guaranteedComp": 165319,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
@@ -261,8 +261,8 @@
     {
       "name": "Adam Pearlman",
       "position": "CB",
-      "baseSalary": 104000,
-      "guaranteedComp": 117300,
+      "baseSalary": 130000,
+      "guaranteedComp": 143300,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
@@ -272,8 +272,8 @@
     {
       "name": "Lazar Stefanovic",
       "position": "CB",
-      "baseSalary": 80622,
-      "guaranteedComp": 92528,
+      "baseSalary": 113400,
+      "guaranteedComp": 125306,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2028",
@@ -281,20 +281,10 @@
       "status": "Homegrown"
     },
     {
-      "name": "Kosi Thompson",
-      "position": "RM",
-      "baseSalary": 120000,
-      "guaranteedComp": 125260,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "status": "Homegrown"
-    },
-    {
       "name": "Jules-Anthony Vilsaint",
       "position": "ST",
-      "baseSalary": 125000,
-      "guaranteedComp": 131875,
+      "baseSalary": 150000,
+      "guaranteedComp": 156875,
       "international": false,
       "contractThru": "2026",
       "role": "Supplemental Roster"
@@ -302,8 +292,8 @@
     {
       "name": "Stefan Kapor",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 88025,
+      "guaranteedComp": 97740,
       "international": false,
       "role": "Homegrown Player",
       "contractThru": "2029",

@@ -4,8 +4,8 @@
     {
       "name": "Roman Bürki",
       "position": "GK",
-      "baseSalary": 1575000,
-      "guaranteedComp": 1707469,
+      "baseSalary": 2500000,
+      "guaranteedComp": 2750000,
       "international": true,
       "role": "Designated Player",
       "contractThru": "2027",
@@ -13,9 +13,9 @@
     },
     {
       "name": "Sergio Córdova",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "ST",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1213500,
       "international": true,
       "role": "Designated Player",
       "status": "Loan Player",
@@ -28,8 +28,8 @@
     {
       "name": "Marcel Hartel",
       "position": "CM",
-      "baseSalary": 1797600,
-      "guaranteedComp": 2183113,
+      "baseSalary": 2022300,
+      "guaranteedComp": 2407813,
       "international": true,
       "role": "Designated Player",
       "contractThru": "2027-28",
@@ -38,8 +38,8 @@
     {
       "name": "Sang Bin Jeong",
       "position": "ST",
-      "baseSalary": 630750,
-      "guaranteedComp": 737458,
+      "baseSalary": 685125,
+      "guaranteedComp": 791833,
       "international": false,
       "role": "U22 Initiative",
       "contractThru": "2026"
@@ -47,8 +47,8 @@
     {
       "name": "Fallou Fall",
       "position": "CB",
-      "baseSalary": 364000,
-      "guaranteedComp": 462419,
+      "baseSalary": 645500,
+      "guaranteedComp": 743919,
       "international": true,
       "role": "U22 Initiative",
       "contractThru": "2028",
@@ -60,8 +60,8 @@
     {
       "name": "Jake Girdwood-Reich",
       "position": "CB",
-      "baseSalary": 242250,
-      "guaranteedComp": 281027,
+      "baseSalary": 296750,
+      "guaranteedComp": 335527,
       "international": false,
       "role": "U22 Initiative",
       "status": "Unavailable – On Loan",
@@ -74,8 +74,8 @@
     {
       "name": "Eduard Löwen",
       "position": "CM",
-      "baseSalary": 1250000,
-      "guaranteedComp": 1394250,
+      "baseSalary": 1300000,
+      "guaranteedComp": 1444250,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2026",
@@ -97,8 +97,8 @@
     {
       "name": "Cedric Teuchert",
       "position": "ST",
-      "baseSalary": 1200000,
-      "guaranteedComp": 1342500,
+      "baseSalary": 1400000,
+      "guaranteedComp": 1542500,
       "international": false,
       "role": "TAM Player",
       "contractThru": "June 2026",
@@ -107,8 +107,8 @@
     {
       "name": "Conrad Wallem",
       "position": "RM",
-      "baseSalary": 448000,
-      "guaranteedComp": 499875,
+      "baseSalary": 600000,
+      "guaranteedComp": 657188,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2028-29",
@@ -119,8 +119,8 @@
     {
       "name": "Timo Baumgartl",
       "position": "CB",
-      "baseSalary": 550000,
-      "guaranteedComp": 643333,
+      "baseSalary": 600000,
+      "guaranteedComp": 693333,
       "international": true,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -128,8 +128,8 @@
     {
       "name": "Simon Becher",
       "position": "ST",
-      "baseSalary": 218000,
-      "guaranteedComp": 239273,
+      "baseSalary": 400000,
+      "guaranteedComp": 444375,
       "international": false,
       "contractThru": "2027-28",
       "optionYears": "2028-29",
@@ -140,17 +140,17 @@
     {
       "name": "Chris Durkin",
       "position": "DM",
-      "baseSalary": 475000,
-      "guaranteedComp": 520000,
+      "baseSalary": 600000,
+      "guaranteedComp": 668500,
       "international": false,
       "contractThru": "2027-28",
       "optionYears": "2028-29"
     },
     {
       "name": "Daniel Edelman",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "DM",
+      "baseSalary": 600000,
+      "guaranteedComp": 676350,
       "international": false,
       "contractThru": "2028-29",
       "optionYears": "2029-30"
@@ -158,8 +158,8 @@
     {
       "name": "Mbacke Fall",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 645500,
+      "guaranteedComp": 743919,
       "international": true,
       "contractThru": "2027-28",
       "optionYears": "2028-29, 2029-30"
@@ -167,17 +167,17 @@
     {
       "name": "Kyle Hiebert",
       "position": "CB",
-      "baseSalary": 240000,
-      "guaranteedComp": 269000,
+      "baseSalary": 260000,
+      "guaranteedComp": 289000,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
     },
     {
       "name": "Dante Polvara",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "DM",
+      "baseSalary": 400000,
+      "guaranteedComp": 436806,
       "international": false,
       "contractThru": "2027-28",
       "optionYears": "2028-29",
@@ -188,8 +188,8 @@
     {
       "name": "Celio Pompeu",
       "position": "LW",
-      "baseSalary": 218250,
-      "guaranteedComp": 253144,
+      "baseSalary": 272750,
+      "guaranteedComp": 309006,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -197,8 +197,8 @@
     {
       "name": "Tomas Totland",
       "position": "RB",
-      "baseSalary": 300000,
-      "guaranteedComp": 341763,
+      "baseSalary": 350000,
+      "guaranteedComp": 391763,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027",
@@ -209,8 +209,8 @@
     {
       "name": "Caden Glover",
       "position": "ST",
-      "baseSalary": 104000,
-      "guaranteedComp": 109000,
+      "baseSalary": 150000,
+      "guaranteedComp": 155000,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
@@ -219,8 +219,8 @@
     {
       "name": "Mykhi Joyner",
       "position": "LM",
-      "baseSalary": 80622,
-      "guaranteedComp": 97902,
+      "baseSalary": 113400,
+      "guaranteedComp": 130680,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2028",
@@ -230,8 +230,8 @@
     {
       "name": "Ben Lundt",
       "position": "GK",
-      "baseSalary": 160000,
-      "guaranteedComp": 172833,
+      "baseSalary": 225000,
+      "guaranteedComp": 225000,
       "international": false,
       "contractThru": "2027",
       "role": "Supplemental Roster"
@@ -239,8 +239,8 @@
     {
       "name": "Lukas MacNaughton",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 200000,
+      "guaranteedComp": 219306,
       "international": false,
       "contractThru": "June 2027",
       "optionYears": "2027-28",
@@ -249,8 +249,8 @@
     {
       "name": "Brendan McSorley",
       "position": "ST",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027",
@@ -259,8 +259,8 @@
     {
       "name": "Christian Olivares",
       "position": "GK",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": false,
       "status": "Unavailable – On Loan",
       "contractThru": "2026",
@@ -270,8 +270,8 @@
     {
       "name": "Jaziel Orozco",
       "position": "RB",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
@@ -280,8 +280,8 @@
     {
       "name": "Miguel Perez",
       "position": "CM",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
@@ -291,8 +291,8 @@
     {
       "name": "Rafael Santos",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 200000,
+      "guaranteedComp": 226354,
       "international": false,
       "contractThru": "June 2027",
       "optionYears": "2027-28, 2028-29",
@@ -301,8 +301,8 @@
     {
       "name": "Josh Yaro",
       "position": "CB",
-      "baseSalary": 185000,
-      "guaranteedComp": 204500,
+      "baseSalary": 206000,
+      "guaranteedComp": 227725,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027",
@@ -311,8 +311,8 @@
     {
       "name": "Tyson Pearce",
       "position": "RB",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 130000,
+      "guaranteedComp": 130000,
       "international": false,
       "role": "Homegrown Player",
       "contractThru": "2027",

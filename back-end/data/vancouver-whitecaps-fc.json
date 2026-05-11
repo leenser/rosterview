@@ -14,8 +14,8 @@
     {
       "name": "Thomas Müller",
       "position": "AM",
-      "baseSalary": 1284456,
-      "guaranteedComp": 1436956,
+      "baseSalary": 5000004,
+      "guaranteedComp": 5152504,
       "international": true,
       "role": "Designated Player",
       "contractThru": "2026"
@@ -23,8 +23,8 @@
     {
       "name": "Kenji Cabrera",
       "position": "LW",
-      "baseSalary": 350000,
-      "guaranteedComp": 390053,
+      "baseSalary": 400000,
+      "guaranteedComp": 440053,
       "international": true,
       "role": "U22 Initiative",
       "contractThru": "2028",
@@ -35,9 +35,9 @@
     },
     {
       "name": "Bruno Caicedo",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "LW",
+      "baseSalary": 390000,
+      "guaranteedComp": 430150,
       "international": true,
       "role": "U22 Initiative",
       "contractThru": "2028-29",
@@ -49,8 +49,8 @@
     {
       "name": "Édier Ocampo",
       "position": "RB",
-      "baseSalary": 375000,
-      "guaranteedComp": 428299,
+      "baseSalary": 400000,
+      "guaranteedComp": 453799,
       "international": true,
       "role": "U22 Initiative",
       "contractThru": "2027",
@@ -62,8 +62,8 @@
     {
       "name": "Sam Adekugbe",
       "position": "LB",
-      "baseSalary": 875000,
-      "guaranteedComp": 963000,
+      "baseSalary": 1300000,
+      "guaranteedComp": 1388000,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2026",
@@ -75,8 +75,8 @@
     {
       "name": "Tristan Blackmon",
       "position": "CB",
-      "baseSalary": 800000,
-      "guaranteedComp": 800000,
+      "baseSalary": 975000,
+      "guaranteedComp": 975000,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2029-30"
@@ -84,8 +84,8 @@
     {
       "name": "Andrés Cubas",
       "position": "DM",
-      "baseSalary": 1050000,
-      "guaranteedComp": 1146375,
+      "baseSalary": 1000000,
+      "guaranteedComp": 1153333,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2027-28"
@@ -93,8 +93,8 @@
     {
       "name": "Mathías Laborda",
       "position": "CB",
-      "baseSalary": 900000,
-      "guaranteedComp": 1043625,
+      "baseSalary": 1050000,
+      "guaranteedComp": 1193625,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2026"
@@ -102,8 +102,8 @@
     {
       "name": "Joedrick Pupe",
       "position": "CB",
-      "baseSalary": 420000,
-      "guaranteedComp": 460600,
+      "baseSalary": 450000,
+      "guaranteedComp": 490600,
       "international": true,
       "role": "TAM Player",
       "status": "Unavailable – On Loan",
@@ -115,9 +115,9 @@
     },
     {
       "name": "Cheikh Sabaly",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "LW",
+      "baseSalary": 1109091,
+      "guaranteedComp": 1414727,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2028-29",
@@ -129,8 +129,8 @@
     {
       "name": "Emmanuel Sabbi",
       "position": "RW",
-      "baseSalary": 900000,
-      "guaranteedComp": 987750,
+      "baseSalary": 1080000,
+      "guaranteedComp": 1167750,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2027",
@@ -155,8 +155,8 @@
     {
       "name": "Yohei Takaoka",
       "position": "GK",
-      "baseSalary": 756000,
-      "guaranteedComp": 873713,
+      "baseSalary": 772727,
+      "guaranteedComp": 841818,
       "international": true,
       "role": "TAM Player",
       "contractThru": "June 2027"
@@ -164,17 +164,17 @@
     {
       "name": "Brian White",
       "position": "ST",
-      "baseSalary": 1000000,
-      "guaranteedComp": 1000000,
+      "baseSalary": 1065000,
+      "guaranteedComp": 1065000,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2027"
     },
     {
       "name": "AZ",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "AM",
+      "baseSalary": 240000,
+      "guaranteedComp": 403680,
       "international": false,
       "status": "Loan Player",
       "contractThru": "June 2026",
@@ -183,25 +183,25 @@
     {
       "name": "Sebastian Berhalter",
       "position": "CM",
-      "baseSalary": 385000,
-      "guaranteedComp": 385000,
+      "baseSalary": 480000,
+      "guaranteedComp": 480000,
       "international": false,
       "contractThru": "2026"
     },
     {
       "name": "Isaac Boehmer",
       "position": "GK",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 165000,
+      "guaranteedComp": 173750,
       "international": false,
       "contractThru": "2027",
       "optionYears": "2028"
     },
     {
       "name": "Oliver Larraz",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "CM",
+      "baseSalary": 450000,
+      "guaranteedComp": 496667,
       "international": false,
       "contractThru": "June 2027",
       "optionYears": "2027-28"
@@ -209,8 +209,8 @@
     {
       "name": "J.C. Ngando",
       "position": "DM",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 200000,
+      "guaranteedComp": 200000,
       "international": true,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -218,8 +218,8 @@
     {
       "name": "Ranko Veselinović",
       "position": "CB",
-      "baseSalary": 670000,
-      "guaranteedComp": 737125,
+      "baseSalary": 715000,
+      "guaranteedComp": 782125,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -227,8 +227,8 @@
     {
       "name": "Jeevan Badwal",
       "position": "CM",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
@@ -238,8 +238,8 @@
     {
       "name": "Giuseppe Bovalina",
       "position": "RB",
-      "baseSalary": 104000,
-      "guaranteedComp": 116980,
+      "baseSalary": 125000,
+      "guaranteedComp": 137980,
       "international": true,
       "status": "Unavailable – On Loan",
       "contractThru": "2026",
@@ -249,8 +249,8 @@
     {
       "name": "Nikola Djordjevic",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
@@ -259,8 +259,8 @@
     {
       "name": "Rayan Elloumi",
       "position": "ST",
-      "baseSalary": 80622,
-      "guaranteedComp": 96268,
+      "baseSalary": 88025,
+      "guaranteedComp": 103671,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2028",
@@ -270,8 +270,8 @@
     {
       "name": "Belal Halbouni",
       "position": "CB",
-      "baseSalary": 165000,
-      "guaranteedComp": 165000,
+      "baseSalary": 204000,
+      "guaranteedComp": 230233,
       "international": false,
       "contractThru": "June 2027",
       "optionYears": "2027-28",
@@ -280,8 +280,8 @@
     {
       "name": "Tate Johnson",
       "position": "LB",
-      "baseSalary": 80622,
-      "guaranteedComp": 81622,
+      "baseSalary": 88025,
+      "guaranteedComp": 89025,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
@@ -290,8 +290,8 @@
     {
       "name": "Ralph Priso",
       "position": "DM",
-      "baseSalary": 104000,
-      "guaranteedComp": 118167,
+      "baseSalary": 175000,
+      "guaranteedComp": 189167,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027",
@@ -300,8 +300,8 @@
     {
       "name": "Adrían Zendejas",
       "position": "GK",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": false,
       "contractThru": "2026",
       "role": "Supplemental Roster"
@@ -309,8 +309,8 @@
     {
       "name": "Nelson Pierre",
       "position": "ST",
-      "baseSalary": 104000,
-      "guaranteedComp": 118116,
+      "baseSalary": 125000,
+      "guaranteedComp": 139116,
       "international": false,
       "status": "Unavailable – On Loan",
       "contractThru": "2026",
@@ -320,8 +320,8 @@
     {
       "name": "Mihail Gherasimencov",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 88025,
+      "guaranteedComp": 97748,
       "international": false,
       "role": "Homegrown Player",
       "contractThru": "2027-28",
@@ -331,8 +331,8 @@
     {
       "name": "Liam Mackenzie",
       "position": "AM",
-      "baseSalary": 80622,
-      "guaranteedComp": 96047,
+      "baseSalary": 88025,
+      "guaranteedComp": 103450,
       "international": false,
       "role": "Homegrown Player",
       "contractThru": "2028",

@@ -15,9 +15,9 @@
     },
     {
       "name": "Rafael Navarro",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "ST",
+      "baseSalary": 1392000,
+      "guaranteedComp": 1449600,
       "international": false,
       "role": "Designated Player",
       "contractThru": "2027",
@@ -29,8 +29,8 @@
     {
       "name": "Theodore Ku-Dipietro",
       "position": "AM",
-      "baseSalary": 400000,
-      "guaranteedComp": 456000,
+      "baseSalary": 500000,
+      "guaranteedComp": 556000,
       "international": false,
       "role": "U22 Initiative",
       "contractThru": "2027",
@@ -39,8 +39,8 @@
     {
       "name": "Alexis Manyoma",
       "position": "LW",
-      "baseSalary": 535200,
-      "guaranteedComp": 592950,
+      "baseSalary": 654000,
+      "guaranteedComp": 711750,
       "international": true,
       "role": "U22 Initiative",
       "status": "Loan Player",
@@ -60,8 +60,8 @@
     {
       "name": "Georgi Minoungou",
       "position": "RW",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": true,
       "contractThru": "2028",
       "optionYears": "2029"
@@ -69,8 +69,8 @@
     {
       "name": "Kosi Thompson",
       "position": "RB",
-      "baseSalary": 120000,
-      "guaranteedComp": 125260,
+      "baseSalary": 140000,
+      "guaranteedComp": 145260,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
@@ -87,9 +87,9 @@
     },
     {
       "name": "Hamzat Ojediran",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "DM",
+      "baseSalary": 800000,
+      "guaranteedComp": 881667,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2028-29",
@@ -101,8 +101,8 @@
     {
       "name": "Zack Steffen",
       "position": "GK",
-      "baseSalary": 1000000,
-      "guaranteedComp": 1000000,
+      "baseSalary": 1100000,
+      "guaranteedComp": 1100000,
       "international": false,
       "role": "TAM Player",
       "contractThru": "2026",
@@ -111,8 +111,8 @@
     {
       "name": "Josh Atencio",
       "position": "DM",
-      "baseSalary": 350000,
-      "guaranteedComp": 350000,
+      "baseSalary": 462500,
+      "guaranteedComp": 462500,
       "international": false,
       "contractThru": "2027",
       "optionYears": "2028"
@@ -120,8 +120,8 @@
     {
       "name": "Noah Cobb",
       "position": "CB",
-      "baseSalary": 109000,
-      "guaranteedComp": 109000,
+      "baseSalary": 130000,
+      "guaranteedComp": 130000,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -129,8 +129,8 @@
     {
       "name": "Lucas Herrington",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 200004,
+      "guaranteedComp": 235004,
       "international": true,
       "contractThru": "2029",
       "optionYears": "2030",
@@ -141,8 +141,8 @@
     {
       "name": "Bryce Jamison",
       "position": "RW",
-      "baseSalary": 104000,
-      "guaranteedComp": 116466,
+      "baseSalary": 113400,
+      "guaranteedComp": 125866,
       "international": false,
       "contractThru": "2027",
       "optionYears": "2028, 2029"
@@ -159,8 +159,8 @@
     {
       "name": "Miguel Navarro",
       "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 498000,
+      "guaranteedComp": 548781,
       "international": false,
       "contractThru": "2027",
       "optionYears": "2028"
@@ -168,8 +168,8 @@
     {
       "name": "Connor Ronan",
       "position": "CM",
-      "baseSalary": 490000,
-      "guaranteedComp": 542400,
+      "baseSalary": 510000,
+      "guaranteedComp": 562400,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -177,16 +177,16 @@
     {
       "name": "Keegan Rosenberry",
       "position": "RB",
-      "baseSalary": 400000,
-      "guaranteedComp": 400000,
+      "baseSalary": 300000,
+      "guaranteedComp": 300000,
       "international": false,
       "contractThru": "2027"
     },
     {
       "name": "Adam Beaudry",
       "position": "GK",
-      "baseSalary": 104000,
-      "guaranteedComp": 106500,
+      "baseSalary": 113400,
+      "guaranteedComp": 115900,
       "international": false,
       "role": "Supplemental Roster",
       "status": "Unavailable – On Loan",
@@ -196,8 +196,8 @@
     {
       "name": "Ali Fadal",
       "position": "CM",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": true,
       "status": "Unavailable – On Loan",
       "contractThru": "2026",
@@ -207,8 +207,8 @@
     {
       "name": "Wayne Frederick",
       "position": "CM",
-      "baseSalary": 104000,
-      "guaranteedComp": 104000,
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
@@ -217,8 +217,8 @@
     {
       "name": "Nicholas Hansen",
       "position": "GK",
-      "baseSalary": 80622,
-      "guaranteedComp": 80622,
+      "baseSalary": 160000,
+      "guaranteedComp": 160000,
       "international": false,
       "contractThru": "2027-28",
       "optionYears": "2028-29, 2029-30",
@@ -227,18 +227,28 @@
     {
       "name": "Alex Harris",
       "position": "RW",
-      "baseSalary": 80622,
-      "guaranteedComp": 82622,
+      "baseSalary": 88025,
+      "guaranteedComp": 90025,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
       "optionYears": "2028, 2029"
     },
     {
+      "name": "Mamadou Billo Diop",
+      "position": "ST",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29, 2029-30"
+    },
+    {
       "name": "Donavan Phillip",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "ST",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": true,
       "status": "Unavailable – On Loan",
       "contractThru": "2027",
@@ -247,9 +257,9 @@
     },
     {
       "name": "Dante Sealy",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "RW",
+      "baseSalary": 150000,
+      "guaranteedComp": 168022,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027",
@@ -258,8 +268,8 @@
     {
       "name": "Kimani Stewart-Baynes",
       "position": "LW",
-      "baseSalary": 90000,
-      "guaranteedComp": 91000,
+      "baseSalary": 115000,
+      "guaranteedComp": 116000,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
@@ -268,8 +278,8 @@
     {
       "name": "Jackson Travis",
       "position": "LB",
-      "baseSalary": 104000,
-      "guaranteedComp": 106500,
+      "baseSalary": 125000,
+      "guaranteedComp": 127500,
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
@@ -278,9 +288,9 @@
     },
     {
       "name": "Sydney Wathuta",
-      "position": "",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "position": "CM",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "contractThru": "2027",
       "optionYears": "2027-28, 2028-29",
@@ -289,8 +299,8 @@
     {
       "name": "Darren Yapi",
       "position": "ST",
-      "baseSalary": 104000,
-      "guaranteedComp": 114833,
+      "baseSalary": 795000,
+      "guaranteedComp": 820000,
       "international": false,
       "role": "U22 Initiative",
       "contractThru": "2028-29",

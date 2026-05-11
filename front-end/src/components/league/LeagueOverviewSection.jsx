@@ -22,6 +22,29 @@ function LeagueTableContent({ activeTable }) {
   return <CapSpace />
 }
 
+function LeagueTabBar({ activeTable, onSelect, className = "" }) {
+  return (
+    <div className={`mt-6 w-full rounded-[22px] border border-white/8 bg-blue/[0.035] p-1.5 ${className}`}>
+      <div className="grid min-w-[52rem] grid-cols-5 gap-1.5">
+        {TABS.map((tab) => (
+          <button
+            key={tab.key}
+            onClick={() => onSelect(tab.key)}
+            className={`flex items-center justify-center gap-2 rounded-[18px] px-4 py-3 text-xs sm:text-sm font-medium transition-colors duration-150 whitespace-nowrap ${
+              activeTable === tab.key
+                ? "bg-blue-600 text-white-950"
+                : "bg-transparent text-neutral-400 hover:bg-white/[0.05] hover:text-neutral-200"
+            }`}
+          >
+            <span className="text-sm opacity-90">{tab.icon}</span>
+            <span>{tab.label}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 export default function LeagueOverviewSection({
   paramKey = "tab",
   variant = "page",
@@ -64,24 +87,8 @@ export default function LeagueOverviewSection({
             </p>
           )}
 
-          <div className="mt-6 flex gap-2 overflow-x-auto no-scrollbar pb-1">
-            {TABS.map((tab) => (
-              <button
-                key={tab.key}
-                onClick={() => setActiveTable(tab.key)}
-                className={`group relative flex items-center gap-2 rounded-2xl border px-4 py-2.5 text-xs sm:text-sm font-medium transition-all duration-150 whitespace-nowrap ${
-                  activeTable === tab.key
-                    ? "border-sky-400/30 bg-sky-400/12 text-white shadow-[0_12px_30px_rgba(14,165,233,0.12)]"
-                    : "border-white/8 bg-white/[0.03] text-neutral-400 hover:border-white/14 hover:bg-white/[0.06] hover:text-neutral-200"
-                }`}
-              >
-                <span className="text-sm opacity-90">{tab.icon}</span>
-                <span>{tab.label}</span>
-                {activeTable === tab.key && (
-                  <span className="absolute inset-x-4 -bottom-px h-px rounded-full bg-gradient-to-r from-transparent via-sky-300 to-transparent" />
-                )}
-              </button>
-            ))}
+          <div className="overflow-x-auto no-scrollbar pb-1">
+            <LeagueTabBar activeTable={activeTable} onSelect={setActiveTable} />
           </div>
         </div>
 
@@ -112,24 +119,8 @@ export default function LeagueOverviewSection({
             </p>
           </div>
 
-          <div className="mt-7 flex gap-2 overflow-x-auto no-scrollbar pb-1">
-            {TABS.map((tab) => (
-              <button
-                key={tab.key}
-                onClick={() => setActiveTable(tab.key)}
-                className={`group relative flex items-center gap-2 rounded-2xl border px-4 py-2.5 text-xs sm:text-sm font-medium transition-all duration-150 whitespace-nowrap ${
-                  activeTable === tab.key
-                    ? "border-sky-400/30 bg-sky-400/12 text-white shadow-[0_12px_30px_rgba(14,165,233,0.12)]"
-                    : "border-white/8 bg-white/[0.03] text-neutral-400 hover:border-white/14 hover:bg-white/[0.06] hover:text-neutral-200"
-                }`}
-              >
-                <span className="text-sm opacity-90">{tab.icon}</span>
-                <span>{tab.label}</span>
-                {activeTable === tab.key && (
-                  <span className="absolute inset-x-4 -bottom-px h-px bg-gradient-to-r from-transparent via-sky-300 to-transparent rounded-full" />
-                )}
-              </button>
-            ))}
+          <div className="overflow-x-auto no-scrollbar pb-1">
+            <LeagueTabBar activeTable={activeTable} onSelect={setActiveTable} className="mt-7" />
           </div>
         </div>
       </div>
