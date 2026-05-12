@@ -83,11 +83,21 @@ function getGrossCharge(player) {
   return normalizeNumber(player.guaranteed_comp) + normalizeNumber(player.amortized_transfer_fee)
 }
 
+function getGamBuydownUsed(player) {
+  if (!isActivePlayer(player) || player.role === "Supplemental Roster") return 0
+  if (player.role === "Designated Player" || player.role === "U22 Initiative") return 0
+
+  const grossCharge = getGrossCharge(player)
+  if (grossCharge <= MAX_BUDGET_CHARGE) return 0
+
+  return grossCharge - MAX_BUDGET_CHARGE
+}
+
 function getCapHit(player) {
   if (!isActivePlayer(player) || player.role === "Supplemental Roster") return 0
   if (player.role === "Designated Player") return MAX_BUDGET_CHARGE
   if (player.role === "U22 Initiative") return U22_BUDGET_CHARGE
-  return getGrossCharge(player)
+  return getGrossCharge(player) - getGamBuydownUsed(player)
 }
 
 function normalizeRosterPlayer(player, index = 0) {
@@ -114,14 +124,22 @@ function buildSimulatedTeamData(baseTeamData, roster) {
     baseTeamData.validation?.summary?.international_slots_total ??
     baseTeamData.international_slots_total ??
     8
-  const estimatedGamLeft =
+  const baseEstimatedGamLeft =
     normalizeNumber(baseTeamData.estimated_gam_left) ||
     (normalizeNumber(baseTeamData.remaining_gam) + normalizeNumber(baseTeamData.gam_balance))
+  const baseGamBuydownUsed = (baseTeamData.cap_breakdown ?? []).reduce(
+    (sum, player) => sum + normalizeNumber(player.gam_used ?? getGamBuydownUsed(player)),
+    0
+  )
 
   const capBreakdown = normalizedRoster.map((player) => ({
     ...player,
     cap_hit: getCapHit(player),
+    gam_used: getGamBuydownUsed(player),
   }))
+  const simulatedGamBuydownUsed = capBreakdown.reduce((sum, player) => sum + normalizeNumber(player.gam_used), 0)
+  const gamBuydownDelta = simulatedGamBuydownUsed - baseGamBuydownUsed
+  const estimatedGamLeft = baseEstimatedGamLeft - gamBuydownDelta
 
   const totalBaseSalary = normalizedRoster.reduce((sum, player) => sum + normalizeNumber(player.base_salary), 0)
   const totalComp = normalizedRoster.reduce((sum, player) => sum + normalizeNumber(player.guaranteed_comp), 0)
@@ -134,7 +152,7 @@ function buildSimulatedTeamData(baseTeamData, roster) {
     MLS_SALARY_CAP +
     MLS_TAM_AVAILABLE +
     normalizeNumber(baseTeamData.starting_gam) +
-    normalizeNumber(baseTeamData.gam_balance) -
+    (normalizeNumber(baseTeamData.gam_balance) - gamBuydownDelta) -
     totalCapHit
 
   const dpCount = activeRoster.filter((player) => player.role === "Designated Player").length
@@ -209,6 +227,7 @@ function buildSimulatedTeamData(baseTeamData, roster) {
         starting_gam: normalizeNumber(baseTeamData.starting_gam),
         gam_balance: normalizeNumber(baseTeamData.gam_balance),
         estimated_gam_left: estimatedGamLeft,
+        gam_buydown_used: simulatedGamBuydownUsed,
       },
     },
   }
