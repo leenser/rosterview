@@ -154,9 +154,12 @@ function buildSimulatedTeamData(baseTeamData, roster) {
     normalizeNumber(baseTeamData.starting_gam) +
     (normalizeNumber(baseTeamData.gam_balance) - gamBuydownDelta) -
     totalCapHit
+  const gamOffset = remainingCapSpace < 0
+    ? Math.min(Math.max(estimatedGamLeft, 0), Math.abs(remainingCapSpace))
+    : 0
   const adjustedRemainingCapSpace =
     remainingCapSpace < 0
-      ? remainingCapSpace + estimatedGamLeft
+      ? remainingCapSpace + gamOffset
       : remainingCapSpace
 
   const dpCount = activeRoster.filter((player) => player.role === "Designated Player").length

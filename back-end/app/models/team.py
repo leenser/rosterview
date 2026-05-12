@@ -86,7 +86,8 @@ class Team:
     def get_remaining_cap_space(self):
         remaining_cap_space = MLS_SALARY_CAP + MLS_TAM_AVAILABLE + self.starting_gam + self.gam_balance - self.total_cap_hit()
         if remaining_cap_space < 0:
-            remaining_cap_space += self.get_estimated_gam_left()
+            gam_offset = min(max(self.get_estimated_gam_left(), 0), abs(remaining_cap_space))
+            remaining_cap_space += gam_offset
         return remaining_cap_space
     
     def international_slots_used(self) -> int:
