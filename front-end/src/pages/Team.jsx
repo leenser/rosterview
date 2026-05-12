@@ -154,6 +154,10 @@ function buildSimulatedTeamData(baseTeamData, roster) {
     normalizeNumber(baseTeamData.starting_gam) +
     (normalizeNumber(baseTeamData.gam_balance) - gamBuydownDelta) -
     totalCapHit
+  const adjustedRemainingCapSpace =
+    remainingCapSpace < 0
+      ? remainingCapSpace + estimatedGamLeft
+      : remainingCapSpace
 
   const dpCount = activeRoster.filter((player) => player.role === "Designated Player").length
   const dpLimit = baseTeamData.validation?.summary?.dp_limit ?? (baseTeamData.roster_model === "U22 Initiative Player Model" ? 2 : 3)
@@ -183,10 +187,10 @@ function buildSimulatedTeamData(baseTeamData, roster) {
       message: `International slots exceeded (${internationalSlotsUsed}/${internationalSlotsTotal})`,
     })
   }
-  if (remainingCapSpace < 0) {
+  if (adjustedRemainingCapSpace < 0) {
     issues.push({
       type: "SALARY_CAP",
-      message: `Team is over estimated cap space by $${Math.abs(remainingCapSpace).toLocaleString()}`,
+      message: `Team is over estimated cap space by $${Math.abs(adjustedRemainingCapSpace).toLocaleString()}`,
     })
   }
 
@@ -194,7 +198,7 @@ function buildSimulatedTeamData(baseTeamData, roster) {
     ...baseTeamData,
     players: normalizedRoster.length,
     estimated_gam_left: estimatedGamLeft,
-    remaining_cap_space: remainingCapSpace,
+    remaining_cap_space: adjustedRemainingCapSpace,
     counts: {
       designated_players: dpCount,
       u22_players: u22Count,
