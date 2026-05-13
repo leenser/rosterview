@@ -83,7 +83,7 @@
     },
     {
       "name": "Raul Gustavo",
-      "position": "",
+      "position": "CB",
       "baseSalary": 720000,
       "guaranteedComp": 812960,
       "international": true,
@@ -335,7 +335,7 @@
     },
     {
       "name": "Arnau Farnós",
-      "position": "",
+      "position": "ST",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
@@ -345,7 +345,7 @@
     },
     {
       "name": "Kamran Acito",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,

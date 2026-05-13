@@ -176,7 +176,7 @@
     },
     {
       "name": "Osvald Søe",
-      "position": "",
+      "position": "CB",
       "baseSalary": 234996,
       "guaranteedComp": 234996,
       "international": true,
@@ -220,7 +220,7 @@
     },
     {
       "name": "Wilson Eisner",
-      "position": "",
+      "position": "RB",
       "baseSalary": 88025,
       "guaranteedComp": 95290,
       "international": false,
@@ -251,7 +251,7 @@
     },
     {
       "name": "Kieran Sargeant",
-      "position": "",
+      "position": "LB",
       "baseSalary": 113400,
       "guaranteedComp": 122180,
       "international": false,

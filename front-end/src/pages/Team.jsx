@@ -100,6 +100,30 @@ function getCapHit(player) {
   return getGrossCharge(player) - getGamBuydownUsed(player)
 }
 
+function hasCapMathChanged(player) {
+  if (player.is_new) return true
+  return (
+    normalizeNumber(player.guaranteed_comp) !== normalizeNumber(player.original_guaranteed_comp) ||
+    normalizeNumber(player.amortized_transfer_fee) !== normalizeNumber(player.original_amortized_transfer_fee) ||
+    (player.role ?? "") !== (player.original_role ?? "") ||
+    (player.status ?? "") !== (player.original_status ?? "")
+  )
+}
+
+function getSimulatedGamUsed(player) {
+  if (!hasCapMathChanged(player)) {
+    return normalizeNumber(player.original_gam_used)
+  }
+  return getGamBuydownUsed(player)
+}
+
+function getSimulatedCapHit(player) {
+  if (!hasCapMathChanged(player)) {
+    return normalizeNumber(player.original_cap_hit)
+  }
+  return getCapHit(player)
+}
+
 function normalizeRosterPlayer(player, index = 0) {
   return {
     local_id: player.local_id ?? `${player.name || "player"}-${index}-${Math.random().toString(36).slice(2, 8)}`,
@@ -114,6 +138,13 @@ function normalizeRosterPlayer(player, index = 0) {
     status: player.status ?? "",
     contract_through: player.contract_through ?? "",
     option_years: player.option_years ?? "",
+    original_role: player.original_role ?? player.role ?? "Senior",
+    original_status: player.original_status ?? player.status ?? "",
+    original_guaranteed_comp: normalizeNumber(player.original_guaranteed_comp ?? player.guaranteed_comp),
+    original_amortized_transfer_fee: normalizeNumber(player.original_amortized_transfer_fee ?? player.amortized_transfer_fee),
+    original_cap_hit: normalizeNumber(player.original_cap_hit ?? player.cap_hit),
+    original_gam_used: normalizeNumber(player.original_gam_used ?? player.gam_used),
+    is_new: Boolean(player.is_new),
   }
 }
 
@@ -128,14 +159,14 @@ function buildSimulatedTeamData(baseTeamData, roster) {
     normalizeNumber(baseTeamData.estimated_gam_left) ||
     (normalizeNumber(baseTeamData.remaining_gam) + normalizeNumber(baseTeamData.gam_balance))
   const baseGamBuydownUsed = (baseTeamData.cap_breakdown ?? []).reduce(
-    (sum, player) => sum + normalizeNumber(player.gam_used ?? getGamBuydownUsed(player)),
+    (sum, player) => sum + normalizeNumber(player.gam_used),
     0
   )
 
   const capBreakdown = normalizedRoster.map((player) => ({
     ...player,
-    cap_hit: getCapHit(player),
-    gam_used: getGamBuydownUsed(player),
+    cap_hit: getSimulatedCapHit(player),
+    gam_used: getSimulatedGamUsed(player),
   }))
   const simulatedGamBuydownUsed = capBreakdown.reduce((sum, player) => sum + normalizeNumber(player.gam_used), 0)
   const gamBuydownDelta = simulatedGamBuydownUsed - baseGamBuydownUsed
@@ -591,6 +622,7 @@ function Team() {
           ...newPlayer,
           local_id: `new-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`,
           base_salary: normalizeNumber(newPlayer.guaranteed_comp),
+          is_new: true,
         },
         current.length
       ),

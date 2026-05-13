@@ -93,7 +93,7 @@
     },
     {
       "name": "Ethan Bartlow",
-      "position": "",
+      "position": "CB",
       "baseSalary": 113400,
       "guaranteedComp": 142637,
       "international": false,
@@ -146,7 +146,7 @@
     },
     {
       "name": "Wyatt Meyer",
-      "position": "",
+      "position": "CB",
       "baseSalary": 113400,
       "guaranteedComp": 116550,
       "international": false,
@@ -163,7 +163,7 @@
     },
     {
       "name": "Jayden Reid",
-      "position": "",
+      "position": "LB",
       "baseSalary": 113400,
       "guaranteedComp": 116655,
       "international": false,
@@ -227,7 +227,7 @@
     },
     {
       "name": "Justin Reynolds",
-      "position": "",
+      "position": "RB",
       "baseSalary": 123400,
       "guaranteedComp": 123400,
       "international": false,

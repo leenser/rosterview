@@ -157,7 +157,7 @@
     },
     {
       "name": "Mbacke Fall",
-      "position": "",
+      "position": "CB",
       "baseSalary": 645500,
       "guaranteedComp": 743919,
       "international": true,
@@ -238,7 +238,7 @@
     },
     {
       "name": "Lukas MacNaughton",
-      "position": "",
+      "position": "CB",
       "baseSalary": 200000,
       "guaranteedComp": 219306,
       "international": false,
@@ -290,7 +290,7 @@
     },
     {
       "name": "Rafael Santos",
-      "position": "",
+      "position": "LB",
       "baseSalary": 200000,
       "guaranteedComp": 226354,
       "international": false,

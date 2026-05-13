@@ -36,7 +36,7 @@
     },
     {
       "name": "Reed Baker-Whiting",
-      "position": "",
+      "position": "LB",
       "baseSalary": 275000,
       "guaranteedComp": 283000,
       "international": false,
@@ -91,7 +91,7 @@
     },
     {
       "name": "Maxwell Woledzi",
-      "position": "",
+      "position": "CB",
       "baseSalary": 650000,
       "guaranteedComp": 667500,
       "international": true,
@@ -167,7 +167,7 @@
     },
     {
       "name": "Chris Applewhite",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 97470,
       "international": false,
@@ -221,7 +221,7 @@
     },
     {
       "name": "Isaiah LeFlore",
-      "position": "",
+      "position": "LB",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
@@ -272,7 +272,7 @@
     },
     {
       "name": "Thomas Williams",
-      "position": "",
+      "position": "CB",
       "baseSalary": 150000,
       "guaranteedComp": 163875,
       "international": false,
@@ -294,7 +294,7 @@
     },
     {
       "name": "Malachi Molina",
-      "position": "",
+      "position": "RB",
       "baseSalary": 88025,
       "guaranteedComp": 100741,
       "international": false,

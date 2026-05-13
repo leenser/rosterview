@@ -100,7 +100,7 @@
     },
     {
       "name": "Justin Che",
-      "position": "",
+      "position": "RB",
       "baseSalary": 440000,
       "guaranteedComp": 501667,
       "international": false,
@@ -139,7 +139,7 @@
     },
     {
       "name": "Jahkeele Marshall-Rutty",
-      "position": "",
+      "position": "RB",
       "baseSalary": 425000,
       "guaranteedComp": 473750,
       "international": false,
@@ -235,7 +235,7 @@
     },
     {
       "name": "Robert Voloder",
-      "position": "",
+      "position": "CB",
       "baseSalary": 575000,
       "guaranteedComp": 685250,
       "international": false,

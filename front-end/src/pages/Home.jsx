@@ -131,8 +131,7 @@ function Home() {
             MLS <span className="text-blue-400">RosterView</span>
           </h1>
           <p className="text-neutral-400 text-sm sm:text-base max-w-xl leading-relaxed mb-8 sm:mb-10">
-            Explore roster construction, salary cap breakdowns, and spending
-            patterns across all 30 Major League Soccer clubs.
+            A simplified view of MLS roster rules and team compositions, designed to help fans understand the complexities of how teams are built and managed.
           </p>
 
           <div className="relative overflow-hidden">

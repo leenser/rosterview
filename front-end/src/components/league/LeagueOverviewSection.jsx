@@ -49,7 +49,7 @@ export default function LeagueOverviewSection({
   paramKey = "tab",
   variant = "page",
   title = "League Overview",
-  description = "Compare roster construction, GAM movement, cap flexibility, and designated-player usage",
+  description = "Compare roster construction and spending pattens across all MLS clubs",
 }) {
   const [searchParams, setSearchParams] = useSearchParams()
 

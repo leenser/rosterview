@@ -87,7 +87,7 @@
     },
     {
       "name": "Joseph Rosales",
-      "position": "",
+      "position": "LB",
       "baseSalary": 500000,
       "guaranteedComp": 529875,
       "international": false,
@@ -97,7 +97,7 @@
     },
     {
       "name": "Jon Bell",
-      "position": "",
+      "position": "CB",
       "baseSalary": 225000,
       "guaranteedComp": 225000,
       "international": false,

@@ -124,7 +124,7 @@
     },
     {
       "name": "Micael",
-      "position": "",
+      "position": "CB",
       "baseSalary": 750000,
       "guaranteedComp": 892440,
       "international": true,
@@ -138,7 +138,7 @@
     },
     {
       "name": "Facundo Mura",
-      "position": "",
+      "position": "RB",
       "baseSalary": 850000,
       "guaranteedComp": 1026875,
       "international": true,
@@ -147,7 +147,7 @@
     },
     {
       "name": "Sergio Reguilón",
-      "position": "",
+      "position": "LB",
       "baseSalary": 1700000,
       "guaranteedComp": 1800000,
       "international": true,

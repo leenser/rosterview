@@ -42,7 +42,7 @@
     },
     {
       "name": "Elías Baez",
-      "position": "",
+      "position": "LB",
       "baseSalary": 264706,
       "guaranteedComp": 293706,
       "international": true,
@@ -55,7 +55,7 @@
     },
     {
       "name": "Tomás Jacob",
-      "position": "",
+      "position": "CB",
       "baseSalary": 525000,
       "guaranteedComp": 642500,
       "international": true,
@@ -319,7 +319,7 @@
     },
     {
       "name": "Kaiden Moore",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,

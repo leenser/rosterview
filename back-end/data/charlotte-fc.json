@@ -116,7 +116,7 @@
     },
     {
       "name": "Henry Kessler",
-      "position": "",
+      "position": "CB",
       "baseSalary": 850000,
       "guaranteedComp": 965525,
       "international": false,
@@ -156,7 +156,7 @@
     },
     {
       "name": "Morrison Agyemang",
-      "position": "",
+      "position": "CB",
       "baseSalary": 240000,
       "guaranteedComp": 262080,
       "international": true,
@@ -220,7 +220,7 @@
     },
     {
       "name": "David Schnegg",
-      "position": "",
+      "position": "LB",
       "baseSalary": 650000,
       "guaranteedComp": 756250,
       "international": false,
@@ -240,7 +240,7 @@
     },
     {
       "name": "Will Cleary",
-      "position": "",
+      "position": "RB",
       "baseSalary": 88025,
       "guaranteedComp": 89309,
       "international": false,
@@ -250,7 +250,7 @@
     },
     {
       "name": "Andrew Johnson",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 89309,
       "international": false,

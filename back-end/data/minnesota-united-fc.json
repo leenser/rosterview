@@ -153,7 +153,7 @@
     },
     {
       "name": "Kyle Duncan",
-      "position": "",
+      "position": "RB",
       "baseSalary": 400000,
       "guaranteedComp": 437889,
       "international": false,
@@ -272,7 +272,7 @@
     },
     {
       "name": "Britton Fischer",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
@@ -307,7 +307,7 @@
     },
     {
       "name": "Devin Padelford",
-      "position": "",
+      "position": "LB",
       "baseSalary": 160000,
       "guaranteedComp": 179500,
       "international": false,

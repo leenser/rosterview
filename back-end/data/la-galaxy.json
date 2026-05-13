@@ -90,7 +90,7 @@
     },
     {
       "name": "Jakob Glesnes",
-      "position": "",
+      "position": "CB",
       "baseSalary": 826087,
       "guaranteedComp": 1268503,
       "international": false,
@@ -99,7 +99,7 @@
     },
     {
       "name": "Justin Haak",
-      "position": "",
+      "position": "CB",
       "baseSalary": 752841,
       "guaranteedComp": 810561,
       "international": false,
@@ -202,7 +202,7 @@
     },
     {
       "name": "Riley Delgado",
-      "position": "",
+      "position": "LB",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,

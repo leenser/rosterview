@@ -76,7 +76,7 @@
     },
     {
       "name": "Iago Teodoro",
-      "position": "",
+      "position": "CB",
       "baseSalary": 500000,
       "guaranteedComp": 551875,
       "international": true,
@@ -149,7 +149,7 @@
     },
     {
       "name": "Griffin Dorsey",
-      "position": "",
+      "position": "RB",
       "baseSalary": 700000,
       "guaranteedComp": 767891,
       "international": false,
@@ -227,7 +227,7 @@
     },
     {
       "name": "Nolan Miller",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,

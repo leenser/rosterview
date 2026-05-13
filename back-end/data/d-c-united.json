@@ -80,7 +80,7 @@
     },
     {
       "name": "Keisuke Kurokawa",
-      "position": "",
+      "position": "LB",
       "baseSalary": 550000,
       "guaranteedComp": 615500,
       "international": true,
@@ -154,7 +154,7 @@
     },
     {
       "name": "Silvan Hefti",
-      "position": "",
+      "position": "RB",
       "baseSalary": 370000,
       "guaranteedComp": 434833,
       "international": true,
@@ -184,7 +184,7 @@
     },
     {
       "name": "Sean Nealis",
-      "position": "",
+      "position": "CB",
       "baseSalary": 650000,
       "guaranteedComp": 723750,
       "international": false,
@@ -272,7 +272,7 @@
     },
     {
       "name": "Nikola Markovic",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 93858,
       "international": true,

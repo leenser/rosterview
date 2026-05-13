@@ -146,7 +146,7 @@
     },
     {
       "name": "Alex Bonetig",
-      "position": "",
+      "position": "CB",
       "baseSalary": 240000,
       "guaranteedComp": 261000,
       "international": true,
@@ -158,7 +158,7 @@
     },
     {
       "name": "Brandon Bye",
-      "position": "",
+      "position": "RB",
       "baseSalary": 400000,
       "guaranteedComp": 442500,
       "international": false,
@@ -233,7 +233,7 @@
     },
     {
       "name": "Sawyer Jura",
-      "position": "",
+      "position": "RB",
       "baseSalary": 88025,
       "guaranteedComp": 91358,
       "international": false,

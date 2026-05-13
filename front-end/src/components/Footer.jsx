@@ -50,14 +50,6 @@ function Footer() {
           >
             Email
           </a>
-
-          <a
-            href="https://linkedin.com/in/leenser"
-            target="_blank"
-            className="hover:text-white transition"
-          >
-            LinkedIn
-          </a>
         </div>
 
       </div>

@@ -80,7 +80,7 @@
     },
     {
       "name": "Matheus Pereira",
-      "position": "",
+      "position": "LB",
       "baseSalary": 477000,
       "guaranteedComp": 650800,
       "international": true,
@@ -103,7 +103,7 @@
     },
     {
       "name": "Walker Zimmerman",
-      "position": "",
+      "position": "CB",
       "baseSalary": 1140000,
       "guaranteedComp": 1708037,
       "international": false,
@@ -132,7 +132,7 @@
     },
     {
       "name": "Raheem Edwards",
-      "position": "",
+      "position": "LB",
       "baseSalary": 375000,
       "guaranteedComp": 414340,
       "international": false,
@@ -291,7 +291,7 @@
     },
     {
       "name": "Stefan Kapor",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 97740,
       "international": false,

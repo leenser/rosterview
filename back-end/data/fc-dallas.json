@@ -55,7 +55,7 @@
     },
     {
       "name": "Geovane de Jesus",
-      "position": "",
+      "position": "RB",
       "baseSalary": 400000,
       "guaranteedComp": 447000,
       "international": true,
@@ -309,7 +309,7 @@
     },
     {
       "name": "Slade Starnes",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 93472,
       "international": false,
@@ -397,7 +397,7 @@
     },
     {
       "name": "Kaka Scabin",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,

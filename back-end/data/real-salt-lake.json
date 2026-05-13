@@ -26,7 +26,7 @@
     },
     {
       "name": "Juan Jose Arias",
-      "position": "",
+      "position": "CB",
       "baseSalary": 500000,
       "guaranteedComp": 565139,
       "international": true,
@@ -90,7 +90,7 @@
     },
     {
       "name": "Lukas Engel",
-      "position": "",
+      "position": "LB",
       "baseSalary": 750000,
       "guaranteedComp": 832135,
       "international": true,
@@ -126,7 +126,7 @@
     },
     {
       "name": "Juan Manuel Sanabria",
-      "position": "",
+      "position": "LB",
       "baseSalary": 500000,
       "guaranteedComp": 500000,
       "international": true,
@@ -183,7 +183,7 @@
     },
     {
       "name": "Sam Junqua",
-      "position": "",
+      "position": "LB",
       "baseSalary": 450000,
       "guaranteedComp": 482813,
       "international": false,
@@ -414,7 +414,7 @@
     },
     {
       "name": "Juan Gio Villa",
-      "position": "",
+      "position": "RB",
       "baseSalary": 88025,
       "guaranteedComp": 91358,
       "international": false,

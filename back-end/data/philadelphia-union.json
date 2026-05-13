@@ -38,7 +38,7 @@
     },
     {
       "name": "Philippe Ndinga",
-      "position": "",
+      "position": "LB",
       "baseSalary": 300000,
       "guaranteedComp": 332250,
       "international": true,
@@ -111,7 +111,7 @@
     },
     {
       "name": "Japhet Sery Larsen",
-      "position": "",
+      "position": "CB",
       "baseSalary": 600000,
       "guaranteedComp": 675300,
       "international": true,
@@ -173,7 +173,7 @@
     },
     {
       "name": "Geiner Martínez",
-      "position": "",
+      "position": "CB",
       "baseSalary": 200000,
       "guaranteedComp": 360204,
       "international": true,
@@ -262,7 +262,7 @@
     },
     {
       "name": "Finn Sundstrom",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 102285,
       "international": false,
@@ -316,7 +316,7 @@
     },
     {
       "name": "Kaiden Moore",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,

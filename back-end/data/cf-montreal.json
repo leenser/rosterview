@@ -17,7 +17,7 @@
     },
     {
       "name": "Tomás Avilés",
-      "position": "",
+      "position": "CB",
       "baseSalary": 495000,
       "guaranteedComp": 522500,
       "international": false,
@@ -181,7 +181,7 @@
     },
     {
       "name": "Dagur Dan Thórhallsson",
-      "position": "",
+      "position": "RB",
       "baseSalary": 480000,
       "guaranteedComp": 530625,
       "international": false,
@@ -190,7 +190,7 @@
     },
     {
       "name": "Brayan Vera",
-      "position": "",
+      "position": "CB",
       "baseSalary": 650000,
       "guaranteedComp": 748000,
       "international": false,
@@ -315,7 +315,7 @@
     },
     {
       "name": "Félix Samson",
-      "position": "",
+      "position": "CB",
       "baseSalary": 88025,
       "guaranteedComp": 91740,
       "international": false,
