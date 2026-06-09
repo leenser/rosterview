@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState } from "react"
 import { useParams } from "react-router-dom"
 import { createPortal } from "react-dom"
+import { toPng } from "html-to-image"
 import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
+import GMExportCard from "../components/team/GMExportCard"
 import headshotManifest from "../data/headshotManifest.json"
 
 const CURRENT_SEASON = 2026
@@ -546,6 +548,8 @@ function Team() {
   const [isGMMode, setIsGMMode] = useState(false)
   const [gmRoster, setGmRoster] = useState([])
   const [newPlayer, setNewPlayer] = useState(createNewPlayer())
+  const [exporting, setExporting] = useState(false)
+  const exportRef = useRef(null)
 
   useEffect(() => {
     async function loadTeam() {
@@ -610,6 +614,38 @@ function Team() {
 
   function removePlayer(localId) {
     setGmRoster((current) => current.filter((player) => player.local_id !== localId))
+  }
+
+  async function exportGMRoster() {
+    if (!exportRef.current || exporting) return
+
+    setExporting(true)
+    try {
+      await new Promise((resolve) => requestAnimationFrame(resolve))
+
+      const logo = exportRef.current.querySelector("img")
+      if (logo && !logo.complete) {
+        await new Promise((resolve) => {
+          logo.onload = resolve
+          logo.onerror = resolve
+        })
+      }
+
+      const dataUrl = await toPng(exportRef.current, {
+        pixelRatio: 2,
+        backgroundColor: "#ffffff",
+        cacheBust: true,
+      })
+
+      const link = document.createElement("a")
+      link.download = `${slug}-gm-roster-${CURRENT_SEASON}.png`
+      link.href = dataUrl
+      link.click()
+    } catch (err) {
+      console.error("Export failed:", err)
+    } finally {
+      setExporting(false)
+    }
   }
 
   function addPlayer() {
@@ -720,22 +756,39 @@ function Team() {
               </div>
             </div>
 
-            <button
-              type="button"
-              onClick={toggleGMMode}
-              className={`inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm font-medium transition-colors ${
-                isGMMode
-                  ? "border-neutral-500 bg-neutral-700 text-white hover:bg-neutral-600"
-                  : "border-blue-400/30 bg-blue-400/10 text-blue-100 hover:bg-blue-400/15"
-              }`}
-            >
-              <span>{isGMMode ? "GM Mode On" : "GM Mode"}</span>
-            </button>
+            <div className="flex items-center gap-2">
+              {isGMMode && (
+                <button
+                  type="button"
+                  onClick={exportGMRoster}
+                  disabled={exporting}
+                  className="inline-flex items-center gap-2 rounded-full border border-neutral-500 bg-neutral-700 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-neutral-600 disabled:cursor-wait disabled:opacity-60"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
+                    <path d="M10.75 2.75a.75.75 0 0 0-1.5 0v8.614L6.295 8.235a.75.75 0 1 0-1.09 1.03l4.25 4.5a.75.75 0 0 0 1.09 0l4.25-4.5a.75.75 0 1 0-1.09-1.03l-2.955 3.129V2.75Z" />
+                    <path d="M3.5 12.75a.75.75 0 0 0-1.5 0v2.5A2.75 2.75 0 0 0 4.75 18h10.5A2.75 2.75 0 0 0 18 15.25v-2.5a.75.75 0 0 0-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5Z" />
+                  </svg>
+                  <span>{exporting ? "Exporting…" : "Export Image"}</span>
+                </button>
+              )}
+
+              <button
+                type="button"
+                onClick={toggleGMMode}
+                className={`inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm font-medium transition-colors ${
+                  isGMMode
+                    ? "border-neutral-500 bg-neutral-700 text-white hover:bg-neutral-600"
+                    : "border-blue-400/30 bg-blue-400/10 text-blue-100 hover:bg-blue-400/15"
+                }`}
+              >
+                <span>{isGMMode ? "GM Mode On" : "GM Mode"}</span>
+              </button>
+            </div>
           </div>
 
           {isGMMode && (
             <div className="rounded-xl border border-neutral-600 bg-neutral-700/80 px-4 py-3 text-sm text-neutral-200">
-              GM Mode is local only. Changes are temporary and disappear when you turn it off.
+              GM Mode is local only. Changes are temporary and disappear when you turn it off. Use Export Image to save your roster scenario as a PNG.
             </div>
           )}
         </div>
@@ -1216,6 +1269,32 @@ function Team() {
           </div>
         </div>
       </div>
+      {isGMMode && (
+        <div className="pointer-events-none fixed left-[-10000px] top-0" aria-hidden="true">
+          <GMExportCard
+            ref={exportRef}
+            teamName={activeTeamData.team}
+            teamSlug={slug}
+            rosterModel={activeTeamData.roster_model}
+            capBreakdown={activeTeamData.cap_breakdown}
+            cap={activeTeamData.cap}
+            validation={activeTeamData.validation}
+            counts={activeTeamData.counts}
+            spendingByLine={spendingByLine}
+            spendingByMechanism={spendingByMechanism}
+            totalLineSpend={totalLineSpend}
+            totalMechanismSpend={totalMechanismSpend}
+            estimatedGamLeft={estimatedGamLeft}
+            remainingCapSpace={activeTeamData.remaining_cap_space ?? 0}
+            activePlayerCount={
+              activeTeamData.cap_breakdown
+                ? activeTeamData.cap_breakdown.filter((player) => isActivePlayer(player)).length
+                : 0
+            }
+          />
+        </div>
+      )}
+
       <Footer />
     </div>
   )
