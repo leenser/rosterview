@@ -195,6 +195,19 @@
       "contractThru": "2026"
     },
     {
+      "name": "Yevhen Cheberko",
+      "position": "CB",
+      "baseSalary": 610000,
+      "guaranteedComp": 658250,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "June 2026",
+      "optionYears": "2026",
+      "transferFee": 1150000,
+      "joinedYear": 2023,
+      "guaranteedYears": 4
+    },
+    {
       "name": "Jacob Shaffelburg",
       "position": "LW",
       "baseSalary": 475000,
