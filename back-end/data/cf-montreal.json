@@ -2,20 +2,6 @@
   "teamName": "CF Montreal",
   "players": [
     {
-      "name": "Iván Jaime",
-      "position": "AM",
-      "baseSalary": 1920000,
-      "guaranteedComp": 2111200,
-      "international": true,
-      "role": "Designated Player",
-      "status": "Loan Player",
-      "contractThru": "June 2026",
-      "optionYears": "PT: 2027; 2028, 2029",
-      "transferFee": 247000,
-      "joinedYear": 2026,
-      "guaranteedYears": 1
-    },
-    {
       "name": "Tomás Avilés",
       "position": "CB",
       "baseSalary": 495000,
