@@ -61,15 +61,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Aaron Herrera",
-      "position": "RB",
-      "baseSalary": 850000,
-      "guaranteedComp": 945220,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026"
-    },
-    {
       "name": "Sean Johnson",
       "position": "GK",
       "baseSalary": 883475,
