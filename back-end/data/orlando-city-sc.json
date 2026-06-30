@@ -13,6 +13,16 @@
       "DPBuydownEligible": true
     },
     {
+      "name": "Antoine Griezmann",
+      "position": "ST",
+      "baseSalary": 3000000,
+      "guaranteedComp": 3000000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29"
+    },
+    {
       "name": "Martín Ojeda",
       "position": "AM",
       "baseSalary": 1600000,
