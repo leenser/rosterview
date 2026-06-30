@@ -46,6 +46,16 @@
       "optionYears": "2027"
     },
     {
+      "name": "Nelson Palacio",
+      "position": "CM",
+      "baseSalary": 430000,
+      "guaranteedComp": 473167,
+      "international": true,
+      "role": "U22 Initiative",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
       "name": "José Cifuentes",
       "position": "CM",
       "baseSalary": 1375000,

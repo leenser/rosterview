@@ -2,6 +2,16 @@
   "teamName": "Chicago Fire FC",
   "players": [
     {
+      "name": "Robert Lewandowski",
+      "position": "ST",
+      "baseSalary": 5000000,
+      "guaranteedComp": 5000000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2027-28",
+      "salaryEstimated": true
+    },
+    {
       "name": "Jonathan Bamba",
       "position": "LW",
       "baseSalary": 5000000,

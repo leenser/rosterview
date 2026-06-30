@@ -18,7 +18,9 @@ class Player:
             guaranteedYears: Optional[int] = None,
             transferFee: Optional[int] = None,
             contractThru: Optional[str] = None,
-            optionYears: Optional[str] = None
+            optionYears: Optional[str] = None,
+            salaryEstimated: bool = False,
+            DPBuydownEligible: bool = False
     ):
         self.name = name
         self.position = position
@@ -33,6 +35,8 @@ class Player:
         self.guaranteedYears = guaranteedYears
         self.contractThru = contractThru
         self.optionYears = optionYears
+        self.salaryEstimated = salaryEstimated
+        self.DPBuydownEligible = DPBuydownEligible
         
         
     

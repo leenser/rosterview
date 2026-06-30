@@ -23,6 +23,17 @@
       "contractThru": "2027"
     },
     {
+      "name": "Bénie Traoré",
+      "position": "ST",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1200000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2028/29",
+      "optionYears": "2029/30",
+      "salaryEstimated": true
+    },
+    {
       "name": "Thiago Martins",
       "position": "CB",
       "baseSalary": 1800000,
@@ -133,8 +144,9 @@
       "guaranteedComp": 1318750,
       "international": false,
       "role": "TAM Player",
-      "status": "Unavailable – On Loan",
-      "contractThru": "2028"
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "salaryEstimated": true
     },
     {
       "name": "Hannes Wolf",

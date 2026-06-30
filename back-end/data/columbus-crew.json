@@ -8,6 +8,7 @@
       "guaranteedComp": 3611750,
       "international": true,
       "role": "Designated Player",
+      "status":"Unavailable \u2013 SEI",
       "contractThru": "2027",
       "optionYears": "2028",
       "transferFee": 7340000,
@@ -23,19 +24,6 @@
       "role": "Designated Player",
       "contractThru": "2027",
       "optionYears": "2028"
-    },
-    {
-      "name": "Diego Rossi",
-      "position": "AM",
-      "baseSalary": 2775000,
-      "guaranteedComp": 3476827,
-      "international": false,
-      "role": "Designated Player",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "transferFee": 6890000,
-      "joinedYear": 2023,
-      "guaranteedYears": 4
     },
     {
       "name": "Nariman Akhundzada",
@@ -170,6 +158,16 @@
       "optionYears": "2028"
     },
     {
+      "name": "Brooks Lennon",
+      "position": "RB",
+      "baseSalary": 500000,
+      "guaranteedComp": 530000,
+      "international": false,
+      "contractThru": "June 2027",
+      "optionYears": "2027-28, 2028-29",
+      "salaryEstimated": true
+    },
+    {
       "name": "Amar Sejdić",
       "position": "DM",
       "baseSalary": 200000,
@@ -184,6 +182,17 @@
       "guaranteedComp": 530000,
       "international": false,
       "contractThru": "2026"
+    },
+
+    {
+      "name": "Lautaro Giaccone",
+      "position": "RW",
+      "baseSalary": 400000,
+      "guaranteedComp": 430000,
+      "international": true,
+      "status":"Loan Player",
+      "contractThru": "June 2027",
+      "salaryEstimated": true
     },
     {
       "name": "Tristan Brown",

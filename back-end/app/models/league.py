@@ -201,6 +201,8 @@ class League:
                         "position": position,
                         "spend": salary,
                         "status": getattr(p, "status", None),
+                        "salary_estimated": getattr(p, "salaryEstimated", False),
+                        "dp_buydown_eligible": getattr(p, "dpBuydownEligible", False),
                     })
 
             rows.append({
@@ -243,6 +245,7 @@ class League:
                         "position": position,
                         "spend": salary,
                         "status": getattr(p, "status", None),
+                        "salary_estimated": getattr(p, "salaryEstimated", False),
                     })
 
             rows.append({

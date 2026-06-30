@@ -32,6 +32,12 @@ export default function DPOverview() {
     return null;
   };
 
+  const EstimatedSpend = ({ spend, estimated }) => (
+    <span className="text-gray-400 whitespace-nowrap" title={estimated ? "Estimated salary" : undefined}>
+      {formatMoney(spend)}{estimated ? "*" : ""}
+    </span>
+  );
+
   useEffect(() => {
     Promise.all([
       fetch("https://rosterview.onrender.com/league/dps").then(res => res.json()),
@@ -144,8 +150,16 @@ export default function DPOverview() {
                     <div className="flex items-center gap-2 min-w-0">
                       <span className="text-gray-300">{p.name}</span>
                       {p.status && <StatusBadge status={p.status} />}
+                      {p.dp_buydown_eligible && (
+                        <span
+                          className="text-[10px] px-2 py-0.5 rounded bg-yellow-300/10 text-yellow-100 border border-yellow-300/30"
+                          title="Eligible to be bought down with allocation money"
+                        >
+                          Buy-down
+                        </span>
+                      )}
                     </div>
-                    <span className="text-gray-400 whitespace-nowrap">{formatMoney(p.spend)}</span>
+                    <EstimatedSpend spend={p.spend} estimated={p.salary_estimated} />
                   </div>
                 ))}
 
@@ -166,7 +180,7 @@ export default function DPOverview() {
                       <span className="text-gray-300">{p.name}</span>
                       {p.status && <StatusBadge status={p.status} />}
                     </div>
-                    <span className="text-gray-400 whitespace-nowrap">{formatMoney(p.spend)}</span>
+                    <EstimatedSpend spend={p.spend} estimated={p.salary_estimated} />
                   </div>
                 ))}
 

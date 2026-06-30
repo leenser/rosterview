@@ -9,7 +9,8 @@
       "international": false,
       "role": "Designated Player",
       "contractThru": "2026",
-      "optionYears": "2027"
+      "optionYears": "2027",
+      "DPBuydownEligible": true
     },
     {
       "name": "Morgan Guilavogui",
@@ -60,20 +61,6 @@
       "transferFee": 1720000,
       "joinedYear": 2024,
       "guaranteedYears": 4
-    },
-    {
-      "name": "Nelson Palacio",
-      "position": "CM",
-      "baseSalary": 430000,
-      "guaranteedComp": 473167,
-      "international": true,
-      "role": "U22 Initiative",
-      "status": "Unavailable – On Loan",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "transferFee": 2070000,
-      "joinedYear": 2024,
-      "guaranteedYears": 3
     },
     {
       "name": "Ariath Piol",

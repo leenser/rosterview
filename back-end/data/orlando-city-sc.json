@@ -9,7 +9,8 @@
       "international": false,
       "role": "Designated Player",
       "contractThru": "2028-29",
-      "optionYears": "2029-30"
+      "optionYears": "2029-30",
+      "DPBuydownEligible": true
     },
     {
       "name": "Martín Ojeda",
@@ -19,7 +20,8 @@
       "international": false,
       "role": "Designated Player",
       "contractThru": "2028-29",
-      "optionYears": "2029-30"
+      "optionYears": "2029-30",
+      "DPBuydownEligible": true
     },
     {
       "name": "Marco Pašalić",

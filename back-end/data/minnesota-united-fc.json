@@ -12,7 +12,8 @@
       "optionYears": "2029",
       "transferFee": 2510000,
       "joinedYear": 2024,
-      "guaranteedYears": 4
+      "guaranteedYears": 4,
+      "DPBuydownEligible": true
     },
     {
       "name": "Kelvin Yeboah",

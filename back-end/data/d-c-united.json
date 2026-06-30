@@ -158,12 +158,13 @@
     {
       "name": "Jackson Hopkins",
       "position": "AM",
-      "baseSalary": 157500,
-      "guaranteedComp": 157833,
+      "baseSalary": 457500,
+      "guaranteedComp": 457833,
       "international": false,
       "contractThru": "2026",
       "role":"U22 Initiative",
-      "optionYears": "2027"
+      "optionYears": "2027",
+      "salaryEstimated": true
     },
     {
       "name": "Andre Dozzell",

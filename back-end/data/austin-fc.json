@@ -218,6 +218,16 @@
       "optionYears": "2027"
     },
     {
+      "name": "Przemysław Płacheta",
+      "position": "LW",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "salaryEstimated": true
+    },
+    {
       "name": "Micah Burton",
       "position": "AM",
       "baseSalary": 125000,

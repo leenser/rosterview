@@ -35,7 +35,8 @@
       "optionYears": "2030-31",
       "transferFee": 6310000,
       "joinedYear": 2026,
-      "guaranteedYears": 5
+      "guaranteedYears": 5,
+      "DPBuydownEligible": true
     },
     {
       "name": "Wiktor Bogacz",

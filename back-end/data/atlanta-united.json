@@ -79,27 +79,6 @@
       "guaranteedYears": 6
     },
     {
-      "name": "Juan Berrocal",
-      "position": "CB",
-      "baseSalary": 1424667,
-      "guaranteedComp": 1424667,
-      "international": true,
-      "role": "TAM Player",
-      "status": "Loan Player",
-      "contractThru": "June 2026",
-      "optionYears": "PT: 2029"
-    },
-    {
-      "name": "Matías Galarza",
-      "position": "CM",
-      "baseSalary": 720000,
-      "guaranteedComp": 945413,
-      "international": true,
-      "status": "Loan Player",
-      "contractThru": "June 2026",
-      "optionYears": "PT: 2029"
-    },
-    {
       "name": "Stian Gregersen",
       "position": "CB",
       "baseSalary": 850000,

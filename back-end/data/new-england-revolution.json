@@ -20,7 +20,8 @@
       "role": "Designated Player",
       "status": "Loan Player",
       "contractThru": "June 2026",
-      "optionYears": "PT: 2028"
+      "optionYears": "PT: 2028",
+      "DPBuydownEligible": true
     },
     {
       "name": "Ilay Feingold",

@@ -149,15 +149,6 @@
       "optionYears": "2028, 2029"
     },
     {
-      "name": "Ian Murphy",
-      "position": "CB",
-      "baseSalary": 400000,
-      "guaranteedComp": 447500,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
       "name": "Miguel Navarro",
       "position": "LB",
       "baseSalary": 498000,
@@ -165,15 +156,6 @@
       "international": false,
       "contractThru": "2027",
       "optionYears": "2028"
-    },
-    {
-      "name": "Connor Ronan",
-      "position": "CM",
-      "baseSalary": 510000,
-      "guaranteedComp": 562400,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
     },
     {
       "name": "Keegan Rosenberry",

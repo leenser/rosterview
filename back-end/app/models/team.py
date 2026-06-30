@@ -167,6 +167,8 @@ class Team:
                 "contract_through": p.contractThru,
                 "option_years": p.optionYears,
                 "guaranteed_comp": p.guaranteedComp,
+                "salary_estimated": p.salaryEstimated,
+                "dp_buydown_eligible": p.DPBuydownEligible,
                 "transfer_fee": p.transferFee,
                 "amortized_transfer_fee": p.amortized_transfer_cap_hit(),
                 "cap_hit": p.base_budget_charge()

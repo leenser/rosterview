@@ -12,7 +12,8 @@
       "optionYears": "2029",
       "transferFee": 3730000,
       "joinedYear": 2025,
-      "guaranteedYears": 5
+      "guaranteedYears": 5,
+      "DPBuydownEligible": true
     },
     {
       "name": "Ezekiel Alladoh",
@@ -182,15 +183,6 @@
       "transferFee": 488000,
       "joinedYear": 2026,
       "guaranteedYears": 4
-    },
-    {
-      "name": "Olivier Mbaizo",
-      "position": "RB",
-      "baseSalary": 460000,
-      "guaranteedComp": 502875,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
     },
     {
       "name": "CJ Olney",

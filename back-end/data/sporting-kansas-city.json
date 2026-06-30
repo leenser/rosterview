@@ -38,6 +38,16 @@
       "guaranteedYears": 3
     },
     {
+      "name": "Emir Karic",
+      "position": "LB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "salaryEstimated": true
+    },
+    {
       "name": "Or Blorian",
       "position": "CB",
       "baseSalary": 300000,
@@ -45,7 +55,8 @@
       "international": true,
       "contractThru": "2028-29",
       "optionYears": "2029-30, 2030-31",
-      "status": "Unavailable – On Loan"
+      "status": "Unavailable – On Loan",
+      "salaryEstimated": true
     },
     {
       "name": "Shapi Suleymanov",

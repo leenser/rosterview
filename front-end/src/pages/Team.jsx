@@ -12,6 +12,11 @@ const MLS_SALARY_CAP = 6_425_000
 const MLS_TAM_AVAILABLE = 2_125_000
 const MAX_BUDGET_CHARGE = 803_125
 const U22_BUDGET_CHARGE = 200_000
+
+const ROSTER_MODELS = [
+  "Designated Player Model",
+  "U22 Initiative Player Model"
+]
 const INACTIVE_STATUSES = [
   "Unavailable – On Loan",
   "Unavailable – Off Roster",
@@ -137,6 +142,8 @@ function normalizeRosterPlayer(player, index = 0) {
     transfer_fee: normalizeNumber(player.transfer_fee),
     amortized_transfer_fee: normalizeNumber(player.amortized_transfer_fee),
     is_international: Boolean(player.is_international),
+    salary_estimated: Boolean(player.salary_estimated),
+    dp_buydown_eligible: Boolean(player.dp_buydown_eligible),
     status: player.status ?? "",
     contract_through: player.contract_through ?? "",
     option_years: player.option_years ?? "",
@@ -150,13 +157,20 @@ function normalizeRosterPlayer(player, index = 0) {
   }
 }
 
-function buildSimulatedTeamData(baseTeamData, roster) {
+function buildSimulatedTeamData(baseTeamData, roster, rosterModel) {
   const normalizedRoster = roster.map(normalizeRosterPlayer)
   const activeRoster = normalizedRoster.filter(isActivePlayer)
   const internationalSlotsTotal =
     baseTeamData.validation?.summary?.international_slots_total ??
     baseTeamData.international_slots_total ??
     8
+
+  const effectiveModel = rosterModel ?? baseTeamData.roster_model
+  const isU22Model = effectiveModel === "U22 Initiative Player Model"
+
+  // U22 Model grants $1M additional GAM
+  const modelGamBonus = isU22Model ? 1_000_000 : 0
+
   const baseEstimatedGamLeft =
     normalizeNumber(baseTeamData.estimated_gam_left) ||
     (normalizeNumber(baseTeamData.remaining_gam) + normalizeNumber(baseTeamData.gam_balance))
@@ -172,7 +186,7 @@ function buildSimulatedTeamData(baseTeamData, roster) {
   }))
   const simulatedGamBuydownUsed = capBreakdown.reduce((sum, player) => sum + normalizeNumber(player.gam_used), 0)
   const gamBuydownDelta = simulatedGamBuydownUsed - baseGamBuydownUsed
-  const estimatedGamLeft = baseEstimatedGamLeft - gamBuydownDelta
+  const estimatedGamLeft = baseEstimatedGamLeft + modelGamBonus - gamBuydownDelta
 
   const totalBaseSalary = normalizedRoster.reduce((sum, player) => sum + normalizeNumber(player.base_salary), 0)
   const totalComp = normalizedRoster.reduce((sum, player) => sum + normalizeNumber(player.guaranteed_comp), 0)
@@ -185,6 +199,7 @@ function buildSimulatedTeamData(baseTeamData, roster) {
     MLS_SALARY_CAP +
     MLS_TAM_AVAILABLE +
     normalizeNumber(baseTeamData.starting_gam) +
+    modelGamBonus +
     (normalizeNumber(baseTeamData.gam_balance) - gamBuydownDelta) -
     totalCapHit
   const gamOffset = remainingCapSpace < 0
@@ -196,9 +211,9 @@ function buildSimulatedTeamData(baseTeamData, roster) {
       : remainingCapSpace
 
   const dpCount = activeRoster.filter((player) => player.role === "Designated Player").length
-  const dpLimit = baseTeamData.validation?.summary?.dp_limit ?? (baseTeamData.roster_model === "U22 Initiative Player Model" ? 2 : 3)
+  const dpLimit = isU22Model ? 2 : 3
   const u22Count = activeRoster.filter((player) => player.role === "U22 Initiative").length
-  const u22Limit = baseTeamData.validation?.summary?.u22_limit ?? (baseTeamData.roster_model === "U22 Initiative Player Model" ? 4 : 3)
+  const u22Limit = isU22Model ? 4 : 3
   const tamPlayers = activeRoster.filter((player) => player.role === "TAM Player").length
   const supplementalPlayers = normalizedRoster.filter((player) => player.role === "Supplemental Roster").length
   const seniorPlayers = activeRoster.filter((player) => player.role !== "Supplemental Roster").length
@@ -232,6 +247,7 @@ function buildSimulatedTeamData(baseTeamData, roster) {
 
   return {
     ...baseTeamData,
+    roster_model: effectiveModel,
     players: normalizedRoster.length,
     estimated_gam_left: estimatedGamLeft,
     remaining_cap_space: adjustedRemainingCapSpace,
@@ -282,6 +298,8 @@ function createNewPlayer() {
     transfer_fee: "",
     amortized_transfer_fee: "",
     is_international: false,
+    salary_estimated: false,
+    dp_buydown_eligible: false,
     status: "",
     contract_through: "",
     option_years: "",
@@ -420,6 +438,27 @@ function TransferBadge({ label, value, isGMMode }) {
   )
 }
 
+function SalaryEstimateMark() {
+  return (
+    <span className="inline-flex items-center gap-1 text-amber-200">
+      <span aria-hidden="true">*</span>
+    </span>
+  )
+}
+
+function DPBuydownBadge() {
+  return (
+    <span className="inline-flex items-center gap-1 rounded border border-red-300/40 bg-red-300/10 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-normal text-red-100">
+      ↓
+      <InfoIcon
+        text="MLS roster profiles mark this Designated Player as eligible to be bought down with allocation money."
+        align="right"
+        className="ml-0"
+      />
+    </span>
+  )
+}
+
 function StatusBadge({ status }) {
   if (status === "Unavailable – Injured List") {
     return <span className="text-xs px-2 py-0.5 rounded bg-red-500/20 text-red-400 border border-red-500/30">Injured</span>
@@ -547,6 +586,7 @@ function Team() {
   const [sortDir, setSortDir] = useState("desc")
   const [isGMMode, setIsGMMode] = useState(false)
   const [gmRoster, setGmRoster] = useState([])
+  const [gmRosterModel, setGmRosterModel] = useState(null)
   const [newPlayer, setNewPlayer] = useState(createNewPlayer())
   const [exporting, setExporting] = useState(false)
   const exportRef = useRef(null)
@@ -560,6 +600,7 @@ function Team() {
         setGmRoster([])
         setNewPlayer(createNewPlayer())
         const res = await fetch(`https://rosterview.onrender.com/team/${slug}`)
+        //const res = await fetch(`http://127.0.0.1:8000/team/${slug}`)
         if (!res.ok) throw new Error(`Request failed: ${res.status}`)
         const data = await res.json()
         setTeamData(data)
@@ -585,11 +626,13 @@ function Team() {
     if (isGMMode) {
       setIsGMMode(false)
       setGmRoster([])
+      setGmRosterModel(null)
       setNewPlayer(createNewPlayer())
       return
     }
 
     setGmRoster(teamData.cap_breakdown.map((player, index) => normalizeRosterPlayer(player, index)))
+    setGmRosterModel(teamData.roster_model)
     setNewPlayer(createNewPlayer())
     setIsGMMode(true)
   }
@@ -602,6 +645,8 @@ function Team() {
               ...player,
               [field]:
                 field === "is_international"
+                  || field === "salary_estimated"
+                  || field === "dp_buydown_eligible"
                   ? Boolean(value)
                   : ["guaranteed_comp", "base_salary", "transfer_fee", "amortized_transfer_fee"].includes(field)
                     ? value
@@ -666,7 +711,7 @@ function Team() {
     setNewPlayer(createNewPlayer())
   }
 
-  const activeTeamData = isGMMode && teamData ? buildSimulatedTeamData(teamData, gmRoster) : teamData
+  const activeTeamData = isGMMode && teamData ? buildSimulatedTeamData(teamData, gmRoster, gmRosterModel) : teamData
 
   const sortedRoster =
     activeTeamData?.cap_breakdown
@@ -750,9 +795,31 @@ function Team() {
               <div>
                 <h1 className="text-xl sm:text-3xl font-semibold leading-tight">{activeTeamData.team}</h1>
                 <p className="text-xs text-neutral-400">
-                  Roster Model: {activeTeamData.roster_model}
-                  <InfoIcon text="Teams choose between two models: the DP Model (up to 3 DPs, 3 U22 slots) or the U22 Model (up to 4 U22 slots, plus $2M extra GAM if under 3 DPs)." />
-                </p>
+                  {isGMMode && (
+                    <div className="text-neutral-400  text-sm text-neutral-200">
+                      <span className="mr-1">Roster Model:</span>
+                      <select
+                        value={gmRosterModel ?? activeTeamData.roster_model}
+                        onChange={(event) => setGmRosterModel(event.target.value)}
+                        className="border border-neutral-600 bg-neutral-900 px-1 py-1 text-sm text-white focus:border-neutral-400 focus:outline-none rounded"
+                      >
+                        {ROSTER_MODELS.map((option) => (
+                          <option key={option} value={option}>
+                            {option}
+                          </option>
+                        ))}
+                      </select>
+                      <InfoIcon text="Teams choose between two models: the DP Model (up to 3 DPs, 3 U22 slots) or the U22 Model (up to 4 U22 slots, 2 DP slots, and $1M extra GAM)." className="ml-1" />
+                    </div>
+                  )}
+                 {!isGMMode && (
+                    <div className="text-neutral-400  text-sm text-neutral-200">
+                      Roster Model: {activeTeamData.roster_model}
+                      <InfoIcon text="Teams choose between two models: the DP Model (up to 3 DPs, 3 U22 slots) or the U22 Model (up to 4 U22 slots, 2 DP slots, and $1M extra GAM)." className="ml-1" />
+
+                    </div>
+                  )}
+                  </p>
               </div>
             </div>
 
@@ -924,6 +991,14 @@ function Team() {
                     />
                     International
                   </label>
+                  <label className="inline-flex items-center gap-2 rounded border border-neutral-600 bg-neutral-900 px-3 py-2 text-sm text-neutral-200">
+                    <input
+                      type="checkbox"
+                      checked={newPlayer.salary_estimated}
+                      onChange={(event) => setNewPlayer((current) => ({ ...current, salary_estimated: event.target.checked }))}
+                    />
+                    Estimated salary
+                  </label>
                 </div>
               </div>
             )}
@@ -1013,6 +1088,14 @@ function Team() {
                                       />
                                       International
                                     </label>
+                                    <label className="inline-flex items-center gap-1.5 text-xs text-neutral-300">
+                                      <input
+                                        type="checkbox"
+                                        checked={Boolean(player.salary_estimated)}
+                                        onChange={(event) => updatePlayer(player.local_id, "salary_estimated", event.target.checked)}
+                                      />
+                                      Estimated salary
+                                    </label>
                                     <select
                                       value={player.status ?? ""}
                                       onChange={(event) => updatePlayer(player.local_id, "status", event.target.value)}
@@ -1101,7 +1184,10 @@ function Team() {
                               ))}
                             </select>
                           ) : (
-                            player.role ?? "Senior"
+                            <span className="inline-flex items-center gap-1.5">
+                              <span>{player.role ?? "Senior"}</span>
+                              {player.role === "Designated Player" && player.dp_buydown_eligible && <DPBuydownBadge />}
+                            </span>
                           )}
                         </td>
 
@@ -1114,7 +1200,14 @@ function Team() {
                               align="right"
                             />
                           ) : (
-                            formatMoney(player.guaranteed_comp)
+                            <span className="inline-flex items-center justify-end gap-1.5">
+                              <span>{formatMoney(player.guaranteed_comp)}</span>
+                              {player.salary_estimated && <SalaryEstimateMark /> && <InfoIcon
+        text="This salary is an estimate because no current public salary source is available for this player."
+        align="right"
+        className="ml-0"
+      />}
+                            </span>
                           )}
                         </td>
 
@@ -1243,7 +1336,7 @@ function Team() {
             <div className={`border p-2.5 sm:p-3 rounded flex justify-between items-center ${subtlePanelClass}`}>
               <p className="text-sm text-neutral-300 font-semibold flex items-center">
                 Remaining GAM
-                <InfoIcon text="Extra league funds teams can use to lower cap hits or make trades." />
+                <InfoIcon text="Extra league funds teams can use to lower cap hits or make trades. Numbers are estimated as of April 2026." />
               </p>
               <p className="text-sm font-semibold text-right">{formatMoney(estimatedGamLeft)}</p>
             </div>
@@ -1276,7 +1369,11 @@ function Team() {
             teamName={activeTeamData.team}
             teamSlug={slug}
             rosterModel={activeTeamData.roster_model}
-            capBreakdown={activeTeamData.cap_breakdown}
+            capBreakdown={(activeTeamData.cap_breakdown ?? []).map((player) =>
+              player.role === "Homegrown Player"
+                ? { ...player, role: "Supplemental Roster" }
+                : player
+            )}
             cap={activeTeamData.cap}
             validation={activeTeamData.validation}
             counts={activeTeamData.counts}

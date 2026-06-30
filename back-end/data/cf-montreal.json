@@ -36,16 +36,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Kwadwo Opoku",
-      "position": "RW",
-      "baseSalary": 583333,
-      "guaranteedComp": 723560,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
       "name": "Prince Owusu",
       "position": "ST",
       "baseSalary": 1300000,
@@ -100,15 +90,6 @@
       "optionYears": "2028, 2029"
     },
     {
-      "name": "Sunusi Ibrahim",
-      "position": "ST",
-      "baseSalary": 350000,
-      "guaranteedComp": 410000,
-      "international": true,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
       "name": "Matty Longstaff",
       "position": "CM",
       "baseSalary": 416000,
@@ -123,7 +104,8 @@
       "guaranteedComp": 400000,
       "international": false,
       "contractThru": "2026",
-      "status": "Loan Player"
+      "status": "Loan Player",
+      "salaryEstimated": true
     },
     {
       "name": "Ivan Losenko",

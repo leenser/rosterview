@@ -187,6 +187,15 @@
       "guaranteedYears": 4
     },
     {
+      "name": "Ian Murphy",
+      "position": "CB",
+      "baseSalary": 400000,
+      "guaranteedComp": 447500,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
       "name": "Alejandro Alvarado Jr.",
       "position": "CM",
       "baseSalary": 88025,
