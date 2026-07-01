@@ -132,6 +132,16 @@
       "role": "TAM Player",
       "contractThru": "2027-28"
     },
+
+    {
+      "name": "Saba Lobjanidze",
+      "position": "LW",
+      "baseSalary": 900000,
+      "guaranteedComp": 998750,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2026"
+    },
     {
       "name": "Rafael Cabral",
       "position": "GK",
