@@ -386,6 +386,7 @@
       "position": "AM",
       "baseSalary": 230000,
       "guaranteedComp": 257000,
+      "role":"Supplemental Roster",
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028"
@@ -397,6 +398,7 @@
       "guaranteedComp": 100000,
       "international": false,
       "salaryEstimated": true,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
       "optionYears": "PT: 2027-28",
       "status": "Loan Player"
