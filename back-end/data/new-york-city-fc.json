@@ -23,17 +23,6 @@
       "contractThru": "2027"
     },
     {
-      "name": "Bénie Traoré",
-      "position": "ST",
-      "baseSalary": 1200000,
-      "guaranteedComp": 1200000,
-      "international": true,
-      "role": "Designated Player",
-      "contractThru": "2028/29",
-      "optionYears": "2029/30",
-      "salaryEstimated": true
-    },
-    {
       "name": "Thiago Martins",
       "position": "CB",
       "baseSalary": 1800000,
@@ -138,17 +127,6 @@
       "optionYears": "2027, 2028"
     },
     {
-      "name": "James Sands",
-      "position": "DM",
-      "baseSalary": 1250000,
-      "guaranteedComp": 1318750,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2029-30",
-      "optionYears": "2030-31",
-      "salaryEstimated": true
-    },
-    {
       "name": "Hannes Wolf",
       "position": "RW",
       "baseSalary": 1400000,
@@ -165,16 +143,6 @@
       "guaranteedComp": 664000,
       "international": false,
       "contractThru": "2026"
-    },
-    {
-      "name": "Mitja Ilenic",
-      "position": "RM",
-      "baseSalary": 300000,
-      "guaranteedComp": 391700,
-      "international": false,
-      "status": "Unavailable – On Loan",
-      "contractThru": "2026",
-      "optionYears": "2027"
     },
     {
       "name": "Maxi Moralez",
@@ -199,15 +167,6 @@
       "guaranteedComp": 757000,
       "international": false,
       "contractThru": "2027-2028"
-    },
-    {
-      "name": "Strahinja Tanasijević",
-      "position": "CB",
-      "baseSalary": 300000,
-      "guaranteedComp": 368750,
-      "international": true,
-      "contractThru": "2026",
-      "optionYears": "2027"
     },
     {
       "name": "Kai Trewin",
@@ -389,15 +348,52 @@
       "status": "Unavailable – Off Roster"
     },
     {
-      "name": "Zidane Yañez",
-      "position": "ST",
-      "baseSalary": 113400,
-      "guaranteedComp": 117567,
+      "name": "Bénie Traoré",
+      "position": "LW",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1200000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "salaryEstimated": true,
+      "guaranteedYears":4,
+      "transferFee": 10000000,
+      "joinedYear": 2026
+    },
+    {
+      "name": "Mitja Ilenic",
+      "position": "RM",
+      "baseSalary": 300000,
+      "guaranteedComp": 391700,
       "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2028",
-      "optionYears": "2029",
-      "status": "Unavailable – Off Roster"
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "James Sands",
+      "position": "DM",
+      "baseSalary": 1250000,
+      "guaranteedComp": 1318750,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Luighi",
+      "position": "ST",
+      "role":"U22 Initiative",
+      "guaranteedYears":1,
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 270000,
+      "contractThru":"2026",
+      "optionYears":"PT:2027-28",
+      "joinedYear": 2026
     }
   ],
   "rosterModel": "Designated Player Model",

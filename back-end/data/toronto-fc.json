@@ -35,38 +35,6 @@
       "optionYears": "PT: 2029-30; 2030-31"
     },
     {
-      "name": "Cassius Mailula",
-      "position": "ST",
-      "baseSalary": 350000,
-      "guaranteedComp": 366003,
-      "international": true,
-      "role": "U22 Initiative",
-      "status": "Unavailable – On Loan",
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
-      "name": "Nelson Palacio",
-      "position": "CM",
-      "baseSalary": 430000,
-      "guaranteedComp": 473167,
-      "international": true,
-      "role": "U22 Initiative",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
-    },
-    {
-      "name": "José Cifuentes",
-      "position": "CM",
-      "baseSalary": 1375000,
-      "guaranteedComp": 1570000,
-      "international": false,
-      "role": "TAM Player",
-      "status": "Loan Player",
-      "contractThru": "June 2026",
-      "optionYears": "PT: 2029, 2030"
-    },
-    {
       "name": "Richie Laryea",
       "position": "RB",
       "baseSalary": 875000,
@@ -309,6 +277,37 @@
       "contractThru": "2029",
       "optionYears": "2030",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Nelson Palacio",
+      "position": "CM",
+      "baseSalary": 430000,
+      "guaranteedComp": 473167,
+      "international": true,
+      "role": "U22 Initiative",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Niklas Dorsch",
+      "position": "DM",
+      "baseSalary": 700000,
+      "guaranteedComp": 700000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 4200000,
+      "contractThru":"2030-31",
+      "joinedYear": 2026
+    },
+    {
+      "name": "Richard Chukwu",
+      "position": "CB",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "role":"Supplemental Roster",
+      "contractThru":"2029-30",
+      "international": false,
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

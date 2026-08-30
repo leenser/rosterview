@@ -28,19 +28,6 @@
       "guaranteedYears": 2
     },
     {
-      "name": "Wilfried Zaha",
-      "position": "LW",
-      "baseSalary": 2666667,
-      "guaranteedComp": 2751667,
-      "international": true,
-      "role": "Designated Player",
-      "status": "Loan Player",
-      "contractThru": "June 2026",
-      "transferFee": 4420000,
-      "joinedYear": 2025,
-      "guaranteedYears": 2
-    },
-    {
       "name": "Baye Coulibaly",
       "position": "CM",
       "baseSalary": 300000,
@@ -80,16 +67,6 @@
       "role": "U22 Initiative",
       "contractThru": "2028-29",
       "optionYears": "2029-30"
-    },
-    {
-      "name": "Kerwin Vargas",
-      "position": "RW",
-      "baseSalary": 650000,
-      "guaranteedComp": 733750,
-      "international": false,
-      "role": "U22 Initiative",
-      "contractThru": "2027",
-      "optionYears": "2028"
     },
     {
       "name": "Luca De La Torre",
@@ -259,17 +236,6 @@
       "role": "Supplemental Roster"
     },
     {
-      "name": "Jack Neeley",
-      "position": "CB",
-      "baseSalary": 140000,
-      "guaranteedComp": 142000,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "status": "Homegrown"
-    },
-    {
       "name": "Chituru Odunze",
       "position": "GK",
       "baseSalary": 125000,
@@ -341,6 +307,27 @@
       "contractThru": "2026",
       "optionYears": "2027",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Jack Neeley",
+      "position": "CB",
+      "baseSalary": 140000,
+      "guaranteedComp": 142000,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027",
+      "status": "Homegrown"
+    },
+    {
+      "name": "Allan Saint-Maximin",
+      "position": "LW",
+      "role":"Designated Player",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1000000,
+      "international": true,
+      "contractThru":"2028-29",
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "Designated Player Model",

@@ -78,20 +78,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Enes Sali",
-      "position": "LW",
-      "baseSalary": 350000,
-      "guaranteedComp": 395000,
-      "international": true,
-      "role": "U22 Initiative",
-      "status": "Unavailable – On Loan",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "transferFee": 3190000,
-      "joinedYear": 2023,
-      "guaranteedYears": 4
-    },
-    {
       "name": "Herman Johansson",
       "position": "RM",
       "baseSalary": 600000,
@@ -120,8 +106,9 @@
       "guaranteedComp": 870000,
       "international": false,
       "role": "TAM Player",
-      "contractThru": "2026",
-      "optionYears": "2027"
+      "salaryEstimated":true,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29"
     },
     {
       "name": "Osaze Urhoghide",
@@ -216,16 +203,6 @@
       "international": false,
       "contractThru": "2027",
       "optionYears": "2028, 2029"
-    },
-    {
-      "name": "Tsiki Ntsabeleng",
-      "position": "AM",
-      "baseSalary": 230000,
-      "guaranteedComp": 257000,
-      "international": false,
-      "status": "Unavailable – On Loan",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
     },
     {
       "name": "Ramiro",
@@ -330,17 +307,6 @@
       "status": "Homegrown"
     },
     {
-      "name": "Brooks Thompson",
-      "position": "GK",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
-      "international": false,
-      "status": "Loan Player",
-      "contractThru": "June 2026",
-      "optionYears": "PT: June 2027; 2027- 28, 2028-29",
-      "role": "Supplemental Roster"
-    },
-    {
       "name": "Joshua Torquato",
       "position": "LB",
       "baseSalary": 88025,
@@ -405,6 +371,47 @@
       "contractThru": "2027",
       "optionYears": "2028, 2029",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Daniel",
+      "position": "GK",
+      "baseSalary": 750000,
+      "guaranteedComp": 792500,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Tsiki Ntsabeleng",
+      "position": "AM",
+      "baseSalary": 230000,
+      "guaranteedComp": 257000,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Clay Holstad",
+      "position": "CM",
+      "baseSalary": 100000,
+      "guaranteedComp": 100000,
+      "international": false,
+      "salaryEstimated": true,
+      "contractThru": "2026",
+      "optionYears": "PT: 2027-28",
+      "status": "Loan Player"
+    },
+    {
+      "name": "Benji Flowers",
+      "position": "LW",
+      "role":"Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "contractThru": "2030-31",
+      "optionYears": "2031-32",
+      "international": false,
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

@@ -12,27 +12,13 @@
       "optionYears": "2028"
     },
     {
-      "name": "Sergio Córdova",
+      "name": "Rafael Navarro",
       "position": "ST",
-      "baseSalary": 1200000,
-      "guaranteedComp": 1213500,
-      "international": true,
+      "baseSalary": 1392000,
+      "guaranteedComp": 1449600,
+      "international": false,
       "role": "Designated Player",
-      "status": "Loan Player",
-      "contractThru": "June 2026",
-      "optionYears": "PT: 2027-28",
-      "transferFee": 344000,
-      "joinedYear": 2026,
-      "guaranteedYears": 1
-    },
-    {
-      "name": "Marcel Hartel",
-      "position": "CM",
-      "baseSalary": 2022300,
-      "guaranteedComp": 2407813,
-      "international": true,
-      "role": "Designated Player",
-      "contractThru": "2027-28",
+      "contractThru": "2027",
       "optionYears": "2028"
     },
     {
@@ -58,33 +44,6 @@
       "guaranteedYears": 3
     },
     {
-      "name": "Jake Girdwood-Reich",
-      "position": "CB",
-      "baseSalary": 296750,
-      "guaranteedComp": 335527,
-      "international": false,
-      "role": "U22 Initiative",
-      "status": "Unavailable – On Loan",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "transferFee": 912000,
-      "joinedYear": 2024,
-      "guaranteedYears": 3
-    },
-    {
-      "name": "Eduard Löwen",
-      "position": "CM",
-      "baseSalary": 1300000,
-      "guaranteedComp": 1444250,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "transferFee": 1150000,
-      "joinedYear": 2024,
-      "guaranteedYears": 3
-    },
-    {
       "name": "Tomas Ostrak",
       "position": "AM",
       "baseSalary": 700000,
@@ -93,16 +52,6 @@
       "role": "TAM Player",
       "contractThru": "2026",
       "optionYears": "2027"
-    },
-    {
-      "name": "Cedric Teuchert",
-      "position": "ST",
-      "baseSalary": 1400000,
-      "guaranteedComp": 1542500,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "June 2026",
-      "optionYears": "2026"
     },
     {
       "name": "Conrad Wallem",
@@ -318,6 +267,58 @@
       "contractThru": "2027",
       "optionYears": "2028",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Zach Zengue",
+      "position": "LW",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028, 2029",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Carlo Holse",
+      "position": "AM",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1000000,
+      "role":"Designated Player",
+      "contractThru":"2028-29",
+      "optionYears":"2029-30",
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 6000000,
+      "joinedYear": 2026
+    },
+    {
+      "name": "Alexandru Mățan",
+      "position": "AM",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "contractThru":"2028-29",
+      "optionYears":"2029-30",
+      "international": true,
+      "salaryEstimated": true
+    },
+    {
+      "name": "Palmer Ault",
+      "position": "ST",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "contractThru":"2026",
+      "role":"Supplemental Roster",
+      "international": false,
+      "salaryEstimated": true
+    },
+    {
+      "name": "Joshua Yaro",
+      "position": "CB",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": false,
+      "salaryEstimated": true,
+      "status": "Unavailable – On Loan"
     }
   ],
   "rosterModel": "Designated Player Model",

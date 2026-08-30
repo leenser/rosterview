@@ -48,19 +48,6 @@
       "guaranteedYears": 3
     },
     {
-      "name": "Gabriel Pirani",
-      "position": "AM",
-      "baseSalary": 800000,
-      "guaranteedComp": 866700,
-      "international": false,
-      "role": "U22 Initiative",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "transferFee": 1380000,
-      "joinedYear": 2024,
-      "guaranteedYears": 4
-    },
-    {
       "name": "Sean Johnson",
       "position": "GK",
       "baseSalary": 883475,
@@ -162,18 +149,9 @@
       "guaranteedComp": 457833,
       "international": false,
       "contractThru": "2026",
-      "role":"U22 Initiative",
+      "role": "U22 Initiative",
       "optionYears": "2027",
       "salaryEstimated": true
-    },
-    {
-      "name": "Andre Dozzell",
-      "position": "CM",
-      "baseSalary": 300000,
-      "guaranteedComp": 300000,
-      "international": true,
-      "contractThru": "2027-28",
-      "optionYears": "2028-29"
     },
     {
       "name": "Sean Nealis",
@@ -314,6 +292,49 @@
       "contractThru": "2027",
       "optionYears": "2028, 2029",
       "status": "Homegrown"
+    },
+    {
+      "name": "Nathan Ordaz",
+      "position": "ST",
+      "baseSalary": 500000,
+      "guaranteedComp": 545000,
+      "international": false,
+      "contractThru": "2029",
+      "optionYears": "2030"
+    },
+    {
+      "name": "Andre Dozzell",
+      "position": "CM",
+      "baseSalary": 300000,
+      "guaranteedComp": 300000,
+      "international": true,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29"
+    },
+    {
+      "name": "Kamil Castillo",
+      "position": "CM",
+      "role":"Homegrown Player",
+      "status":"Unavailable – Off Roster",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "contractThru": "2030",
+      "optionYears": "2030-31",
+      "international": false,
+      "salaryEstimated": true
+    },
+    {
+      "name": "Kimito Nono",
+      "position": "RB",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 1500000,
+      "guaranteedYears": 3,
+      "contractThru":"2028-29",
+      "optionYears":"2029-30",
+      "joinedYear": 2026
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

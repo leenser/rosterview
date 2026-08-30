@@ -29,15 +29,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Olwethu Makhanya",
-      "position": "CB",
-      "baseSalary": 300000,
-      "guaranteedComp": 338875,
-      "international": true,
-      "role": "U22 Initiative",
-      "contractThru": "2027"
-    },
-    {
       "name": "Philippe Ndinga",
       "position": "LB",
       "baseSalary": 300000,
@@ -338,6 +329,20 @@
       "status": "Unavailable – Off Roster",
       "contractThru": "2028",
       "optionYears": "2029"
+    },
+    {
+      "name": "Kai Wagner",
+      "position": "LB",
+      "role": "Designated Player",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1200000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 4000000,
+      "contractThru":"2028-29",
+      "optionYears":"2029-30",
+      "guaranteedYears": 4,
+      "joinedYear": 2026
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

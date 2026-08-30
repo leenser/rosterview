@@ -13,17 +13,6 @@
       "DPBuydownEligible": true
     },
     {
-      "name": "Antoine Griezmann",
-      "position": "ST",
-      "baseSalary": 3000000,
-      "guaranteedComp": 3000000,
-      "international": true,
-      "role": "Designated Player",
-      "contractThru": "2027-28",
-      "optionYears": "2028-29",
-      "salaryEstimated": true
-    },
-    {
       "name": "Martín Ojeda",
       "position": "AM",
       "baseSalary": 1600000,
@@ -123,16 +112,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Duncan McGuire",
-      "position": "ST",
-      "baseSalary": 600000,
-      "guaranteedComp": 921000,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2027",
-      "optionYears": "2028"
-    },
-    {
       "name": "Iván Angulo",
       "position": "LW",
       "baseSalary": 549996,
@@ -214,7 +193,8 @@
       "guaranteedComp": 113400,
       "international": false,
       "contractThru": "2026",
-      "optionYears": "2027"
+      "optionYears": "2027",
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Gustavo Caraballo",
@@ -301,6 +281,60 @@
       "contractThru": "2027",
       "optionYears": "2028",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Antoine Griezmann",
+      "position": "ST",
+      "baseSalary": 3000000,
+      "guaranteedComp": 3000000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Bernardo Rhein",
+      "position": "LM",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role":"Homegrown Player",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29, 2029-30",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Clovis Archange",
+      "position": "CB",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role":"Homegrown Player",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Daryl Dike",
+      "position": "ST",
+      "baseSalary": 300000,
+      "guaranteedComp": 300000,
+      "contractThru": "June 2027",
+      "optionYears": "2027-28",
+      "international": false,
+      "salaryEstimated": true
+    },
+    {
+      "name": "Tristan Himes",
+      "position": "GK",
+       "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role":"Homegrown Player",
+      "contractThru": "June 2027",
+      "optionYears": "2027-28, 2028-29",
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "Designated Player Model",

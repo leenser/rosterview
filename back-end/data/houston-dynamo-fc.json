@@ -9,7 +9,7 @@
       "transferFee": 6310000,
       "joinedYear": 2026,
       "guaranteedYears": 3,
-      "international": true,
+      "international": false,
       "role": "Designated Player",
       "contractThru": "2027-28",
       "optionYears": "2028-29, 2029-30"
@@ -26,19 +26,6 @@
       "role": "Designated Player",
       "contractThru": "2027-28",
       "optionYears": "2028-29"
-    },
-    {
-      "name": "Ezequiel Ponce",
-      "position": "ST",
-      "baseSalary": 2738012,
-      "guaranteedComp": 3000212,
-      "international": true,
-      "role": "Designated Player",
-      "contractThru": "June 2027",
-      "optionYears": "2027, 2028",
-      "transferFee": 10330000,
-      "joinedYear": 2024,
-      "guaranteedYears": 4
     },
     {
       "name": "Lawrence Ennali",
@@ -125,6 +112,7 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": true,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
       "optionYears": "2028-29"
     },
@@ -227,28 +215,6 @@
       "status": "Homegrown"
     },
     {
-      "name": "Exon Arzú",
-      "position": "RW",
-      "baseSalary": 113400,
-      "guaranteedComp": 117998,
-      "international": false,
-      "status": "Unavailable – On Loan",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028, 2029",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Logan Erb",
-      "position": "GK",
-      "baseSalary": 88025,
-      "guaranteedComp": 93373,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28, 2028-29",
-      "status": "Unavailable – On Loan"
-    },
-    {
       "name": "Blake Gillingham",
       "position": "GK",
       "baseSalary": 88025,
@@ -257,7 +223,7 @@
       "contractThru": "2026",
       "optionYears": "2027, 2028",
       "role": "Supplemental Roster",
-      "status":"Unavailable – On Loan"
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Nick Markanich",
@@ -295,6 +261,7 @@
       "baseSalary": 900000,
       "guaranteedComp": 912500,
       "international": false,
+      "role":"Supplemental Roster",
       "contractThru": "2027"
     },
     {
@@ -318,6 +285,39 @@
       "contractThru": "2027-28",
       "optionYears": "2028-29, 2029-30, 2030-31",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Duncan McGuire",
+      "position": "ST",
+      "baseSalary": 600000,
+      "guaranteedComp": 921000,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2027",
+      "optionYears": "2028"
+    },
+    {
+      "name": "Logan Erb",
+      "position": "GK",
+      "baseSalary": 88025,
+      "guaranteedComp": 93373,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28, 2028-29"
+    },
+    {
+      "name": "Marcelo Saracchi",
+      "position": "LB",
+      "baseSalary": 600000,
+      "guaranteedComp": 600000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 1300000,
+      "joinedYear": 2026,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30, 2030-31",
+      "guaranteedYears": 4
     }
   ],
   "rosterModel": "Designated Player Model",

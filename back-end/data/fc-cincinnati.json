@@ -58,7 +58,8 @@
       "optionYears": "2028, 2029",
       "transferFee": 2000000,
       "joinedYear": 2024,
-      "guaranteedYears": 4
+      "guaranteedYears": 4,
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Samuel Gidi",

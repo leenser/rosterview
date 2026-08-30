@@ -8,7 +8,7 @@
       "guaranteedComp": 2915000,
       "international": true,
       "role": "Designated Player",
-      "status":"Unavailable – Injured List",
+      "status": "Unavailable – Injured List",
       "contractThru": "2026"
     },
     {
@@ -22,18 +22,6 @@
       "transferFee": 9750000,
       "joinedYear": 2024,
       "guaranteedYears": 4
-    },
-    {
-      "name": "Gabriel Pec",
-      "position": "RW",
-      "baseSalary": 1680000,
-      "guaranteedComp": 2459000,
-      "international": true,
-      "role": "Designated Player",
-      "contractThru": "2028",
-      "transferFee": 10670000,
-      "joinedYear": 2024,
-      "guaranteedYears": 5
     },
     {
       "name": "Riqui Puig",
@@ -56,17 +44,6 @@
       "transferFee": 5340000,
       "joinedYear": 2023,
       "guaranteedYears": 5
-    },
-    {
-      "name": "Matheus Nascimento",
-      "position": "ST",
-      "baseSalary": 650000,
-      "guaranteedComp": 707000,
-      "international": true,
-      "role": "U22 Initiative",
-      "status": "Loan Player",
-      "contractThru": "June 2026",
-      "optionYears": "PT: 2028; 2029"
     },
     {
       "name": "Lucas Sanabria",
@@ -127,15 +104,6 @@
       "contractThru": "2026"
     },
     {
-      "name": "Edwin Cerrillo",
-      "position": "DM",
-      "baseSalary": 650000,
-      "guaranteedComp": 662500,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
       "name": "JT Marcinkowski",
       "position": "GK",
       "baseSalary": 302000,
@@ -189,17 +157,6 @@
       "guaranteedComp": 715781,
       "international": true,
       "contractThru": "2026"
-    },
-    {
-      "name": "Mauricio Cuevas",
-      "position": "RB",
-      "baseSalary": 250000,
-      "guaranteedComp": 268500,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "status": "Homegrown"
     },
     {
       "name": "Riley Delgado",
@@ -303,6 +260,48 @@
       "status": "Unavailable – On Loan",
       "contractThru": "2026",
       "role": "Supplemental Roster"
+    },
+    {
+      "name": "Hirving Lozano",
+      "position": "LW",
+      "baseSalary": 6000000,
+      "guaranteedComp": 9333333,
+      "international": false,
+      "role": "Designated Player",
+      "contractThru": "2026",
+      "optionYears": "PT: 2028, 2029, 2030",
+      "status": "Loan Player"
+    },
+    {
+      "name": "Robert Taylor",
+      "position": "LW",
+      "baseSalary": 575000,
+      "guaranteedComp": 633333,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Sergi Roberto",
+      "position": "CM",
+      "baseSalary": 700000,
+      "guaranteedComp": 700000,
+      "international": true,
+      "salaryEstimated": true,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29"
+    },
+    {
+      "name": "Kyogo Furuhashi",
+      "position": "ST",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 1400000,
+      "guaranteedYears":5,
+      "joinedYear": 2026,
+      "contractThru": "2030-31"
     }
   ],
   "rosterModel": "Designated Player Model",

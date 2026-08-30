@@ -42,12 +42,12 @@
       "guaranteedComp": 522500,
       "international": false,
       "role": "U22 Initiative",
-      "status": "Unavailable – On Loan",
       "contractThru": "2026",
       "optionYears": "2027, 2028",
       "transferFee": 7230000,
       "joinedYear": 2023,
-      "guaranteedYears": 4
+      "guaranteedYears": 4,
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "David Ayala",
@@ -298,6 +298,37 @@
       "contractThru": "2027-28",
       "optionYears": "2028-29, 2029-30, 2030-31",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Daniel Sumalla",
+      "position": "CB",
+      "baseSalary": 80000,
+      "guaranteedComp": 0,
+      "international": false,
+      "salaryEstimated": true,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027, 2027-28"
+    },
+    {
+      "name": "Casemiro",
+      "position": "DM",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "international": true,
+      "salaryEstimated": true,
+      "contractThru": "2027",
+      "optionYears": "2027-28, 2028-29"
+    },
+    {
+      "name": "Fricio Caicedo",
+      "position": "CB",
+      "international": true,
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "salaryEstimated": true,
+      "status": "Loan Player",
+      "contractThru": "2027"
     }
   ],
   "rosterModel": "Designated Player Model",

@@ -28,7 +28,7 @@
       "position": "RB",
       "baseSalary": 575000,
       "guaranteedComp": 575000,
-      "international": true,
+      "international": false,
       "role": "U22 Initiative",
       "contractThru": "2027",
       "optionYears": "2028",
@@ -90,19 +90,6 @@
       "role": "TAM Player",
       "contractThru": "2027",
       "optionYears": "2028"
-    },
-    {
-      "name": "Brayan Ceballos",
-      "position": "CB",
-      "baseSalary": 775000,
-      "guaranteedComp": 855625,
-      "international": true,
-      "role": "TAM Player",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "transferFee": 1950000,
-      "joinedYear": 2025,
-      "guaranteedYears": 3
     },
     {
       "name": "Mamadou Fofana",
@@ -215,7 +202,7 @@
       "role": "Supplemental Roster",
       "contractThru": "2026",
       "optionYears": "2027",
-      "status": "Homegrown"
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "JD Gunn",
@@ -322,6 +309,40 @@
       "status": "Unavailable – On Loan",
       "contractThru": "2028",
       "optionYears": "2029"
+    },
+    {
+      "name": "Cody Baker",
+      "position": "RB",
+      "baseSalary": 113400,
+      "guaranteedComp": 119104,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028",
+      "status": "Loan Player"
+    },
+    {
+      "name": "Jack Harrison",
+      "position": "LW",
+      "role": "Designated Player",
+      "contractThru": "2029-30",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1000000,
+      "international": false,
+      "salaryEstimated": true,
+      "transferFee": 1200000,
+      "guaranteedYears":4,
+      "joinedYear": 2026
+    },
+    {
+      "name": "Wilson Harris",
+      "position": "ST",
+      "baseSalary": 300000,
+      "guaranteedComp": 300000,
+      "international": false,
+      "salaryEstimated": true,
+      "contractThru": "2026",
+      "optionYears": "2027, 2027-28"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

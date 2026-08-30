@@ -14,19 +14,6 @@
       "guaranteedYears": 6
     },
     {
-      "name": "Rafael Navarro",
-      "position": "ST",
-      "baseSalary": 1392000,
-      "guaranteedComp": 1449600,
-      "international": false,
-      "role": "Designated Player",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "transferFee": 5160000,
-      "joinedYear": 2024,
-      "guaranteedYears": 4
-    },
-    {
       "name": "Theodore Ku-Dipietro",
       "position": "AM",
       "baseSalary": 500000,
@@ -35,17 +22,6 @@
       "role": "U22 Initiative",
       "contractThru": "2027",
       "optionYears": "2028"
-    },
-    {
-      "name": "Alexis Manyoma",
-      "position": "LW",
-      "baseSalary": 654000,
-      "guaranteedComp": 711750,
-      "international": true,
-      "role": "U22 Initiative",
-      "status": "Loan Player",
-      "contractThru": "July 21, 2026",
-      "optionYears": "PT: 2029; 2030"
     },
     {
       "name": "Reggie Cannon",
@@ -105,7 +81,7 @@
       "guaranteedComp": 1100000,
       "international": false,
       "role": "TAM Player",
-      "status": "Unavailable \u2013 SEI",
+      "status": "Unavailable – SEI",
       "contractThru": "2026",
       "optionYears": "2027"
     },
@@ -126,18 +102,6 @@
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
-    },
-    {
-      "name": "Lucas Herrington",
-      "position": "CB",
-      "baseSalary": 200004,
-      "guaranteedComp": 235004,
-      "international": true,
-      "contractThru": "2029",
-      "optionYears": "2030",
-      "transferFee": 516000,
-      "joinedYear": 2026,
-      "guaranteedYears": 4
     },
     {
       "name": "Bryce Jamison",
@@ -289,6 +253,39 @@
       "contractThru": "2028-29",
       "optionYears": "2029-30",
       "status": "Homegrown"
+    },
+    {
+      "name": "Youssef Maziz",
+      "position": "AM",
+      "baseSalary": 600000,
+      "guaranteedComp": 600000,
+      "contractThru":"2027-28",
+      "optionYears":"2028-29",
+      "international": true,
+      "salaryEstimated": true
+    },
+    {
+      "name": "Loïc Williams",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 3500000,
+      "guaranteedYears":3,
+      "contractThru":"2027-28",
+      "optionYears":"2028-29",
+      "joinedYear": 2026
+    },
+    {
+      "name": "Grant Gilmore",
+      "position": "CB",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "role":"Homegrown Player",
+      "status":"Unavailable – Off Roster",
+      "international": false,
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

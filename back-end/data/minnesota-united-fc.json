@@ -184,25 +184,6 @@
       "guaranteedYears": 3
     },
     {
-      "name": "Matúš Kmeť",
-      "position": "RB",
-      "baseSalary": 210000,
-      "guaranteedComp": 227469,
-      "international": true,
-      "status": "Unavailable – On Loan",
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
-      "name": "James Rodríguez",
-      "position": "AM",
-      "baseSalary": 684000,
-      "guaranteedComp": 684000,
-      "international": true,
-      "contractThru": "June 2026",
-      "optionYears": "2026"
-    },
-    {
       "name": "DJ Taylor",
       "position": "RB",
       "baseSalary": 210000,

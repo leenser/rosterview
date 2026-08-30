@@ -100,20 +100,6 @@
       "contractThru": "2026"
     },
     {
-      "name": "Joedrick Pupe",
-      "position": "CB",
-      "baseSalary": 450000,
-      "guaranteedComp": 490600,
-      "international": true,
-      "role": "TAM Player",
-      "status": "Unavailable – On Loan",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "transferFee": 1150000,
-      "joinedYear": 2025,
-      "guaranteedYears": 3
-    },
-    {
       "name": "Cheikh Sabaly",
       "position": "LW",
       "baseSalary": 1109091,
@@ -138,19 +124,6 @@
       "transferFee": 1150000,
       "joinedYear": 2025,
       "guaranteedYears": 3
-    },
-    {
-      "name": "Sebastian Schonlau",
-      "position": "CB",
-      "baseSalary": 720000,
-      "guaranteedComp": 776833,
-      "international": true,
-      "role": "TAM Player",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "transferFee": 172000,
-      "joinedYear": 2025,
-      "guaranteedYears": 2
     },
     {
       "name": "Yohei Takaoka",
@@ -179,14 +152,6 @@
       "status": "Loan Player",
       "contractThru": "June 2026",
       "optionYears": "PT: 2028-29; 2029-30"
-    },
-    {
-      "name": "Sebastian Berhalter",
-      "position": "CM",
-      "baseSalary": 480000,
-      "guaranteedComp": 480000,
-      "international": false,
-      "contractThru": "2026"
     },
     {
       "name": "Isaac Boehmer",
@@ -338,6 +303,18 @@
       "contractThru": "2028",
       "optionYears": "2029",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Kwasi Poku",
+      "position": "ST",
+      "baseSalary": 200000,
+      "guaranteedComp": 200000,
+      "contractThru":"2027-28",
+      "optionYears":"2028-29",
+      "international": false,
+      "salaryEstimated": true,
+      "transferFee": 140000,
+      "joinedYear": 2026
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

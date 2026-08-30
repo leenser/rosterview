@@ -87,15 +87,6 @@
       "guaranteedYears": 5
     },
     {
-      "name": "Felipe Mora",
-      "position": "ST",
-      "baseSalary": 1200000,
-      "guaranteedComp": 1397750,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026"
-    },
-    {
       "name": "Juan Mosquera",
       "position": "RB",
       "baseSalary": 475000,
@@ -280,6 +271,15 @@
       "contractThru": "2027-28",
       "optionYears": "2028-29",
       "status": "Homegrown"
+    },
+    {
+      "name": "Vincent Janssen",
+      "position": "ST",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "contractThru":"2027-28",
+      "international": true,
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

@@ -64,16 +64,8 @@
       "optionYears": "2030",
       "transferFee": 3330000,
       "joinedYear": 2025,
-      "guaranteedYears": 5
-    },
-    {
-      "name": "Owen Wolff",
-      "position": "CM",
-      "baseSalary": 750000,
-      "guaranteedComp": 750000,
-      "international": false,
-      "role": "U22 Initiative",
-      "contractThru": "2029-30"
+      "guaranteedYears": 5,
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Dani Pereira",
@@ -131,7 +123,7 @@
       "baseSalary": 525000,
       "guaranteedComp": 577500,
       "international": false,
-      "role":"Supplemental Roster",
+      "role": "Supplemental Roster",
       "contractThru": "2026"
     },
     {
@@ -209,25 +201,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Robert Taylor",
-      "position": "LW",
-      "baseSalary": 575000,
-      "guaranteedComp": 633333,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
-      "name": "Przemysław Płacheta",
-      "position": "LW",
-      "baseSalary": 400000,
-      "guaranteedComp": 400000,
-      "international": true,
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "salaryEstimated": true
-    },
-    {
       "name": "Micah Burton",
       "position": "AM",
       "baseSalary": 125000,
@@ -279,6 +252,27 @@
       "contractThru": "2028",
       "optionYears": "2029, 2030",
       "status": "Homegrown"
+    },
+    {
+      "name": "Przemysław Płacheta",
+      "position": "LW",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Jorge Alastuey",
+      "position": "CM",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "role": "Supplemental Roster",
+      "international": true,
+      "contractThru": "2026",
+      "optionYears": "2027, 2027-28",
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "Designated Player Model",

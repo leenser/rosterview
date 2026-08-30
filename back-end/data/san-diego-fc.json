@@ -15,19 +15,6 @@
       "guaranteedYears": 5
     },
     {
-      "name": "Hirving Lozano",
-      "position": "LW",
-      "baseSalary": 6000000,
-      "guaranteedComp": 9333333,
-      "international": false,
-      "role": "Designated Player",
-      "contractThru": "2028",
-      "optionYears": "2029, 2030",
-      "transferFee": 13770000,
-      "joinedYear": 2025,
-      "guaranteedYears": 5
-    },
-    {
       "name": "Pedro Soma",
       "position": "DM",
       "baseSalary": 275000,
@@ -59,16 +46,6 @@
       "role": "TAM Player",
       "contractThru": "2026",
       "optionYears": "2027, 2028"
-    },
-    {
-      "name": "Andrés Reyes",
-      "position": "CB",
-      "baseSalary": 804000,
-      "guaranteedComp": 879000,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026",
-      "optionYears": "2027"
     },
     {
       "name": "Jeppe Tverskov",
@@ -185,15 +162,6 @@
       "transferFee": 574000,
       "joinedYear": 2026,
       "guaranteedYears": 4
-    },
-    {
-      "name": "Ian Murphy",
-      "position": "CB",
-      "baseSalary": 400000,
-      "guaranteedComp": 447500,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
     },
     {
       "name": "Alejandro Alvarado Jr.",
@@ -319,7 +287,59 @@
       "role": "Homegrown Player",
       "contractThru": "2028",
       "optionYears": "2029",
-      "status": "Unavailable – Off Roster"
+      "status": "Unavailable – On Loan"
+    },
+    {
+      "name": "Dagur Dan Thórhallsson",
+      "position": "RB",
+      "baseSalary": 480000,
+      "guaranteedComp": 530625,
+      "international": false,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29"
+    },
+    {
+      "name": "Gabriel Pirani",
+      "position": "AM",
+      "baseSalary": 800000,
+      "guaranteedComp": 866700,
+      "international": false,
+      "role": "U22 Initiative",
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Ian Murphy",
+      "position": "CB",
+      "baseSalary": 400000,
+      "guaranteedComp": 447500,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Marcus Alstrup",
+      "position": "GK",
+      "role":"Supplemental Roster",
+      "baseSalary": 100000,
+      "guaranteedComp": 100000,
+      "contractThru": "2026",
+      "optionYears": "2027, 2027-28",
+      "international": false,
+      "salaryEstimated": true
+    },
+    {
+      "name": "Elias Achouri",
+      "position": "LW",
+      "role":"Designated Player",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1200000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 3500000,
+      "joinedYear": 2026,
+      "contractThru": "2028-29",
+      "guaranteedYears":4
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

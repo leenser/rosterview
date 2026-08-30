@@ -25,19 +25,6 @@
       "guaranteedYears": 2
     },
     {
-      "name": "Amin Boudri",
-      "position": "AM",
-      "baseSalary": 650000,
-      "guaranteedComp": 742000,
-      "international": true,
-      "role": "U22 Initiative",
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "transferFee": 3790000,
-      "joinedYear": 2026,
-      "guaranteedYears": 3
-    },
-    {
       "name": "Igor Jesus",
       "position": "DM",
       "baseSalary": 625000,
@@ -74,7 +61,8 @@
       "optionYears": "2029",
       "transferFee": 2300000,
       "joinedYear": 2025,
-      "guaranteedYears": 4
+      "guaranteedYears": 4,
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Mark Delgado",
@@ -165,15 +153,6 @@
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
-    },
-    {
-      "name": "Nathan Ordaz",
-      "position": "ST",
-      "baseSalary": 500000,
-      "guaranteedComp": 545000,
-      "international": false,
-      "contractThru": "2029",
-      "optionYears": "2030"
     },
     {
       "name": "Eddie Segura",
@@ -305,7 +284,7 @@
       "role": "Homegrown Player",
       "contractThru": "2027",
       "optionYears": "2028, 2029",
-      "status": "Unavailable – Off Roster"
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Jude Terry",
@@ -317,6 +296,14 @@
       "contractThru": "2027",
       "optionYears": "2028, 2029",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Yevgen Cheberko",
+      "position": "CB",
+      "baseSalary": 610000,
+      "guaranteedComp": 658250,
+      "international": true,
+      "role": "TAM Player"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

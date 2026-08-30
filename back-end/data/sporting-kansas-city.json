@@ -15,16 +15,6 @@
       "guaranteedYears": 3
     },
     {
-      "name": "Dejan Joveljic",
-      "position": "ST",
-      "baseSalary": 3000000,
-      "guaranteedComp": 3306250,
-      "international": false,
-      "role": "Designated Player",
-      "contractThru": "2027",
-      "optionYears": "2028"
-    },
-    {
       "name": "Lasse Berg Johnsen",
       "position": "CM",
       "baseSalary": 1100000,
@@ -36,27 +26,6 @@
       "transferFee": 4020000,
       "joinedYear": 2026,
       "guaranteedYears": 3
-    },
-    {
-      "name": "Emir Karic",
-      "position": "LB",
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "international": true,
-      "contractThru": "2027-28",
-      "optionYears": "2028-29",
-      "salaryEstimated": true
-    },
-    {
-      "name": "Or Blorian",
-      "position": "CB",
-      "baseSalary": 300000,
-      "guaranteedComp": 300000,
-      "international": true,
-      "contractThru": "2028-29",
-      "optionYears": "2029-30, 2030-31",
-      "status": "Unavailable – On Loan",
-      "salaryEstimated": true
     },
     {
       "name": "Shapi Suleymanov",
@@ -80,6 +49,15 @@
       "role": "TAM Player",
       "contractThru": "2028-29",
       "optionYears": "2029-30"
+    },
+    {
+      "name": "Owen Wolff",
+      "position": "CM",
+      "baseSalary": 750000,
+      "guaranteedComp": 750000,
+      "international": false,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30"
     },
     {
       "name": "Diego Borges",
@@ -267,6 +245,51 @@
       "contractThru": "2027",
       "optionYears": "2028, 2029",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Emir Karic",
+      "position": "LB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "salaryEstimated": true,
+      "transferFee": 520000,
+      "joinedYear": 2026
+    },
+    {
+      "name": "Or Blorian",
+      "position": "CB",
+      "baseSalary": 300000,
+      "guaranteedComp": 300000,
+      "international": true,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30, 2030-31",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Moisés Mosquera",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 4200000,
+      "joinedYear": 2026,
+      "contractThru": "2030-31"
+    },
+    {
+      "name": "Cielo Tschantret",
+      "position": "DM",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "salaryEstimated": true,
+      "role":"Homegrown Player",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029",
+      "status": "Unavailable – On Loan"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

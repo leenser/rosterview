@@ -2,17 +2,6 @@
   "teamName": "CF Montreal",
   "players": [
     {
-      "name": "Tomás Avilés",
-      "position": "CB",
-      "baseSalary": 495000,
-      "guaranteedComp": 522500,
-      "international": false,
-      "role": "U22 Initiative",
-      "status": "Loan Player",
-      "contractThru": "2026",
-      "optionYears": "PT: 2027"
-    },
-    {
       "name": "Jalen Neal",
       "position": "CB",
       "baseSalary": 675000,
@@ -44,6 +33,17 @@
       "role": "TAM Player",
       "contractThru": "2027-28",
       "optionYears": "2028-29, 2029-30"
+    },
+    {
+      "name": "Alexis Sanchez",
+      "position": "ST",
+      "baseSalary": 3000000,
+      "guaranteedComp": 3000000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2027",
+      "optionYears": "2027-28",
+      "salaryEstimated":true
     },
     {
       "name": "Dawid Bugaj",
@@ -148,15 +148,6 @@
       "guaranteedYears": 3
     },
     {
-      "name": "Dagur Dan Thórhallsson",
-      "position": "RB",
-      "baseSalary": 480000,
-      "guaranteedComp": 530625,
-      "international": false,
-      "contractThru": "2027-28",
-      "optionYears": "2028-29"
-    },
-    {
       "name": "Brayan Vera",
       "position": "CB",
       "baseSalary": 650000,
@@ -197,17 +188,6 @@
       "status": "Homegrown"
     },
     {
-      "name": "Emil Gazdov",
-      "position": "GK",
-      "baseSalary": 88025,
-      "guaranteedComp": 96172,
-      "international": false,
-      "status": "Unavailable – On Loan",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
-    },
-    {
       "name": "Owen Graham-Roache",
       "position": "ST",
       "baseSalary": 88025,
@@ -227,7 +207,7 @@
       "role": "Supplemental Roster",
       "contractThru": "2026",
       "optionYears": "2027, 2028, 2029",
-      "status": "Homegrown"
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Victor Loturi",
@@ -291,6 +271,33 @@
       "status": "Unavailable – Off Roster",
       "contractThru": "2028",
       "optionYears": "2029, 2030"
+    },
+    {
+      "name": "Brayan Ceballos",
+      "position": "CB",
+      "baseSalary": 775000,
+      "guaranteedComp": 855625,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2027",
+      "optionYears": "2028"
+    },
+    {
+      "name": "Emil Gazdov",
+      "position": "GK",
+      "baseSalary": 88025,
+      "guaranteedComp": 96172,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Daniel Pereira",
+      "position": "CM",
+      "baseSalary": 750000,
+      "guaranteedComp": 793750,
+      "international": false
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

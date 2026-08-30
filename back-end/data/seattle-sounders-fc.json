@@ -15,6 +15,16 @@
       "guaranteedYears": 4
     },
     {
+      "name": "Dejan Joveljic",
+      "position": "ST",
+      "baseSalary": 3000000,
+      "guaranteedComp": 3306250,
+      "international": false,
+      "role": "Designated Player",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31"
+    },
+    {
       "name": "Jordan Morris",
       "position": "ST",
       "baseSalary": 2362500,
@@ -26,12 +36,12 @@
     {
       "name": "Albert Rusnák",
       "position": "AM",
-      "baseSalary": 2685000,
-      "guaranteedComp": 2685000,
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
       "international": false,
-      "role": "Designated Player",
-      "contractThru": "2026",
-      "optionYears": "2027"
+      "salaryEstimated": true,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29"
     },
     {
       "name": "Nikola Petkovic",
@@ -183,17 +193,6 @@
       "role": "Supplemental Roster"
     },
     {
-      "name": "Cody Baker",
-      "position": "RB",
-      "baseSalary": 113400,
-      "guaranteedComp": 119104,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "status": "Homegrown"
-    },
-    {
       "name": "Snyder Brunell",
       "position": "DM",
       "baseSalary": 88025,
@@ -263,7 +262,8 @@
       "international": true,
       "contractThru": "2026",
       "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Sebastian Gomez",

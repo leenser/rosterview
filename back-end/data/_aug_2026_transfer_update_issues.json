@@ -1,0 +1,491 @@
+{
+  "meta": {
+    "source": "transfers.xlsx",
+    "processedAt": "2026-08-10",
+    "workbookTransfers": 158,
+    "uniquePlayers": 142,
+    "appliedChanges": 79,
+    "changeCounts": {
+      "removed": 29,
+      "marked_on_loan": 18,
+      "moved": 11,
+      "updated": 21
+    },
+    "note": "All workbook transfers are represented in team JSONs. Players without published salary and contract data use zero-value salary placeholders marked salaryEstimated=true. MLS-to-MLS consideration is excluded from transferFee; known international inbound fees are converted to USD at the documented ECB rate.",
+    "eurUsdConversion": {
+      "rate": 1.1555,
+      "rateDate": "2026-08-10",
+      "source": "European Central Bank euro reference exchange rate",
+      "rounding": "two significant figures"
+    },
+    "missingInboundPlayers": 0,
+    "resolvedInboundFees": {
+      "Mauricio Amaro": 3300000,
+      "Famara Camara": 2500000
+    },
+    "intraMlsPolicy": "MLS-to-MLS consideration is excluded from transferFee because it is generally handled through MLS mechanisms such as GAM. The player's prior base salary and guaranteed compensation carry over.",
+    "implementedInboundPlayers": 44,
+    "audit": {
+      "date": "2026-08-10",
+      "result": "all 142 latest player transfers represented"
+    }
+  },
+  "convertedTransferFees": [
+    {
+      "row": 156,
+      "player": "Juan Jose Arias",
+      "team": "Real Salt Lake",
+      "euros": 1700000,
+      "dollars": 2000000
+    },
+    {
+      "row": 180,
+      "player": "Andrés Herrera",
+      "team": "Columbus Crew",
+      "euros": 1050000,
+      "dollars": 1200000
+    },
+    {
+      "row": 186,
+      "player": "Bénie Traoré",
+      "team": "New York City FC",
+      "euros": 8750000,
+      "dollars": 10000000
+    },
+    {
+      "row": 190,
+      "player": "Emir Karic",
+      "team": "Sporting Kansas City",
+      "euros": 450000,
+      "dollars": 520000
+    }
+  ],
+  "intraMlsSalaryCarryovers": [
+    {
+      "player": "Brayan Ceballos",
+      "team": "CF Montreal",
+      "baseSalary": 775000,
+      "guaranteedComp": 855625
+    },
+    {
+      "player": "Nathan Ordaz",
+      "team": "D.C. United",
+      "baseSalary": 500000,
+      "guaranteedComp": 545000
+    },
+    {
+      "player": "Daniel",
+      "team": "FC Dallas",
+      "baseSalary": 750000,
+      "guaranteedComp": 792500
+    },
+    {
+      "player": "Duncan McGuire",
+      "team": "Houston Dynamo FC",
+      "baseSalary": 600000,
+      "guaranteedComp": 921000
+    },
+    {
+      "player": "Hirving Lozano",
+      "team": "LA Galaxy",
+      "baseSalary": 6000000,
+      "guaranteedComp": 9333333
+    },
+    {
+      "player": "Zidane Yañez",
+      "team": "Nashville SC",
+      "baseSalary": 113400,
+      "guaranteedComp": 117567
+    },
+    {
+      "player": "Cody Baker",
+      "team": "New England Revolution",
+      "baseSalary": 113400,
+      "guaranteedComp": 119104
+    },
+    {
+      "player": "Saba Lobjanidze",
+      "team": "Real Salt Lake",
+      "baseSalary": 900000,
+      "guaranteedComp": 998750
+    },
+    {
+      "player": "Dagur Dan Thórhallsson",
+      "team": "San Diego FC",
+      "baseSalary": 480000,
+      "guaranteedComp": 530625
+    },
+    {
+      "player": "Gabriel Pirani",
+      "team": "San Diego FC",
+      "baseSalary": 800000,
+      "guaranteedComp": 866700
+    },
+    {
+      "player": "Zach Zengue",
+      "team": "St. Louis CITY SC",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025
+    },
+    {
+      "player": "Nelson Palacio",
+      "team": "Toronto FC",
+      "baseSalary": 430000,
+      "guaranteedComp": 473167
+    }
+  ],
+  "implementedInboundPlayers": [
+    {
+      "player": "Sergi Roberto",
+      "team": "LA Galaxy",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Marcelo Saracchi",
+      "team": "Houston Dynamo FC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 1300000
+    },
+    {
+      "player": "Gonzalo Tapia",
+      "team": "Columbus Crew",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Jorge Alastuey",
+      "team": "Austin FC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Kamil Castillo",
+      "team": "D.C. United",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Youssef Maziz",
+      "team": "Colorado Rapids",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Tarun Karumanchi",
+      "team": "Columbus Crew",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Kwasi Poku",
+      "team": "Vancouver Whitecaps FC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 140000
+    },
+    {
+      "player": "Vincent Janssen",
+      "team": "Portland Timbers",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Kimito Nono",
+      "team": "D.C. United",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 1500000
+    },
+    {
+      "player": "Luighi",
+      "team": "New York City FC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 270000
+    },
+    {
+      "player": "Niklas Dorsch",
+      "team": "Toronto FC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 4200000
+    },
+    {
+      "player": "Carlo Holse",
+      "team": "St. Louis CITY SC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 6000000
+    },
+    {
+      "player": "Clay Holstad",
+      "team": "FC Dallas",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Jack Harrison",
+      "team": "New England Revolution",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 1200000
+    },
+    {
+      "player": "Bernardo Rhein",
+      "team": "Orlando City SC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Marcus Alstrup",
+      "team": "San Diego FC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Elias Achouri",
+      "team": "San Diego FC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 3500000
+    },
+    {
+      "player": "Benji Flowers",
+      "team": "FC Dallas",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Daniel Sumalla",
+      "team": "Inter Miami CF",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Casemiro",
+      "team": "Inter Miami CF",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Kyogo Furuhashi",
+      "team": "LA Galaxy",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 1400000
+    },
+    {
+      "player": "Alexandru Mățan",
+      "team": "St. Louis CITY SC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Clovis Archange",
+      "team": "Orlando City SC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Kai Wagner",
+      "team": "Philadelphia Union",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 4000000
+    },
+    {
+      "player": "Eric Bailly",
+      "team": "Columbus Crew",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Daryl Dike",
+      "team": "Orlando City SC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Tristan Himes",
+      "team": "Orlando City SC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Luka Jovanović",
+      "team": "San Jose Earthquakes",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 690000
+    },
+    {
+      "player": "Richard Chukwu",
+      "team": "Toronto FC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Elias Saad",
+      "team": "Nashville SC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Palmer Ault",
+      "team": "St. Louis CITY SC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Fricio Caicedo",
+      "team": "Inter Miami CF",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Paulo Díaz",
+      "team": "Atlanta United",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Júnior Alonso",
+      "team": "Atlanta United",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Brais Méndez",
+      "team": "Columbus Crew",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 6900000
+    },
+    {
+      "player": "Daniel Pereira",
+      "team": "CF Montreal",
+      "salarySource": "prior MLS record / Spring 2026 MLSPA salary guide",
+      "baseSalary": 750000,
+      "guaranteedComp": 793750,
+      "transferFee": null
+    },
+    {
+      "player": "Wilson Harris",
+      "team": "New England Revolution",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Moisés Mosquera",
+      "team": "Sporting Kansas City",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 4200000
+    },
+    {
+      "player": "Angus Gunn",
+      "team": "San Jose Earthquakes",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Yevgen Cheberko",
+      "team": "Los Angeles FC",
+      "salarySource": "prior MLS record / Spring 2026 MLSPA salary guide",
+      "baseSalary": 610000,
+      "guaranteedComp": 658250,
+      "transferFee": null
+    },
+    {
+      "player": "Allan Saint-Maximin",
+      "team": "Charlotte FC",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "player": "Loïc Williams",
+      "team": "Colorado Rapids",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": 3500000
+    },
+    {
+      "player": "Grant Gilmore",
+      "team": "Colorado Rapids",
+      "salarySource": "estimated placeholder",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    }
+  ]
+}

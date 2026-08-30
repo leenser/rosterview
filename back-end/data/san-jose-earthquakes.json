@@ -65,6 +65,16 @@
       "transferFee": 459000,
       "joinedYear": 2025,
       "guaranteedYears": 2
+    }
+    ,{
+      "name": "Eduard Löwen",
+      "position": "CM",
+      "baseSalary": 1300000,
+      "guaranteedComp": 1444250,
+      "international": false,
+      "role": "Designated Player",
+      "buydownEligible": true,
+      "contractThru": "2027-28"
     },
     {
       "name": "Cristian Arango",
@@ -95,15 +105,6 @@
       "transferFee": 459000,
       "joinedYear": 2024,
       "guaranteedYears": 3
-    },
-    {
-      "name": "Daniel",
-      "position": "GK",
-      "baseSalary": 750000,
-      "guaranteedComp": 792500,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
     },
     {
       "name": "Earl Edwards Jr.",
@@ -313,6 +314,28 @@
       "contractThru": "2028",
       "optionYears": "2029",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Luka Jovanović",
+      "position": "ST",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "salaryEstimated": true,
+      "role":"U22 Initiative",
+      "transferFee": 690000,
+      "joinedYear": 2026,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29"
+    },
+    {
+      "name": "Angus Gunn",
+      "position": "GK",
+      "baseSalary": 600000,
+      "guaranteedComp": 600000,
+      "contractThru": "2028-29",
+      "international": true,
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "Designated Player Model",

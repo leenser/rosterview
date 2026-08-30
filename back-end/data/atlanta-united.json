@@ -25,7 +25,8 @@
       "optionYears": "2029",
       "transferFee": 24390000,
       "joinedYear": 2025,
-      "guaranteedYears": 4
+      "guaranteedYears": 4,
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Alexey Miranchuk",
@@ -113,15 +114,6 @@
       "transferFee": 1150000,
       "joinedYear": 2023,
       "guaranteedYears": 4
-    },
-    {
-      "name": "Pedro Amador",
-      "position": "LB",
-      "baseSalary": 256992,
-      "guaranteedComp": 292604,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
     },
     {
       "name": "Ronald Hernández",
@@ -294,6 +286,39 @@
       "status": "Unavailable – Off Roster",
       "contractThru": "2028",
       "optionYears": "2029"
+    },
+    {
+      "name": "Mauricio Amaro",
+      "position": "CM",
+      "role":"U22 Initiative",
+      "international": true,
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "transferFee": 3300000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4,
+      "contractThru":"2028-29",
+      "optionYears":"2029-30",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Paulo Díaz",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "contractThru":"2028",
+      "optionYears":"2029, 2030",
+      "international": true,
+      "salaryEstimated": true
+    },
+    {
+      "name": "Júnior Alonso",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "contractThru":"2028-29",
+      "international": true,
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "Designated Player Model",

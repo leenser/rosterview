@@ -2,16 +2,6 @@
   "teamName": "Chicago Fire FC",
   "players": [
     {
-      "name": "Robert Lewandowski",
-      "position": "ST",
-      "baseSalary": 5000000,
-      "guaranteedComp": 5000000,
-      "international": true,
-      "role": "Designated Player",
-      "contractThru": "2027-28",
-      "salaryEstimated": true
-    },
-    {
       "name": "Jonathan Bamba",
       "position": "LW",
       "baseSalary": 5000000,
@@ -22,19 +12,6 @@
       "optionYears": "2028",
       "transferFee": 4020000,
       "joinedYear": 2025,
-      "guaranteedYears": 3
-    },
-    {
-      "name": "Hugo Cuypers",
-      "position": "ST",
-      "baseSalary": 3238000,
-      "guaranteedComp": 3528044,
-      "international": true,
-      "role": "Designated Player",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "transferFee": 12620000,
-      "joinedYear": 2024,
       "guaranteedYears": 3
     },
     {
@@ -345,6 +322,16 @@
       "contractThru": "2028",
       "optionYears": "2029, 2030",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Robert Lewandowski",
+      "position": "ST",
+      "baseSalary": 5000000,
+      "guaranteedComp": 5000000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2027-28",
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

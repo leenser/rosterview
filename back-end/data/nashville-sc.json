@@ -310,9 +310,43 @@
       "guaranteedComp": 142226,
       "international": false,
       "role": "Homegrown Player",
-      "status": "Unavailable – Off Roster",
+      "status": "Unavailable – On Loan",
       "contractThru": "2027",
       "optionYears": "2028"
+    },
+    {
+      "name": "Zidane Yañez",
+      "position": "ST",
+      "baseSalary": 113400,
+      "guaranteedComp": 117567,
+      "international": false,
+      "role": "Homegrown Player",
+      "contractThru": "2028",
+      "optionYears": "2029",
+      "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Famara Camara",
+      "position": "DM",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "transferFee": 2500000,
+      "joinedYear": 2026,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "guaranteedYears":4,
+      "salaryEstimated": true
+    },
+    {
+      "name": "Elias Saad",
+      "position": "LW",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "salaryEstimated": true,
+      "contractThru": "2027",
+      "status": "Loan Player"
     }
   ],
   "rosterModel": "Designated Player Model",

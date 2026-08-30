@@ -26,20 +26,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Juan Jose Arias",
-      "position": "CB",
-      "baseSalary": 500000,
-      "guaranteedComp": 565139,
-      "international": true,
-      "role": "U22 Initiative",
-      "status": "Unavailable – Injured List",
-      "contractThru": "July 13, 2026",
-      "optionYears": "PT: 2028-29",
-      "transferFee": 1950000,
-      "joinedYear": 2026,
-      "guaranteedYears": 1
-    },
-    {
       "name": "Diego Luna",
       "position": "LM",
       "baseSalary": 450000,
@@ -131,16 +117,6 @@
       "international": true,
       "role": "TAM Player",
       "contractThru": "2027-28"
-    },
-
-    {
-      "name": "Saba Lobjanidze",
-      "position": "LW",
-      "baseSalary": 900000,
-      "guaranteedComp": 998750,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026"
     },
     {
       "name": "Rafael Cabral",
@@ -419,6 +395,29 @@
       "contractThru": "2028",
       "optionYears": "2029, 2030",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "Juan Jose Arias",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 565139,
+      "international": true,
+      "role": "U22 Initiative",
+      "status": "Unavailable – Injured List",
+      "contractThru": "July 13, 2026",
+      "optionYears": "PT: 2028-29",
+      "transferFee": 2000000,
+      "joinedYear": 2026,
+      "guaranteedYears": 1
+    },
+    {
+      "name": "Saba Lobjanidze",
+      "position": "LW",
+      "baseSalary": 900000,
+      "guaranteedComp": 998750,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2026"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",
