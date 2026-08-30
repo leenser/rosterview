@@ -297,7 +297,8 @@
       "salaryEstimated": true,
       "transferFee": 4200000,
       "contractThru":"2030-31",
-      "joinedYear": 2026
+      "joinedYear": 2026,
+      "guaranteedYears": 5
     },
     {
       "name": "Richard Chukwu",
