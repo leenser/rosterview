@@ -88,7 +88,7 @@
       "position": "RW",
       "baseSalary": 625000,
       "guaranteedComp": 1000000,
-      "international": true,
+      "international": false,
       "role": "TAM Player",
       "contractThru": "2029-30",
       "optionYears": "2030-31",
@@ -141,7 +141,7 @@
       "position": "RB",
       "baseSalary": 850000,
       "guaranteedComp": 1026875,
-      "international": true,
+      "international": false,
       "role": "TAM Player",
       "contractThru": "2028-29"
     },
