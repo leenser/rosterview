@@ -144,16 +144,6 @@
       "contractThru": "2027"
     },
     {
-      "name": "AZ",
-      "position": "AM",
-      "baseSalary": 240000,
-      "guaranteedComp": 403680,
-      "international": false,
-      "status": "Loan Player",
-      "contractThru": "June 2026",
-      "optionYears": "PT: 2028-29; 2029-30"
-    },
-    {
       "name": "Isaac Boehmer",
       "position": "GK",
       "baseSalary": 165000,
