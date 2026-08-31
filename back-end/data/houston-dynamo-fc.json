@@ -41,16 +41,6 @@
       "guaranteedYears": 3
     },
     {
-      "name": "Jack McGlynn",
-      "position": "CM",
-      "baseSalary": 776000,
-      "guaranteedComp": 910320,
-      "international": false,
-      "role": "U22 Initiative",
-      "contractThru": "2028",
-      "optionYears": "2029"
-    },
-    {
       "name": "Ibrahim Aliyu",
       "position": "ST",
       "baseSalary": 525000,
@@ -125,19 +115,6 @@
       "role": "TAM Player",
       "contractThru": "2026",
       "optionYears": "2027, 2028"
-    },
-    {
-      "name": "Erik Sviatchenko",
-      "position": "CB",
-      "baseSalary": 850000,
-      "guaranteedComp": 925000,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "transferFee": 1490000,
-      "joinedYear": 2023,
-      "guaranteedYears": 4
     },
     {
       "name": "Felipe Andrade",
