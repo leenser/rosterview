@@ -277,10 +277,11 @@
       "guaranteedComp": 727632,
       "international": true,
       "role": "TAM Player",
-      "contractThru": "June 2026",
-      "optionYears": "PT: 2028; 2029",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
       "transferFee": 1200000,
-      "joinedYear": 2026
+      "joinedYear": 2026,
+      "guaranteedYears":4
     },
     {
       "name": "Lautaro Giaccone",
