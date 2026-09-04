@@ -38,16 +38,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Lewis Morgan",
-      "position": "LW",
-      "baseSalary": 1639150,
-      "guaranteedComp": 1868508,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
-    },
-    {
       "name": "Jeppe Tverskov",
       "position": "DM",
       "baseSalary": 1000000,
@@ -175,25 +165,15 @@
       "role": "Supplemental Roster"
     },
     {
-      "name": "Luca Bombino",
-      "position": "LB",
-      "baseSalary": 150000,
-      "guaranteedComp": 177200,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "status": "Homegrown"
-    },
-    {
       "name": "Manu Duah",
-      "position": "DM",
-      "baseSalary": 88025,
-      "guaranteedComp": 92025,
+      "position": "CB",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
       "international": true,
+      "salaryEstimated": true,
       "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028, 2029"
+      "contractThru": "2029-30",
+      "optionYears": "2030-31"
     },
     {
       "name": "Wilson Eisner",
@@ -204,7 +184,7 @@
       "role": "Supplemental Roster",
       "contractThru": "2026",
       "optionYears": "June 2027, 2027-28",
-      "status": "Homegrown"
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Duran Ferree",
@@ -320,7 +300,7 @@
     {
       "name": "Marcus Alstrup",
       "position": "GK",
-      "role":"Supplemental Roster",
+      "role": "Supplemental Roster",
       "baseSalary": 100000,
       "guaranteedComp": 100000,
       "contractThru": "2026",
@@ -331,7 +311,7 @@
     {
       "name": "Elias Achouri",
       "position": "LW",
-      "role":"Designated Player",
+      "role": "Designated Player",
       "baseSalary": 1200000,
       "guaranteedComp": 1200000,
       "international": true,
@@ -339,7 +319,40 @@
       "transferFee": 3500000,
       "joinedYear": 2026,
       "contractThru": "2028-29",
-      "guaranteedYears":4
+      "guaranteedYears": 4
+    },
+    {
+      "name": "David Mimbang",
+      "position": "CM",
+      "baseSalary": 200000,
+      "guaranteedComp": 200000,
+      "international": true,
+      "salaryEstimated": true,
+      "status": "Loan Player",
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2
+    },
+    {
+      "name": "Sam Vines",
+      "position": "LB",
+      "baseSalary": 900000,
+      "guaranteedComp": 912500,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "status": "Loan Player"
+    },
+    {
+      "name": "Cédric Bakambu",
+      "position": "ST",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1000000,
+      "international": true,
+      "salaryEstimated": true,
+      "role": "TAM Player",
+      "contractThru": "2026",
+      "optionYears": "2027 Sprint, 2027/28",
+      "guaranteedYears": 1
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

@@ -227,16 +227,6 @@
       "role": "Supplemental Roster"
     },
     {
-      "name": "Deandre Kerr",
-      "position": "ST",
-      "baseSalary": 160000,
-      "guaranteedComp": 165319,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "status": "Homegrown"
-    },
-    {
       "name": "Adam Pearlman",
       "position": "CB",
       "baseSalary": 130000,
@@ -296,7 +286,7 @@
       "international": true,
       "salaryEstimated": true,
       "transferFee": 4200000,
-      "contractThru":"2030-31",
+      "contractThru": "2030-31",
       "joinedYear": 2026,
       "guaranteedYears": 5
     },
@@ -305,10 +295,20 @@
       "position": "CB",
       "baseSalary": 80000,
       "guaranteedComp": 80000,
-      "role":"Supplemental Roster",
-      "contractThru":"2029-30",
+      "role": "Supplemental Roster",
+      "contractThru": "2029-30",
       "international": false,
       "salaryEstimated": true
+    },
+    {
+      "name": "Lewis Morgan",
+      "position": "LW",
+      "baseSalary": 1639150,
+      "guaranteedComp": 1868508,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

@@ -35,17 +35,6 @@
       "optionYears": "2028-29, 2029-30"
     },
     {
-      "name": "Alexis Sanchez",
-      "position": "ST",
-      "baseSalary": 3000000,
-      "guaranteedComp": 3000000,
-      "international": true,
-      "role": "Designated Player",
-      "contractThru": "2027",
-      "optionYears": "2027-28",
-      "salaryEstimated":true
-    },
-    {
       "name": "Dawid Bugaj",
       "position": "RB",
       "baseSalary": 240000,
@@ -298,6 +287,39 @@
       "baseSalary": 750000,
       "guaranteedComp": 793750,
       "international": false
+    },
+    {
+      "name": "Viktor Radojević",
+      "position": "LB",
+      "baseSalary": 350000,
+      "guaranteedComp": 357000,
+      "international": true,
+      "role": "U22 Initiative",
+      "contractThru": "2026",
+      "optionYears": "2029",
+      "guaranteedYears": 1
+    },
+    {
+      "name": "Dante Sealy",
+      "position": "RW",
+      "baseSalary": 150000,
+      "guaranteedComp": 168022,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Alexis Sánchez",
+      "position": "ST",
+      "baseSalary": 3000000,
+      "guaranteedComp": 3000000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2027 Sprint",
+      "optionYears": "2027-28",
+      "salaryEstimated": true,
+      "guaranteedYears": 2
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

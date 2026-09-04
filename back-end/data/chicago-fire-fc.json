@@ -54,19 +54,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Viktor Radojević",
-      "position": "LB",
-      "baseSalary": 350000,
-      "guaranteedComp": 357000,
-      "international": true,
-      "role": "U22 Initiative",
-      "contractThru": "2028",
-      "optionYears": "2029",
-      "transferFee": 1720000,
-      "joinedYear": 2025,
-      "guaranteedYears": 4
-    },
-    {
       "name": "Jack Elliott",
       "position": "CB",
       "baseSalary": 960511,
@@ -201,15 +188,6 @@
       "guaranteedYears": 2
     },
     {
-      "name": "Joel Waterman",
-      "position": "CB",
-      "baseSalary": 517000,
-      "guaranteedComp": 598150,
-      "international": true,
-      "contractThru": "2027",
-      "optionYears": "2028"
-    },
-    {
       "name": "Dean Boltz",
       "position": "ST",
       "baseSalary": 88025,
@@ -218,17 +196,6 @@
       "role": "Supplemental Roster",
       "contractThru": "2027",
       "optionYears": "2028, 2029"
-    },
-    {
-      "name": "Dylan Borso",
-      "position": "RW",
-      "baseSalary": 113400,
-      "guaranteedComp": 121400,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028, 2029",
-      "status": "Homegrown"
     },
     {
       "name": "Josh Cohen",
@@ -249,7 +216,7 @@
       "role": "Supplemental Roster",
       "contractThru": "2028",
       "optionYears": "2029, 2030",
-      "status": "Homegrown"
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Jonathan Dean",
@@ -292,16 +259,6 @@
       "role": "Supplemental Roster"
     },
     {
-      "name": "Jason Shokalook",
-      "position": "ST",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
-    },
-    {
       "name": "Sam Williams",
       "position": "DM",
       "baseSalary": 88025,
@@ -332,6 +289,64 @@
       "role": "Designated Player",
       "contractThru": "2027-28",
       "salaryEstimated": true
+    },
+    {
+      "name": "Johan Gómez",
+      "position": "RW",
+      "baseSalary": 540000,
+      "guaranteedComp": 540000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 700000,
+      "joinedYear": 2026,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "guaranteedYears": 3
+    },
+    {
+      "name": "Noah Allen",
+      "position": "LB",
+      "baseSalary": 375000,
+      "guaranteedComp": 434653,
+      "international": false,
+      "contractThru": "2028",
+      "optionYears": "2029"
+    },
+    {
+      "name": "Andreas Hanche-Olsen",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 2000000,
+      "joinedYear": 2026,
+      "contractThru": "2030-31",
+      "guaranteedYears": 5
+    },
+    {
+      "name": "Anzor Mekvabishvili",
+      "position": "DM",
+      "baseSalary": 650000,
+      "guaranteedComp": 650000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 2900000,
+      "joinedYear": 2026,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "guaranteedYears": 3
+    },
+    {
+      "name": "Dylan Borso",
+      "position": "RW",
+      "baseSalary": 113400,
+      "guaranteedComp": 121400,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029",
+      "status": "Unavailable – On Loan"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

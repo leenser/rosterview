@@ -106,7 +106,7 @@
       "guaranteedComp": 870000,
       "international": false,
       "role": "TAM Player",
-      "salaryEstimated":true,
+      "salaryEstimated": true,
       "contractThru": "2027-28",
       "optionYears": "2028-29"
     },
@@ -165,18 +165,6 @@
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028"
-    },
-    {
-      "name": "Louicius Deedson",
-      "position": "RW",
-      "baseSalary": 400000,
-      "guaranteedComp": 450319,
-      "international": true,
-      "contractThru": "2028",
-      "optionYears": "2029, 2030",
-      "transferFee": 1150000,
-      "joinedYear": 2025,
-      "guaranteedYears": 4
     },
     {
       "name": "Logan Farrington",
@@ -386,7 +374,7 @@
       "position": "AM",
       "baseSalary": 230000,
       "guaranteedComp": 257000,
-      "role":"Supplemental Roster",
+      "role": "Supplemental Roster",
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027, 2028"
@@ -406,7 +394,7 @@
     {
       "name": "Benji Flowers",
       "position": "LW",
-      "role":"Homegrown Player",
+      "role": "Homegrown Player",
       "status": "Unavailable – Off Roster",
       "baseSalary": 80000,
       "guaranteedComp": 80000,
@@ -414,6 +402,20 @@
       "optionYears": "2031-32",
       "international": false,
       "salaryEstimated": true
+    },
+    {
+      "name": "Daniel Job",
+      "position": "LW",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 5200000,
+      "joinedYear": 2026,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

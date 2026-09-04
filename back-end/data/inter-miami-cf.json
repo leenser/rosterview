@@ -175,15 +175,6 @@
       "contractThru": "2026"
     },
     {
-      "name": "Noah Allen",
-      "position": "LB",
-      "baseSalary": 375000,
-      "guaranteedComp": 434653,
-      "international": false,
-      "contractThru": "2028",
-      "optionYears": "2029"
-    },
-    {
       "name": "Luis Barraza",
       "position": "GK",
       "baseSalary": 113400,
@@ -232,17 +223,6 @@
       "role": "Supplemental Roster",
       "contractThru": "2027",
       "optionYears": "2028",
-      "status": "Homegrown"
-    },
-    {
-      "name": "David Ruiz",
-      "position": "DM",
-      "baseSalary": 200000,
-      "guaranteedComp": 231887,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2028",
-      "optionYears": "2029",
       "status": "Homegrown"
     },
     {
@@ -329,6 +309,51 @@
       "salaryEstimated": true,
       "status": "Loan Player",
       "contractThru": "2027"
+    },
+    {
+      "name": "Riquelme Fillipi",
+      "position": "LW",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 4200000,
+      "joinedYear": 2026,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4
+    },
+    {
+      "name": "Lovend's Delinois",
+      "position": "ST",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "international": false,
+      "salaryEstimated": true,
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "optionYears": "2027-28, 2028-29, 2029-30",
+      "guaranteedYears": 2
+    },
+    {
+      "name": "Allen Obando",
+      "position": "ST",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "salaryEstimated": true,
+      "status": "Unavailable – On Loan"
+    },
+    {
+      "name": "Matías Galarza",
+      "position": "CM",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "salaryEstimated": true,
+      "contractThru": "PT: 2026",
+      "status": "Loan Player"
     }
   ],
   "rosterModel": "Designated Player Model",

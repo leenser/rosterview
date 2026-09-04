@@ -1,0 +1,2742 @@
+{
+  "meta": {
+    "sourceWorkbook": "transfers.xlsx",
+    "processedAt": "2026-09-04",
+    "workbookTransferRows": 112,
+    "latestPlayerTransfers": 107,
+    "appliedChanges": 107,
+    "salaryPlaceholders": 6,
+    "auditResult": "all 107 latest September player transfers represented",
+    "eurUsdConversion": {
+      "rate": 1.1622,
+      "rateDate": "2026-09-04",
+      "source": "European Central Bank",
+      "rounding": "two significant figures"
+    },
+    "policy": "MLS-to-MLS consideration is excluded from transferFee. Existing salary data carries over unless the workbook supplies an estimated salary; workbook estimates set both baseSalary and guaranteedComp and are marked salaryEstimated=true.",
+    "contractMetadata": {
+      "workbookRowsWithMetadata": 53,
+      "appliedToRosterPlayers": 53,
+      "reportOnlyDepartures": 0,
+      "guaranteedYearsDerived": 38,
+      "derivation": "Counted inclusively from 2026 through the first calendar year in Contract Thru; PT-prefixed terms are not treated as guaranteed years."
+    },
+    "sourceSheets": [
+      "SEP-3",
+      "Sheet2"
+    ],
+    "estimatedSalary": {
+      "workbookRows": 43,
+      "appliedToRosterPlayers": 43,
+      "notOnCurrentRoster": 0,
+      "rule": "Salary estimates set both baseSalary and guaranteedComp and are marked salaryEstimated=true."
+    },
+    "additionalTransferSheet": {
+      "name": "Sheet2",
+      "rows": 17,
+      "appliedChanges": 17
+    }
+  },
+  "changes": [
+    {
+      "action": "marked_on_loan",
+      "player": "Virgilio Olaya",
+      "from": "LAFC",
+      "to": "FC Wacker",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "action": "added",
+      "player": "Julián Malatini",
+      "from": "Werder Bremen",
+      "to": "Cincinnati",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "transferFee": null,
+      "contractThru": "PT: 2027 Sprint",
+      "contractMetadataSourceRows": [
+        4
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Cherrion Valerius",
+      "from": "NAC Breda",
+      "to": "Minnesota",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "transferFee": null,
+      "contractThru": "PT: 2026",
+      "contractMetadataSourceRows": [
+        6
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Rafael Navarro",
+      "from": "Colorado",
+      "to": "St. Louis CITY",
+      "baseSalary": 1392000,
+      "guaranteedComp": 1449600,
+      "transferFee": null,
+      "role": "Designated Player",
+      "contractMetadataSourceRows": [
+        10
+      ]
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Ronald Hernández",
+      "from": "Atlanta",
+      "to": "Portland",
+      "baseSalary": 145000,
+      "guaranteedComp": 159000,
+      "transferFee": null
+    },
+    {
+      "action": "added",
+      "player": "Anass Zaroury",
+      "from": "Panathinaikos",
+      "to": "Columbus",
+      "baseSalary": 650000,
+      "guaranteedComp": 650000,
+      "transferFee": null,
+      "contractThru": "PT: 2027 Sprint",
+      "contractMetadataSourceRows": [
+        14
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Giuliano Galoppo",
+      "from": "River Plate",
+      "to": "Atlanta",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "transferFee": null,
+      "contractThru": "PT: 2027 Sprint",
+      "contractMetadataSourceRows": [
+        16
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Lewis Morgan",
+      "from": "San Diego",
+      "to": "Toronto",
+      "baseSalary": 1639150,
+      "guaranteedComp": 1868508,
+      "transferFee": null
+    },
+    {
+      "action": "added",
+      "player": "Christopher Applewhite",
+      "from": "Nashville",
+      "to": "Austin",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "transferFee": null,
+      "role": "Supplemental Roster",
+      "contractThru": "PT: 2027 Sprint",
+      "contractMetadataSourceRows": [
+        20
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Santiago Rodríguez",
+      "from": "Botafogo",
+      "to": "Columbus",
+      "baseSalary": 2000000,
+      "guaranteedComp": 2000000,
+      "transferFee": 6800000,
+      "role": "Designated Player",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "contractMetadataSourceRows": [
+        22
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "David Mimbang",
+      "from": "Nordsjaelland",
+      "to": "San Diego",
+      "baseSalary": 200000,
+      "guaranteedComp": 200000,
+      "transferFee": null,
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2,
+      "contractMetadataSourceRows": [
+        24
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Markus Anderson",
+      "from": "Philadelphia",
+      "to": "Lyngby BK",
+      "baseSalary": 140000,
+      "guaranteedComp": 142000,
+      "transferFee": null,
+      "role": "Supplemental Roster",
+      "contractMetadataSourceRows": [
+        26,
+        76
+      ]
+    },
+    {
+      "action": "added",
+      "player": "David Doudera",
+      "from": "Slavia Prague",
+      "to": "Cincinnati",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "transferFee": 3000000,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "guaranteedYears": 2,
+      "contractMetadataSourceRows": [
+        28
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Damion Downs",
+      "from": "Southampton",
+      "to": "St. Louis CITY",
+      "baseSalary": 700000,
+      "guaranteedComp": 700000,
+      "transferFee": null,
+      "contractThru": "PT: 2027 Sprint",
+      "contractMetadataSourceRows": [
+        30
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Daniel Job",
+      "from": "Kongsvinger",
+      "to": "Dallas",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "transferFee": 5200000,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "contractMetadataSourceRows": [
+        32
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Viktor Radojević",
+      "from": "Chicago",
+      "to": "Montréal",
+      "baseSalary": 350000,
+      "guaranteedComp": 357000,
+      "transferFee": null,
+      "contractThru": "2026",
+      "guaranteedYears": 1,
+      "contractMetadataSourceRows": [
+        34
+      ]
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Liam Mackenzie",
+      "from": "Vancouver",
+      "to": "HFX Wanderers",
+      "baseSalary": 88025,
+      "guaranteedComp": 103450,
+      "transferFee": null
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Sam Vines",
+      "from": "Houston",
+      "to": "San Diego",
+      "baseSalary": 900000,
+      "guaranteedComp": 912500,
+      "transferFee": null
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "David Ruíz",
+      "from": "Miami",
+      "to": "New York",
+      "baseSalary": 200000,
+      "guaranteedComp": 231887,
+      "transferFee": null
+    },
+    {
+      "action": "added",
+      "player": "Taylor Booth",
+      "from": "FC Twente",
+      "to": "Salt Lake",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "transferFee": null,
+      "contractThru": "PT: 2027 Sprint",
+      "contractMetadataSourceRows": [
+        42
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Charles-Emile Brunet",
+      "from": "Nashville",
+      "to": "St. Louis CITY",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "transferFee": null,
+      "contractThru": "2026",
+      "guaranteedYears": 1,
+      "contractMetadataSourceRows": [
+        44
+      ]
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Roald Mitchell",
+      "from": "New York",
+      "to": "Viborg FF",
+      "baseSalary": 125000,
+      "guaranteedComp": 145408,
+      "transferFee": null
+    },
+    {
+      "action": "added",
+      "player": "Riquelme Fillipi",
+      "from": "Palmeiras U20",
+      "to": "Miami",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "transferFee": 4200000,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "contractMetadataSourceRows": [
+        48
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Johan Gómez",
+      "from": "E. Braunschweig",
+      "to": "Chicago",
+      "baseSalary": 540000,
+      "guaranteedComp": 540000,
+      "transferFee": 700000,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "guaranteedYears": 3,
+      "contractMetadataSourceRows": [
+        50
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "removed",
+      "player": "Jack McGlynn",
+      "from": "Houston",
+      "to": "Stoke City"
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Osaze De Rosario",
+      "from": "Seattle",
+      "to": "Sönderjyske",
+      "baseSalary": 250000,
+      "guaranteedComp": 315000,
+      "transferFee": null
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Dániel Gazdag",
+      "from": "Columbus",
+      "to": "New England",
+      "baseSalary": 2049996,
+      "guaranteedComp": 2647635,
+      "transferFee": null,
+      "role": "TAM Player",
+      "contractThru": "2027",
+      "optionYears": "2028-29",
+      "guaranteedYears": 2,
+      "contractMetadataSourceRows": [
+        56
+      ]
+    },
+    {
+      "action": "removed",
+      "player": "Dennis Gjengaar",
+      "from": "New York",
+      "to": "Vålerenga"
+    },
+    {
+      "action": "removed",
+      "player": "David Martínez",
+      "from": "LAFC",
+      "to": "Midtjylland"
+    },
+    {
+      "action": "added",
+      "player": "Andreas Hanche-Olsen",
+      "from": "Mainz",
+      "to": "Chicago",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "transferFee": 2000000,
+      "contractThru": "2030-31",
+      "guaranteedYears": 5,
+      "contractMetadataSourceRows": [
+        62
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Sayed Abu Farkhi",
+      "from": "M. Tel Aviv",
+      "to": "Colorado",
+      "baseSalary": 430000,
+      "guaranteedComp": 430000,
+      "transferFee": 6000000,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "contractMetadataSourceRows": [
+        64
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "removed",
+      "player": "Luca Bombino",
+      "from": "San Diego",
+      "to": "Stoke City"
+    },
+    {
+      "action": "added",
+      "player": "Anzor Mekvabishvili",
+      "from": "Univ. Craiova",
+      "to": "Chicago",
+      "baseSalary": 650000,
+      "guaranteedComp": 650000,
+      "transferFee": 2900000,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "guaranteedYears": 3,
+      "contractMetadataSourceRows": [
+        68
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Rui Modesto",
+      "from": "Udinese",
+      "to": "Vancouver",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "transferFee": 930000,
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "contractMetadataSourceRows": [
+        70
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Yadaly Diaby",
+      "from": "Grenoble",
+      "to": "Vancouver",
+      "baseSalary": 680000,
+      "guaranteedComp": 680000,
+      "transferFee": 1500000,
+      "role": "TAM Player",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "contractMetadataSourceRows": [
+        72
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Emrick Fotsing",
+      "from": "Vancouver",
+      "to": "Vancouver FC",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null,
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "contractMetadataSourceRows": [
+        74,
+        106
+      ]
+    },
+    {
+      "action": "added",
+      "player": "Leo Walta",
+      "from": "Swansea",
+      "to": "LAFC",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Owen Presthus",
+      "from": "Columbus",
+      "to": "Nashville",
+      "baseSalary": 88025,
+      "guaranteedComp": 94216,
+      "transferFee": null,
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2,
+      "contractMetadataSourceRows": [
+        80
+      ]
+    },
+    {
+      "action": "removed",
+      "player": "Erik Sviatchenko",
+      "from": "Houston",
+      "to": "Port FC"
+    },
+    {
+      "action": "added",
+      "player": "Tommy Mihalić",
+      "from": "LAFC 2",
+      "to": "LAFC",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "transferFee": null,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027 Sprint, 2027-28",
+      "guaranteedYears": 1,
+      "contractMetadataSourceRows": [
+        84
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Dante Sealy",
+      "from": "Colorado",
+      "to": "Montréal",
+      "baseSalary": 150000,
+      "guaranteedComp": 168022,
+      "transferFee": null
+    },
+    {
+      "action": "added",
+      "player": "Judah Siqueira",
+      "from": "Revolution II",
+      "to": "New England",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Stas Korzeniowski",
+      "from": "Philadelphia",
+      "to": "Rhode Island FC",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "transferFee": null
+    },
+    {
+      "action": "removed",
+      "player": "Ondrej Lingr",
+      "from": "Houston",
+      "to": "Korona Kielce"
+    },
+    {
+      "action": "removed",
+      "player": "Louicius Deedson",
+      "from": "Dallas",
+      "to": "FC Sochaux"
+    },
+    {
+      "action": "added",
+      "player": "Vinícius Nogueira",
+      "from": "Ludogorets",
+      "to": "Orlando",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "transferFee": null,
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2,
+      "contractMetadataSourceRows": [
+        96
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Nelson Pierre",
+      "from": "Vancouver",
+      "to": "HFX Wanderers",
+      "baseSalary": 125000,
+      "guaranteedComp": 139116,
+      "transferFee": null
+    },
+    {
+      "action": "removed",
+      "player": "Stian Gregersen",
+      "from": "Atlanta",
+      "to": "Malmö"
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Dominik Fitz",
+      "from": "Minnesota",
+      "to": "Wolfsberger AC",
+      "baseSalary": 890000,
+      "guaranteedComp": 893000,
+      "transferFee": 2300000
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Eduard Löwen",
+      "from": "St. Louis CITY",
+      "to": "SJ Earthquakes",
+      "baseSalary": 1300000,
+      "guaranteedComp": 1444250,
+      "transferFee": null,
+      "role": "TAM Player",
+      "contractThru": "2027-28",
+      "guaranteedYears": 2,
+      "contractMetadataSourceRows": [
+        104
+      ]
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Owen Wolff",
+      "from": "Austin",
+      "to": "Kansas City",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "transferFee": null,
+      "role": "U22 Initiative",
+      "contractThru": "2030-31",
+      "guaranteedYears": 5,
+      "contractMetadataSourceRows": [
+        108
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "CJ Fodrey",
+      "from": "Austin",
+      "to": "Falkirk",
+      "baseSalary": 120000,
+      "guaranteedComp": 120000,
+      "transferFee": null
+    },
+    {
+      "action": "removed",
+      "player": "Jayden Nelson",
+      "from": "Austin",
+      "to": "Bolton"
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Dejan Joveljić",
+      "from": "Kansas City",
+      "to": "Seattle",
+      "baseSalary": 3000000,
+      "guaranteedComp": 3306250,
+      "transferFee": null,
+      "role": "Designated Player",
+      "contractMetadataSourceRows": [
+        116
+      ]
+    },
+    {
+      "action": "added",
+      "player": "Sergio Vásquez",
+      "from": "Orense SC",
+      "to": "LAFC",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "transferFee": 600000,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "contractMetadataSourceRows": [
+        118
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Christopher Cupps",
+      "from": "Chicago",
+      "to": "Morton",
+      "baseSalary": 113400,
+      "guaranteedComp": 116186,
+      "transferFee": null
+    },
+    {
+      "action": "removed",
+      "player": "Manu García",
+      "from": "Kansas City",
+      "to": "Aris Saloniki"
+    },
+    {
+      "action": "added",
+      "player": "Maurice Malone",
+      "from": "Sturm Graz",
+      "to": "Minnesota",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "transferFee": 1700000,
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "contractMetadataSourceRows": [
+        124
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Diego Rocío",
+      "from": "CF América U21",
+      "to": "Salt Lake",
+      "baseSalary": 88025,
+      "guaranteedComp": 92668,
+      "transferFee": null
+    },
+    {
+      "action": "added",
+      "player": "Breel Embolo",
+      "from": "Stade Rennais",
+      "to": "Atlanta",
+      "baseSalary": 1400000,
+      "guaranteedComp": 1400000,
+      "transferFee": 20000000,
+      "role": "Designated Player",
+      "contractThru": "2029-30",
+      "guaranteedYears": 4,
+      "contractMetadataSourceRows": [
+        128
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Anisse Saidi",
+      "from": "San Diego",
+      "to": "Benfica U23",
+      "baseSalary": 88025,
+      "guaranteedComp": 101915,
+      "transferFee": null
+    },
+    {
+      "action": "removed",
+      "player": "Jacob Murrell",
+      "from": "D.C. United",
+      "to": "Falkirk"
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Colin Guske",
+      "from": "Orlando",
+      "to": "Salt Lake",
+      "baseSalary": 88025,
+      "guaranteedComp": 98830,
+      "transferFee": null
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Adyn Torres",
+      "from": "Atlanta",
+      "to": "Nomme United",
+      "baseSalary": 120000,
+      "guaranteedComp": 120000,
+      "transferFee": null
+    },
+    {
+      "action": "added",
+      "player": "Sebastián Ramírez",
+      "from": "Fortaleza CEIF",
+      "to": "Vancouver",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "transferFee": null,
+      "contractThru": "PT: June 2027",
+      "contractMetadataSourceRows": [
+        140
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Bryce Jamison",
+      "from": "Colorado",
+      "to": "Switchbacks FC",
+      "baseSalary": 113400,
+      "guaranteedComp": 125866,
+      "transferFee": null
+    },
+    {
+      "action": "removed",
+      "player": "Zavier Gozo",
+      "from": "Salt Lake",
+      "to": "Crystal Palace"
+    },
+    {
+      "action": "added",
+      "player": "André Luiz",
+      "from": "Olympiacos",
+      "to": "Kansas City",
+      "baseSalary": 3000000,
+      "guaranteedComp": 3000000,
+      "transferFee": 18000000,
+      "role": "Designated Player",
+      "contractThru": "2030-2031",
+      "guaranteedYears": 5,
+      "contractMetadataSourceRows": [
+        146
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "removed",
+      "player": "Woobens Pacius",
+      "from": "Nashville",
+      "to": "FC Rouen 1899"
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Hugo Picard",
+      "from": "Columbus",
+      "to": "Troyes",
+      "baseSalary": 725000,
+      "guaranteedComp": 781244,
+      "transferFee": 2300000
+    },
+    {
+      "action": "removed",
+      "player": "Miki Yamane",
+      "from": "LA Galaxy",
+      "to": "Urawa Reds"
+    },
+    {
+      "action": "added",
+      "player": "Lovend's Delinois",
+      "from": "Inter Miami II",
+      "to": "Miami",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "transferFee": null,
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "optionYears": "2027-28, 2028-29, 2029-30",
+      "guaranteedYears": 2,
+      "contractMetadataSourceRows": [
+        154
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Eric Klein",
+      "from": "New England",
+      "to": "Rhode Island FC",
+      "baseSalary": 88025,
+      "guaranteedComp": 94302,
+      "transferFee": null
+    },
+    {
+      "action": "removed",
+      "player": "Ezequiel Ponce",
+      "from": "Houston",
+      "to": "Elche CF"
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Wilson Eisner",
+      "from": "San Diego",
+      "to": "Tulsa",
+      "baseSalary": 88025,
+      "guaranteedComp": 95290,
+      "transferFee": null
+    },
+    {
+      "action": "added",
+      "player": "Mijahir Jiménez",
+      "from": "Plaza Amador",
+      "to": "New York",
+      "baseSalary": 300000,
+      "guaranteedComp": 300000,
+      "transferFee": null,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "guaranteedYears": 1,
+      "contractMetadataSourceRows": [
+        162
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Tylon Smith",
+      "from": "QPR U21",
+      "to": "New England",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "transferFee": null,
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2,
+      "contractMetadataSourceRows": [
+        164
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Allen Obando",
+      "from": "Miami",
+      "to": "Nacional",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "action": "added",
+      "player": "AZ Jackson",
+      "from": "Jagiellonia",
+      "to": "Minnesota",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "transferFee": null,
+      "contractThru": "2026",
+      "guaranteedYears": 1,
+      "contractMetadataSourceRows": [
+        168
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Armindo Sieb",
+      "from": "Bayern Munich",
+      "to": "LAFC",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "transferFee": 580000,
+      "contractThru": "2028-2029",
+      "optionYears": "2029-30",
+      "guaranteedYears": 3,
+      "contractMetadataSourceRows": [
+        170
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Josef Martínez",
+      "from": "Club Tijuana",
+      "to": "Columbus",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "transferFee": null
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Tahir Reid-Brown",
+      "from": "Orlando",
+      "to": "St. Louis CITY",
+      "baseSalary": 125000,
+      "guaranteedComp": 139508,
+      "transferFee": null,
+      "role": "Supplemental Roster",
+      "contractMetadataSourceRows": [
+        174
+      ]
+    },
+    {
+      "action": "removed",
+      "player": "Gustav Berggren",
+      "from": "New York",
+      "to": "Lech Poznan"
+    },
+    {
+      "action": "removed",
+      "player": "Lucas Herrington",
+      "from": "Colorado",
+      "to": "Hull City"
+    },
+    {
+      "action": "removed",
+      "player": "Marcel Hartel",
+      "from": "St. Louis CITY",
+      "to": "Hannover 96"
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Alexis Sánchez",
+      "from": "Sevilla FC",
+      "to": "Montréal",
+      "baseSalary": 3000000,
+      "guaranteedComp": 3000000,
+      "transferFee": null,
+      "role": "Designated Player",
+      "contractThru": "2027 Sprint",
+      "optionYears": "2027-28",
+      "guaranteedYears": 2,
+      "contractMetadataSourceRows": [
+        182
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Ethan Bartlow",
+      "from": "Kansas City",
+      "to": "TB Rowdies",
+      "baseSalary": 113400,
+      "guaranteedComp": 142637,
+      "transferFee": null
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Marcelo Saracchi",
+      "from": "Boca Juniors",
+      "to": "Houston",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "transferFee": 1300000,
+      "role": "TAM Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30, 2030-31",
+      "guaranteedYears": 3,
+      "contractMetadataSourceRows": [
+        186
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Lineker Rodrigues",
+      "from": "Real Monarchs",
+      "to": "Salt Lake",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "transferFee": null,
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "optionYears": "2027-28, 2028-29",
+      "guaranteedYears": 2,
+      "contractMetadataSourceRows": [
+        188
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "added",
+      "player": "Aleksa Cvetkovic",
+      "from": "OFK Beograd",
+      "to": "Vancouver",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "transferFee": 1700000,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "contractMetadataSourceRows": [
+        190
+      ],
+      "salaryEstimated": true
+    },
+    {
+      "action": "removed",
+      "player": "Deandre Kerr",
+      "from": "Toronto",
+      "to": "Avs FS",
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 2
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Dylan Borso",
+      "from": "Chicago",
+      "to": "Morton",
+      "baseSalary": 113400,
+      "guaranteedComp": 121400,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 4
+    },
+    {
+      "action": "removed",
+      "player": "Kevin Kelsy",
+      "from": "Portland",
+      "to": "Rangers",
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 6
+    },
+    {
+      "action": "added",
+      "player": "Thayllon",
+      "from": "Avaí FC",
+      "to": "LAFC",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "transferFee": null,
+      "salaryEstimated": true,
+      "role": "U22 Initiative",
+      "contractThru": "PT: June 2027",
+      "sourceSheet": "Sheet2",
+      "sourceRow": 8
+    },
+    {
+      "action": "added",
+      "player": "Calegari",
+      "from": "Eyüpspor",
+      "to": "LA Galaxy",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "transferFee": 2300000,
+      "salaryEstimated": true,
+      "contractThru": "2028-29",
+      "guaranteedYears": 3,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 10
+    },
+    {
+      "action": "updated",
+      "player": "Pablo Ruiz",
+      "from": "Salt Lake",
+      "to": "LA Galaxy",
+      "baseSalary": 825000,
+      "guaranteedComp": 911500,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 12
+    },
+    {
+      "action": "added",
+      "player": "Ibrahim Sadiq",
+      "from": "AZ Alkmaar",
+      "to": "Colorado",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "transferFee": 1200000,
+      "salaryEstimated": true,
+      "role": "TAM Player",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "guaranteedYears": 2,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 14
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Ruben Ramos Jr.",
+      "from": "LA Galaxy",
+      "to": "Kansas City",
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 16
+    },
+    {
+      "action": "added",
+      "player": "Lyle Foster",
+      "from": "Burnley",
+      "to": "Houston",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "transferFee": null,
+      "salaryEstimated": true,
+      "role": "TAM Player",
+      "contractThru": "PT: 2027 Sprint",
+      "sourceSheet": "Sheet2",
+      "sourceRow": 18
+    },
+    {
+      "action": "added",
+      "player": "Matías Galarza",
+      "from": "River Plate",
+      "to": "Miami",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "transferFee": null,
+      "salaryEstimated": true,
+      "contractThru": "PT: 2026",
+      "sourceSheet": "Sheet2",
+      "sourceRow": 20
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Jason Shokalook",
+      "from": "Chicago",
+      "to": "Salt Lake",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 22
+    },
+    {
+      "action": "added",
+      "player": "Dusan Zagar",
+      "from": "IMT Belgrad",
+      "to": "Salt Lake",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "transferFee": 2300000,
+      "salaryEstimated": true,
+      "role": "U22 Initiative",
+      "contractThru": "2028/29",
+      "optionYears": "2029/30, 2030/31",
+      "guaranteedYears": 3,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 24
+    },
+    {
+      "action": "updated",
+      "player": "Joel Waterman",
+      "from": "Chicago",
+      "to": "Portland",
+      "baseSalary": 517000,
+      "guaranteedComp": 598150,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 26
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Caden Clark",
+      "from": "D.C. United",
+      "to": "Seattle",
+      "baseSalary": 400000,
+      "guaranteedComp": 432000,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 28
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Devin Padelford",
+      "from": "Minnesota",
+      "to": "New York",
+      "baseSalary": 160000,
+      "guaranteedComp": 179500,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 30
+    },
+    {
+      "action": "added",
+      "player": "Cédric Bakambu",
+      "from": "Without Club",
+      "to": "San Diego",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1000000,
+      "transferFee": null,
+      "salaryEstimated": true,
+      "role": "TAM Player",
+      "contractThru": "2026",
+      "optionYears": "2027 Sprint, 2027/28",
+      "guaranteedYears": 1,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 32
+    },
+    {
+      "action": "added",
+      "player": "Joshua Wynder",
+      "from": "Benfica B",
+      "to": "New England",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "transferFee": null,
+      "salaryEstimated": true,
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 34
+    }
+  ],
+  "salaryPlaceholders": [
+    {
+      "player": "Virgilio Olaya",
+      "team": "Los Angeles FC"
+    },
+    {
+      "player": "Julián Malatini",
+      "team": "FC Cincinnati"
+    },
+    {
+      "player": "Cherrion Valerius",
+      "team": "Minnesota United FC"
+    },
+    {
+      "player": "Anass Zaroury",
+      "team": "Columbus Crew"
+    },
+    {
+      "player": "Giuliano Galoppo",
+      "team": "Atlanta United"
+    },
+    {
+      "player": "Santiago Rodríguez",
+      "team": "Columbus Crew"
+    },
+    {
+      "player": "David Mimbang",
+      "team": "San Diego FC"
+    },
+    {
+      "player": "David Doudera",
+      "team": "FC Cincinnati"
+    },
+    {
+      "player": "Damion Downs",
+      "team": "St. Louis CITY SC"
+    },
+    {
+      "player": "Daniel Job",
+      "team": "FC Dallas"
+    },
+    {
+      "player": "Taylor Booth",
+      "team": "Real Salt Lake"
+    },
+    {
+      "player": "Riquelme Fillipi",
+      "team": "Inter Miami CF"
+    },
+    {
+      "player": "Johan Gómez",
+      "team": "Chicago Fire FC"
+    },
+    {
+      "player": "Andreas Hanche-Olsen",
+      "team": "Chicago Fire FC"
+    },
+    {
+      "player": "Sayed Abu Farkhi",
+      "team": "Colorado Rapids"
+    },
+    {
+      "player": "Anzor Mekvabishvili",
+      "team": "Chicago Fire FC"
+    },
+    {
+      "player": "Rui Modesto",
+      "team": "Vancouver Whitecaps FC"
+    },
+    {
+      "player": "Yadaly Diaby",
+      "team": "Vancouver Whitecaps FC"
+    },
+    {
+      "player": "Emrick Fotsing",
+      "team": "Vancouver Whitecaps FC"
+    },
+    {
+      "player": "Leo Walta",
+      "team": "Los Angeles FC"
+    },
+    {
+      "player": "Tommy Mihalić",
+      "team": "Los Angeles FC"
+    },
+    {
+      "player": "Judah Siqueira",
+      "team": "New England Revolution"
+    },
+    {
+      "player": "Vinícius Nogueira",
+      "team": "Orlando City SC"
+    },
+    {
+      "player": "Sergio Vásquez",
+      "team": "Los Angeles FC"
+    },
+    {
+      "player": "Maurice Malone",
+      "team": "Minnesota United FC"
+    },
+    {
+      "player": "Breel Embolo",
+      "team": "Atlanta United"
+    },
+    {
+      "player": "Sebastián Ramírez",
+      "team": "Vancouver Whitecaps FC"
+    },
+    {
+      "player": "André Luiz",
+      "team": "Sporting Kansas City"
+    },
+    {
+      "player": "Lovend's Delinois",
+      "team": "Inter Miami CF"
+    },
+    {
+      "player": "Mijahir Jiménez",
+      "team": "New York Red Bulls"
+    },
+    {
+      "player": "Tylon Smith",
+      "team": "New England Revolution"
+    },
+    {
+      "player": "Allen Obando",
+      "team": "Inter Miami CF"
+    },
+    {
+      "player": "Armindo Sieb",
+      "team": "Los Angeles FC"
+    },
+    {
+      "player": "Josef Martínez",
+      "team": "Columbus Crew"
+    },
+    {
+      "player": "Lineker Rodrigues",
+      "team": "Real Salt Lake"
+    },
+    {
+      "player": "Aleksa Cvetkovic",
+      "team": "Vancouver Whitecaps FC"
+    }
+  ],
+  "alreadyAbsentPermanentDepartures": [
+    "Jack McGlynn",
+    "Erik Sviatchenko",
+    "Ondrej Lingr",
+    "Ezequiel Ponce",
+    "Lucas Herrington",
+    "Marcel Hartel"
+  ],
+  "contractMetadataApplied": [
+    {
+      "player": "Julián Malatini",
+      "teams": [
+        "FC Cincinnati"
+      ],
+      "contractThru": "PT: 2027 Sprint",
+      "guaranteedYears": null,
+      "sourceRows": [
+        4
+      ]
+    },
+    {
+      "player": "Cherrion Valerius",
+      "teams": [
+        "Minnesota United FC"
+      ],
+      "contractThru": "PT: 2026",
+      "guaranteedYears": null,
+      "sourceRows": [
+        6
+      ]
+    },
+    {
+      "player": "Rafael Navarro",
+      "teams": [
+        "St. Louis CITY SC"
+      ],
+      "role": "Designated Player",
+      "guaranteedYears": null,
+      "sourceRows": [
+        10
+      ]
+    },
+    {
+      "player": "Anass Zaroury",
+      "teams": [
+        "Columbus Crew"
+      ],
+      "contractThru": "PT: 2027 Sprint",
+      "guaranteedYears": null,
+      "sourceRows": [
+        14
+      ]
+    },
+    {
+      "player": "Giuliano Galoppo",
+      "teams": [
+        "Atlanta United"
+      ],
+      "contractThru": "PT: 2027 Sprint",
+      "guaranteedYears": null,
+      "sourceRows": [
+        16
+      ]
+    },
+    {
+      "player": "Christopher Applewhite",
+      "teams": [
+        "Austin FC"
+      ],
+      "role": "Supplemental Roster",
+      "contractThru": "PT: 2027 Sprint",
+      "guaranteedYears": null,
+      "sourceRows": [
+        20
+      ]
+    },
+    {
+      "player": "Santiago Rodríguez",
+      "teams": [
+        "Columbus Crew"
+      ],
+      "role": "Designated Player",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "sourceRows": [
+        22
+      ]
+    },
+    {
+      "player": "David Mimbang",
+      "teams": [
+        "San Diego FC"
+      ],
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2,
+      "sourceRows": [
+        24
+      ]
+    },
+    {
+      "player": "Markus Anderson",
+      "teams": [
+        "Philadelphia Union"
+      ],
+      "role": "Supplemental Roster",
+      "guaranteedYears": null,
+      "sourceRows": [
+        26,
+        76
+      ]
+    },
+    {
+      "player": "David Doudera",
+      "teams": [
+        "FC Cincinnati"
+      ],
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "guaranteedYears": 2,
+      "sourceRows": [
+        28
+      ]
+    },
+    {
+      "player": "Damion Downs",
+      "teams": [
+        "St. Louis CITY SC"
+      ],
+      "contractThru": "PT: 2027 Sprint",
+      "guaranteedYears": null,
+      "sourceRows": [
+        30
+      ]
+    },
+    {
+      "player": "Daniel Job",
+      "teams": [
+        "FC Dallas"
+      ],
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "sourceRows": [
+        32
+      ]
+    },
+    {
+      "player": "Viktor Radojević",
+      "teams": [
+        "CF Montreal"
+      ],
+      "contractThru": "2026",
+      "guaranteedYears": 1,
+      "sourceRows": [
+        34
+      ]
+    },
+    {
+      "player": "Taylor Booth",
+      "teams": [
+        "Real Salt Lake"
+      ],
+      "contractThru": "PT: 2027 Sprint",
+      "guaranteedYears": null,
+      "sourceRows": [
+        42
+      ]
+    },
+    {
+      "player": "Charles-Emile Brunet",
+      "teams": [
+        "St. Louis CITY SC"
+      ],
+      "contractThru": "2026",
+      "guaranteedYears": 1,
+      "sourceRows": [
+        44
+      ]
+    },
+    {
+      "player": "Riquelme Fillipi",
+      "teams": [
+        "Inter Miami CF"
+      ],
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "sourceRows": [
+        48
+      ]
+    },
+    {
+      "player": "Johan Gómez",
+      "teams": [
+        "Chicago Fire FC"
+      ],
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "guaranteedYears": 3,
+      "sourceRows": [
+        50
+      ]
+    },
+    {
+      "player": "Dániel Gazdag",
+      "teams": [
+        "New England Revolution"
+      ],
+      "role": "TAM Player",
+      "contractThru": "2027",
+      "optionYears": "2028-29",
+      "guaranteedYears": 2,
+      "sourceRows": [
+        56
+      ]
+    },
+    {
+      "player": "Andreas Hanche-Olsen",
+      "teams": [
+        "Chicago Fire FC"
+      ],
+      "contractThru": "2030-31",
+      "guaranteedYears": 5,
+      "sourceRows": [
+        62
+      ]
+    },
+    {
+      "player": "Sayed Abu Farkhi",
+      "teams": [
+        "Colorado Rapids"
+      ],
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "sourceRows": [
+        64
+      ]
+    },
+    {
+      "player": "Anzor Mekvabishvili",
+      "teams": [
+        "Chicago Fire FC"
+      ],
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "guaranteedYears": 3,
+      "sourceRows": [
+        68
+      ]
+    },
+    {
+      "player": "Rui Modesto",
+      "teams": [
+        "Vancouver Whitecaps FC"
+      ],
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "sourceRows": [
+        70
+      ]
+    },
+    {
+      "player": "Yadaly Diaby",
+      "teams": [
+        "Vancouver Whitecaps FC"
+      ],
+      "role": "TAM Player",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "sourceRows": [
+        72
+      ]
+    },
+    {
+      "player": "Emrick Fotsing",
+      "teams": [
+        "Vancouver Whitecaps FC"
+      ],
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "sourceRows": [
+        74,
+        106
+      ]
+    },
+    {
+      "player": "Owen Presthus",
+      "teams": [
+        "Nashville SC"
+      ],
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2,
+      "sourceRows": [
+        80
+      ]
+    },
+    {
+      "player": "Tommy Mihalić",
+      "teams": [
+        "Los Angeles FC"
+      ],
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027 Sprint, 2027-28",
+      "guaranteedYears": 1,
+      "sourceRows": [
+        84
+      ]
+    },
+    {
+      "player": "Vinícius Nogueira",
+      "teams": [
+        "Orlando City SC"
+      ],
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2,
+      "sourceRows": [
+        96
+      ]
+    },
+    {
+      "player": "Eduard Löwen",
+      "teams": [
+        "San Jose Earthquakes"
+      ],
+      "role": "TAM Player",
+      "contractThru": "2027-28",
+      "guaranteedYears": 2,
+      "sourceRows": [
+        104
+      ]
+    },
+    {
+      "player": "Owen Wolff",
+      "teams": [
+        "Sporting Kansas City"
+      ],
+      "role": "U22 Initiative",
+      "contractThru": "2030-31",
+      "guaranteedYears": 5,
+      "sourceRows": [
+        108
+      ]
+    },
+    {
+      "player": "Dejan Joveljić",
+      "teams": [
+        "Seattle Sounders FC"
+      ],
+      "role": "Designated Player",
+      "guaranteedYears": null,
+      "sourceRows": [
+        116
+      ]
+    },
+    {
+      "player": "Sergio Vásquez",
+      "teams": [
+        "Los Angeles FC"
+      ],
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "sourceRows": [
+        118
+      ]
+    },
+    {
+      "player": "Maurice Malone",
+      "teams": [
+        "Minnesota United FC"
+      ],
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "sourceRows": [
+        124
+      ]
+    },
+    {
+      "player": "Breel Embolo",
+      "teams": [
+        "Atlanta United"
+      ],
+      "role": "Designated Player",
+      "contractThru": "2029-30",
+      "guaranteedYears": 4,
+      "sourceRows": [
+        128
+      ]
+    },
+    {
+      "player": "Sebastián Ramírez",
+      "teams": [
+        "Vancouver Whitecaps FC"
+      ],
+      "contractThru": "PT: June 2027",
+      "guaranteedYears": null,
+      "sourceRows": [
+        140
+      ]
+    },
+    {
+      "player": "André Luiz",
+      "teams": [
+        "Sporting Kansas City"
+      ],
+      "role": "Designated Player",
+      "contractThru": "2030-2031",
+      "guaranteedYears": 5,
+      "sourceRows": [
+        146
+      ]
+    },
+    {
+      "player": "Lovend's Delinois",
+      "teams": [
+        "Inter Miami CF"
+      ],
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "optionYears": "2027-28, 2028-29, 2029-30",
+      "guaranteedYears": 2,
+      "sourceRows": [
+        154
+      ]
+    },
+    {
+      "player": "Mijahir Jiménez",
+      "teams": [
+        "New York Red Bulls"
+      ],
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "guaranteedYears": 1,
+      "sourceRows": [
+        162
+      ]
+    },
+    {
+      "player": "Tylon Smith",
+      "teams": [
+        "New England Revolution"
+      ],
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2,
+      "sourceRows": [
+        164
+      ]
+    },
+    {
+      "player": "AZ Jackson",
+      "teams": [
+        "Minnesota United FC"
+      ],
+      "contractThru": "2026",
+      "guaranteedYears": 1,
+      "sourceRows": [
+        168
+      ]
+    },
+    {
+      "player": "Armindo Sieb",
+      "teams": [
+        "Los Angeles FC"
+      ],
+      "contractThru": "2028-2029",
+      "optionYears": "2029-30",
+      "guaranteedYears": 3,
+      "sourceRows": [
+        170
+      ]
+    },
+    {
+      "player": "Tahir Reid-Brown",
+      "teams": [
+        "St. Louis CITY SC"
+      ],
+      "role": "Supplemental Roster",
+      "guaranteedYears": null,
+      "sourceRows": [
+        174
+      ]
+    },
+    {
+      "player": "Alexis Sánchez",
+      "teams": [
+        "CF Montreal"
+      ],
+      "role": "Designated Player",
+      "contractThru": "2027 Sprint",
+      "optionYears": "2027-28",
+      "guaranteedYears": 2,
+      "sourceRows": [
+        182
+      ]
+    },
+    {
+      "player": "Marcelo Saracchi",
+      "teams": [
+        "Houston Dynamo FC"
+      ],
+      "role": "TAM Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30, 2030-31",
+      "guaranteedYears": 3,
+      "sourceRows": [
+        186
+      ]
+    },
+    {
+      "player": "Lineker Rodrigues",
+      "teams": [
+        "Real Salt Lake"
+      ],
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "optionYears": "2027-28, 2028-29",
+      "guaranteedYears": 2,
+      "sourceRows": [
+        188
+      ]
+    },
+    {
+      "player": "Aleksa Cvetkovic",
+      "teams": [
+        "Vancouver Whitecaps FC"
+      ],
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4,
+      "sourceRows": [
+        190
+      ]
+    }
+  ],
+  "contractMetadataForDepartedPlayers": [],
+  "additionalChanges": [
+    {
+      "action": "removed",
+      "player": "Deandre Kerr",
+      "from": "Toronto",
+      "to": "Avs FS",
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 2
+    },
+    {
+      "action": "marked_on_loan",
+      "player": "Dylan Borso",
+      "from": "Chicago",
+      "to": "Morton",
+      "baseSalary": 113400,
+      "guaranteedComp": 121400,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 4
+    },
+    {
+      "action": "removed",
+      "player": "Kevin Kelsy",
+      "from": "Portland",
+      "to": "Rangers",
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 6
+    },
+    {
+      "action": "added",
+      "player": "Thayllon",
+      "from": "Avaí FC",
+      "to": "LAFC",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "transferFee": null,
+      "salaryEstimated": true,
+      "role": "U22 Initiative",
+      "contractThru": "PT: June 2027",
+      "sourceSheet": "Sheet2",
+      "sourceRow": 8
+    },
+    {
+      "action": "added",
+      "player": "Calegari",
+      "from": "Eyüpspor",
+      "to": "LA Galaxy",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "transferFee": 2300000,
+      "salaryEstimated": true,
+      "contractThru": "2028-29",
+      "guaranteedYears": 3,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 10
+    },
+    {
+      "action": "updated",
+      "player": "Pablo Ruiz",
+      "from": "Salt Lake",
+      "to": "LA Galaxy",
+      "baseSalary": 825000,
+      "guaranteedComp": 911500,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 12
+    },
+    {
+      "action": "added",
+      "player": "Ibrahim Sadiq",
+      "from": "AZ Alkmaar",
+      "to": "Colorado",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "transferFee": 1200000,
+      "salaryEstimated": true,
+      "role": "TAM Player",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "guaranteedYears": 2,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 14
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Ruben Ramos Jr.",
+      "from": "LA Galaxy",
+      "to": "Kansas City",
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 16
+    },
+    {
+      "action": "added",
+      "player": "Lyle Foster",
+      "from": "Burnley",
+      "to": "Houston",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "transferFee": null,
+      "salaryEstimated": true,
+      "role": "TAM Player",
+      "contractThru": "PT: 2027 Sprint",
+      "sourceSheet": "Sheet2",
+      "sourceRow": 18
+    },
+    {
+      "action": "added",
+      "player": "Matías Galarza",
+      "from": "River Plate",
+      "to": "Miami",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "transferFee": null,
+      "salaryEstimated": true,
+      "contractThru": "PT: 2026",
+      "sourceSheet": "Sheet2",
+      "sourceRow": 20
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Jason Shokalook",
+      "from": "Chicago",
+      "to": "Salt Lake",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 22
+    },
+    {
+      "action": "added",
+      "player": "Dusan Zagar",
+      "from": "IMT Belgrad",
+      "to": "Salt Lake",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "transferFee": 2300000,
+      "salaryEstimated": true,
+      "role": "U22 Initiative",
+      "contractThru": "2028/29",
+      "optionYears": "2029/30, 2030/31",
+      "guaranteedYears": 3,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 24
+    },
+    {
+      "action": "updated",
+      "player": "Joel Waterman",
+      "from": "Chicago",
+      "to": "Portland",
+      "baseSalary": 517000,
+      "guaranteedComp": 598150,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 26
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Caden Clark",
+      "from": "D.C. United",
+      "to": "Seattle",
+      "baseSalary": 400000,
+      "guaranteedComp": 432000,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 28
+    },
+    {
+      "action": "moved_or_updated",
+      "player": "Devin Padelford",
+      "from": "Minnesota",
+      "to": "New York",
+      "baseSalary": 160000,
+      "guaranteedComp": 179500,
+      "transferFee": null,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 30
+    },
+    {
+      "action": "added",
+      "player": "Cédric Bakambu",
+      "from": "Without Club",
+      "to": "San Diego",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1000000,
+      "transferFee": null,
+      "salaryEstimated": true,
+      "role": "TAM Player",
+      "contractThru": "2026",
+      "optionYears": "2027 Sprint, 2027/28",
+      "guaranteedYears": 1,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 32
+    },
+    {
+      "action": "added",
+      "player": "Joshua Wynder",
+      "from": "Benfica B",
+      "to": "New England",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "transferFee": null,
+      "salaryEstimated": true,
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 34
+    }
+  ],
+  "estimatedSalaryUpdates": [
+    {
+      "player": "Julián Malatini",
+      "team": "FC Cincinnati",
+      "salary": 500000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 4,
+      "applied": true
+    },
+    {
+      "player": "Cherrion Valerius",
+      "team": "Minnesota United FC",
+      "salary": 350000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 6,
+      "applied": true
+    },
+    {
+      "player": "Anass Zaroury",
+      "team": "Columbus Crew",
+      "salary": 650000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 14,
+      "applied": true
+    },
+    {
+      "player": "Giuliano Galoppo",
+      "team": "Atlanta United",
+      "salary": 450000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 16,
+      "applied": true
+    },
+    {
+      "player": "Christopher Applewhite",
+      "team": "Austin FC",
+      "salary": 80000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 20,
+      "applied": true
+    },
+    {
+      "player": "Santiago Rodríguez",
+      "team": "Columbus Crew",
+      "salary": 2000000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 22,
+      "applied": true
+    },
+    {
+      "player": "David Mimbang",
+      "team": "San Diego FC",
+      "salary": 200000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 24,
+      "applied": true
+    },
+    {
+      "player": "David Doudera",
+      "team": "FC Cincinnati",
+      "salary": 500000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 28,
+      "applied": true
+    },
+    {
+      "player": "Damion Downs",
+      "team": "St. Louis CITY SC",
+      "salary": 700000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 30,
+      "applied": true
+    },
+    {
+      "player": "Daniel Job",
+      "team": "FC Dallas",
+      "salary": 450000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 32,
+      "applied": true
+    },
+    {
+      "player": "Taylor Booth",
+      "team": "Real Salt Lake",
+      "salary": 350000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 42,
+      "applied": true
+    },
+    {
+      "player": "Riquelme Fillipi",
+      "team": "Inter Miami CF",
+      "salary": 450000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 48,
+      "applied": true
+    },
+    {
+      "player": "Johan Gómez",
+      "team": "Chicago Fire FC",
+      "salary": 540000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 50,
+      "applied": true
+    },
+    {
+      "player": "Andreas Hanche-Olsen",
+      "team": "Chicago Fire FC",
+      "salary": 500000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 62,
+      "applied": true
+    },
+    {
+      "player": "Sayed Abu Farkhi",
+      "team": "Colorado Rapids",
+      "salary": 430000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 64,
+      "applied": true
+    },
+    {
+      "player": "Anzor Mekvabishvili",
+      "team": "Chicago Fire FC",
+      "salary": 650000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 68,
+      "applied": true
+    },
+    {
+      "player": "Rui Modesto",
+      "team": "Vancouver Whitecaps FC",
+      "salary": 350000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 70,
+      "applied": true
+    },
+    {
+      "player": "Yadaly Diaby",
+      "team": "Vancouver Whitecaps FC",
+      "salary": 680000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 72,
+      "applied": true
+    },
+    {
+      "player": "Tommy Mihalić",
+      "team": "Los Angeles FC",
+      "salary": 80000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 84,
+      "applied": true
+    },
+    {
+      "player": "Vinícius Nogueira",
+      "team": "Orlando City SC",
+      "salary": 450000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 96,
+      "applied": true
+    },
+    {
+      "player": "Owen Wolff",
+      "team": "Sporting Kansas City",
+      "salary": 500000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 108,
+      "applied": true
+    },
+    {
+      "player": "Sergio Vásquez",
+      "team": "Los Angeles FC",
+      "salary": 450000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 118,
+      "applied": true
+    },
+    {
+      "player": "Maurice Malone",
+      "team": "Minnesota United FC",
+      "salary": 500000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 124,
+      "applied": true
+    },
+    {
+      "player": "Breel Embolo",
+      "team": "Atlanta United",
+      "salary": 1400000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 128,
+      "applied": true
+    },
+    {
+      "player": "Sebastián Ramírez",
+      "team": "Vancouver Whitecaps FC",
+      "salary": 500000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 140,
+      "applied": true
+    },
+    {
+      "player": "André Luiz",
+      "team": "Sporting Kansas City",
+      "salary": 3000000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 146,
+      "applied": true
+    },
+    {
+      "player": "Lovend's Delinois",
+      "team": "Inter Miami CF",
+      "salary": 80000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 154,
+      "applied": true
+    },
+    {
+      "player": "Mijahir Jiménez",
+      "team": "New York Red Bulls",
+      "salary": 300000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 162,
+      "applied": true
+    },
+    {
+      "player": "Tylon Smith",
+      "team": "New England Revolution",
+      "salary": 350000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 164,
+      "applied": true
+    },
+    {
+      "player": "AZ Jackson",
+      "team": "Minnesota United FC",
+      "salary": 400000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 168,
+      "applied": true
+    },
+    {
+      "player": "Armindo Sieb",
+      "team": "Los Angeles FC",
+      "salary": 350000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 170,
+      "applied": true
+    },
+    {
+      "player": "Alexis Sánchez",
+      "team": "CF Montreal",
+      "salary": 3000000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 182,
+      "applied": true
+    },
+    {
+      "player": "Marcelo Saracchi",
+      "team": "Houston Dynamo FC",
+      "salary": 800000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 186,
+      "applied": true
+    },
+    {
+      "player": "Lineker Rodrigues",
+      "team": "Real Salt Lake",
+      "salary": 80000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 188,
+      "applied": true
+    },
+    {
+      "player": "Aleksa Cvetkovic",
+      "team": "Vancouver Whitecaps FC",
+      "salary": 400000,
+      "sourceSheet": "SEP-3",
+      "sourceRow": 190,
+      "applied": true
+    },
+    {
+      "player": "Thayllon",
+      "team": "Los Angeles FC",
+      "salary": 400000,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 8,
+      "applied": true
+    },
+    {
+      "player": "Calegari",
+      "team": "LA Galaxy",
+      "salary": 500000,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 10,
+      "applied": true
+    },
+    {
+      "player": "Ibrahim Sadiq",
+      "team": "Colorado Rapids",
+      "salary": 800000,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 14,
+      "applied": true
+    },
+    {
+      "player": "Lyle Foster",
+      "team": "Houston Dynamo FC",
+      "salary": 800000,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 18,
+      "applied": true
+    },
+    {
+      "player": "Matías Galarza",
+      "team": "Inter Miami CF",
+      "salary": 500000,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 20,
+      "applied": true
+    },
+    {
+      "player": "Dusan Zagar",
+      "team": "Real Salt Lake",
+      "salary": 400000,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 24,
+      "applied": true
+    },
+    {
+      "player": "Cédric Bakambu",
+      "team": "San Diego FC",
+      "salary": 1000000,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 32,
+      "applied": true
+    },
+    {
+      "player": "Joshua Wynder",
+      "team": "New England Revolution",
+      "salary": 350000,
+      "sourceSheet": "Sheet2",
+      "sourceRow": 34,
+      "applied": true
+    }
+  ],
+  "convertedTransferFees": [
+    {
+      "row": 10,
+      "player": "Calegari",
+      "team": "LA Galaxy",
+      "euros": 2000000,
+      "dollars": 2300000
+    },
+    {
+      "row": 14,
+      "player": "Ibrahim Sadiq",
+      "team": "Colorado Rapids",
+      "euros": 1000000,
+      "dollars": 1200000
+    },
+    {
+      "row": 24,
+      "player": "Dusan Zagar",
+      "team": "Real Salt Lake",
+      "euros": 2000000,
+      "dollars": 2300000
+    }
+  ],
+  "missingPlayers": [],
+  "newlyCreatedPlayers": [
+    {
+      "player": "Thayllon",
+      "row": 8,
+      "team": "Los Angeles FC"
+    },
+    {
+      "player": "Calegari",
+      "row": 10,
+      "team": "LA Galaxy"
+    },
+    {
+      "player": "Ibrahim Sadiq",
+      "row": 14,
+      "team": "Colorado Rapids"
+    },
+    {
+      "player": "Lyle Foster",
+      "row": 18,
+      "team": "Houston Dynamo FC"
+    },
+    {
+      "player": "Matías Galarza",
+      "row": 20,
+      "team": "Inter Miami CF"
+    },
+    {
+      "player": "Dusan Zagar",
+      "row": 24,
+      "team": "Real Salt Lake"
+    },
+    {
+      "player": "Cédric Bakambu",
+      "row": 32,
+      "team": "San Diego FC"
+    },
+    {
+      "player": "Joshua Wynder",
+      "row": 34,
+      "team": "New England Revolution"
+    }
+  ],
+  "newSheetAudit": {
+    "passed": true,
+    "rows": [
+      {
+        "player": "Deandre Kerr",
+        "ok": true,
+        "locations": []
+      },
+      {
+        "player": "Dylan Borso",
+        "ok": true,
+        "locations": [
+          "Chicago Fire FC"
+        ]
+      },
+      {
+        "player": "Kevin Kelsy",
+        "ok": true,
+        "locations": []
+      },
+      {
+        "player": "Thayllon",
+        "ok": true,
+        "locations": [
+          "Los Angeles FC"
+        ]
+      },
+      {
+        "player": "Calegari",
+        "ok": true,
+        "locations": [
+          "LA Galaxy"
+        ]
+      },
+      {
+        "player": "Pablo Ruiz",
+        "ok": true,
+        "locations": [
+          "LA Galaxy"
+        ]
+      },
+      {
+        "player": "Ibrahim Sadiq",
+        "ok": true,
+        "locations": [
+          "Colorado Rapids"
+        ]
+      },
+      {
+        "player": "Rubén Ramos Jr.",
+        "ok": true,
+        "locations": [
+          "Sporting Kansas City"
+        ]
+      },
+      {
+        "player": "Lyle Foster",
+        "ok": true,
+        "locations": [
+          "Houston Dynamo FC"
+        ]
+      },
+      {
+        "player": "Matías Galarza",
+        "ok": true,
+        "locations": [
+          "Inter Miami CF"
+        ]
+      },
+      {
+        "player": "Jason Shokalook",
+        "ok": true,
+        "locations": [
+          "Real Salt Lake"
+        ]
+      },
+      {
+        "player": "Dusan Zagar",
+        "ok": true,
+        "locations": [
+          "Real Salt Lake"
+        ]
+      },
+      {
+        "player": "Joel Waterman",
+        "ok": true,
+        "locations": [
+          "Portland Timbers"
+        ]
+      },
+      {
+        "player": "Caden Clark",
+        "ok": true,
+        "locations": [
+          "Seattle Sounders FC"
+        ]
+      },
+      {
+        "player": "Devin Padelford",
+        "ok": true,
+        "locations": [
+          "New York Red Bulls"
+        ]
+      },
+      {
+        "player": "Cédric Bakambu",
+        "ok": true,
+        "locations": [
+          "San Diego FC"
+        ]
+      },
+      {
+        "player": "Joshua Wynder",
+        "ok": true,
+        "locations": [
+          "New England Revolution"
+        ]
+      }
+    ]
+  }
+}

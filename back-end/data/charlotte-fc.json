@@ -322,11 +322,11 @@
     {
       "name": "Allan Saint-Maximin",
       "position": "LW",
-      "role":"Designated Player",
+      "role": "Designated Player",
       "baseSalary": 1000000,
       "guaranteedComp": 1000000,
       "international": true,
-      "contractThru":"2028-29",
+      "contractThru": "2028-29",
       "salaryEstimated": true
     }
   ],

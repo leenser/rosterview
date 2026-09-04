@@ -12,16 +12,6 @@
       "optionYears": "2028"
     },
     {
-      "name": "Rafael Navarro",
-      "position": "ST",
-      "baseSalary": 1392000,
-      "guaranteedComp": 1449600,
-      "international": false,
-      "role": "Designated Player",
-      "contractThru": "2027",
-      "optionYears": "2028"
-    },
-    {
       "name": "Sang Bin Jeong",
       "position": "ST",
       "baseSalary": 685125,
@@ -283,9 +273,9 @@
       "position": "AM",
       "baseSalary": 1000000,
       "guaranteedComp": 1000000,
-      "role":"Designated Player",
-      "contractThru":"2028-29",
-      "optionYears":"2029-30",
+      "role": "Designated Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
       "international": true,
       "salaryEstimated": true,
       "transferFee": 6000000,
@@ -296,8 +286,8 @@
       "position": "AM",
       "baseSalary": 500000,
       "guaranteedComp": 500000,
-      "contractThru":"2028-29",
-      "optionYears":"2029-30",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
       "international": true,
       "salaryEstimated": true
     },
@@ -306,8 +296,8 @@
       "position": "ST",
       "baseSalary": 80000,
       "guaranteedComp": 80000,
-      "contractThru":"2026",
-      "role":"Supplemental Roster",
+      "contractThru": "2026",
+      "role": "Supplemental Roster",
       "international": false,
       "salaryEstimated": true
     },
@@ -319,6 +309,48 @@
       "international": false,
       "salaryEstimated": true,
       "status": "Unavailable – On Loan"
+    },
+    {
+      "name": "Rafael Navarro",
+      "position": "ST",
+      "baseSalary": 1392000,
+      "guaranteedComp": 1449600,
+      "international": false,
+      "role": "Designated Player",
+      "contractThru": "2027",
+      "optionYears": "2028"
+    },
+    {
+      "name": "Damion Downs",
+      "position": "ST",
+      "baseSalary": 700000,
+      "guaranteedComp": 700000,
+      "international": true,
+      "salaryEstimated": true,
+      "status": "Loan Player",
+      "contractThru": "PT: 2027 Sprint"
+    },
+    {
+      "name": "Charles-Emile Brunet",
+      "position": "DM",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28, 2028-29",
+      "role": "Supplemental Roster",
+      "guaranteedYears": 1
+    },
+    {
+      "name": "Tahir Reid-Brown",
+      "position": "LB",
+      "baseSalary": 125000,
+      "guaranteedComp": 139508,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028",
+      "status": "Unavailable – Off Roster"
     }
   ],
   "rosterModel": "Designated Player Model",

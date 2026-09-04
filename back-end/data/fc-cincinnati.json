@@ -321,6 +321,29 @@
       "status": "Unavailable – Off Roster",
       "contractThru": "2028",
       "optionYears": "2029, 2030"
+    },
+    {
+      "name": "Julián Malatini",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "salaryEstimated": true,
+      "status": "Loan Player",
+      "contractThru": "PT: 2027 Sprint"
+    },
+    {
+      "name": "David Doudera",
+      "position": "RM",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 3000000,
+      "joinedYear": 2026,
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "guaranteedYears": 2
     }
   ],
   "rosterModel": "Designated Player Model",

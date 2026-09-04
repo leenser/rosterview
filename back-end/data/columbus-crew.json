@@ -16,16 +16,6 @@
       "guaranteedYears": 3
     },
     {
-      "name": "Dániel Gazdag",
-      "position": "AM",
-      "baseSalary": 2049996,
-      "guaranteedComp": 2647635,
-      "international": false,
-      "role": "Designated Player",
-      "contractThru": "2027",
-      "optionYears": "2028"
-    },
-    {
       "name": "Nariman Akhundzada",
       "position": "ST",
       "baseSalary": 550000,
@@ -49,7 +39,8 @@
       "optionYears": "2029",
       "transferFee": 2300000,
       "joinedYear": 2025,
-      "guaranteedYears": 4
+      "guaranteedYears": 4,
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Sekou Bangoura",
@@ -260,17 +251,6 @@
       "status": "Unavailable – Off Roster"
     },
     {
-      "name": "Owen Presthus",
-      "position": "RB",
-      "baseSalary": 88025,
-      "guaranteedComp": 94216,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Unavailable – Off Roster"
-    },
-    {
       "name": "Andrés Herrera",
       "position": "RB",
       "baseSalary": 650000,
@@ -281,7 +261,7 @@
       "optionYears": "2029-30",
       "transferFee": 1200000,
       "joinedYear": 2026,
-      "guaranteedYears":4
+      "guaranteedYears": 4
     },
     {
       "name": "Lautaro Giaccone",
@@ -317,7 +297,7 @@
     {
       "name": "Tarun Karumanchi",
       "position": "DM",
-      "role":"Supplemental Roster",
+      "role": "Supplemental Roster",
       "baseSalary": 80000,
       "guaranteedComp": 80000,
       "contractThru": "June 2027",
@@ -338,16 +318,48 @@
     {
       "name": "Brais Méndez",
       "position": "AM",
-      "role":"Designated Player",
+      "role": "Designated Player",
       "baseSalary": 1000000,
       "guaranteedComp": 1000000,
       "international": true,
       "salaryEstimated": true,
       "contractThru": "2028-29",
       "optionYears": "2029-30",
-      "guaranteedYears":4,
+      "guaranteedYears": 4,
       "transferFee": 6900000,
       "joinedYear": 2026
+    },
+    {
+      "name": "Anass Zaroury",
+      "position": "LW",
+      "baseSalary": 650000,
+      "guaranteedComp": 650000,
+      "international": true,
+      "salaryEstimated": true,
+      "status": "Loan Player",
+      "contractThru": "PT: 2027 Sprint"
+    },
+    {
+      "name": "Santiago Rodríguez",
+      "position": "AM",
+      "baseSalary": 2000000,
+      "guaranteedComp": 2000000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 6800000,
+      "joinedYear": 2026,
+      "role": "Designated Player",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4
+    },
+    {
+      "name": "Josef Martínez",
+      "position": "ST",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "Designated Player Model",

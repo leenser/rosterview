@@ -110,7 +110,8 @@
       "optionYears": "2030",
       "transferFee": 2300000,
       "joinedYear": 2025,
-      "guaranteedYears": 4
+      "guaranteedYears": 4,
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Bongokuhle Hlongwane",
@@ -288,16 +289,6 @@
       "guaranteedYears": 2
     },
     {
-      "name": "Devin Padelford",
-      "position": "LB",
-      "baseSalary": 160000,
-      "guaranteedComp": 179500,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "status": "Homegrown"
-    },
-    {
       "name": "Alec Smir",
       "position": "GK",
       "baseSalary": 113400,
@@ -349,6 +340,40 @@
       "status": "Unavailable – Off Roster",
       "contractThru": "2027",
       "optionYears": "2028, 2029"
+    },
+    {
+      "name": "Cherrion Valerius",
+      "position": "RB",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "international": true,
+      "salaryEstimated": true,
+      "status": "Loan Player",
+      "contractThru": "PT: 2026"
+    },
+    {
+      "name": "Maurice Malone",
+      "position": "ST",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 1700000,
+      "joinedYear": 2026,
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4
+    },
+    {
+      "name": "AZ Jackson",
+      "position": "AM",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "status": "Loan Player",
+      "contractThru": "2026",
+      "guaranteedYears": 1,
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

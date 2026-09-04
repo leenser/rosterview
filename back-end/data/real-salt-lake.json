@@ -88,16 +88,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Pablo Ruiz",
-      "position": "CM",
-      "baseSalary": 825000,
-      "guaranteedComp": 911500,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
-    },
-    {
       "name": "Juan Manuel Sanabria",
       "position": "LB",
       "baseSalary": 500000,
@@ -212,17 +202,6 @@
       "role": "Supplemental Roster",
       "contractThru": "2026",
       "optionYears": "2027, 2028, 2029",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Zavier Gozo",
-      "position": "RW",
-      "baseSalary": 113400,
-      "guaranteedComp": 126123,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028, 2029",
       "status": "Homegrown"
     },
     {
@@ -376,16 +355,6 @@
       "status": "Unavailable – Off Roster"
     },
     {
-      "name": "Diego Rocio",
-      "position": "RW",
-      "baseSalary": 88025,
-      "guaranteedComp": 92668,
-      "international": false,
-      "role": "Homegrown Player",
-      "status": "Unavailable – Off Roster",
-      "contractThru": "2029"
-    },
-    {
       "name": "Juan Gio Villa",
       "position": "RB",
       "baseSalary": 88025,
@@ -418,6 +387,73 @@
       "international": false,
       "role": "TAM Player",
       "contractThru": "2026"
+    },
+    {
+      "name": "Taylor Booth",
+      "position": "RW",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "international": true,
+      "salaryEstimated": true,
+      "status": "Loan Player",
+      "contractThru": "PT: 2027 Sprint"
+    },
+    {
+      "name": "Diego Rocío",
+      "position": "RW",
+      "baseSalary": 88025,
+      "guaranteedComp": 92668,
+      "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2029"
+    },
+    {
+      "name": "Colin Guske",
+      "position": "DM",
+      "baseSalary": 88025,
+      "guaranteedComp": 98830,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028",
+      "status": "Homegrown"
+    },
+    {
+      "name": "Lineker Rodrigues",
+      "position": "ST",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "international": false,
+      "salaryEstimated": true,
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "optionYears": "2027-28, 2028-29",
+      "guaranteedYears": 2
+    },
+    {
+      "name": "Jason Shokalook",
+      "position": "ST",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Dusan Zagar",
+      "position": "LW",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "salaryEstimated": true,
+      "role": "U22 Initiative",
+      "contractThru": "2028/29",
+      "optionYears": "2029/30, 2030/31",
+      "guaranteedYears": 3,
+      "transferFee": 2300000,
+      "joinedYear": 2026
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

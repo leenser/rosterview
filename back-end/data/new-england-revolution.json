@@ -233,7 +233,7 @@
       "role": "Supplemental Roster",
       "contractThru": "2026",
       "optionYears": "2027, 2028, 2029",
-      "status": "Homegrown"
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Peyton Miller",
@@ -331,7 +331,7 @@
       "international": false,
       "salaryEstimated": true,
       "transferFee": 1200000,
-      "guaranteedYears":4,
+      "guaranteedYears": 4,
       "joinedYear": 2026
     },
     {
@@ -343,6 +343,48 @@
       "salaryEstimated": true,
       "contractThru": "2026",
       "optionYears": "2027, 2027-28"
+    },
+    {
+      "name": "Dániel Gazdag",
+      "position": "AM",
+      "baseSalary": 2049996,
+      "guaranteedComp": 2647635,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2027",
+      "optionYears": "2028-29",
+      "guaranteedYears": 2
+    },
+    {
+      "name": "Judah Siqueira",
+      "position": "CM",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "salaryEstimated": true
+    },
+    {
+      "name": "Tylon Smith",
+      "position": "CB",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "international": false,
+      "salaryEstimated": true,
+      "status": "Loan Player",
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2
+    },
+    {
+      "name": "Joshua Wynder",
+      "position": "CB",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "international": true,
+      "salaryEstimated": true,
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2,
+      "status": "Loan Player"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

@@ -38,19 +38,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "David Martínez",
-      "position": "RW",
-      "baseSalary": 550000,
-      "guaranteedComp": 550000,
-      "international": true,
-      "role": "U22 Initiative",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "transferFee": 3670000,
-      "joinedYear": 2024,
-      "guaranteedYears": 4
-    },
-    {
       "name": "Artem Smolyakov",
       "position": "LB",
       "baseSalary": 550000,
@@ -303,6 +290,74 @@
       "guaranteedComp": 658250,
       "international": true,
       "role": "TAM Player"
+    },
+    {
+      "name": "Virgilio Olaya",
+      "position": "CB",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": false,
+      "salaryEstimated": true,
+      "status": "Unavailable – On Loan"
+    },
+    {
+      "name": "Leo Walta",
+      "position": "AM",
+      "baseSalary": 0,
+      "guaranteedComp": 0,
+      "international": true,
+      "salaryEstimated": true,
+      "status": "Loan Player"
+    },
+    {
+      "name": "Tommy Mihalić",
+      "position": "LW",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "international": false,
+      "salaryEstimated": true,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027 Sprint, 2027-28",
+      "guaranteedYears": 1
+    },
+    {
+      "name": "Sergio Vásquez",
+      "position": "DM",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 600000,
+      "joinedYear": 2026,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "guaranteedYears": 4
+    },
+    {
+      "name": "Armindo Sieb",
+      "position": "ST",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 580000,
+      "joinedYear": 2026,
+      "contractThru": "2028-2029",
+      "optionYears": "2029-30",
+      "guaranteedYears": 3
+    },
+    {
+      "name": "Thayllon",
+      "position": "RW",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "salaryEstimated": true,
+      "role": "U22 Initiative",
+      "contractThru": "PT: June 2027",
+      "status": "Loan Player"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",

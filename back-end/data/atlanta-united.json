@@ -80,19 +80,6 @@
       "guaranteedYears": 6
     },
     {
-      "name": "Stian Gregersen",
-      "position": "CB",
-      "baseSalary": 850000,
-      "guaranteedComp": 970000,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "transferFee": 2300000,
-      "joinedYear": 2024,
-      "guaranteedYears": 4
-    },
-    {
       "name": "Enea Mihaj",
       "position": "CB",
       "baseSalary": 1215000,
@@ -114,15 +101,6 @@
       "transferFee": 1150000,
       "joinedYear": 2023,
       "guaranteedYears": 4
-    },
-    {
-      "name": "Ronald Hernández",
-      "position": "RB",
-      "baseSalary": 145000,
-      "guaranteedComp": 159000,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
     },
     {
       "name": "Jayden Hibbert",
@@ -263,7 +241,7 @@
       "role": "Supplemental Roster",
       "contractThru": "2027",
       "optionYears": "2028",
-      "status": "Homegrown"
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Ashton Gordon",
@@ -290,15 +268,15 @@
     {
       "name": "Mauricio Amaro",
       "position": "CM",
-      "role":"U22 Initiative",
+      "role": "U22 Initiative",
       "international": true,
       "baseSalary": 400000,
       "guaranteedComp": 400000,
       "transferFee": 3300000,
       "joinedYear": 2026,
       "guaranteedYears": 4,
-      "contractThru":"2028-29",
-      "optionYears":"2029-30",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
       "salaryEstimated": true
     },
     {
@@ -306,8 +284,8 @@
       "position": "CB",
       "baseSalary": 500000,
       "guaranteedComp": 500000,
-      "contractThru":"2028",
-      "optionYears":"2029, 2030",
+      "contractThru": "2028",
+      "optionYears": "2029, 2030",
       "international": true,
       "salaryEstimated": true
     },
@@ -316,9 +294,32 @@
       "position": "CB",
       "baseSalary": 500000,
       "guaranteedComp": 500000,
-      "contractThru":"2028-29",
+      "contractThru": "2028-29",
       "international": true,
       "salaryEstimated": true
+    },
+    {
+      "name": "Giuliano Galoppo",
+      "position": "CM",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "international": true,
+      "salaryEstimated": true,
+      "status": "Loan Player",
+      "contractThru": "PT: 2027 Sprint"
+    },
+    {
+      "name": "Breel Embolo",
+      "position": "ST",
+      "baseSalary": 1400000,
+      "guaranteedComp": 1400000,
+      "international": true,
+      "salaryEstimated": true,
+      "transferFee": 20000000,
+      "joinedYear": 2026,
+      "role": "Designated Player",
+      "contractThru": "2029-30",
+      "guaranteedYears": 4
     }
   ],
   "rosterModel": "Designated Player Model",

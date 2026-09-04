@@ -122,7 +122,8 @@
       "international": false,
       "status": "Unavailable – On Loan",
       "contractThru": "2026",
-      "optionYears": "2027, 2028"
+      "optionYears": "2027, 2028",
+      "role": "Supplemental Roster"
     },
     {
       "name": "Ben Bender",
@@ -339,8 +340,8 @@
       "international": true,
       "salaryEstimated": true,
       "transferFee": 4000000,
-      "contractThru":"2028-29",
-      "optionYears":"2029-30",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
       "guaranteedYears": 4,
       "joinedYear": 2026
     }

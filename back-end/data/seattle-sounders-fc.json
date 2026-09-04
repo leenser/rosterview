@@ -15,16 +15,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Dejan Joveljic",
-      "position": "ST",
-      "baseSalary": 3000000,
-      "guaranteedComp": 3306250,
-      "international": false,
-      "role": "Designated Player",
-      "contractThru": "2029-30",
-      "optionYears": "2030-31"
-    },
-    {
       "name": "Jordan Morris",
       "position": "ST",
       "baseSalary": 2362500,
@@ -211,7 +201,8 @@
       "international": false,
       "contractThru": "2028-29",
       "optionYears": "2029-30",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Stuart Hawkins",
@@ -275,6 +266,26 @@
       "status": "Unavailable – Off Roster",
       "contractThru": "2029",
       "optionYears": "2030"
+    },
+    {
+      "name": "Dejan Joveljić",
+      "position": "ST",
+      "baseSalary": 3000000,
+      "guaranteedComp": 3306250,
+      "international": false,
+      "role": "Designated Player",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31"
+    },
+    {
+      "name": "Caden Clark",
+      "position": "AM",
+      "baseSalary": 400000,
+      "guaranteedComp": 432000,
+      "international": false,
+      "role": "U22 Initiative",
+      "contractThru": "2026",
+      "optionYears": "2027"
     }
   ],
   "rosterModel": "Designated Player Model",

@@ -153,15 +153,6 @@
       "optionYears": "2027"
     },
     {
-      "name": "Jayden Nelson",
-      "position": "LW",
-      "baseSalary": 500000,
-      "guaranteedComp": 554000,
-      "international": false,
-      "contractThru": "2028",
-      "optionYears": "2029"
-    },
-    {
       "name": "Besard Sabovic",
       "position": "CM",
       "baseSalary": 650000,
@@ -219,7 +210,8 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
-      "optionYears": "2028, 2029"
+      "optionYears": "2028, 2029",
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Damian Las",
@@ -272,6 +264,16 @@
       "international": true,
       "contractThru": "2026",
       "optionYears": "2027, 2027-28",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Christopher Applewhite",
+      "position": "CB",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "PT: 2027 Sprint",
       "salaryEstimated": true
     }
   ],

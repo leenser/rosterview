@@ -65,16 +65,6 @@
       "transferFee": 459000,
       "joinedYear": 2025,
       "guaranteedYears": 2
-    }
-    ,{
-      "name": "Eduard Löwen",
-      "position": "CM",
-      "baseSalary": 1300000,
-      "guaranteedComp": 1444250,
-      "international": false,
-      "role": "Designated Player",
-      "DPBuydownEligible": true,
-      "contractThru": "2027-28"
     },
     {
       "name": "Cristian Arango",
@@ -322,7 +312,7 @@
       "guaranteedComp": 400000,
       "international": true,
       "salaryEstimated": true,
-      "role":"U22 Initiative",
+      "role": "U22 Initiative",
       "transferFee": 690000,
       "joinedYear": 2026,
       "contractThru": "2027-28",
@@ -336,6 +326,17 @@
       "contractThru": "2028-29",
       "international": true,
       "salaryEstimated": true
+    },
+    {
+      "name": "Eduard Löwen",
+      "position": "CM",
+      "baseSalary": 1300000,
+      "guaranteedComp": 1444250,
+      "international": false,
+      "role": "TAM Player",
+      "DPBuydownEligible": true,
+      "contractThru": "2027-28",
+      "guaranteedYears": 2
     }
   ],
   "rosterModel": "Designated Player Model",

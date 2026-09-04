@@ -208,17 +208,6 @@
       "status": "Homegrown"
     },
     {
-      "name": "Colin Guske",
-      "position": "DM",
-      "baseSalary": 88025,
-      "guaranteedComp": 98830,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Homegrown"
-    },
-    {
       "name": "Nolan Miller",
       "position": "CB",
       "baseSalary": 88025,
@@ -272,17 +261,6 @@
       "status": "Unavailable – Off Roster"
     },
     {
-      "name": "Tahir Reid-Brown",
-      "position": "LB",
-      "baseSalary": 125000,
-      "guaranteedComp": 139508,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Unavailable – Off Roster"
-    },
-    {
       "name": "Antoine Griezmann",
       "position": "ST",
       "baseSalary": 3000000,
@@ -299,7 +277,7 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
-      "role":"Homegrown Player",
+      "role": "Homegrown Player",
       "contractThru": "2027-28",
       "optionYears": "2028-29, 2029-30",
       "salaryEstimated": true
@@ -310,7 +288,7 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
-      "role":"Homegrown Player",
+      "role": "Homegrown Player",
       "contractThru": "2027",
       "optionYears": "2028, 2029",
       "salaryEstimated": true
@@ -328,13 +306,24 @@
     {
       "name": "Tristan Himes",
       "position": "GK",
-       "baseSalary": 88025,
+      "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
-      "role":"Homegrown Player",
+      "role": "Homegrown Player",
       "contractThru": "June 2027",
       "optionYears": "2027-28, 2028-29",
       "salaryEstimated": true
+    },
+    {
+      "name": "Vinícius Nogueira",
+      "position": "LB",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "international": true,
+      "salaryEstimated": true,
+      "status": "Loan Player",
+      "contractThru": "2027 Sprint",
+      "guaranteedYears": 2
     }
   ],
   "rosterModel": "Designated Player Model",

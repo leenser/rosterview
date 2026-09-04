@@ -220,15 +220,6 @@
       "status": "Homegrown"
     },
     {
-      "name": "Sam Vines",
-      "position": "LB",
-      "baseSalary": 900000,
-      "guaranteedComp": 912500,
-      "international": false,
-      "role":"Supplemental Roster",
-      "contractThru": "2027"
-    },
-    {
       "name": "Sebastian Rodriguez",
       "position": "CM",
       "baseSalary": 88025,
@@ -273,15 +264,27 @@
     {
       "name": "Marcelo Saracchi",
       "position": "LB",
-      "baseSalary": 600000,
-      "guaranteedComp": 600000,
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
       "international": true,
       "salaryEstimated": true,
       "transferFee": 1300000,
       "joinedYear": 2026,
       "contractThru": "2028-29",
       "optionYears": "2029-30, 2030-31",
-      "guaranteedYears": 4
+      "guaranteedYears": 3,
+      "role": "TAM Player"
+    },
+    {
+      "name": "Lyle Foster",
+      "position": "ST",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "international": true,
+      "salaryEstimated": true,
+      "role": "TAM Player",
+      "contractThru": "PT: 2027 Sprint",
+      "status": "Loan Player"
     }
   ],
   "rosterModel": "Designated Player Model",

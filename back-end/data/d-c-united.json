@@ -24,16 +24,6 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Caden Clark",
-      "position": "AM",
-      "baseSalary": 400000,
-      "guaranteedComp": 432000,
-      "international": false,
-      "role": "U22 Initiative",
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
       "name": "Kim Joon Hong",
       "position": "GK",
       "baseSalary": 250000,
@@ -252,16 +242,6 @@
       "optionYears": "2029-30, 2030-31"
     },
     {
-      "name": "Jacob Murrell",
-      "position": "ST",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
-    },
-    {
       "name": "Gabe Segal",
       "position": "ST",
       "baseSalary": 113400,
@@ -314,8 +294,8 @@
     {
       "name": "Kamil Castillo",
       "position": "CM",
-      "role":"Homegrown Player",
-      "status":"Unavailable – Off Roster",
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "baseSalary": 80000,
       "guaranteedComp": 80000,
       "contractThru": "2030",
@@ -332,8 +312,8 @@
       "salaryEstimated": true,
       "transferFee": 1500000,
       "guaranteedYears": 3,
-      "contractThru":"2028-29",
-      "optionYears":"2029-30",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
       "joinedYear": 2026
     }
   ],

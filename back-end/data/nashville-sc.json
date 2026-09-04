@@ -187,16 +187,6 @@
       "role": "Supplemental Roster"
     },
     {
-      "name": "Charles-Emile Brunet",
-      "position": "DM",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28, 2028-29",
-      "role": "Supplemental Roster"
-    },
-    {
       "name": "Matthew Corcoran",
       "position": "DM",
       "baseSalary": 113400,
@@ -237,16 +227,6 @@
       "international": false,
       "contractThru": "2026",
       "optionYears": "June 2027, 2027-28",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Woobens Pacius",
-      "position": "ST",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027",
       "role": "Supplemental Roster"
     },
     {
@@ -335,7 +315,7 @@
       "joinedYear": 2026,
       "contractThru": "2028-29",
       "optionYears": "2029-30",
-      "guaranteedYears":4,
+      "guaranteedYears": 4,
       "salaryEstimated": true
     },
     {
@@ -347,6 +327,18 @@
       "salaryEstimated": true,
       "contractThru": "2027",
       "status": "Loan Player"
+    },
+    {
+      "name": "Owen Presthus",
+      "position": "RB",
+      "baseSalary": 88025,
+      "guaranteedComp": 94216,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027 Sprint",
+      "optionYears": "2028",
+      "status": "Unavailable – Off Roster",
+      "guaranteedYears": 2
     }
   ],
   "rosterModel": "Designated Player Model",

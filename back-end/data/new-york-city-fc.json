@@ -357,7 +357,7 @@
       "contractThru": "2028-29",
       "optionYears": "2029-30",
       "salaryEstimated": true,
-      "guaranteedYears":4,
+      "guaranteedYears": 4,
       "transferFee": 10000000,
       "joinedYear": 2026
     },
@@ -384,15 +384,15 @@
     {
       "name": "Luighi",
       "position": "ST",
-      "role":"U22 Initiative",
-      "guaranteedYears":1,
+      "role": "U22 Initiative",
+      "guaranteedYears": 1,
       "baseSalary": 400000,
       "guaranteedComp": 400000,
       "international": true,
       "salaryEstimated": true,
       "transferFee": 270000,
-      "contractThru":"2026",
-      "optionYears":"PT:2027-28",
+      "contractThru": "2026",
+      "optionYears": "PT:2027-28",
       "joinedYear": 2026
     }
   ],

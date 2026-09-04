@@ -95,15 +95,6 @@
       "contractThru": "2027"
     },
     {
-      "name": "Miki Yamane",
-      "position": "RB",
-      "baseSalary": 850000,
-      "guaranteedComp": 916667,
-      "international": true,
-      "role": "TAM Player",
-      "contractThru": "2026"
-    },
-    {
       "name": "JT Marcinkowski",
       "position": "GK",
       "baseSalary": 302000,
@@ -222,17 +213,6 @@
       "status": "Homegrown"
     },
     {
-      "name": "Ruben Ramos Jr.",
-      "position": "AM",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Homegrown"
-    },
-    {
       "name": "Chris Rindov",
       "position": "CB",
       "baseSalary": 113400,
@@ -299,9 +279,31 @@
       "international": true,
       "salaryEstimated": true,
       "transferFee": 1400000,
-      "guaranteedYears":5,
+      "guaranteedYears": 5,
       "joinedYear": 2026,
       "contractThru": "2030-31"
+    },
+    {
+      "name": "Calegari",
+      "position": "RB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "salaryEstimated": true,
+      "contractThru": "2028-29",
+      "guaranteedYears": 3,
+      "transferFee": 2300000,
+      "joinedYear": 2026
+    },
+    {
+      "name": "Pablo Ruiz",
+      "position": "CM",
+      "baseSalary": 825000,
+      "guaranteedComp": 911500,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
     }
   ],
   "rosterModel": "Designated Player Model",

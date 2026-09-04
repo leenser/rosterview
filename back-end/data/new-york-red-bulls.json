@@ -53,33 +53,6 @@
       "guaranteedYears": 5
     },
     {
-      "name": "Dennis Gjengaar",
-      "position": "RW",
-      "baseSalary": 380000,
-      "guaranteedComp": 438769,
-      "international": true,
-      "role": "U22 Initiative",
-      "status": "Unavailable – On Loan",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "transferFee": 1890000,
-      "joinedYear": 2023,
-      "guaranteedYears": 4
-    },
-    {
-      "name": "Gustav Berggren",
-      "position": "DM",
-      "baseSalary": 1200000,
-      "guaranteedComp": 1310000,
-      "international": true,
-      "role": "TAM Player",
-      "contractThru": "2028",
-      "optionYears": "2029",
-      "transferFee": 2070000,
-      "joinedYear": 2025,
-      "guaranteedYears": 4
-    },
-    {
       "name": "Cade Cowell",
       "position": "LW",
       "baseSalary": 900000,
@@ -263,7 +236,7 @@
       "role": "Supplemental Roster",
       "contractThru": "2026",
       "optionYears": "2027, 2028",
-      "status": "Homegrown"
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Julián Bazán",
@@ -362,6 +335,38 @@
       "role": "Homegrown Player",
       "contractThru": "2029",
       "status": "Unavailable – Off Roster"
+    },
+    {
+      "name": "David Ruíz",
+      "position": "DM",
+      "baseSalary": 200000,
+      "guaranteedComp": 231887,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2028",
+      "optionYears": "2029",
+      "status": "Homegrown"
+    },
+    {
+      "name": "Mijahir Jiménez",
+      "position": "ST",
+      "baseSalary": 300000,
+      "guaranteedComp": 300000,
+      "international": true,
+      "salaryEstimated": true,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "guaranteedYears": 1
+    },
+    {
+      "name": "Devin Padelford",
+      "position": "LB",
+      "baseSalary": 160000,
+      "guaranteedComp": 179500,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "status": "Loan Player"
     }
   ],
   "rosterModel": "Designated Player Model",

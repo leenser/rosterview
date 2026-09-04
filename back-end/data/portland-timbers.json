@@ -50,19 +50,6 @@
       "contractThru": "2027"
     },
     {
-      "name": "Kevin Kelsy",
-      "position": "ST",
-      "baseSalary": 662000,
-      "guaranteedComp": 802804,
-      "international": false,
-      "role": "U22 Initiative",
-      "contractThru": "2028",
-      "optionYears": "2029",
-      "transferFee": 6890000,
-      "joinedYear": 2025,
-      "guaranteedYears": 5
-    },
-    {
       "name": "Alexander Aravena",
       "position": "LW",
       "baseSalary": 857143,
@@ -277,9 +264,27 @@
       "position": "ST",
       "baseSalary": 500000,
       "guaranteedComp": 500000,
-      "contractThru":"2027-28",
+      "contractThru": "2027-28",
       "international": true,
       "salaryEstimated": true
+    },
+    {
+      "name": "Ronald Hernández",
+      "position": "RB",
+      "baseSalary": 145000,
+      "guaranteedComp": 159000,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Joel Waterman",
+      "position": "CB",
+      "baseSalary": 517000,
+      "guaranteedComp": 598150,
+      "international": true,
+      "contractThru": "2027",
+      "optionYears": "2028"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",
