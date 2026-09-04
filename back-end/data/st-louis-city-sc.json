@@ -279,7 +279,8 @@
       "international": true,
       "salaryEstimated": true,
       "transferFee": 6000000,
-      "joinedYear": 2026
+      "joinedYear": 2026,
+      "guaranteedYears": 4
     },
     {
       "name": "Alexandru Mățan",

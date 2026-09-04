@@ -85,7 +85,8 @@
       "optionYears": "2028, 2029",
       "transferFee": 2470000,
       "joinedYear": 2025,
-      "guaranteedYears": 4
+      "guaranteedYears": 4,
+      "status": "Unavailable – On Loan"
     },
     {
       "name": "Juan Manuel Sanabria",
