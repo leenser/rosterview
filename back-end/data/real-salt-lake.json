@@ -32,6 +32,7 @@
       "guaranteedComp": 500833,
       "international": false,
       "role": "U22 Initiative",
+      "status":"Unavailable – Injured List",
       "contractThru": "2026",
       "optionYears": "2027, 2028"
     },
@@ -441,6 +442,16 @@
       "contractThru": "2026",
       "optionYears": "2027, 2028",
       "role": "Supplemental Roster"
+    },
+    {
+      "name": "Luc de Fougerolles",
+      "position": "CB",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "contractThru": "2026",
+      "optionYears": "2027 Sprint",
+      "status": "Loan Player"
     },
     {
       "name": "Dusan Zagar",
