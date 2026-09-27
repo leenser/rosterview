@@ -15,6 +15,39 @@
       "guaranteedYears": 3
     },
     {
+      "name": "Robert Lewandowski",
+      "position": "ST",
+      "baseSalary": 5000000,
+      "guaranteedComp": 5000000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2027-28",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Philip Zinckernagel",
+      "position": "RW",
+      "baseSalary": 1455125,
+      "guaranteedComp": 1635665,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2027-28",
+      "transferFee": 975000,
+      "joinedYear": 2025,
+      "guaranteedYears": 4
+    },
+    {
+      "name": "Noah Allen",
+      "position": "LB",
+      "baseSalary": 375000,
+      "guaranteedComp": 434653,
+      "international": false,
+      "role": "U22 Initiative",
+      "status": "Loan Player",
+      "contractThru": "2026",
+      "optionYears": "PT: 2029-30; 2030-31"
+    },
+    {
       "name": "Dje D’Avilla",
       "position": "DM",
       "baseSalary": 573000,
@@ -28,27 +61,15 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Puso Dithejane",
-      "position": "RW",
-      "baseSalary": 250000,
-      "guaranteedComp": 283252,
-      "international": true,
-      "role": "U22 Initiative",
-      "contractThru": "2029-30",
-      "optionYears": "2030-31",
-      "transferFee": 1490000,
-      "joinedYear": 2026,
-      "guaranteedYears": 4
-    },
-    {
       "name": "Mbekezeli Mbokazi",
       "position": "CB",
       "baseSalary": 593000,
       "guaranteedComp": 655620,
       "international": true,
       "role": "U22 Initiative",
+      "status": "Unavailable – Injured List",
       "contractThru": "2029",
-      "optionYears": "2030",
+      "optionYears": "2029-30",
       "transferFee": 2870000,
       "joinedYear": 2026,
       "guaranteedYears": 4
@@ -60,7 +81,7 @@
       "guaranteedComp": 1054275,
       "international": false,
       "role": "TAM Player",
-      "contractThru": "2026"
+      "contractThru": "2027-28"
     },
     {
       "name": "André Franco",
@@ -77,6 +98,19 @@
       "guaranteedYears": 2
     },
     {
+      "name": "Andreas Hanche-Olsen",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2030-31",
+      "salaryEstimated": true,
+      "transferFee": 2000000,
+      "joinedYear": 2026,
+      "guaranteedYears": 5
+    },
+    {
       "name": "Robin Lod",
       "position": "CM",
       "baseSalary": 800000,
@@ -84,6 +118,20 @@
       "international": false,
       "role": "TAM Player",
       "contractThru": "2027-28"
+    },
+    {
+      "name": "Anzor Mekvabishvili",
+      "position": "DM",
+      "baseSalary": 650000,
+      "guaranteedComp": 650000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "salaryEstimated": true,
+      "transferFee": 2900000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
     },
     {
       "name": "Anton Salétros",
@@ -96,18 +144,6 @@
       "transferFee": 3100000,
       "joinedYear": 2026,
       "guaranteedYears": 3
-    },
-    {
-      "name": "Philip Zinckernagel",
-      "position": "RW",
-      "baseSalary": 1455125,
-      "guaranteedComp": 1635665,
-      "international": true,
-      "role": "TAM Player",
-      "contractThru": "2028",
-      "transferFee": 975000,
-      "joinedYear": 2025,
-      "guaranteedYears": 4
     },
     {
       "name": "Leonardo Barroso",
@@ -131,6 +167,18 @@
       "optionYears": "2030"
     },
     {
+      "name": "Puso Dithejane",
+      "position": "RW",
+      "baseSalary": 250000,
+      "guaranteedComp": 283252,
+      "international": true,
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "transferFee": 1490000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4
+    },
+    {
       "name": "Omari Glasgow",
       "position": "RM",
       "baseSalary": 113400,
@@ -139,6 +187,35 @@
       "status": "Unavailable – On Loan",
       "contractThru": "2026",
       "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Johan Gómez",
+      "position": "RW",
+      "baseSalary": 540000,
+      "guaranteedComp": 540000,
+      "international": false,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "salaryEstimated": true,
+      "transferFee": 700000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
+    },
+    {
+      "name": "Andrew Gutman",
+      "position": "LB",
+      "baseSalary": 625000,
+      "guaranteedComp": 625000,
+      "international": false,
+      "contractThru": "2028-29"
+    },
+    {
+      "name": "Maren Haile-Selassie",
+      "position": "RM",
+      "baseSalary": 444000,
+      "guaranteedComp": 483500,
+      "international": true,
+      "contractThru": "2026"
     },
     {
       "name": "Sergio Oregel",
@@ -150,23 +227,6 @@
       "optionYears": "2029"
     },
     {
-      "name": "Andrew Gutman",
-      "position": "LB",
-      "baseSalary": 625000,
-      "guaranteedComp": 625000,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
-      "name": "Maren Haile-Selassie",
-      "position": "RM",
-      "baseSalary": 444000,
-      "guaranteedComp": 483500,
-      "international": true,
-      "contractThru": "2026"
-    },
-    {
       "name": "Mauricio Pineda",
       "position": "CB",
       "baseSalary": 200000,
@@ -176,13 +236,24 @@
       "optionYears": "2028"
     },
     {
+      "name": "Viktor Radojević",
+      "position": "LB",
+      "baseSalary": 350000,
+      "guaranteedComp": 357000,
+      "international": true,
+      "status": "Unavailable – On Loan",
+      "contractThru": "2028",
+      "optionYears": "2029",
+      "guaranteedYears": 1
+    },
+    {
       "name": "Sam Rogers",
       "position": "CB",
       "baseSalary": 200000,
       "guaranteedComp": 223000,
       "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
+      "contractThru": "2027",
+      "optionYears": "2028",
       "transferFee": 195000,
       "joinedYear": 2025,
       "guaranteedYears": 2
@@ -198,14 +269,25 @@
       "optionYears": "2028, 2029"
     },
     {
+      "name": "Dylan Borso",
+      "position": "RW",
+      "baseSalary": 113400,
+      "guaranteedComp": 121400,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
+    },
+    {
       "name": "Josh Cohen",
       "position": "GK",
       "baseSalary": 165000,
       "guaranteedComp": 181250,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "June 2027",
-      "optionYears": "2027-28",
-      "role": "Supplemental Roster"
+      "optionYears": "2027-28"
     },
     {
       "name": "Christopher Cupps",
@@ -214,9 +296,9 @@
       "guaranteedComp": 116186,
       "international": false,
       "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
       "contractThru": "2028",
-      "optionYears": "2029, 2030",
-      "status": "Unavailable – On Loan"
+      "optionYears": "2029, 2030"
     },
     {
       "name": "Jonathan Dean",
@@ -224,9 +306,9 @@
       "baseSalary": 175000,
       "guaranteedComp": 210700,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2027",
-      "optionYears": "2028",
-      "role": "Supplemental Roster"
+      "optionYears": "2028"
     },
     {
       "name": "Jeffrey Gal",
@@ -234,19 +316,9 @@
       "baseSalary": 150000,
       "guaranteedComp": 165000,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Chris Mueller",
-      "position": "RW",
-      "baseSalary": 150000,
-      "guaranteedComp": 186600,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
+      "optionYears": "2027"
     },
     {
       "name": "David Poreba",
@@ -254,9 +326,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 98858,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Sam Williams",
@@ -276,81 +348,13 @@
       "guaranteedComp": 157927,
       "international": false,
       "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "contractThru": "2028",
-      "optionYears": "2029, 2030",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Robert Lewandowski",
-      "position": "ST",
-      "baseSalary": 5000000,
-      "guaranteedComp": 5000000,
-      "international": true,
-      "role": "Designated Player",
-      "contractThru": "2027-28",
-      "salaryEstimated": true
-    },
-    {
-      "name": "Johan Gómez",
-      "position": "RW",
-      "baseSalary": 540000,
-      "guaranteedComp": 540000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 700000,
-      "joinedYear": 2026,
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "guaranteedYears": 3
-    },
-    {
-      "name": "Noah Allen",
-      "position": "LB",
-      "baseSalary": 375000,
-      "guaranteedComp": 434653,
-      "international": false,
-      "contractThru": "2028",
-      "optionYears": "2029"
-    },
-    {
-      "name": "Andreas Hanche-Olsen",
-      "position": "CB",
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 2000000,
-      "joinedYear": 2026,
-      "contractThru": "2030-31",
-      "guaranteedYears": 5
-    },
-    {
-      "name": "Anzor Mekvabishvili",
-      "position": "DM",
-      "baseSalary": 650000,
-      "guaranteedComp": 650000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 2900000,
-      "joinedYear": 2026,
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "guaranteedYears": 3
-    },
-    {
-      "name": "Dylan Borso",
-      "position": "RW",
-      "baseSalary": 113400,
-      "guaranteedComp": 121400,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028, 2029",
-      "status": "Unavailable – On Loan"
+      "optionYears": "2029, 2030"
     }
   ],
-  "rosterModel": "U22 Initiative Player Model",
-  "availableGAM": 1003353,
+  "rosterModel": "Designated Player Model",
+  "availableGAM": 1114300,
   "startingGAM": 5077349,
   "GAMBalance": 0
 }

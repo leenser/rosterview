@@ -6,7 +6,7 @@
       "position": "AM",
       "baseSalary": 850000,
       "guaranteedComp": 1020000,
-      "international": false,
+      "international": true,
       "role": "Designated Player",
       "status": "Unavailable – On Loan",
       "contractThru": "2026",
@@ -14,6 +14,18 @@
       "transferFee": 6310000,
       "joinedYear": 2024,
       "guaranteedYears": 3
+    },
+    {
+      "name": "Eduard Löwen",
+      "position": "CM",
+      "baseSalary": 1300000,
+      "guaranteedComp": 1444250,
+      "international": false,
+      "role": "Designated Player",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "DPBuydownEligible": true,
+      "guaranteedYears": 2
     },
     {
       "name": "Timo Werner",
@@ -25,6 +37,20 @@
       "contractThru": "2027-28"
     },
     {
+      "name": "Luka Jovanović",
+      "position": "ST",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "role": "U22 Initiative",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "guaranteedYears":3,
+      "salaryEstimated": true,
+      "transferFee": 690000,
+      "joinedYear": 2026
+    },
+    {
       "name": "Niko Tsakiris",
       "position": "CM",
       "baseSalary": 685714,
@@ -33,6 +59,16 @@
       "role": "U22 Initiative",
       "contractThru": "2028-29",
       "optionYears": "2029-30"
+    },
+    {
+      "name": "Angus Gunn",
+      "position": "GK",
+      "baseSalary": 600000,
+      "guaranteedComp": 600000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2029-30",
+      "salaryEstimated": true
     },
     {
       "name": "DeJuan Jones",
@@ -74,7 +110,7 @@
       "international": false,
       "status": "Unavailable – On Loan",
       "contractThru": "2027",
-      "optionYears": "2027-28, 2028-29"
+      "optionYears": "June 2028, 2028-29"
     },
     {
       "name": "Ousseni Bouda",
@@ -128,8 +164,8 @@
       "baseSalary": 250000,
       "guaranteedComp": 299375,
       "international": false,
-      "contractThru": "2027",
-      "optionYears": "2028"
+      "contractThru": "2028-29",
+      "optionYears": "2029-30"
     },
     {
       "name": "Benji Kikanovic",
@@ -137,7 +173,8 @@
       "baseSalary": 442000,
       "guaranteedComp": 478700,
       "international": false,
-      "contractThru": "2026"
+      "contractThru": "2028-29",
+      "optionYears": "2029-30"
     },
     {
       "name": "Beau Leroux",
@@ -171,8 +208,8 @@
       "baseSalary": 113400,
       "guaranteedComp": 114987,
       "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
+      "contractThru": "2028-29",
+      "optionYears": "2029-30"
     },
     {
       "name": "Jack Skahan",
@@ -188,9 +225,9 @@
       "baseSalary": 113400,
       "guaranteedComp": 117285,
       "international": true,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28",
-      "role": "Supplemental Roster"
+      "optionYears": "June 2027, 2027-28"
     },
     {
       "name": "Noel Buck",
@@ -198,8 +235,8 @@
       "baseSalary": 150000,
       "guaranteedComp": 150000,
       "international": false,
-      "contractThru": "2026",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
     },
     {
       "name": "Nate Crockford",
@@ -207,9 +244,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28",
-      "role": "Supplemental Roster"
+      "optionYears": "June 2027, 2027-28"
     },
     {
       "name": "Nick Fernandez",
@@ -217,9 +254,9 @@
       "baseSalary": 113400,
       "guaranteedComp": 115304,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Max Floriani",
@@ -227,9 +264,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 90525,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Jack Jasinski",
@@ -237,9 +274,20 @@
       "baseSalary": 88025,
       "guaranteedComp": 90287,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28, 2028-29",
-      "role": "Supplemental Roster"
+      "optionYears": "June 2027, 2027-28, 2028-29"
+    },
+    {
+      "name": "Darius Johnson",
+      "position": "ST",
+      "baseSalary": 150000,
+      "guaranteedComp": 150000,
+      "international": true,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28",
+      "salaryEstimated": true
     },
     {
       "name": "Francesco Montali",
@@ -247,9 +295,9 @@
       "baseSalary": 113400,
       "guaranteedComp": 116578,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
+      "optionYears": "2027"
     },
     {
       "name": "Reid Roberts",
@@ -257,9 +305,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30"
     },
     {
       "name": "Cruz Medina",
@@ -279,9 +327,9 @@
       "guaranteedComp": 132440,
       "international": false,
       "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Unavailable – Off Roster"
+      "optionYears": "2028"
     },
     {
       "name": "Rohan Rajagopal",
@@ -290,9 +338,9 @@
       "guaranteedComp": 88025,
       "international": false,
       "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Unavailable – Off Roster"
+      "optionYears": "2028"
     },
     {
       "name": "Kaedren Spivey",
@@ -301,46 +349,13 @@
       "guaranteedComp": 116400,
       "international": false,
       "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "contractThru": "2028",
-      "optionYears": "2029",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Luka Jovanović",
-      "position": "ST",
-      "baseSalary": 400000,
-      "guaranteedComp": 400000,
-      "international": true,
-      "salaryEstimated": true,
-      "role": "U22 Initiative",
-      "transferFee": 690000,
-      "joinedYear": 2026,
-      "contractThru": "2027-28",
-      "optionYears": "2028-29"
-    },
-    {
-      "name": "Angus Gunn",
-      "position": "GK",
-      "baseSalary": 600000,
-      "guaranteedComp": 600000,
-      "contractThru": "2028-29",
-      "international": true,
-      "salaryEstimated": true
-    },
-    {
-      "name": "Eduard Löwen",
-      "position": "CM",
-      "baseSalary": 1300000,
-      "guaranteedComp": 1444250,
-      "international": false,
-      "role": "TAM Player",
-      "DPBuydownEligible": true,
-      "contractThru": "2027-28",
-      "guaranteedYears": 2
+      "optionYears": "2029"
     }
   ],
   "rosterModel": "Designated Player Model",
-  "availableGAM": 4725751,
+  "availableGAM": 3685457,
   "startingGAM": 4118024,
   "GAMBalance": 0
 }

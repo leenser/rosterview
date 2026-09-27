@@ -26,15 +26,17 @@
       "guaranteedYears": 4
     },
     {
-      "name": "Diego Luna",
-      "position": "LM",
-      "baseSalary": 450000,
-      "guaranteedComp": 500833,
-      "international": false,
+      "name": "Juan Jose Arias",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 565139,
+      "international": true,
       "role": "U22 Initiative",
-      "status":"Unavailable – Injured List",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "transferFee": 2000000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4
     },
     {
       "name": "Dominik Marczuk",
@@ -56,10 +58,25 @@
       "guaranteedComp": 348859,
       "international": true,
       "role": "U22 Initiative",
+      "status": "Unavailable – Injured List",
       "contractThru": "2027",
       "optionYears": "2028, 2029",
       "transferFee": 516000,
       "joinedYear": 2025,
+      "guaranteedYears": 3
+    },
+    {
+      "name": "Dušan Žagar",
+      "position": "LW",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "role": "U22 Initiative",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30, 2030-31",
+      "salaryEstimated": true,
+      "transferFee": 2300000,
+      "joinedYear": 2026,
       "guaranteedYears": 3
     },
     {
@@ -76,18 +93,27 @@
       "guaranteedYears": 4
     },
     {
+      "name": "Saba Lobjanidze",
+      "position": "LW",
+      "baseSalary": 900000,
+      "guaranteedComp": 998750,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2026"
+    },
+    {
       "name": "Victor Olatunji",
       "position": "ST",
       "baseSalary": 600000,
       "guaranteedComp": 626500,
       "international": true,
       "role": "TAM Player",
-      "contractThru": "2027-28",
+      "status": "Unavailable – On Loan",
+      "contractThru": "June 2028",
       "optionYears": "2028, 2029",
       "transferFee": 2470000,
       "joinedYear": 2025,
-      "guaranteedYears": 4,
-      "status": "Unavailable – On Loan"
+      "guaranteedYears": 4
     },
     {
       "name": "Juan Manuel Sanabria",
@@ -111,13 +137,33 @@
       "contractThru": "2027-28"
     },
     {
+      "name": "Diego Luna",
+      "position": "LM",
+      "baseSalary": 450000,
+      "guaranteedComp": 500833,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Taylor Booth",
+      "position": "RW",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "international": false,
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "optionYears": "PT: 2028-29; 2029-30",
+      "salaryEstimated": true
+    },
+    {
       "name": "Rafael Cabral",
       "position": "GK",
       "baseSalary": 470000,
       "guaranteedComp": 703750,
       "international": true,
-      "contractThru": "2028-29",
-      "optionYears": "2029-30"
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Noel Caliskan",
@@ -125,8 +171,18 @@
       "baseSalary": 113400,
       "guaranteedComp": 113400,
       "international": false,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30"
+    },
+    {
+      "name": "Luc de Fougerolles",
+      "position": "CB",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "status": "Loan Player",
       "contractThru": "2026",
-      "optionYears": "2027"
+      "optionYears": "LO: June 2027"
     },
     {
       "name": "Emeka Eneli",
@@ -179,10 +235,10 @@
       "baseSalary": 88025,
       "guaranteedComp": 89761,
       "international": true,
+      "role": "Supplemental Roster",
       "status": "Unavailable – On Loan",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Zach Booth",
@@ -190,10 +246,10 @@
       "baseSalary": 200000,
       "guaranteedComp": 217500,
       "international": false,
+      "role": "Supplemental Roster",
       "status": "Loan Player",
       "contractThru": "2026",
-      "optionYears": "PT: 2028-29",
-      "role": "Supplemental Roster"
+      "optionYears": "PT: 2028-29"
     },
     {
       "name": "Griffon Dillon",
@@ -203,212 +259,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028, 2029",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Maximilian Kerkvliet",
-      "position": "GK",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Philip Quinton",
-      "position": "CB",
-      "baseSalary": 175000,
-      "guaranteedComp": 175000,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2026",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Mason Stajduhar",
-      "position": "GK",
-      "baseSalary": 200000,
-      "guaranteedComp": 215650,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Sergi Solans",
-      "position": "ST",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": true,
-      "contractThru": "June 2027",
-      "optionYears": "2027-28, 2028-29",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Tyler Wolff",
-      "position": "RW",
-      "baseSalary": 160000,
-      "guaranteedComp": 160000,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Marcos Zambrano",
-      "position": "ST",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster",
-      "status": "Unavailable – On Loan"
-    },
-    {
-      "name": "Owen Anderson",
-      "position": "AM",
-      "baseSalary": 88025,
-      "guaranteedComp": 93915,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2028",
-      "optionYears": "2029",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Chance Cowell",
-      "position": "LW",
-      "baseSalary": 88025,
-      "guaranteedComp": 91740,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2028",
-      "optionYears": "2029, 2030",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Aiden Hezarkhani",
-      "position": "RW",
-      "baseSalary": 88025,
-      "guaranteedComp": 94383,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2028",
-      "optionYears": "2029",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Omar Marquez",
-      "position": "RW",
-      "baseSalary": 88025,
-      "guaranteedComp": 103600,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2028",
-      "optionYears": "2029, 2030",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Luca Moisa",
-      "position": "CM",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Van Parker",
-      "position": "RW",
-      "baseSalary": 88025,
-      "guaranteedComp": 90192,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2029-30",
-      "optionYears": "2030-31",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Antonio Riquelme",
-      "position": "AM",
-      "baseSalary": 88025,
-      "guaranteedComp": 91740,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2029",
-      "optionYears": "2030",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Luis Rivera",
-      "position": "LB",
-      "baseSalary": 160000,
-      "guaranteedComp": 171100,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Juan Gio Villa",
-      "position": "RB",
-      "baseSalary": 88025,
-      "guaranteedComp": 91358,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2028",
-      "optionYears": "2029, 2030",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Juan Jose Arias",
-      "position": "CB",
-      "baseSalary": 500000,
-      "guaranteedComp": 565139,
-      "international": true,
-      "role": "U22 Initiative",
-      "status": "Unavailable – Injured List",
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "transferFee": 2000000,
-      "joinedYear": 2026,
-      "guaranteedYears": 4
-    },
-    {
-      "name": "Saba Lobjanidze",
-      "position": "LW",
-      "baseSalary": 900000,
-      "guaranteedComp": 998750,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026"
-    },
-    {
-      "name": "Taylor Booth",
-      "position": "RW",
-      "baseSalary": 350000,
-      "guaranteedComp": 350000,
-      "international": true,
-      "salaryEstimated": true,
-      "status": "Loan Player",
-      "contractThru": "PT: 2027 Sprint"
-    },
-    {
-      "name": "Diego Rocío",
-      "position": "RW",
-      "baseSalary": 88025,
-      "guaranteedComp": 92668,
-      "international": false,
-      "role": "Homegrown Player",
-      "status": "Unavailable – Off Roster",
-      "contractThru": "2029"
+      "optionYears": "2027, 2028, 2029"
     },
     {
       "name": "Colin Guske",
@@ -417,9 +268,49 @@
       "guaranteedComp": 98830,
       "international": false,
       "role": "Supplemental Roster",
+      "status": "Loan Player",
+      "contractThru": "2026",
+      "optionYears": "PT: 2027; 2028"
+    },
+    {
+      "name": "Aiden Hezarkhani",
+      "position": "RW",
+      "baseSalary": 88025,
+      "guaranteedComp": 94383,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2028",
+      "optionYears": "2029"
+    },
+    {
+      "name": "Maximilian Kerkvliet",
+      "position": "GK",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Luca Moisa",
+      "position": "CM",
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
+      "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Homegrown"
+      "optionYears": "2028"
+    },
+    {
+      "name": "Philip Quinton",
+      "position": "CB",
+      "baseSalary": 175000,
+      "guaranteedComp": 175000,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2026"
     },
     {
       "name": "Lineker Rodrigues",
@@ -427,10 +318,10 @@
       "baseSalary": 80000,
       "guaranteedComp": 80000,
       "international": false,
-      "salaryEstimated": true,
       "role": "Supplemental Roster",
-      "contractThru": "2027 Sprint",
+      "contractThru": "June 2027",
       "optionYears": "2027-28, 2028-29",
+      "salaryEstimated": true,
       "guaranteedYears": 2
     },
     {
@@ -439,37 +330,131 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "optionYears": "2027, 2028"
     },
     {
-      "name": "Luc de Fougerolles",
-      "position": "CB",
-      "baseSalary": 400000,
-      "guaranteedComp": 400000,
+      "name": "Sergi Solans",
+      "position": "ST",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": true,
-      "contractThru": "2026",
-      "optionYears": "2027 Sprint",
-      "status": "Loan Player"
+      "role": "Supplemental Roster",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31"
     },
     {
-      "name": "Dusan Zagar",
+      "name": "Mason Stajduhar",
+      "position": "GK",
+      "baseSalary": 200000,
+      "guaranteedComp": 215650,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
+    },
+    {
+      "name": "Tyler Wolff",
+      "position": "RW",
+      "baseSalary": 160000,
+      "guaranteedComp": 160000,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Owen Anderson",
+      "position": "AM",
+      "baseSalary": 88025,
+      "guaranteedComp": 93915,
+      "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2028",
+      "optionYears": "2029"
+    },
+    {
+      "name": "Chance Cowell",
       "position": "LW",
-      "baseSalary": 400000,
-      "guaranteedComp": 400000,
-      "international": true,
-      "salaryEstimated": true,
-      "role": "U22 Initiative",
-      "contractThru": "2028/29",
-      "optionYears": "2029/30, 2030/31",
-      "guaranteedYears": 3,
-      "transferFee": 2300000,
-      "joinedYear": 2026
+      "baseSalary": 88025,
+      "guaranteedComp": 91740,
+      "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2028",
+      "optionYears": "2029, 2030"
+    },
+    {
+      "name": "Omar Marquez",
+      "position": "RW",
+      "baseSalary": 88025,
+      "guaranteedComp": 103600,
+      "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2028",
+      "optionYears": "2029, 2030"
+    },
+    {
+      "name": "Van Parker",
+      "position": "RW",
+      "baseSalary": 88025,
+      "guaranteedComp": 90192,
+      "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31"
+    },
+    {
+      "name": "Antonio Riquelme",
+      "position": "AM",
+      "baseSalary": 88025,
+      "guaranteedComp": 91740,
+      "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2029",
+      "optionYears": "2030"
+    },
+    {
+      "name": "Luis Rivera",
+      "position": "LB",
+      "baseSalary": 160000,
+      "guaranteedComp": 171100,
+      "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Diego Rocio",
+      "position": "RW",
+      "baseSalary": 88025,
+      "guaranteedComp": 92668,
+      "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2028",
+      "optionYears": "2029"
+    },
+    {
+      "name": "Juan Gio Villa",
+      "position": "RB",
+      "baseSalary": 88025,
+      "guaranteedComp": 91358,
+      "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2028",
+      "optionYears": "2029, 2030"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",
-  "availableGAM": 4435148,
+  "availableGAM": 2557866,
   "startingGAM": 6947461,
   "GAMBalance": 0
 }

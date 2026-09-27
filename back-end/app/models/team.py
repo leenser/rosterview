@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import List
 import json
 
-INTERNATIONAL_SLOTS_PATH = Path(__file__).resolve().parents[2] / "data" / "_feb_2026_international_slots.json"
+INTERNATIONAL_SLOTS_PATH = Path(__file__).resolve().parents[2] / "data" / "_sept_2026_international_slots.json"
 MLS_SALARY_CAP = 6_425_000
 MLS_TAM_AVAILABLE = 2_125_000
 
@@ -59,6 +59,8 @@ class Team:
         return team
 
     def is_active(self, player: Player) -> bool:
+        if player.role == "Homegrown Player":
+            return False
         if player.status is None:
             return True
 
@@ -127,8 +129,8 @@ class Team:
     
     def count_senior(self) -> int:
         return sum(
-            1 for p in self.roster
-            if (p.role != "Supplemental Roster" and p.status != "Unavailable \u2013 %Injured List" and p.status != "Unavailable \u2013 SEI" and p.status != "Unavailable \u2013 On Loan" and p.status != "Unavailable – Off Roster")
+            1 for p in self.active_players()
+            if p.role not in ("Supplemental Roster", "Homegrown Player")
         )
     
     def is_dp_compliant(self) -> bool:

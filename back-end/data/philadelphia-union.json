@@ -10,10 +10,24 @@
       "role": "Designated Player",
       "contractThru": "2028",
       "optionYears": "2029",
+      "DPBuydownEligible": true,
       "transferFee": 3730000,
       "joinedYear": 2025,
-      "guaranteedYears": 5,
-      "DPBuydownEligible": true
+      "guaranteedYears": 5
+    },
+    {
+      "name": "Kai Wagner",
+      "position": "LB",
+      "baseSalary": 1200000,
+      "guaranteedComp": 1200000,
+      "international": false,
+      "role": "Designated Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "salaryEstimated": true,
+      "transferFee": 4000000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4
     },
     {
       "name": "Ezekiel Alladoh",
@@ -48,7 +62,6 @@
       "guaranteedComp": 568000,
       "international": false,
       "role": "U22 Initiative",
-      "status": "Unavailable – Injured List",
       "contractThru": "2027",
       "optionYears": "2028"
     },
@@ -122,8 +135,7 @@
       "international": false,
       "status": "Unavailable – On Loan",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Ben Bender",
@@ -157,9 +169,9 @@
       "position": "CM",
       "baseSalary": 395000,
       "guaranteedComp": 441375,
-      "international": true,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
+      "international": false,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30, 2030-31",
       "transferFee": 689000,
       "joinedYear": 2025,
       "guaranteedYears": 3
@@ -175,6 +187,15 @@
       "transferFee": 488000,
       "joinedYear": 2026,
       "guaranteedYears": 4
+    },
+    {
+      "name": "George Marks",
+      "position": "GK",
+      "baseSalary": 125000,
+      "guaranteedComp": 132125,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28"
     },
     {
       "name": "CJ Olney",
@@ -205,6 +226,16 @@
       "optionYears": "2029"
     },
     {
+      "name": "Frankie Westfield",
+      "position": "RB",
+      "baseSalary": 113400,
+      "guaranteedComp": 125285,
+      "international": false,
+      "contractThru": "2028",
+      "optionYears": "2029",
+      "role": "Supplemental Roster"
+    },
+    {
       "name": "Alejandro Bedoya",
       "position": "CM",
       "baseSalary": 113400,
@@ -214,14 +245,35 @@
       "contractThru": "2026"
     },
     {
-      "name": "George Marks",
-      "position": "GK",
-      "baseSalary": 125000,
-      "guaranteedComp": 132125,
+      "name": "Malik Jakupovic",
+      "position": "ST",
+      "baseSalary": 88025,
+      "guaranteedComp": 105956,
       "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31"
+    },
+    {
+      "name": "Stas Korzeniowski",
+      "position": "ST",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
       "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28",
-      "role": "Supplemental Roster"
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Neil Pierre",
+      "position": "CB",
+      "baseSalary": 113400,
+      "guaranteedComp": 129798,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2028",
+      "optionYears": "2029"
     },
     {
       "name": "Andrew Rick",
@@ -231,8 +283,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2028",
-      "optionYears": "2029",
-      "status": "Homegrown"
+      "optionYears": "2029"
     },
     {
       "name": "Cavan Sullivan",
@@ -241,8 +292,7 @@
       "guaranteedComp": 614000,
       "international": false,
       "role": "Supplemental Roster",
-      "contractThru": "2028",
-      "status": "Homegrown"
+      "contractThru": "2028"
     },
     {
       "name": "Finn Sundstrom",
@@ -250,42 +300,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 102285,
       "international": false,
-      "contractThru": "2028",
-      "optionYears": "2029, 2030",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Frankie Westfield",
-      "position": "RB",
-      "baseSalary": 113400,
-      "guaranteedComp": 125285,
-      "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2028",
-      "optionYears": "2029",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Malik Jakupovic",
-      "position": "ST",
-      "baseSalary": 88025,
-      "guaranteedComp": 105956,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2029-30",
-      "optionYears": "2030-31",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Stas Korzeniowski",
-      "position": "ST",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "status": "Unavailable – On Loan",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "optionYears": "2029, 2030"
     },
     {
       "name": "Eddy Davis",
@@ -294,9 +311,9 @@
       "guaranteedComp": 115400,
       "international": false,
       "role": "Homegrown Player",
+      "status": "Unavailable – On Loan",
       "contractThru": "2027",
-      "optionYears": "2028, 2029",
-      "status": "Unavailable – Off Roster"
+      "optionYears": "2028, 2029"
     },
     {
       "name": "Kaiden Moore",
@@ -305,7 +322,7 @@
       "guaranteedComp": 88025,
       "international": false,
       "role": "Homegrown Player",
-      "status": "Unavailable – Off Roster",
+      "status": "Loan Player",
       "contractThru": "2026",
       "optionYears": "PT: 2028; 2029"
     },
@@ -316,38 +333,13 @@
       "guaranteedComp": 137480,
       "international": false,
       "role": "Homegrown Player",
-      "contractThru": "2028",
-      "optionYears": "2029",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Neil Pierre",
-      "position": "CB",
-      "baseSalary": 113400,
-      "guaranteedComp": 129798,
-      "international": false,
-      "role": "Homegrown Player",
       "status": "Unavailable – Off Roster",
       "contractThru": "2028",
       "optionYears": "2029"
-    },
-    {
-      "name": "Kai Wagner",
-      "position": "LB",
-      "role": "Designated Player",
-      "baseSalary": 1200000,
-      "guaranteedComp": 1200000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 4000000,
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "guaranteedYears": 4,
-      "joinedYear": 2026
     }
   ],
   "rosterModel": "U22 Initiative Player Model",
-  "availableGAM": 4393417,
+  "availableGAM": 4665679,
   "startingGAM": 4744841,
-  "GAMBalance": 75000
+  "GAMBalance": 0
 }

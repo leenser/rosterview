@@ -9,7 +9,7 @@
       "international": false,
       "role": "Designated Player",
       "contractThru": "2028",
-      "optionYears": "2028=29, 2029-30"
+      "optionYears": "2028-29, 2029-30"
     },
     {
       "name": "Hany Mukhtar",
@@ -18,8 +18,7 @@
       "guaranteedComp": 5411667,
       "international": false,
       "role": "Designated Player",
-      "contractThru": "2026",
-      "optionYears": "2027"
+      "contractThru": "2027"
     },
     {
       "name": "Sam Surridge",
@@ -71,6 +70,20 @@
       "guaranteedYears": 4
     },
     {
+      "name": "Famara Camara",
+      "position": "DM",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "salaryEstimated": true,
+      "transferFee": 2500000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4
+    },
+    {
       "name": "Jack Maher",
       "position": "CB",
       "baseSalary": 900000,
@@ -88,6 +101,17 @@
       "role": "TAM Player",
       "contractThru": "2027-28",
       "optionYears": "2028-29"
+    },
+    {
+      "name": "Elias Saad",
+      "position": "LW",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "role": "TAM Player",
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "salaryEstimated": true
     },
     {
       "name": "Maxwell Woledzi",
@@ -112,6 +136,15 @@
       "optionYears": "June 2027"
     },
     {
+      "name": "Josh Bauer",
+      "position": "CB",
+      "baseSalary": 230000,
+      "guaranteedComp": 253667,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
       "name": "Daniel Lovitz",
       "position": "LB",
       "baseSalary": 410000,
@@ -125,6 +158,7 @@
       "baseSalary": 350000,
       "guaranteedComp": 403500,
       "international": true,
+      "status": "Unavailable – Injured List",
       "contractThru": "2028-29",
       "optionYears": "2029-30",
       "transferFee": 488000,
@@ -144,6 +178,15 @@
       "position": "RB",
       "baseSalary": 550000,
       "guaranteedComp": 603333,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Brian Schwake",
+      "position": "GK",
+      "baseSalary": 150000,
+      "guaranteedComp": 166800,
       "international": false,
       "contractThru": "2026",
       "optionYears": "2027"
@@ -172,19 +215,21 @@
       "guaranteedComp": 97470,
       "international": false,
       "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
       "contractThru": "2027",
-      "optionYears": "2028, 2029",
-      "status": "Homegrown"
+      "optionYears": "2028, 2029"
     },
     {
-      "name": "Josh Bauer",
-      "position": "CB",
-      "baseSalary": 230000,
-      "guaranteedComp": 253667,
+      "name": "Charles-Emile Brunet",
+      "position": "DM",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
+      "optionYears": "June 2027, 2027-28, 2028-29",
+      "guaranteedYears": 1
     },
     {
       "name": "Matthew Corcoran",
@@ -192,9 +237,9 @@
       "baseSalary": 113400,
       "guaranteedComp": 135668,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2027",
       "optionYears": "2028, 2029",
-      "role": "Supplemental Roster",
       "transferFee": 115000,
       "joinedYear": 2025,
       "guaranteedYears": 3
@@ -205,19 +250,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 93858,
       "international": true,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Isaiah LeFlore",
-      "position": "LB",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28",
-      "role": "Supplemental Roster"
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Shakur Mohammed",
@@ -225,19 +260,21 @@
       "baseSalary": 88025,
       "guaranteedComp": 89692,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28",
-      "role": "Supplemental Roster"
+      "optionYears": "June 2027, 2027-28"
     },
     {
-      "name": "Brian Schwake",
-      "position": "GK",
-      "baseSalary": 150000,
-      "guaranteedComp": 166800,
+      "name": "Owen Presthus",
+      "position": "RB",
+      "baseSalary": 88025,
+      "guaranteedComp": 94216,
       "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "status": "Loan Player",
+      "contractThru": "2027",
+      "optionYears": "PT: 2028",
+      "guaranteedYears": 2
     },
     {
       "name": "Xavier Valdez",
@@ -247,8 +284,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "status": "Homegrown"
+      "optionYears": "2027"
     },
     {
       "name": "Thomas Williams",
@@ -258,8 +294,18 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "status": "Homegrown"
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Isaiah LeFlore",
+      "position": "LB",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28"
     },
     {
       "name": "Isaiah Jones",
@@ -268,7 +314,7 @@
       "guaranteedComp": 117400,
       "international": false,
       "role": "Homegrown Player",
-      "status": "Unavailable – Off Roster",
+      "status": "Unavailable – On Loan",
       "contractThru": "2027",
       "optionYears": "2028"
     },
@@ -279,7 +325,7 @@
       "guaranteedComp": 100741,
       "international": false,
       "role": "Homegrown Player",
-      "status": "Unavailable – Off Roster",
+      "status": "Loan Player",
       "contractThru": "2026",
       "optionYears": "PT: 2027; 2028"
     },
@@ -301,48 +347,13 @@
       "guaranteedComp": 117567,
       "international": false,
       "role": "Homegrown Player",
-      "contractThru": "2028",
-      "optionYears": "2029",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Famara Camara",
-      "position": "DM",
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "international": true,
-      "transferFee": 2500000,
-      "joinedYear": 2026,
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "guaranteedYears": 4,
-      "salaryEstimated": true
-    },
-    {
-      "name": "Elias Saad",
-      "position": "LW",
-      "baseSalary": 400000,
-      "guaranteedComp": 400000,
-      "international": true,
-      "salaryEstimated": true,
-      "contractThru": "2027",
-      "status": "Loan Player"
-    },
-    {
-      "name": "Owen Presthus",
-      "position": "RB",
-      "baseSalary": 88025,
-      "guaranteedComp": 94216,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2027 Sprint",
-      "optionYears": "2028",
       "status": "Unavailable – Off Roster",
-      "guaranteedYears": 2
+      "contractThru": "2028",
+      "optionYears": "2029"
     }
   ],
   "rosterModel": "Designated Player Model",
-  "availableGAM": 1581229,
+  "availableGAM": 17667,
   "startingGAM": 3901404,
   "GAMBalance": 0
 }

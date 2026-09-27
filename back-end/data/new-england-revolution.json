@@ -12,16 +12,17 @@
       "optionYears": "2027-2028"
     },
     {
-      "name": "Matt Turner",
-      "position": "GK",
-      "baseSalary": 1776136,
-      "guaranteedComp": 1942886,
+      "name": "Jack Harrison",
+      "position": "LW",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1000000,
       "international": false,
       "role": "Designated Player",
-      "status": "Loan Player",
-      "contractThru": "2026",
-      "optionYears": "PT: 2027",
-      "DPBuydownEligible": true
+      "contractThru": "2029-30",
+      "salaryEstimated": true,
+      "transferFee": 1200000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4
     },
     {
       "name": "Ilay Feingold",
@@ -48,15 +49,6 @@
       "transferFee": 7120000,
       "joinedYear": 2024,
       "guaranteedYears": 3
-    },
-    {
-      "name": "Diego Fagúndez",
-      "position": "LW",
-      "baseSalary": 300000,
-      "guaranteedComp": 316250,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
     },
     {
       "name": "Brooklyn Raines",
@@ -88,6 +80,7 @@
       "guaranteedComp": 1617325,
       "international": false,
       "role": "TAM Player",
+      "status": "Unavailable - Injured List",
       "contractThru": "2027",
       "optionYears": "2028"
     },
@@ -103,6 +96,40 @@
       "transferFee": 1950000,
       "joinedYear": 2025,
       "guaranteedYears": 3
+    },
+    {
+      "name": "Dániel Gazdag",
+      "position": "AM",
+      "baseSalary": 2049996,
+      "guaranteedComp": 2647635,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2027",
+      "optionYears": "2027-28, 2028-29",
+      "guaranteedYears": 2
+    },
+    {
+      "name": "Matt Turner",
+      "position": "GK",
+      "baseSalary": 1776136,
+      "guaranteedComp": 1942886,
+      "international": false,
+      "role": "TAM Player",
+      "status": "Loan Player",
+      "contractThru": "2026",
+      "optionYears": "LO: 2027; PT: 2030-31"
+    },
+    {
+      "name": "Joshua Wynder",
+      "position": "CB",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "international": false,
+      "role": "TAM Player",
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "salaryEstimated": true,
+      "guaranteedYears": 2
     },
     {
       "name": "Griffin Yow",
@@ -150,12 +177,45 @@
       "optionYears": "2027"
     },
     {
-      "name": "Andrew Farrell",
-      "position": "CB",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
+      "name": "Diego Fagúndez",
+      "position": "LW",
+      "baseSalary": 300000,
+      "guaranteedComp": 316250,
       "international": false,
-      "contractThru": "2026"
+      "contractThru": "2026",
+      "optionYears": "June 2027"
+    },
+    {
+      "name": "Malcolm Fry",
+      "position": "RW",
+      "baseSalary": 113400,
+      "guaranteedComp": 118960,
+      "international": false,
+      "status": "Unavailable – On Loan",
+      "contractThru": "2026",
+      "optionYears": "2027",
+      "role": "Supplemental Roster"
+    },
+    {
+      "name": "Wilson Harris",
+      "position": "ST",
+      "baseSalary": 300000,
+      "guaranteedComp": 300000,
+      "international": false,
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Eric Klein",
+      "position": "CB",
+      "baseSalary": 88025,
+      "guaranteedComp": 94302,
+      "international": false,
+      "status": "Unavailable – On Loan",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028, 2029",
+      "role": "Supplemental Roster"
     },
     {
       "name": "Ethan Kohler",
@@ -190,19 +250,39 @@
       "baseSalary": 325000,
       "guaranteedComp": 333333,
       "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
+      "contractThru": "2029-30"
     },
     {
-      "name": "Malcolm Fry",
-      "position": "RW",
+      "name": "Tylon Smith",
+      "position": "CB",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "international": true,
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "optionYears": "PT: 2029-30",
+      "salaryEstimated": true,
+      "guaranteedYears": 2
+    },
+    {
+      "name": "Cody Baker",
+      "position": "RB",
       "baseSalary": 113400,
-      "guaranteedComp": 118960,
+      "guaranteedComp": 119104,
       "international": false,
       "role": "Supplemental Roster",
+      "status": "Loan Player",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "status": "Unavailable – On Loan"
+      "optionYears": "PT: 2027; 2028"
+    },
+    {
+      "name": "Andrew Farrell",
+      "position": "CB",
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
     },
     {
       "name": "JD Gunn",
@@ -210,9 +290,9 @@
       "baseSalary": 113400,
       "guaranteedComp": 116181,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28",
-      "role": "Supplemental Roster"
+      "optionYears": "June 2027, 2027-28"
     },
     {
       "name": "Keegan Hughes",
@@ -220,20 +300,10 @@
       "baseSalary": 113400,
       "guaranteedComp": 113400,
       "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Eric Klein",
-      "position": "CB",
-      "baseSalary": 88025,
-      "guaranteedComp": 94302,
-      "international": false,
       "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
       "contractThru": "2026",
-      "optionYears": "2027, 2028, 2029",
-      "status": "Unavailable – On Loan"
+      "optionYears": "2027"
     },
     {
       "name": "Peyton Miller",
@@ -242,9 +312,8 @@
       "guaranteedComp": 115400,
       "international": false,
       "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Homegrown"
+      "contractThru": "2028-29",
+      "optionYears": "2029-30"
     },
     {
       "name": "Cristiano Oliveira",
@@ -254,18 +323,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2029",
-      "optionYears": "2030",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Marcos Zambrano",
-      "position": "ST",
-      "baseSalary": 113400,
-      "guaranteedComp": 135659,
-      "international": false,
-      "contractThru": "2026",
-      "role": "Supplemental Roster",
-      "status": "Loan Player"
+      "optionYears": "2030"
     },
     {
       "name": "Jack Panayotou",
@@ -284,9 +342,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Santiago Suárez",
@@ -300,6 +358,16 @@
       "optionYears": "2027"
     },
     {
+      "name": "Marcos Zambrano",
+      "position": "ST",
+      "baseSalary": 113400,
+      "guaranteedComp": 135659,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
       "name": "Damario McIntosh",
       "position": "RB",
       "baseSalary": 113400,
@@ -311,84 +379,20 @@
       "optionYears": "2029"
     },
     {
-      "name": "Cody Baker",
-      "position": "RB",
-      "baseSalary": 113400,
-      "guaranteedComp": 119104,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "status": "Loan Player"
-    },
-    {
-      "name": "Jack Harrison",
-      "position": "LW",
-      "role": "Designated Player",
-      "contractThru": "2029-30",
-      "baseSalary": 1000000,
-      "guaranteedComp": 1000000,
-      "international": false,
-      "salaryEstimated": true,
-      "transferFee": 1200000,
-      "guaranteedYears": 4,
-      "joinedYear": 2026
-    },
-    {
-      "name": "Wilson Harris",
-      "position": "ST",
-      "baseSalary": 300000,
-      "guaranteedComp": 300000,
-      "international": false,
-      "salaryEstimated": true,
-      "contractThru": "2026",
-      "optionYears": "2027, 2027-28"
-    },
-    {
-      "name": "Dániel Gazdag",
-      "position": "AM",
-      "baseSalary": 2049996,
-      "guaranteedComp": 2647635,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2027",
-      "optionYears": "2028-29",
-      "guaranteedYears": 2
-    },
-    {
       "name": "Judah Siqueira",
       "position": "CM",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
       "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29, 2029-30, 2030-31",
       "salaryEstimated": true
-    },
-    {
-      "name": "Tylon Smith",
-      "position": "CB",
-      "baseSalary": 350000,
-      "guaranteedComp": 350000,
-      "international": false,
-      "salaryEstimated": true,
-      "status": "Loan Player",
-      "role": "Supplemental Roster",
-      "contractThru": "2027 Sprint",
-      "guaranteedYears": 2
-    },
-    {
-      "name": "Joshua Wynder",
-      "position": "CB",
-      "baseSalary": 350000,
-      "guaranteedComp": 350000,
-      "international": true,
-      "salaryEstimated": true,
-      "contractThru": "2027 Sprint",
-      "guaranteedYears": 2,
-      "status": "Loan Player"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",
-  "availableGAM": 1162968,
+  "availableGAM": 593847,
   "startingGAM": 3301754,
-  "GAMBalance": 150000
+  "GAMBalance": 0
 }

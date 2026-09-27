@@ -61,6 +61,19 @@
       "optionYears": "PT: 2029-30; 2030-31"
     },
     {
+      "name": "José Caicedo",
+      "position": "DM",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1075009,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "transferFee": 2520000,
+      "joinedYear": 2026,
+      "guaranteedYears": 5
+    },
+    {
       "name": "Jimer Fory",
       "position": "LB",
       "baseSalary": 450000,
@@ -72,6 +85,16 @@
       "transferFee": 1660000,
       "joinedYear": 2025,
       "guaranteedYears": 5
+    },
+    {
+      "name": "Vincent Janssen",
+      "position": "ST",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2027-28",
+      "salaryEstimated": true
     },
     {
       "name": "Juan Mosquera",
@@ -91,26 +114,13 @@
       "position": "DM",
       "baseSalary": 550000,
       "guaranteedComp": 600625,
-      "international": true,
+      "international": false,
       "role": "TAM Player",
       "contractThru": "2027",
       "optionYears": "2028",
       "transferFee": 1720000,
       "joinedYear": 2025,
       "guaranteedYears": 4
-    },
-    {
-      "name": "José Caicedo",
-      "position": "DM",
-      "baseSalary": 1000000,
-      "guaranteedComp": 1075009,
-      "international": true,
-      "role": "TAM Player",
-      "contractThru": "2029-30",
-      "optionYears": "2030-31",
-      "transferFee": 2520000,
-      "joinedYear": 2026,
-      "guaranteedYears": 5
     },
     {
       "name": "Kamal Miller",
@@ -162,6 +172,15 @@
       "optionYears": "2027"
     },
     {
+      "name": "Ronald Hernández",
+      "position": "RB",
+      "baseSalary": 145000,
+      "guaranteedComp": 159000,
+      "international": false,
+      "contractThru": "June 2027",
+      "optionYears": "2027-28"
+    },
+    {
       "name": "Ariel Lassiter",
       "position": "LW",
       "baseSalary": 325000,
@@ -193,89 +212,12 @@
       "baseSalary": 275000,
       "guaranteedComp": 303233,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
       "optionYears": "2027",
       "transferFee": 574000,
       "joinedYear": 2024,
       "guaranteedYears": 3
-    },
-    {
-      "name": "Gage Guerra",
-      "position": "ST",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Sawyer Jura",
-      "position": "RB",
-      "baseSalary": 88025,
-      "guaranteedComp": 91358,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Eric Miller",
-      "position": "RB",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
-      "international": false,
-      "contractThru": "2026",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Trey Muse",
-      "position": "GK",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
-      "international": false,
-      "contractThru": "2026",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Ian Smith",
-      "position": "LB",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Hunter Sulte",
-      "position": "GK",
-      "baseSalary": 135000,
-      "guaranteedComp": 149750,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2027-28",
-      "optionYears": "2028-29",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Vincent Janssen",
-      "position": "ST",
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "contractThru": "2027-28",
-      "international": true,
-      "salaryEstimated": true
-    },
-    {
-      "name": "Ronald Hernández",
-      "position": "RB",
-      "baseSalary": 145000,
-      "guaranteedComp": 159000,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
     },
     {
       "name": "Joel Waterman",
@@ -285,10 +227,68 @@
       "international": true,
       "contractThru": "2027",
       "optionYears": "2028"
+    },
+    {
+      "name": "Gage Guerra",
+      "position": "ST",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Sawyer Jura",
+      "position": "RB",
+      "baseSalary": 88025,
+      "guaranteedComp": 91358,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028"
+    },
+    {
+      "name": "Eric Miller",
+      "position": "RB",
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
+    },
+    {
+      "name": "Trey Muse",
+      "position": "GK",
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
+    },
+    {
+      "name": "Ian Smith",
+      "position": "LB",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Hunter Sulte",
+      "position": "GK",
+      "baseSalary": 135000,
+      "guaranteedComp": 149750,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",
-  "availableGAM": 4788001,
+  "availableGAM": 782974,
   "startingGAM": 3180000,
-  "GAMBalance": -50000
+  "GAMBalance": 0
 }

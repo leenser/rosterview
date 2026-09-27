@@ -36,18 +36,29 @@
       "contractThru": "2028"
     },
     {
+      "name": "Noah Allen",
+      "position": "LB",
+      "baseSalary": 375000,
+      "guaranteedComp": 434653,
+      "international": false,
+      "role": "U22 Initiative",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31"
+    },
+    {
       "name": "Tomás Avilés",
       "position": "CB",
       "baseSalary": 495000,
       "guaranteedComp": 522500,
       "international": false,
       "role": "U22 Initiative",
+      "status": "Unavailable – On Loan",
       "contractThru": "2026",
       "optionYears": "2027, 2028",
       "transferFee": 7230000,
       "joinedYear": 2023,
-      "guaranteedYears": 4,
-      "status": "Unavailable – On Loan"
+      "guaranteedYears": 4
     },
     {
       "name": "David Ayala",
@@ -59,23 +70,25 @@
       "contractThru": "2026"
     },
     {
-      "name": "Telasco Segovia",
-      "position": "CM",
-      "baseSalary": 325000,
-      "guaranteedComp": 360000,
-      "international": false,
+      "name": "Riquelme Fillipi",
+      "position": "LW",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "international": true,
       "role": "U22 Initiative",
-      "contractThru": "2029",
-      "transferFee": 2870000,
-      "joinedYear": 2025,
-      "guaranteedYears": 5
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "salaryEstimated": true,
+      "transferFee": 4200000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4
     },
     {
       "name": "Mateo Silvetti",
       "position": "LW",
       "baseSalary": 550000,
       "guaranteedComp": 607078,
-      "international": true,
+      "international": false,
       "role": "U22 Initiative",
       "contractThru": "2029",
       "optionYears": "2030",
@@ -88,13 +101,25 @@
       "position": "RW",
       "baseSalary": 625000,
       "guaranteedComp": 1000000,
-      "international": false,
+      "international": true,
       "role": "TAM Player",
+      "status": "Unavailable – SEI",
       "contractThru": "2029-30",
       "optionYears": "2030-31",
       "transferFee": 5740000,
       "joinedYear": 2026,
       "guaranteedYears": 4
+    },
+    {
+      "name": "Casemiro",
+      "position": "DM",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "June 2027",
+      "optionYears": "2028-29",
+      "salaryEstimated": true
     },
     {
       "name": "Maximiliano Falcón",
@@ -108,6 +133,18 @@
       "transferFee": 2240000,
       "joinedYear": 2025,
       "guaranteedYears": 4
+    },
+    {
+      "name": "Matías Galarza",
+      "position": "CM",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "role": "TAM Player",
+      "status": "Loan Player",
+      "contractThru": "2026",
+      "optionYears": "PT: 2029-30",
+      "salaryEstimated": true
     },
     {
       "name": "Gonzalo Luján",
@@ -156,6 +193,18 @@
       "optionYears": "2028"
     },
     {
+      "name": "Telasco Segovia",
+      "position": "CM",
+      "baseSalary": 325000,
+      "guaranteedComp": 360000,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2029",
+      "transferFee": 2870000,
+      "joinedYear": 2025,
+      "guaranteedYears": 5
+    },
+    {
       "name": "Dayne St. Clair",
       "position": "GK",
       "baseSalary": 745313,
@@ -193,6 +242,17 @@
       "optionYears": "2029"
     },
     {
+      "name": "Fricio Caicedo",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "optionYears": "PT: 2029-30",
+      "salaryEstimated": true
+    },
+    {
       "name": "Ian Fray",
       "position": "CB",
       "baseSalary": 375000,
@@ -202,17 +262,16 @@
       "optionYears": "2029-30"
     },
     {
-      "name": "Rocco Rios-Novo",
-      "position": "GK",
-      "baseSalary": 200000,
-      "guaranteedComp": 224100,
-      "international": false,
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
+      "name": "Lovend's Delinois",
+      "position": "ST",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "international": true,
       "role": "Supplemental Roster",
-      "transferFee": 574000,
-      "joinedYear": 2026,
-      "guaranteedYears": 3
+      "contractThru": "June 2027",
+      "optionYears": "2027-28, 2028-29, 2029-30",
+      "salaryEstimated": true,
+      "guaranteedYears": 2
     },
     {
       "name": "Santiago Morales",
@@ -222,29 +281,63 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Homegrown"
+      "optionYears": "2028"
     },
     {
-      "name": "Alexander Shaw",
-      "position": "CM",
+      "name": "Daniel Pinter",
+      "position": "LW",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
       "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "2028-29",
-      "status": "Homegrown"
+      "contractThru": "2027-28",
+      "optionYears": "2028-29, 2029-30, 2030-31"
     },
     {
-      "name": "Ezequiel Abadia-Reda",
+      "name": "Preston Plambeck",
+      "position": "CM",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28, 2028-29",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Rocco Rios-Novo",
+      "position": "GK",
+      "baseSalary": 200000,
+      "guaranteedComp": 224100,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "transferFee": 574000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
+    },
+    {
+      "name": "David Ruiz",
+      "position": "DM",
+      "baseSalary": 200000,
+      "guaranteedComp": 231887,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2028",
+      "optionYears": "2029"
+    },
+    {
+      "name": "Cesar Abadia-Reda",
       "position": "LB",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
-      "role": "Supplemental Roster",
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "contractThru": "2026",
-      "status": "Homegrown"
+      "optionYears": "June 2027, 2027-28, 2028-29"
     },
     {
       "name": "Israel Boatwright",
@@ -253,9 +346,9 @@
       "guaranteedComp": 115400,
       "international": false,
       "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "status": "Unavailable – Off Roster"
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Tyler Hall",
@@ -264,20 +357,20 @@
       "guaranteedComp": 113400,
       "international": false,
       "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Unavailable – Off Roster"
+      "optionYears": "2028"
     },
     {
-      "name": "Daniel Pinter",
-      "position": "LW",
+      "name": "Alex Shaw",
+      "position": "CM",
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
       "role": "Homegrown Player",
-      "contractThru": "2027-28",
-      "optionYears": "2028-29, 2029-30, 2030-31",
-      "status": "Unavailable – Off Roster"
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28, 2028-29"
     },
     {
       "name": "Daniel Sumalla",
@@ -285,79 +378,15 @@
       "baseSalary": 80000,
       "guaranteedComp": 0,
       "international": false,
-      "salaryEstimated": true,
-      "role": "Supplemental Roster",
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2027-28"
-    },
-    {
-      "name": "Casemiro",
-      "position": "DM",
-      "baseSalary": 800000,
-      "guaranteedComp": 800000,
-      "international": true,
-      "salaryEstimated": true,
-      "contractThru": "2027",
-      "optionYears": "2027-28, 2028-29"
-    },
-    {
-      "name": "Fricio Caicedo",
-      "position": "CB",
-      "international": true,
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "salaryEstimated": true,
-      "status": "Loan Player",
-      "contractThru": "2027"
-    },
-    {
-      "name": "Riquelme Fillipi",
-      "position": "LW",
-      "baseSalary": 450000,
-      "guaranteedComp": 450000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 4200000,
-      "joinedYear": 2026,
-      "role": "U22 Initiative",
-      "contractThru": "2029-30",
-      "optionYears": "2030-31",
-      "guaranteedYears": 4
-    },
-    {
-      "name": "Lovend's Delinois",
-      "position": "ST",
-      "baseSalary": 80000,
-      "guaranteedComp": 80000,
-      "international": false,
-      "salaryEstimated": true,
-      "role": "Supplemental Roster",
-      "contractThru": "2027 Sprint",
-      "optionYears": "2027-28, 2028-29, 2029-30",
-      "guaranteedYears": 2
-    },
-    {
-      "name": "Allen Obando",
-      "position": "ST",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
-      "international": false,
-      "salaryEstimated": true,
-      "status": "Unavailable – On Loan"
-    },
-    {
-      "name": "Matías Galarza",
-      "position": "CM",
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "international": true,
-      "salaryEstimated": true,
-      "contractThru": "PT: 2026",
-      "status": "Loan Player"
+      "optionYears": "June 2027, 2027-28, 2028-29",
+      "salaryEstimated": true
     }
   ],
   "rosterModel": "Designated Player Model",
-  "availableGAM": 17361,
+  "availableGAM": 142300,
   "startingGAM": 6484336,
   "GAMBalance": 0
 }

@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "source": "Club Roster Profiles_Sept 2026.pdf",
+    "asOf": "2026-09-15",
+    "applied": true,
+    "teamCount": 30,
+    "playerCount": 967
+  },
+  "teams": {
+    "atlanta-united.json": {
+      "sourcePage": 4,
+      "players": 29,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 493386,
+      "availableGAMAfter": 493386,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "austin-fc.json": {
+      "sourcePage": 5,
+      "players": 25,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 1970454,
+      "availableGAMAfter": 1970454,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "charlotte-fc.json": {
+      "sourcePage": 6,
+      "players": 32,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 1125351,
+      "availableGAMAfter": 1125351,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "chicago-fire-fc.json": {
+      "sourcePage": 7,
+      "players": 32,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 1114300,
+      "availableGAMAfter": 1114300,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "fc-cincinnati.json": {
+      "sourcePage": 8,
+      "players": 32,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 1542968,
+      "availableGAMAfter": 1542968,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "colorado-rapids.json": {
+      "sourcePage": 9,
+      "players": 31,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 2031997,
+      "availableGAMAfter": 2031997,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "columbus-crew.json": {
+      "sourcePage": 10,
+      "players": 36,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 2365353,
+      "availableGAMAfter": 2365353,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "fc-dallas.json": {
+      "sourcePage": 11,
+      "players": 36,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 890114,
+      "availableGAMAfter": 890114,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "d-c-united.json": {
+      "sourcePage": 12,
+      "players": 29,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 809890,
+      "availableGAMAfter": 809890,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "houston-dynamo-fc.json": {
+      "sourcePage": 13,
+      "players": 26,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 1266602,
+      "availableGAMAfter": 1266602,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "sporting-kansas-city.json": {
+      "sourcePage": 14,
+      "players": 29,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 1832942,
+      "availableGAMAfter": 1832942,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "la-galaxy.json": {
+      "sourcePage": 15,
+      "players": 31,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 263670,
+      "availableGAMAfter": 263670,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "los-angeles-fc.json": {
+      "sourcePage": 16,
+      "players": 31,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 480389,
+      "availableGAMAfter": 480389,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "inter-miami-cf.json": {
+      "sourcePage": 17,
+      "players": 34,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 142300,
+      "availableGAMAfter": 142300,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "minnesota-united-fc.json": {
+      "sourcePage": 18,
+      "players": 35,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 4320451,
+      "availableGAMAfter": 4320451,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "cf-montreal.json": {
+      "sourcePage": 19,
+      "players": 32,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 2308722,
+      "availableGAMAfter": 2308722,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "nashville-sc.json": {
+      "sourcePage": 20,
+      "players": 33,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 17667,
+      "availableGAMAfter": 17667,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "new-england-revolution.json": {
+      "sourcePage": 21,
+      "players": 36,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 593847,
+      "availableGAMAfter": 593847,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "new-york-city-fc.json": {
+      "sourcePage": 22,
+      "players": 37,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 842009,
+      "availableGAMAfter": 842009,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "new-york-red-bulls.json": {
+      "sourcePage": 23,
+      "players": 35,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 0,
+      "availableGAMAfter": 0,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "orlando-city-sc.json": {
+      "sourcePage": 24,
+      "players": 31,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 1865900,
+      "availableGAMAfter": 1865900,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "philadelphia-union.json": {
+      "sourcePage": 25,
+      "players": 31,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 4665679,
+      "availableGAMAfter": 4665679,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "portland-timbers.json": {
+      "sourcePage": 26,
+      "players": 27,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 782974,
+      "availableGAMAfter": 782974,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "real-salt-lake.json": {
+      "sourcePage": 27,
+      "players": 42,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 2557866,
+      "availableGAMAfter": 2557866,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    },
+    "san-diego-fc.json": {
+      "sourcePage": 28,
+      "players": 33,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 2120259,
+      "availableGAMAfter": 2120259,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "san-jose-earthquakes.json": {
+      "sourcePage": 29,
+      "players": 35,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 3685457,
+      "availableGAMAfter": 3685457,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "seattle-sounders-fc.json": {
+      "sourcePage": 30,
+      "players": 30,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 1984562,
+      "availableGAMAfter": 1984562,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "st-louis-city-sc.json": {
+      "sourcePage": 31,
+      "players": 33,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 4061367,
+      "availableGAMAfter": 4061367,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "toronto-fc.json": {
+      "sourcePage": 32,
+      "players": 31,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 1023282,
+      "availableGAMAfter": 1023282,
+      "rosterModelBefore": "Designated Player Model",
+      "rosterModelAfter": "Designated Player Model"
+    },
+    "vancouver-whitecaps-fc.json": {
+      "sourcePage": 33,
+      "players": 33,
+      "added": [],
+      "removed": [],
+      "availableGAMBefore": 758412,
+      "availableGAMAfter": 758412,
+      "rosterModelBefore": "U22 Initiative Player Model",
+      "rosterModelAfter": "U22 Initiative Player Model"
+    }
+  },
+  "zeroSalaryPlayers": [
+    {
+      "team": "fc-cincinnati.json",
+      "player": "Ayoub Lajhar"
+    },
+    {
+      "team": "colorado-rapids.json",
+      "player": "Morgan Whittaker"
+    },
+    {
+      "team": "colorado-rapids.json",
+      "player": "Bryan Dowd"
+    },
+    {
+      "team": "columbus-crew.json",
+      "player": "Josef Martínez"
+    },
+    {
+      "team": "la-galaxy.json",
+      "player": "Lucas Calegari"
+    },
+    {
+      "team": "los-angeles-fc.json",
+      "player": "Thayllon Roberth"
+    },
+    {
+      "team": "los-angeles-fc.json",
+      "player": "Leo Walta"
+    },
+    {
+      "team": "inter-miami-cf.json",
+      "player": "Preston Plambeck"
+    },
+    {
+      "team": "inter-miami-cf.json",
+      "player": "Daniel Sumalla"
+    },
+    {
+      "team": "new-england-revolution.json",
+      "player": "Judah Siqueira"
+    },
+    {
+      "team": "san-jose-earthquakes.json",
+      "player": "Darius Johnson"
+    },
+    {
+      "team": "toronto-fc.json",
+      "player": "Alejandro Piedrahita"
+    },
+    {
+      "team": "toronto-fc.json",
+      "player": "Jackson Gilman"
+    },
+    {
+      "team": "vancouver-whitecaps-fc.json",
+      "player": "Emrick Fotsing"
+    }
+  ],
+  "blankPositionPlayers": []
+}

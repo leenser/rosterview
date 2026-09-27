@@ -41,7 +41,7 @@ class Player:
         
     
     def base_budget_charge(self) -> int:
-        if self.status == "Unavailable \u2013 On Loan" or self.status == "Unavailable \u2013 Injured List" or self.status == "Unavailable \u2013 SEI" or self.role == "Supplemental Roster" or self.status == "Unavailable – Off Roster":
+        if self.status == "Unavailable \u2013 On Loan" or self.status == "Unavailable \u2013 Injured List" or self.status == "Unavailable \u2013 SEI" or self.role in ("Supplemental Roster", "Homegrown Player") or self.status == "Unavailable – Off Roster":
             return 0
 
         if self.role == "Designated Player":

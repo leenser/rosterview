@@ -6,7 +6,7 @@
       "position": "ST",
       "baseSalary": 3800000,
       "guaranteedComp": 3810000,
-      "international": true,
+      "international": false,
       "role": "Designated Player",
       "contractThru": "2028",
       "optionYears": "2029",
@@ -52,14 +52,14 @@
       "position": "CB",
       "baseSalary": 390000,
       "guaranteedComp": 436672,
-      "international": true,
+      "international": false,
       "role": "U22 Initiative",
+      "status": "Unavailable – On Loan",
       "contractThru": "2027",
       "optionYears": "2028, 2029",
       "transferFee": 2000000,
       "joinedYear": 2024,
-      "guaranteedYears": 4,
-      "status": "Unavailable – On Loan"
+      "guaranteedYears": 4
     },
     {
       "name": "Samuel Gidi",
@@ -88,6 +88,20 @@
       "guaranteedYears": 3
     },
     {
+      "name": "David Douděra",
+      "position": "RM",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "salaryEstimated": true,
+      "transferFee": 3000000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
+    },
+    {
       "name": "Teenage Hadebe",
       "position": "CB",
       "baseSalary": 1080000,
@@ -108,6 +122,18 @@
       "transferFee": 2300000,
       "joinedYear": 2025,
       "guaranteedYears": 3
+    },
+    {
+      "name": "Julián Malatini",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "role": "TAM Player",
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "optionYears": "PT: 2029-30; 2030-31",
+      "salaryEstimated": true
     },
     {
       "name": "Obinna Nwobodo",
@@ -180,84 +206,9 @@
       "baseSalary": 113400,
       "guaranteedComp": 121733,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2027",
-      "optionYears": "2027-28",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Stefan Chirila",
-      "position": "ST",
-      "baseSalary": 113400,
-      "guaranteedComp": 128180,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2028",
-      "optionYears": "2029",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Kristian Fletcher",
-      "position": "ST",
-      "baseSalary": 113400,
-      "guaranteedComp": 126733,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Stiven Jimenez",
-      "position": "CM",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Kenji Mboma Dem",
-      "position": "ST",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": true,
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Brian Schaefer",
-      "position": "CB",
-      "baseSalary": 113400,
-      "guaranteedComp": 120067,
-      "international": false,
-      "status": "Unavailable – On Loan",
-      "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Kyle Smith",
-      "position": "RB",
-      "baseSalary": 113400,
-      "guaranteedComp": 118400,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "June 2027",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Gerardo Valenzuela",
-      "position": "AM",
-      "baseSalary": 125000,
-      "guaranteedComp": 142542,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "status": "Homegrown"
+      "optionYears": "2027-28"
     },
     {
       "name": "Andrei Chirila",
@@ -267,8 +218,101 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "status": "Homegrown"
+      "optionYears": "2029-30"
+    },
+    {
+      "name": "Stefan Chirila",
+      "position": "ST",
+      "baseSalary": 113400,
+      "guaranteedComp": 128180,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2028",
+      "optionYears": "2029"
+    },
+    {
+      "name": "Kristian Fletcher",
+      "position": "ST",
+      "baseSalary": 113400,
+      "guaranteedComp": 126733,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28"
+    },
+    {
+      "name": "Stiven Jimenez",
+      "position": "CM",
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Ayoub Lajhar",
+      "position": "CB",
+      "baseSalary": 300000,
+      "guaranteedComp": 300000,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Kenji Mboma Dem",
+      "position": "ST",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": true,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Fabian Mrozek",
+      "position": "GK",
+      "baseSalary": 113400,
+      "guaranteedComp": 150900,
+      "international": true,
+      "role": "Supplemental Roster",
+      "status": "Loan Player",
+      "contractThru": "2026",
+      "optionYears": "PT: 2027-28; 2028-29"
+    },
+    {
+      "name": "Brian Schaefer",
+      "position": "CB",
+      "baseSalary": 113400,
+      "guaranteedComp": 120067,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28"
+    },
+    {
+      "name": "Kyle Smith",
+      "position": "RB",
+      "baseSalary": 113400,
+      "guaranteedComp": 118400,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027"
+    },
+    {
+      "name": "Gerardo Valenzuela",
+      "position": "AM",
+      "baseSalary": 125000,
+      "guaranteedComp": 142542,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Paul Walters",
@@ -282,25 +326,25 @@
       "optionYears": "2027"
     },
     {
-      "name": "Fabian Mrozek",
-      "position": "GK",
-      "baseSalary": 113400,
-      "guaranteedComp": 150900,
-      "international": true,
-      "status": "Loan Player",
-      "contractThru": "2026",
-      "role": "Supplemental Roster"
-    },
-    {
       "name": "Ademar Chavez",
       "position": "AM",
       "baseSalary": 88025,
       "guaranteedComp": 113840,
       "international": false,
       "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "contractThru": "2029",
-      "optionYears": "2030",
-      "status": "Unavailable – Off Roster"
+      "optionYears": "2030"
+    },
+    {
+      "name": "Tyrell Malacia",
+      "position": "LB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "role": "Senior Roster",
+      "contractThru": "2027 Sprint",
+      "optionYears": "2027-28"
     },
     {
       "name": "Félix Samson",
@@ -309,36 +353,13 @@
       "guaranteedComp": 88025,
       "international": true,
       "role": "Homegrown Player",
-      "status": "Unavailable – Off Roster",
-      "contractThru": "2028",
-      "optionYears": "2029, 2030"
-    },
-    {
-      "name": "Julián Malatini",
-      "position": "CB",
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "international": true,
-      "salaryEstimated": true,
       "status": "Loan Player",
-      "contractThru": "PT: 2027 Sprint"
-    },
-    {
-      "name": "David Doudera",
-      "position": "RM",
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 3000000,
-      "joinedYear": 2026,
-      "contractThru": "2027-28",
-      "optionYears": "2028-29",
-      "guaranteedYears": 2
+      "contractThru": "2026",
+      "optionYears": "PT: 2028; 2029, 2030"
     }
   ],
   "rosterModel": "Designated Player Model",
-  "availableGAM": 361337,
+  "availableGAM": 1542968,
   "startingGAM": 3391927,
   "GAMBalance": 0
 }

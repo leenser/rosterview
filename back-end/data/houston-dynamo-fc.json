@@ -6,26 +6,36 @@
       "position": "AM",
       "baseSalary": 2349996,
       "guaranteedComp": 2521048,
-      "transferFee": 6310000,
-      "joinedYear": 2026,
-      "guaranteedYears": 3,
       "international": false,
       "role": "Designated Player",
       "contractThru": "2027-28",
-      "optionYears": "2028-29, 2029-30"
+      "optionYears": "2028-29, 2029-30",
+      "transferFee": 6310000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
     },
     {
       "name": "Guilherme",
       "position": "LW",
       "baseSalary": 1528572,
       "guaranteedComp": 1925230,
-      "transferFee": 2070000,
-      "joinedYear": 2026,
-      "guaranteedYears": 3,
       "international": true,
       "role": "Designated Player",
       "contractThru": "2027-28",
-      "optionYears": "2028-29"
+      "optionYears": "2028-29",
+      "transferFee": 2070000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
+    },
+    {
+      "name": "Ibrahim Aliyu",
+      "position": "ST",
+      "baseSalary": 525000,
+      "guaranteedComp": 576379,
+      "international": false,
+      "role": "U22 Initiative",
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Lawrence Ennali",
@@ -39,16 +49,6 @@
       "transferFee": 3160000,
       "joinedYear": 2024,
       "guaranteedYears": 3
-    },
-    {
-      "name": "Ibrahim Aliyu",
-      "position": "ST",
-      "baseSalary": 525000,
-      "guaranteedComp": 576379,
-      "international": false,
-      "role": "U22 Initiative",
-      "contractThru": "2026",
-      "optionYears": "2027"
     },
     {
       "name": "Artur",
@@ -65,13 +65,13 @@
       "position": "DM",
       "baseSalary": 624996,
       "guaranteedComp": 705746,
-      "transferFee": 738000,
-      "joinedYear": 2026,
-      "guaranteedYears": 3,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2027-28",
-      "optionYears": "2028-29"
+      "optionYears": "2028-29",
+      "transferFee": 738000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
     },
     {
       "name": "Antônio Carlos",
@@ -84,27 +84,39 @@
       "optionYears": "2027"
     },
     {
+      "name": "Lyle Foster",
+      "position": "ST",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "international": true,
+      "role": "TAM Player",
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "optionYears": "PT: 2029-30; 2030-31",
+      "salaryEstimated": true
+    },
+    {
       "name": "Lucas Halter",
       "position": "CB",
       "baseSalary": 1265004,
       "guaranteedComp": 1416921,
-      "transferFee": 1550000,
-      "joinedYear": 2026,
-      "guaranteedYears": 4,
       "international": true,
       "role": "TAM Player",
       "contractThru": "2029-30",
-      "optionYears": "2030-31"
+      "optionYears": "2030-31",
+      "transferFee": 1550000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4
     },
     {
-      "name": "Agustin Resch",
-      "position": "CB",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": true,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "2028-29"
+      "name": "Duncan McGuire",
+      "position": "ST",
+      "baseSalary": 600000,
+      "guaranteedComp": 921000,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30"
     },
     {
       "name": "Diadié Samassékou",
@@ -115,6 +127,20 @@
       "role": "TAM Player",
       "contractThru": "2026",
       "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Marcelo Saracchi",
+      "position": "LB",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30, 2030-31",
+      "salaryEstimated": true,
+      "transferFee": 1300000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
     },
     {
       "name": "Felipe Andrade",
@@ -175,8 +201,17 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027-28",
-      "optionYears": "2028-29, 2029-30",
-      "status": "Homegrown"
+      "optionYears": "2028-29, 2029-30"
+    },
+    {
+      "name": "Logan Erb",
+      "position": "GK",
+      "baseSalary": 88025,
+      "guaranteedComp": 93373,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28, 2028-29"
     },
     {
       "name": "Blake Gillingham",
@@ -184,10 +219,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
       "role": "Supplemental Roster",
-      "status": "Unavailable – On Loan"
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Nick Markanich",
@@ -195,9 +229,9 @@
       "baseSalary": 184962,
       "guaranteedComp": 202778,
       "international": false,
+      "role": "Supplemental Roster",
       "status": "Loan Player",
-      "contractThru": "2026",
-      "role": "Supplemental Roster"
+      "contractThru": "2026"
     },
     {
       "name": "Jimmy Maurer",
@@ -205,8 +239,8 @@
       "baseSalary": 225000,
       "guaranteedComp": 225000,
       "international": false,
-      "contractThru": "2026",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
     },
     {
       "name": "Reese Miller",
@@ -216,8 +250,17 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28, 2028-29",
-      "status": "Homegrown"
+      "optionYears": "June 2027, 2027-28, 2028-29"
+    },
+    {
+      "name": "Agustin Resch",
+      "position": "CB",
+      "baseSalary": 88025,
+      "guaranteedComp": 92668,
+      "international": true,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28, 2028-29"
     },
     {
       "name": "Sebastian Rodriguez",
@@ -231,64 +274,28 @@
       "optionYears": "2027, 2028, 2029"
     },
     {
-      "name": "Mattheo Dimareli",
-      "position": "RW",
+      "name": "Gilberto Rivera",
+      "position": "CM",
       "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2027-28",
-      "optionYears": "2028-29, 2029-30, 2030-31",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Duncan McGuire",
-      "position": "ST",
-      "baseSalary": 600000,
-      "guaranteedComp": 921000,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2027",
-      "optionYears": "2028"
-    },
-    {
-      "name": "Logan Erb",
-      "position": "GK",
-      "baseSalary": 88025,
-      "guaranteedComp": 93373,
+      "guaranteedComp": 96675,
       "international": false,
       "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28, 2028-29"
+      "contractThru": "June 2027",
+      "optionYears": "2027-28, 2028-29"
     },
     {
-      "name": "Marcelo Saracchi",
+      "name": "Sam Vines",
       "position": "LB",
-      "baseSalary": 800000,
-      "guaranteedComp": 800000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 1300000,
-      "joinedYear": 2026,
-      "contractThru": "2028-29",
-      "optionYears": "2029-30, 2030-31",
-      "guaranteedYears": 3,
-      "role": "TAM Player"
-    },
-    {
-      "name": "Lyle Foster",
-      "position": "ST",
-      "baseSalary": 800000,
-      "guaranteedComp": 800000,
-      "international": true,
-      "salaryEstimated": true,
-      "role": "TAM Player",
-      "contractThru": "PT: 2027 Sprint",
-      "status": "Loan Player"
+      "baseSalary": 900000,
+      "guaranteedComp": 912500,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2027"
     }
   ],
-  "rosterModel": "Designated Player Model",
-  "availableGAM": 2310805,
+  "rosterModel": "U22 Initiative Player Model",
+  "availableGAM": 1266602,
   "startingGAM": 6576431,
-  "GAMBalance": -400000
+  "GAMBalance": 0
 }

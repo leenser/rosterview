@@ -60,22 +60,12 @@
       "guaranteedComp": 347986,
       "international": true,
       "role": "U22 Initiative",
+      "status": "Unavailable – On Loan",
       "contractThru": "2029",
       "optionYears": "2030",
       "transferFee": 3330000,
       "joinedYear": 2025,
-      "guaranteedYears": 5,
-      "status": "Unavailable – On Loan"
-    },
-    {
-      "name": "Dani Pereira",
-      "position": "CM",
-      "baseSalary": 750000,
-      "guaranteedComp": 793750,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2027-28",
-      "optionYears": "2028-29"
+      "guaranteedYears": 5
     },
     {
       "name": "Joseph Rosales",
@@ -86,15 +76,6 @@
       "role": "TAM Player",
       "contractThru": "2028-29",
       "optionYears": "2029-30"
-    },
-    {
-      "name": "Jon Bell",
-      "position": "CB",
-      "baseSalary": 225000,
-      "guaranteedComp": 225000,
-      "international": false,
-      "contractThru": "2027-28",
-      "optionYears": "2028-29"
     },
     {
       "name": "Guilherme Biro",
@@ -118,13 +99,14 @@
       "optionYears": "2028"
     },
     {
-      "name": "Christian Ramirez",
-      "position": "ST",
-      "baseSalary": 525000,
-      "guaranteedComp": 577500,
+      "name": "CJ Fodrey",
+      "position": "LW",
+      "baseSalary": 120000,
+      "guaranteedComp": 120000,
       "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2026"
+      "status": "Unavailable – On Loan",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
     },
     {
       "name": "Jon Gallagher",
@@ -153,6 +135,16 @@
       "optionYears": "2027"
     },
     {
+      "name": "Przemysław Płacheta",
+      "position": "LW",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "salaryEstimated": true
+    },
+    {
       "name": "Besard Sabovic",
       "position": "CM",
       "baseSalary": 650000,
@@ -162,22 +154,13 @@
       "optionYears": "2028"
     },
     {
-      "name": "Ilie Sanchez",
-      "position": "DM",
-      "baseSalary": 225000,
-      "guaranteedComp": 225000,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
       "name": "Brad Stuver",
       "position": "GK",
       "baseSalary": 600000,
       "guaranteedComp": 631667,
       "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
+      "contractThru": "2027",
+      "optionYears": "2028"
     },
     {
       "name": "Oleksandr Svatok",
@@ -192,6 +175,38 @@
       "guaranteedYears": 4
     },
     {
+      "name": "Jorge Alastuey",
+      "position": "CM",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "international": true,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Chris Applewhite",
+      "position": "CB",
+      "baseSalary": 88025,
+      "guaranteedComp": 97470,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "optionYears": "PT: 2028; 2029"
+    },
+    {
+      "name": "Jon Bell",
+      "position": "CB",
+      "baseSalary": 225000,
+      "guaranteedComp": 225000,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29"
+    },
+    {
       "name": "Micah Burton",
       "position": "AM",
       "baseSalary": 125000,
@@ -199,19 +214,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Homegrown"
-    },
-    {
-      "name": "CJ Fodrey",
-      "position": "LW",
-      "baseSalary": 120000,
-      "guaranteedComp": 120000,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028, 2029",
-      "status": "Unavailable – On Loan"
+      "optionYears": "2028"
     },
     {
       "name": "Damian Las",
@@ -221,8 +224,26 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Homegrown"
+      "optionYears": "2028"
+    },
+    {
+      "name": "Christian Ramirez",
+      "position": "ST",
+      "baseSalary": 525000,
+      "guaranteedComp": 577500,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
+    },
+    {
+      "name": "Ilie Sanchez",
+      "position": "DM",
+      "baseSalary": 225000,
+      "guaranteedComp": 225000,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Riley Thomas",
@@ -230,9 +251,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
+      "optionYears": "2027"
     },
     {
       "name": "Ervin Torres",
@@ -242,43 +263,11 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2028",
-      "optionYears": "2029, 2030",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Przemysław Płacheta",
-      "position": "LW",
-      "baseSalary": 400000,
-      "guaranteedComp": 400000,
-      "international": true,
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "salaryEstimated": true
-    },
-    {
-      "name": "Jorge Alastuey",
-      "position": "CM",
-      "baseSalary": 80000,
-      "guaranteedComp": 80000,
-      "role": "Supplemental Roster",
-      "international": true,
-      "contractThru": "2026",
-      "optionYears": "2027, 2027-28",
-      "salaryEstimated": true
-    },
-    {
-      "name": "Christopher Applewhite",
-      "position": "CB",
-      "baseSalary": 80000,
-      "guaranteedComp": 80000,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "PT: 2027 Sprint",
-      "salaryEstimated": true
+      "optionYears": "2029, 2030"
     }
   ],
   "rosterModel": "Designated Player Model",
-  "availableGAM": 412817,
+  "availableGAM": 1970454,
   "startingGAM": 2549636,
   "GAMBalance": 0
 }

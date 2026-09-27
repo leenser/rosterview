@@ -31,11 +31,22 @@
       "guaranteedComp": 691684,
       "international": true,
       "role": "U22 Initiative",
-      "status": "Unavailable – Injured List",
       "contractThru": "2028",
       "transferFee": 4590000,
       "joinedYear": 2025,
       "guaranteedYears": 4
+    },
+    {
+      "name": "Thayllon Roberth",
+      "position": "ST",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "role": "U22 Initiative",
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "optionYears": "PT: 2029-30; 2030-31",
+      "salaryEstimated": true
     },
     {
       "name": "Artem Smolyakov",
@@ -44,12 +55,38 @@
       "guaranteedComp": 613297,
       "international": true,
       "role": "U22 Initiative",
+      "status": "Unavailable – On Loan",
       "contractThru": "2028",
       "optionYears": "2029",
       "transferFee": 2300000,
       "joinedYear": 2025,
-      "guaranteedYears": 4,
-      "status": "Unavailable – On Loan"
+      "guaranteedYears": 4
+    },
+    {
+      "name": "Sergio Vásquez",
+      "position": "DM",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "international": true,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "salaryEstimated": true,
+      "transferFee": 600000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4
+    },
+    {
+      "name": "Yevhen Cheberko",
+      "position": "CB",
+      "baseSalary": 610000,
+      "guaranteedComp": 658250,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2026",
+      "transferFee": 1150000,
+      "joinedYear": 2023,
+      "guaranteedYears": 4
     },
     {
       "name": "Mark Delgado",
@@ -103,6 +140,20 @@
       "guaranteedYears": 3
     },
     {
+      "name": "Armindo Sieb",
+      "position": "ST",
+      "baseSalary": 350000,
+      "guaranteedComp": 350000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "salaryEstimated": true,
+      "transferFee": 580000,
+      "joinedYear": 2026,
+      "guaranteedYears": 3
+    },
+    {
       "name": "Timothy Tillman",
       "position": "CM",
       "baseSalary": 825000,
@@ -111,6 +162,18 @@
       "role": "TAM Player",
       "contractThru": "2028",
       "optionYears": "2029"
+    },
+    {
+      "name": "Leo Walta",
+      "position": "AM",
+      "baseSalary": 800000,
+      "guaranteedComp": 800000,
+      "international": true,
+      "role": "TAM Player",
+      "status": "Loan Player",
+      "contractThru": "2026",
+      "optionYears": "PT: 2029-30",
+      "salaryEstimated": true
     },
     {
       "name": "Mathieu Choinière",
@@ -150,18 +213,6 @@
       "contractThru": "2026"
     },
     {
-      "name": "Yevhen Cheberko",
-      "position": "CB",
-      "baseSalary": 610000,
-      "guaranteedComp": 658250,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026",
-      "transferFee": 1150000,
-      "joinedYear": 2023,
-      "guaranteedYears": 4
-    },
-    {
       "name": "Jacob Shaffelburg",
       "position": "LW",
       "baseSalary": 475000,
@@ -184,9 +235,9 @@
       "baseSalary": 1430000,
       "guaranteedComp": 1435000,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
+      "optionYears": "2027"
     },
     {
       "name": "Cabral Carter",
@@ -196,19 +247,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2028",
-      "optionYears": "2028, 2029",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Lorenzo Dellavalle",
-      "position": "CB",
-      "baseSalary": 113400,
-      "guaranteedComp": 117150,
-      "international": true,
-      "status": "Unavailable – On Loan",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
+      "optionYears": "2028, 2029"
     },
     {
       "name": "Thomas Hasal",
@@ -216,19 +255,20 @@
       "baseSalary": 200000,
       "guaranteedComp": 210133,
       "international": false,
-      "contractThru": "2026",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
     },
     {
-      "name": "Christian Díaz",
-      "position": "CB",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
+      "name": "Tommy Mihalić",
+      "position": "LW",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
       "international": false,
-      "contractThru": "2027",
-      "optionYears": "2028-29",
       "role": "Supplemental Roster",
-      "status": "Homegrown"
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28",
+      "salaryEstimated": true,
+      "guaranteedYears": 1
     },
     {
       "name": "Kenny Nielsen",
@@ -236,9 +276,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
+      "optionYears": "2027"
     },
     {
       "name": "Ryan Raposo",
@@ -246,9 +286,19 @@
       "baseSalary": 220000,
       "guaranteedComp": 220000,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2027-28",
-      "optionYears": "2028-29",
-      "role": "Supplemental Roster"
+      "optionYears": "2028-29"
+    },
+    {
+      "name": "Jude Terry",
+      "position": "CM",
+      "baseSalary": 113400,
+      "guaranteedComp": 149798,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
     },
     {
       "name": "Adrian Wibowo",
@@ -257,9 +307,9 @@
       "guaranteedComp": 113400,
       "international": false,
       "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "status": "Unavailable – On Loan"
+      "optionYears": "2027"
     },
     {
       "name": "Matthew Evans",
@@ -268,100 +318,24 @@
       "guaranteedComp": 88025,
       "international": false,
       "role": "Homegrown Player",
+      "status": "Unavailable – On Loan",
       "contractThru": "2027",
-      "optionYears": "2028, 2029",
-      "status": "Unavailable – On Loan"
+      "optionYears": "2028, 2029"
     },
     {
-      "name": "Jude Terry",
-      "position": "CM",
-      "baseSalary": 113400,
-      "guaranteedComp": 149798,
+      "name": "Christian Diaz",
+      "position": "CB",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
       "role": "Homegrown Player",
-      "contractThru": "2027",
-      "optionYears": "2028, 2029",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Yevgen Cheberko",
-      "position": "CB",
-      "baseSalary": 610000,
-      "guaranteedComp": 658250,
-      "international": true,
-      "role": "TAM Player"
-    },
-    {
-      "name": "Virgilio Olaya",
-      "position": "CB",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
-      "international": false,
-      "salaryEstimated": true,
-      "status": "Unavailable – On Loan"
-    },
-    {
-      "name": "Leo Walta",
-      "position": "AM",
-      "baseSalary": 0,
-      "guaranteedComp": 0,
-      "international": true,
-      "salaryEstimated": true,
-      "status": "Loan Player"
-    },
-    {
-      "name": "Tommy Mihalić",
-      "position": "LW",
-      "baseSalary": 80000,
-      "guaranteedComp": 80000,
-      "international": false,
-      "salaryEstimated": true,
-      "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "optionYears": "2027 Sprint, 2027-28",
-      "guaranteedYears": 1
-    },
-    {
-      "name": "Sergio Vásquez",
-      "position": "DM",
-      "baseSalary": 450000,
-      "guaranteedComp": 450000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 600000,
-      "joinedYear": 2026,
-      "role": "U22 Initiative",
-      "contractThru": "2029-30",
-      "optionYears": "2030-31",
-      "guaranteedYears": 4
-    },
-    {
-      "name": "Armindo Sieb",
-      "position": "ST",
-      "baseSalary": 350000,
-      "guaranteedComp": 350000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 580000,
-      "joinedYear": 2026,
-      "contractThru": "2028-2029",
-      "optionYears": "2029-30",
-      "guaranteedYears": 3
-    },
-    {
-      "name": "Thayllon",
-      "position": "RW",
-      "baseSalary": 400000,
-      "guaranteedComp": 400000,
-      "international": true,
-      "salaryEstimated": true,
-      "role": "U22 Initiative",
-      "contractThru": "PT: June 2027",
-      "status": "Loan Player"
+      "status": "Unavailable – Off Roster",
+      "contractThru": "June 2027",
+      "optionYears": "2027-28, 2028-29"
     }
   ],
   "rosterModel": "U22 Initiative Player Model",
-  "availableGAM": 0,
+  "availableGAM": 480389,
   "startingGAM": 4368355,
   "GAMBalance": 0
 }

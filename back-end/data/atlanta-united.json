@@ -15,18 +15,32 @@
       "guaranteedYears": 3
     },
     {
+      "name": "Breel Embolo",
+      "position": "ST",
+      "baseSalary": 1400000,
+      "guaranteedComp": 1400000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "salaryEstimated": true,
+      "transferFee": 20000000,
+      "joinedYear": 2026,
+      "guaranteedYears": 4
+    },
+    {
       "name": "Emmanuel Latte Lath",
       "position": "ST",
       "baseSalary": 3240000,
       "guaranteedComp": 3736000,
       "international": true,
       "role": "Designated Player",
+      "status": "Unavailable – On Loan",
       "contractThru": "2028",
       "optionYears": "2029",
       "transferFee": 24390000,
       "joinedYear": 2025,
-      "guaranteedYears": 4,
-      "status": "Unavailable – On Loan"
+      "guaranteedYears": 4
     },
     {
       "name": "Alexey Miranchuk",
@@ -39,6 +53,20 @@
       "optionYears": "2028",
       "transferFee": 13540000,
       "joinedYear": 2024,
+      "guaranteedYears": 4
+    },
+    {
+      "name": "Mauricio Amaro",
+      "position": "CM",
+      "baseSalary": 400000,
+      "guaranteedComp": 400000,
+      "international": true,
+      "role": "U22 Initiative",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30",
+      "salaryEstimated": true,
+      "transferFee": 3300000,
+      "joinedYear": 2026,
       "guaranteedYears": 4
     },
     {
@@ -68,16 +96,49 @@
       "guaranteedYears": 4
     },
     {
+      "name": "Júnior Alonso",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2028-29",
+      "salaryEstimated": true
+    },
+    {
       "name": "Steven Alzate",
       "position": "CM",
       "baseSalary": 1062186,
       "guaranteedComp": 1377087,
-      "international": true,
+      "international": false,
       "role": "TAM Player",
       "contractThru": "2030",
       "transferFee": 1950000,
       "joinedYear": 2025,
       "guaranteedYears": 6
+    },
+    {
+      "name": "Paulo Díaz",
+      "position": "CB",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29, 2029-30",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Giuliano Galoppo",
+      "position": "CM",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "international": true,
+      "role": "TAM Player",
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "optionYears": "PT: 2029-30; 2030-31",
+      "salaryEstimated": true
     },
     {
       "name": "Enea Mihaj",
@@ -139,21 +200,12 @@
       "optionYears": "2027"
     },
     {
-      "name": "Cayman Togashi",
-      "position": "ST",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
-      "international": false,
-      "contractThru": "2026"
-    },
-    {
       "name": "Luke Brennan",
       "position": "RM",
       "baseSalary": 125000,
       "guaranteedComp": 125000,
       "international": false,
       "role": "Supplemental Roster",
-      "status": "Homegrown",
       "contractThru": "2027",
       "optionYears": "2028"
     },
@@ -164,7 +216,6 @@
       "guaranteedComp": 88025,
       "international": false,
       "role": "Supplemental Roster",
-      "status": "Homegrown",
       "contractThru": "2028",
       "optionYears": "2029"
     },
@@ -175,7 +226,6 @@
       "guaranteedComp": 113400,
       "international": false,
       "role": "Supplemental Roster",
-      "status": "Homegrown",
       "contractThru": "2026",
       "optionYears": "2027"
     },
@@ -186,8 +236,8 @@
       "guaranteedComp": 120000,
       "international": false,
       "role": "Supplemental Roster",
-      "contractThru": "2026",
-      "status": "Homegrown"
+      "contractThru": "2028-29",
+      "optionYears": "2029-30"
     },
     {
       "name": "Adrian Gill",
@@ -195,9 +245,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "June 2027",
-      "optionYears": "2027-28, 2028-29, 2029-30",
-      "role": "Supplemental Roster"
+      "optionYears": "2027-28, 2028-29, 2029-30"
     },
     {
       "name": "Santiago Pita",
@@ -207,8 +257,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028, 2029",
-      "status": "Homegrown"
+      "optionYears": "2027, 2028, 2029"
     },
     {
       "name": "William Reilly",
@@ -216,7 +265,6 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
-      "status": "Homegrown",
       "role": "Supplemental Roster",
       "contractThru": "2026",
       "optionYears": "2027, 2028"
@@ -228,7 +276,6 @@
       "guaranteedComp": 88025,
       "international": false,
       "role": "Supplemental Roster",
-      "status": "Homegrown",
       "contractThru": "2026",
       "optionYears": "2027, 2028"
     },
@@ -239,9 +286,18 @@
       "guaranteedComp": 120000,
       "international": false,
       "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
       "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Unavailable – On Loan"
+      "optionYears": "2028"
+    },
+    {
+      "name": "Cayman Togashi",
+      "position": "ST",
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
     },
     {
       "name": "Ashton Gordon",
@@ -261,69 +317,13 @@
       "guaranteedComp": 88025,
       "international": false,
       "role": "Homegrown Player",
-      "status": "Unavailable – Off Roster",
+      "status": "Unavailable – On Loan",
       "contractThru": "2028",
       "optionYears": "2029"
-    },
-    {
-      "name": "Mauricio Amaro",
-      "position": "CM",
-      "role": "U22 Initiative",
-      "international": true,
-      "baseSalary": 400000,
-      "guaranteedComp": 400000,
-      "transferFee": 3300000,
-      "joinedYear": 2026,
-      "guaranteedYears": 4,
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "salaryEstimated": true
-    },
-    {
-      "name": "Paulo Díaz",
-      "position": "CB",
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "contractThru": "2028",
-      "optionYears": "2029, 2030",
-      "international": true,
-      "salaryEstimated": true
-    },
-    {
-      "name": "Júnior Alonso",
-      "position": "CB",
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "contractThru": "2028-29",
-      "international": true,
-      "salaryEstimated": true
-    },
-    {
-      "name": "Giuliano Galoppo",
-      "position": "CM",
-      "baseSalary": 450000,
-      "guaranteedComp": 450000,
-      "international": true,
-      "salaryEstimated": true,
-      "status": "Loan Player",
-      "contractThru": "PT: 2027 Sprint"
-    },
-    {
-      "name": "Breel Embolo",
-      "position": "ST",
-      "baseSalary": 1400000,
-      "guaranteedComp": 1400000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 20000000,
-      "joinedYear": 2026,
-      "role": "Designated Player",
-      "contractThru": "2029-30",
-      "guaranteedYears": 4
     }
   ],
   "rosterModel": "Designated Player Model",
-  "availableGAM": 344356,
+  "availableGAM": 493386,
   "startingGAM": 4586967,
   "GAMBalance": 0
 }

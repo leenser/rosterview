@@ -28,12 +28,32 @@
       "guaranteedYears": 2
     },
     {
+      "name": "Allan Saint-Maximin",
+      "position": "LW",
+      "baseSalary": 1000000,
+      "guaranteedComp": 1000000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2028-29",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Rodolfo Aloko",
+      "position": "RW",
+      "baseSalary": 220000,
+      "guaranteedComp": 251667,
+      "international": true,
+      "role": "U22 Initiative",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31"
+    },
+    {
       "name": "Baye Coulibaly",
       "position": "CM",
       "baseSalary": 300000,
       "guaranteedComp": 329500,
       "international": true,
-      "role": "Supplemental Roster",
+      "role": "U22 Initiative",
       "contractThru": "2028",
       "optionYears": "2029"
     },
@@ -49,16 +69,6 @@
       "optionYears": "2027"
     },
     {
-      "name": "Rodolfo Aloko",
-      "position": "RW",
-      "baseSalary": 220000,
-      "guaranteedComp": 251667,
-      "international": true,
-      "role": "U22 Initiative",
-      "contractThru": "2029-30",
-      "optionYears": "2030-31"
-    },
-    {
       "name": "Idan Toklomati",
       "position": "ST",
       "baseSalary": 700000,
@@ -67,6 +77,16 @@
       "role": "U22 Initiative",
       "contractThru": "2028-29",
       "optionYears": "2029-30"
+    },
+    {
+      "name": "Nathan Byrne",
+      "position": "RB",
+      "baseSalary": 475000,
+      "guaranteedComp": 498750,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Luca De La Torre",
@@ -150,15 +170,6 @@
       "optionYears": "2028"
     },
     {
-      "name": "Nathan Byrne",
-      "position": "RB",
-      "baseSalary": 475000,
-      "guaranteedComp": 498750,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
       "name": "Djibril Diani",
       "position": "DM",
       "baseSalary": 350000,
@@ -176,15 +187,6 @@
       "transferFee": 883000,
       "joinedYear": 2025,
       "guaranteedYears": 4
-    },
-    {
-      "name": "Tyler Miller",
-      "position": "GK",
-      "baseSalary": 226800,
-      "guaranteedComp": 250925,
-      "international": false,
-      "contractThru": "2027-28",
-      "optionYears": "2028-29"
     },
     {
       "name": "Andrew Privett",
@@ -212,8 +214,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "status": "Homegrown"
+      "optionYears": "2027"
     },
     {
       "name": "Will Cleary",
@@ -221,50 +222,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 89309,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28, 2028-29",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Andrew Johnson",
-      "position": "CB",
-      "baseSalary": 88025,
-      "guaranteedComp": 89309,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28, 2028-29",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Chituru Odunze",
-      "position": "GK",
-      "baseSalary": 125000,
-      "guaranteedComp": 138508,
-      "international": false,
-      "status": "Unavailable – On Loan",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Tyger Smalls",
-      "position": "RW",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Mikah Thomas",
-      "position": "LB",
-      "baseSalary": 88025,
-      "guaranteedComp": 88428,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "optionYears": "June 2027, 2027-28, 2028-29"
     },
     {
       "name": "Aron John",
@@ -272,41 +232,29 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2027-28",
-      "optionYears": "2028-29",
-      "role": "Supplemental Roster"
+      "optionYears": "2028-29"
     },
     {
-      "name": "Isaac Walker",
-      "position": "GK",
-      "baseSalary": 113400,
-      "guaranteedComp": 121376,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Nicholas Holliday",
-      "position": "GK",
+      "name": "Andrew Johnson",
+      "position": "CB",
       "baseSalary": 88025,
-      "guaranteedComp": 88025,
+      "guaranteedComp": 89309,
       "international": false,
-      "status": "Unavailable – On Loan",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28, 2028-29"
     },
     {
-      "name": "Brian Romero",
-      "position": "RW",
-      "baseSalary": 175000,
-      "guaranteedComp": 185833,
+      "name": "Tyler Miller",
+      "position": "GK",
+      "baseSalary": 226800,
+      "guaranteedComp": 250925,
       "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "status": "Unavailable – Off Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29"
     },
     {
       "name": "Jack Neeley",
@@ -316,22 +264,74 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "status": "Homegrown"
+      "optionYears": "2027"
     },
     {
-      "name": "Allan Saint-Maximin",
-      "position": "LW",
-      "role": "Designated Player",
-      "baseSalary": 1000000,
-      "guaranteedComp": 1000000,
-      "international": true,
-      "contractThru": "2028-29",
-      "salaryEstimated": true
+      "name": "Chituru Odunze",
+      "position": "GK",
+      "baseSalary": 125000,
+      "guaranteedComp": 138508,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2027",
+      "optionYears": "2028"
+    },
+    {
+      "name": "Tyger Smalls",
+      "position": "RW",
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Mikah Thomas",
+      "position": "LB",
+      "baseSalary": 88025,
+      "guaranteedComp": 88428,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Isaac Walker",
+      "position": "GK",
+      "baseSalary": 113400,
+      "guaranteedComp": 121376,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "June 2027, 2027-28"
+    },
+    {
+      "name": "Nicholas Holliday",
+      "position": "GK",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2027",
+      "optionYears": "2028"
+    },
+    {
+      "name": "Brian Romero",
+      "position": "RW",
+      "baseSalary": 175000,
+      "guaranteedComp": 185833,
+      "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2026",
+      "optionYears": "2027"
     }
   ],
   "rosterModel": "Designated Player Model",
-  "availableGAM": 75994,
+  "availableGAM": 1125351,
   "startingGAM": 4472657,
   "GAMBalance": 0
 }

@@ -2,6 +2,20 @@
   "teamName": "Toronto FC",
   "players": [
     {
+      "name": "Niklas Dorsch",
+      "position": "DM",
+      "baseSalary": 700000,
+      "guaranteedComp": 700000,
+      "international": true,
+      "role": "Designated Player",
+      "contractThru": "2030-31",
+      "salaryEstimated": true,
+      "DPBuydownEligible": true,
+      "transferFee": 4200000,
+      "joinedYear": 2026,
+      "guaranteedYears": 5
+    },
+    {
       "name": "Djordje Mihailovic",
       "position": "AM",
       "baseSalary": 2279170,
@@ -35,6 +49,27 @@
       "optionYears": "PT: 2029-30; 2030-31"
     },
     {
+      "name": "Nelson Palacio",
+      "position": "CM",
+      "baseSalary": 430000,
+      "guaranteedComp": 473167,
+      "international": true,
+      "role": "U22 Initiative",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Benjamín Kuscevic",
+      "position": "CB",
+      "baseSalary": 650004,
+      "guaranteedComp": 804982,
+      "international": true,
+      "role": "TAM Player",
+      "status": "Loan Player",
+      "contractThru": "2026",
+      "optionYears": "PT: 2028-29; 2029-30"
+    },
+    {
       "name": "Richie Laryea",
       "position": "RB",
       "baseSalary": 875000,
@@ -57,6 +92,18 @@
       "contractThru": "2026"
     },
     {
+      "name": "Alejandro Piedrahita",
+      "position": "CM",
+      "baseSalary": 850000,
+      "guaranteedComp": 8500000,
+      "international": true,
+      "role": "TAM Player",
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "optionYears": "PT: 2029-2030, 2030-31",
+      "salaryEstimated": true
+    },
+    {
       "name": "Matheus Pereira",
       "position": "LB",
       "baseSalary": 477000,
@@ -76,7 +123,7 @@
       "guaranteedComp": 1343333,
       "international": false,
       "role": "TAM Player",
-      "contractThru": "2027",
+      "contractThru": "June 2027",
       "optionYears": "2027-28"
     },
     {
@@ -145,44 +192,12 @@
       "optionYears": "2027"
     },
     {
-      "name": "Benjamín Kuscevic",
-      "position": "CB",
-      "baseSalary": 650004,
-      "guaranteedComp": 804982,
-      "status": "Loan Player",
-      "international": true,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
-      "name": "Zane Monlouis",
-      "position": "CB",
-      "baseSalary": 125000,
-      "guaranteedComp": 137891,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "transferFee": 459000,
-      "joinedYear": 2025,
-      "guaranteedYears": 2
-    },
-    {
-      "name": "Henry Wingo",
-      "position": "RB",
-      "baseSalary": 725000,
-      "guaranteedComp": 796031,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
       "name": "William Yarbrough",
       "position": "GK",
       "baseSalary": 135000,
       "guaranteedComp": 150000,
       "international": false,
-      "contractThru": "2026",
-      "optionYears": "June 2027"
+      "contractThru": "June 2027"
     },
     {
       "name": "Markus Cimermancic",
@@ -192,8 +207,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "status": "Homegrown"
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Adisa De Rosario",
@@ -203,8 +217,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "status": "Homegrown"
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Kobe Franklin",
@@ -213,8 +226,18 @@
       "guaranteedComp": 160802,
       "international": false,
       "role": "Supplemental Roster",
+      "contractThru": "2026"
+    },
+    {
+      "name": "Jackson Gilman",
+      "position": "CB",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "status": "Homegrown"
+      "optionYears": "June 2027, 2027-28",
+      "salaryEstimated": true
     },
     {
       "name": "Malik Henry",
@@ -222,20 +245,32 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
+      "optionYears": "2027"
     },
     {
-      "name": "Adam Pearlman",
+      "name": "Zane Monlouis",
       "position": "CB",
-      "baseSalary": 130000,
-      "guaranteedComp": 143300,
+      "baseSalary": 125000,
+      "guaranteedComp": 137891,
       "international": false,
       "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Unavailable – On Loan"
+      "contractThru": "2026",
+      "optionYears": "2027, 2028",
+      "transferFee": 459000,
+      "joinedYear": 2025,
+      "guaranteedYears": 2
+    },
+    {
+      "name": "Lewis Morgan",
+      "position": "LW",
+      "baseSalary": 1639150,
+      "guaranteedComp": 1868508,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Lazar Stefanovic",
@@ -245,8 +280,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2028",
-      "optionYears": "2029",
-      "status": "Homegrown"
+      "optionYears": "2029"
     },
     {
       "name": "Jules-Anthony Vilsaint",
@@ -254,8 +288,31 @@
       "baseSalary": 150000,
       "guaranteedComp": 156875,
       "international": false,
-      "contractThru": "2026",
-      "role": "Supplemental Roster"
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
+    },
+    {
+      "name": "Adam Pearlman",
+      "position": "CB",
+      "baseSalary": 130000,
+      "guaranteedComp": 143300,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2027",
+      "optionYears": "2028"
+    },
+    {
+      "name": "Richard Chukwu",
+      "position": "CB",
+      "baseSalary": 80000,
+      "guaranteedComp": 80000,
+      "international": false,
+      "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
+      "contractThru": "2029-30",
+      "optionYears": "2030-31",
+      "salaryEstimated": true
     },
     {
       "name": "Stefan Kapor",
@@ -264,55 +321,13 @@
       "guaranteedComp": 97740,
       "international": false,
       "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "contractThru": "2029",
-      "optionYears": "2030",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Nelson Palacio",
-      "position": "CM",
-      "baseSalary": 430000,
-      "guaranteedComp": 473167,
-      "international": true,
-      "role": "U22 Initiative",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
-    },
-    {
-      "name": "Niklas Dorsch",
-      "position": "DM",
-      "baseSalary": 700000,
-      "guaranteedComp": 700000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 4200000,
-      "contractThru": "2030-31",
-      "joinedYear": 2026,
-      "guaranteedYears": 5
-    },
-    {
-      "name": "Richard Chukwu",
-      "position": "CB",
-      "baseSalary": 80000,
-      "guaranteedComp": 80000,
-      "role": "Supplemental Roster",
-      "contractThru": "2029-30",
-      "international": false,
-      "salaryEstimated": true
-    },
-    {
-      "name": "Lewis Morgan",
-      "position": "LW",
-      "baseSalary": 1639150,
-      "guaranteedComp": 1868508,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
+      "optionYears": "2030"
     }
   ],
-  "rosterModel": "U22 Initiative Player Model",
-  "availableGAM": 3078603,
+  "rosterModel": "Designated Player Model",
+  "availableGAM": 1023282,
   "startingGAM": 5316009,
-  "GAMBalance": -50000
+  "GAMBalance": 0
 }

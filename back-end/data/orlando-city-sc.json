@@ -2,15 +2,15 @@
   "teamName": "Orlando City SC",
   "players": [
     {
-      "name": "Braian Ojeda",
-      "position": "DM",
-      "baseSalary": 725000,
-      "guaranteedComp": 910500,
-      "international": false,
+      "name": "Antoine Griezmann",
+      "position": "ST",
+      "baseSalary": 3000000,
+      "guaranteedComp": 3000000,
+      "international": true,
       "role": "Designated Player",
-      "contractThru": "2028-29",
-      "optionYears": "2029-30",
-      "DPBuydownEligible": true
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "salaryEstimated": true
     },
     {
       "name": "Martín Ojeda",
@@ -112,6 +112,16 @@
       "guaranteedYears": 4
     },
     {
+      "name": "Braian Ojeda",
+      "position": "DM",
+      "baseSalary": 725000,
+      "guaranteedComp": 910500,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2028-29",
+      "optionYears": "2029-30"
+    },
+    {
       "name": "Iván Angulo",
       "position": "LW",
       "baseSalary": 549996,
@@ -138,6 +148,16 @@
       "guaranteedComp": 600000,
       "international": false,
       "contractThru": "2027-28"
+    },
+    {
+      "name": "Daryl Dike",
+      "position": "ST",
+      "baseSalary": 300000,
+      "guaranteedComp": 300000,
+      "international": false,
+      "contractThru": "June 2027",
+      "optionYears": "2027-28",
+      "salaryEstimated": true
     },
     {
       "name": "Griffin Dorsey",
@@ -178,11 +198,23 @@
       "guaranteedYears": 4
     },
     {
+      "name": "Vinícius Nogueira",
+      "position": "LB",
+      "baseSalary": 450000,
+      "guaranteedComp": 450000,
+      "international": true,
+      "status": "Loan Player",
+      "contractThru": "June 2027",
+      "optionYears": "PT: 2028-29; 2029-30",
+      "salaryEstimated": true,
+      "guaranteedYears": 2
+    },
+    {
       "name": "Tyrese Spicer",
       "position": "LW",
       "baseSalary": 275000,
       "guaranteedComp": 311875,
-      "international": true,
+      "international": false,
       "contractThru": "2027-28",
       "optionYears": "2028-29"
     },
@@ -192,9 +224,9 @@
       "baseSalary": 113400,
       "guaranteedComp": 113400,
       "international": false,
+      "status": "Unavailable – On Loan",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "status": "Unavailable – On Loan"
+      "optionYears": "2027"
     },
     {
       "name": "Gustavo Caraballo",
@@ -204,8 +236,39 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Homegrown"
+      "optionYears": "2028"
+    },
+    {
+      "name": "Justin Ellis",
+      "position": "ST",
+      "baseSalary": 88025,
+      "guaranteedComp": 112424,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "June 2027",
+      "optionYears": "2027-28, 2028-29"
+    },
+    {
+      "name": "Colin Guske",
+      "position": "DM",
+      "baseSalary": 88025,
+      "guaranteedComp": 98830,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2027",
+      "optionYears": "2028"
+    },
+    {
+      "name": "Tristan Himes",
+      "position": "GK",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "June 2027",
+      "optionYears": "2027-28, 2028-29",
+      "salaryEstimated": true
     },
     {
       "name": "Nolan Miller",
@@ -213,9 +276,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "June 2027, 2027-28, 2028-29",
-      "role": "Supplemental Roster"
+      "optionYears": "June 2027, 2027-28, 2028-29"
     },
     {
       "name": "Javier Otero",
@@ -225,8 +288,18 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "status": "Homegrown"
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Bernardo Rhein",
+      "position": "LM",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29, 2029-30",
+      "salaryEstimated": true
     },
     {
       "name": "Harvey Sarajian",
@@ -234,9 +307,9 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2027-28",
-      "optionYears": "2028-29, 2029-30, 2030-31",
-      "role": "Supplemental Roster"
+      "optionYears": "2028-29, 2029-30, 2030-31"
     },
     {
       "name": "Zakaria Taifi",
@@ -246,41 +319,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2028, 2029",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Justin Ellis",
-      "position": "ST",
-      "baseSalary": 88025,
-      "guaranteedComp": 112424,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "June 2027",
-      "optionYears": "2027-28, 2028-29",
-      "status": "Unavailable – Off Roster"
-    },
-    {
-      "name": "Antoine Griezmann",
-      "position": "ST",
-      "baseSalary": 3000000,
-      "guaranteedComp": 3000000,
-      "international": true,
-      "role": "Designated Player",
-      "contractThru": "2027-28",
-      "optionYears": "2028-29",
-      "salaryEstimated": true
-    },
-    {
-      "name": "Bernardo Rhein",
-      "position": "LM",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "2027-28",
-      "optionYears": "2028-29, 2029-30",
-      "salaryEstimated": true
+      "optionYears": "2027, 2028, 2029"
     },
     {
       "name": "Clovis Archange",
@@ -289,45 +328,14 @@
       "guaranteedComp": 88025,
       "international": false,
       "role": "Homegrown Player",
+      "status": "Unavailable – Off Roster",
       "contractThru": "2027",
       "optionYears": "2028, 2029",
       "salaryEstimated": true
-    },
-    {
-      "name": "Daryl Dike",
-      "position": "ST",
-      "baseSalary": 300000,
-      "guaranteedComp": 300000,
-      "contractThru": "June 2027",
-      "optionYears": "2027-28",
-      "international": false,
-      "salaryEstimated": true
-    },
-    {
-      "name": "Tristan Himes",
-      "position": "GK",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "role": "Homegrown Player",
-      "contractThru": "June 2027",
-      "optionYears": "2027-28, 2028-29",
-      "salaryEstimated": true
-    },
-    {
-      "name": "Vinícius Nogueira",
-      "position": "LB",
-      "baseSalary": 450000,
-      "guaranteedComp": 450000,
-      "international": true,
-      "salaryEstimated": true,
-      "status": "Loan Player",
-      "contractThru": "2027 Sprint",
-      "guaranteedYears": 2
     }
   ],
   "rosterModel": "Designated Player Model",
-  "availableGAM": 655360,
+  "availableGAM": 1865900,
   "startingGAM": 3518514,
   "GAMBalance": 0
 }

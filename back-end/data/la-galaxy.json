@@ -11,6 +11,17 @@
       "contractThru": "2026"
     },
     {
+      "name": "Hirving Lozano",
+      "position": "LW",
+      "baseSalary": 6000000,
+      "guaranteedComp": 9333333,
+      "international": false,
+      "role": "Designated Player",
+      "status": "Loan Player",
+      "contractThru": "2026",
+      "optionYears": "PT: 2028; 2029, 2030"
+    },
+    {
       "name": "Joseph Paintsil",
       "position": "LW",
       "baseSalary": 3456000,
@@ -29,7 +40,7 @@
       "guaranteedComp": 5792188,
       "international": true,
       "role": "Designated Player",
-      "status": "Unavailable – Injured List",
+      "status": "Unavailable – SEI",
       "contractThru": "2027"
     },
     {
@@ -54,6 +65,19 @@
       "contractThru": "2029",
       "transferFee": 5510000,
       "joinedYear": 2025,
+      "guaranteedYears": 5
+    },
+    {
+      "name": "Kyogo Furuhashi",
+      "position": "ST",
+      "baseSalary": 500000,
+      "guaranteedComp": 500000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2030-31",
+      "salaryEstimated": true,
+      "transferFee": 1400000,
+      "joinedYear": 2026,
       "guaranteedYears": 5
     },
     {
@@ -94,6 +118,36 @@
       "contractThru": "2027"
     },
     {
+      "name": "Sergi Roberto",
+      "position": "CM",
+      "baseSalary": 700000,
+      "guaranteedComp": 700000,
+      "international": true,
+      "role": "TAM Player",
+      "contractThru": "2027-28",
+      "optionYears": "2028-29",
+      "salaryEstimated": true
+    },
+    {
+      "name": "Pablo Ruiz",
+      "position": "CM",
+      "baseSalary": 825000,
+      "guaranteedComp": 911500,
+      "international": false,
+      "role": "TAM Player",
+      "contractThru": "2026",
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Lucas Calegari",
+      "position": "CB",
+      "baseSalary": 300000,
+      "guaranteedComp": 300000,
+      "international": true,
+      "contractThru": "2028-29",
+      "salaryEstimated": true
+    },
+    {
       "name": "JT Marcinkowski",
       "position": "GK",
       "baseSalary": 302000,
@@ -112,12 +166,22 @@
       "optionYears": "2028-29"
     },
     {
-      "name": "Brady Scott",
+      "name": "Novak Micovic",
       "position": "GK",
-      "baseSalary": 113400,
-      "guaranteedComp": 113400,
+      "baseSalary": 200000,
+      "guaranteedComp": 200000,
+      "international": true,
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Robert Taylor",
+      "position": "LW",
+      "baseSalary": 575000,
+      "guaranteedComp": 633333,
       "international": false,
-      "contractThru": "2026"
+      "contractThru": "2026",
+      "optionYears": "2027"
     },
     {
       "name": "Erik Thommy",
@@ -145,40 +209,8 @@
       "position": "CB",
       "baseSalary": 640000,
       "guaranteedComp": 715781,
-      "international": true,
+      "international": false,
       "contractThru": "2026"
-    },
-    {
-      "name": "Riley Delgado",
-      "position": "LB",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "role": "Supplemental Roster",
-      "contractThru": "2027",
-      "optionYears": "2028, 2029",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Ascel Essengue",
-      "position": "CB",
-      "baseSalary": 88025,
-      "guaranteedComp": 88025,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
-    },
-    {
-      "name": "Tucker Lepley",
-      "position": "DM",
-      "baseSalary": 113400,
-      "guaranteedComp": 115086,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster",
-      "status": "Unavailable – On Loan"
     },
     {
       "name": "Troy Elgersma",
@@ -186,19 +218,40 @@
       "baseSalary": 88025,
       "guaranteedComp": 88025,
       "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "optionYears": "2027, 2027-28, 2028-29",
-      "role": "Supplemental Roster"
+      "optionYears": "June 2027, 2027-28, 2028-29"
     },
     {
-      "name": "Novak Micovic",
-      "position": "GK",
-      "baseSalary": 200000,
-      "guaranteedComp": 200000,
-      "international": true,
+      "name": "Ascel Essengue",
+      "position": "CB",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
       "contractThru": "2026",
-      "optionYears": "2027",
-      "role": "Supplemental Roster"
+      "optionYears": "2027, 2028"
+    },
+    {
+      "name": "Tucker Lepley",
+      "position": "DM",
+      "baseSalary": 113400,
+      "guaranteedComp": 115086,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2026",
+      "optionYears": "2027"
+    },
+    {
+      "name": "Brady Scott",
+      "position": "GK",
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
+      "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
     },
     {
       "name": "Harbor Miller",
@@ -208,18 +261,7 @@
       "international": false,
       "role": "Supplemental Roster",
       "contractThru": "2027",
-      "optionYears": "2028",
-      "status": "Homegrown"
-    },
-    {
-      "name": "Chris Rindov",
-      "position": "CB",
-      "baseSalary": 113400,
-      "guaranteedComp": 122150,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027, 2028",
-      "role": "Supplemental Roster"
+      "optionYears": "2028"
     },
     {
       "name": "Isaiah Parente",
@@ -227,8 +269,29 @@
       "baseSalary": 113400,
       "guaranteedComp": 113400,
       "international": false,
+      "role": "Supplemental Roster",
+      "contractThru": "2026"
+    },
+    {
+      "name": "Ruben Ramos Jr.",
+      "position": "AM",
+      "baseSalary": 113400,
+      "guaranteedComp": 113400,
+      "international": false,
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2027",
+      "optionYears": "2028"
+    },
+    {
+      "name": "Chris Rindov",
+      "position": "CB",
+      "baseSalary": 113400,
+      "guaranteedComp": 122150,
+      "international": false,
+      "role": "Supplemental Roster",
       "contractThru": "2026",
-      "role": "Supplemental Roster"
+      "optionYears": "2027, 2028"
     },
     {
       "name": "Gino Vivi",
@@ -236,77 +299,24 @@
       "baseSalary": 113400,
       "guaranteedComp": 113400,
       "international": true,
+      "role": "Supplemental Roster",
       "status": "Unavailable – On Loan",
-      "contractThru": "2026",
-      "role": "Supplemental Roster"
+      "contractThru": "2026"
     },
     {
-      "name": "Hirving Lozano",
-      "position": "LW",
-      "baseSalary": 6000000,
-      "guaranteedComp": 9333333,
+      "name": "Riley Delgado",
+      "position": "LB",
+      "baseSalary": 88025,
+      "guaranteedComp": 88025,
       "international": false,
-      "role": "Designated Player",
-      "contractThru": "2026",
-      "optionYears": "PT: 2028, 2029, 2030",
-      "status": "Loan Player"
-    },
-    {
-      "name": "Robert Taylor",
-      "position": "LW",
-      "baseSalary": 575000,
-      "guaranteedComp": 633333,
-      "international": false,
-      "contractThru": "2026",
-      "optionYears": "2027"
-    },
-    {
-      "name": "Sergi Roberto",
-      "position": "CM",
-      "baseSalary": 700000,
-      "guaranteedComp": 700000,
-      "international": true,
-      "salaryEstimated": true,
-      "contractThru": "2027-28",
-      "optionYears": "2028-29"
-    },
-    {
-      "name": "Kyogo Furuhashi",
-      "position": "ST",
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "international": true,
-      "salaryEstimated": true,
-      "transferFee": 1400000,
-      "guaranteedYears": 5,
-      "joinedYear": 2026,
-      "contractThru": "2030-31"
-    },
-    {
-      "name": "Calegari",
-      "position": "RB",
-      "baseSalary": 500000,
-      "guaranteedComp": 500000,
-      "international": true,
-      "salaryEstimated": true,
-      "contractThru": "2028-29",
-      "guaranteedYears": 3,
-      "transferFee": 2300000,
-      "joinedYear": 2026
-    },
-    {
-      "name": "Pablo Ruiz",
-      "position": "CM",
-      "baseSalary": 825000,
-      "guaranteedComp": 911500,
-      "international": false,
-      "role": "TAM Player",
-      "contractThru": "2026",
-      "optionYears": "2027, 2028"
+      "role": "Supplemental Roster",
+      "status": "Unavailable – On Loan",
+      "contractThru": "2027",
+      "optionYears": "2028, 2029"
     }
   ],
   "rosterModel": "Designated Player Model",
-  "availableGAM": 249749,
+  "availableGAM": 263670,
   "startingGAM": 3313457,
   "GAMBalance": 0
 }
